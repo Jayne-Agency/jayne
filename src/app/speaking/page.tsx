@@ -1,118 +1,135 @@
 import Link from "next/link";
 
 export default function Speaking() {
+  const topics = [
+    "The fundamental 10 assets of a brand platform",
+    "Women and leadership / authentic leadership",
+    "Increasing the power of the buy-and-sell cycle within the supply chain",
+    "Elevating the diverse supply chain",
+    "Engagement through brand strategy and storytelling",
+    "A better time to horizon - brand and venture capital",
+    "Customized brand strategy topics available upon request",
+  ];
+
+  const engagementTypes = [
+    { title: "Keynotes", description: "Inspiring talks that move audiences to action" },
+    { title: "Panels & Moderator", description: "Expert perspective and thoughtful facilitation" },
+    { title: "Judgeship", description: "Creative, marketing, and business pitch competitions" },
+    { title: "Podcasts", description: "Deep-dive conversations on brand and strategy" },
+    { title: "Academia", description: "Guest teaching and speaking for universities" },
+  ];
+
   return (
     <>
       {/* Hero Section */}
-      <section className="pt-32 pb-16 lg:pt-40 lg:pb-24">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-7xl font-[family-name:var(--font-playfair)] leading-[1.1] tracking-tight opacity-0 animate-fade-in-up">
-              Speaking &
-              <br />
-              <span className="text-[#ff6b00]">workshops.</span>
-            </h1>
-            <p className="mt-8 text-xl text-[#a1a1a1] max-w-2xl leading-relaxed opacity-0 animate-fade-in-up animation-delay-200">
-              Book Brooke to inspire, educate, and empower your team or audience
-              with keynotes and workshops on brand strategy and business clarity.
+      <section className="min-h-[70vh] flex items-center bg-[#f5f3ef] font-[family-name:var(--font-open-sans)] relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#ff6b00]/5 via-transparent to-transparent pointer-events-none"></div>
+        <div className="absolute top-20 right-0 w-[800px] h-[800px] bg-[#ff6b00] rounded-full blur-[200px] opacity-10 pointer-events-none"></div>
+
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 pt-32">
+          <div className="max-w-4xl">
+            <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-6">
+              Speaking Engagements
             </p>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-[family-name:var(--font-playfair)] leading-[0.95] text-[#1a1a1a] mb-8">
+              Bring brand clarity to your audience.
+            </h1>
+            <p className="text-xl md:text-2xl text-[#666666] max-w-2xl leading-relaxed mb-10">
+              Leverage Jayne Agency&apos;s brand strategy thought leadership for your business, community, or members—in-person or virtual.
+            </p>
+            <Link
+              href="/work-with-us"
+              className="inline-flex items-center justify-center px-12 py-6 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
+            >
+              Book a Call
+              <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* Speaking Topics */}
-      <section className="py-16 lg:py-24 bg-[#111111]">
+      {/* Topics Section - Dark */}
+      <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-widest text-[#ff6b00] mb-4">
-            Topics
-          </p>
-          <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] leading-tight mb-12">
-            Keynotes & Workshops
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[
-              {
-                title: "Building Brand Clarity",
-                description:
-                  "Learn the frameworks and methodologies behind creating brand platforms that drive real business results.",
-              },
-              {
-                title: "The Clarity Economy",
-                description:
-                  "Understanding how clarity creates competitive advantage in a noisy marketplace.",
-              },
-              {
-                title: "Strategic Leadership",
-                description:
-                  "Equipping leadership teams with the tools to make confident, aligned strategic decisions.",
-              },
-              {
-                title: "Custom Workshops",
-                description:
-                  "Tailored programs designed specifically for your team's unique challenges and goals.",
-              },
-            ].map((topic, i) => (
-              <div
-                key={i}
-                className="p-8 bg-[#0a0a0a] border-2 border-[#262626] rounded-2xl hover:border-[#ff6b00] transition-all duration-300"
-              >
-                <span className="text-4xl font-bold text-[#ff6b00] tabular-nums">
-                  0{i + 1}
-                </span>
-                <h3 className="mt-4 text-2xl font-semibold">{topic.title}</h3>
-                <p className="mt-4 text-[#a1a1a1] leading-relaxed">
-                  {topic.description}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
+            {/* Left side - heading */}
+            <div className="lg:col-span-4">
+              <div className="lg:sticky lg:top-32">
+                <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] text-white leading-[1.1] mb-6">
+                  Topics that inform & empower.
+                </h2>
+                <p className="text-xl text-white/50">
+                  Choose from the list, or work with us to create a custom solution for your audience.
                 </p>
               </div>
-            ))}
+            </div>
+
+            {/* Right side - topics list */}
+            <div className="lg:col-span-8">
+              {topics.map((topic, i) => (
+                <div key={i} className="border-t border-white/10 py-6 group flex items-start gap-6">
+                  <span className="text-[#ff6b00] font-[family-name:var(--font-playfair)] text-2xl mt-1">
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
+                  <p className="text-xl md:text-2xl text-white group-hover:text-[#ff6b00] transition-colors">
+                    {topic}
+                  </p>
+                </div>
+              ))}
+              <div className="border-t border-white/10"></div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* About Brooke */}
-      <section className="py-16 lg:py-24">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-widest text-[#ff6b00] mb-4">
-            About
-          </p>
-          <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] leading-tight mb-8">
-            Meet Brooke
-          </h2>
-          <div className="space-y-6 text-lg text-[#a1a1a1] leading-relaxed">
-            <p>
-              Brooke Sellas is a recognized thought leader in brand strategy and
-              the founder of Jayne Agency. With over a decade of experience working
-              with Fortune 50 companies and startups alike, she brings practical
-              frameworks and actionable insights to every engagement.
-            </p>
-            <p>
-              Her speaking style is direct, engaging, and rooted in real-world
-              application. Audiences leave with clarity on how to apply strategic
-              thinking to their own organizations immediately.
-            </p>
+      {/* About the Speaker */}
+      <section className="py-24 lg:py-32 bg-white font-[family-name:var(--font-open-sans)]">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+            {/* Image */}
+            <div className="relative">
+              <div className="aspect-[4/5] bg-[#f5f3ef] rounded-2xl overflow-hidden">
+                <img
+                  src="/brooke.png"
+                  alt="Brooke Foley"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              {/* Decorative element */}
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-[#ff6b00] rounded-2xl -z-10"></div>
+            </div>
+
+            {/* Content */}
+            <div>
+              <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-6">
+                About the Speaker
+              </p>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] leading-[1.1] mb-6">
+                Brooke Foley
+              </h2>
+              <p className="text-xl md:text-2xl text-[#ff6b00] font-[family-name:var(--font-playfair)] italic mb-8">
+                Agent of Intrigue
+              </p>
+
+              <div className="space-y-6 text-lg text-[#666666] leading-relaxed">
+                <p>
+                  Co-founder and CEO of Jayne Agency and Clarity University.
+                </p>
+                <p>
+                  Previously Razorfish Chief Creative Officer and Executive Creative Director at DDB and Ogilvy.
+                </p>
+                <p>
+                  Led creative and strategy work at Kraft, Microsoft, TD Ameritrade, Pepsico, Abbott and many other organizations from SMEs to Fortune 50.
+                </p>
+              </div>
+
+            </div>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-24 lg:py-32 bg-[#111111]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] leading-tight mb-6">
-            Book Brooke for your next event
-          </h2>
-          <p className="text-xl text-[#a1a1a1] max-w-2xl mx-auto mb-10">
-            Let&apos;s discuss how Brooke can add value to your conference,
-            retreat, or team gathering.
-          </p>
-          <Link
-            href="/work-with-us"
-            className="inline-flex items-center justify-center px-10 py-5 text-lg font-medium bg-[#ff6b00] text-white rounded-full hover:bg-white hover:text-[#0a0a0a] hover:scale-105 transition-all duration-300 shadow-lg shadow-[#ff6b00]/30"
-          >
-            Get In Touch
-          </Link>
-        </div>
-      </section>
     </>
   );
 }

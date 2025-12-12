@@ -84,15 +84,13 @@ export function Navigation() {
                 isActive("/agency-advisory") ? "w-full" : "w-0 group-hover:w-full"
               }`} />
             </Link>
-            <a
-              href="https://clarityuniversity.com"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="#"
               className="text-sm font-medium text-gray-600 hover:text-black relative group transition-colors duration-300"
             >
               Clarity University
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] group-hover:w-full transition-all duration-300" />
-            </a>
+            </Link>
           </div>
 
           {/* CTA Button */}
@@ -191,15 +189,13 @@ export function Navigation() {
           >
             Agency & Advisory
           </Link>
-          <a
-            href="https://clarityuniversity.com"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="#"
             onClick={() => setIsOpen(false)}
             className="block px-4 py-3 text-base font-medium text-gray-600 hover:text-black hover:bg-gray-50 rounded-lg transition-all duration-300"
           >
             Clarity University
-          </a>
+          </Link>
           <div className="pt-4">
             <Link
               href="#"

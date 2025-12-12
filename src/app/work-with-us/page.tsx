@@ -26,338 +26,223 @@ export default function WorkWithUs() {
 
   return (
     <>
-      {/* Hero Section */}
-      <section className="pt-32 pb-24 lg:pt-40 lg:pb-32 bg-gradient-to-br from-[#f5f3ef] via-white to-[#f5f3ef] font-[family-name:var(--font-open-sans)] relative overflow-hidden">
-        {/* Decorative elements */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-[#ff6b00] rounded-full blur-[150px] opacity-10 pointer-events-none"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#ff6b00] rounded-full blur-[150px] opacity-5 pointer-events-none"></div>
+      {/* Hero Section - Big & Bold */}
+      <section className="min-h-[80vh] flex items-center bg-[#f5f3ef] font-[family-name:var(--font-open-sans)] relative overflow-hidden">
+        {/* Gradient overlay for depth */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#ff6b00]/5 via-transparent to-transparent pointer-events-none"></div>
+        {/* Large decorative element */}
+        <div className="absolute top-20 right-0 w-[800px] h-[800px] bg-[#ff6b00] rounded-full blur-[200px] opacity-10 pointer-events-none"></div>
 
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
-          {/* Main heading */}
-          <div className="text-center mb-24">
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-[family-name:var(--font-playfair)] leading-[1.1] text-[#1a1a1a] mb-6">
-              Let&apos;s work together.
-            </h1>
-            <p className="text-xl md:text-2xl text-[#666666] max-w-3xl mx-auto">
-              Here&apos;s what happens when you work with us:
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 pt-32">
+          <div className="max-w-4xl">
+            <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-6">
+              Work With Us
             </p>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-[family-name:var(--font-playfair)] leading-[0.95] text-[#1a1a1a] mb-10">
+              Get where you<br />want to go.
+            </h1>
+            <Link
+              href="#contact"
+              className="inline-flex items-center justify-center px-10 py-5 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
+            >
+              Book a Call
+              <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
           </div>
+        </div>
+      </section>
 
-          {/* Three column benefits */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
-            {/* Benefit 1 */}
-            <div className="group relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#ff6b00]/10 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <div className="relative p-8 lg:p-10 h-full flex flex-col">
-                <div className="mb-6">
-                  <div className="w-16 h-16 rounded-full bg-[#ff6b00]/10 flex items-center justify-center mb-4">
-                    <svg className="w-8 h-8 text-[#ff6b00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <h3 className="text-2xl md:text-3xl font-bold text-[#ff6b00] mb-4">
-                    Get Clear
-                  </h3>
-                </div>
-                <p className="text-lg leading-relaxed text-[#1a1a1a]">
-                  Crystal clear. About who you are, what you stand for, and why it matters.
+      {/* Sound Familiar? - Dark & Dramatic */}
+      <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)]">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
+            {/* Left side - sticky heading */}
+            <div className="lg:col-span-4">
+              <div className="lg:sticky lg:top-32">
+                <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-white leading-[1.1] mb-6">
+                  Sound<br />familiar?
+                </h2>
+                <p className="text-xl text-white/50">
+                  If any of these hit home, we should talk.
                 </p>
               </div>
             </div>
 
-            {/* Benefit 2 */}
-            <div className="group relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#ff6b00]/10 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <div className="relative p-8 lg:p-10 h-full flex flex-col">
-                <div className="mb-6">
-                  <div className="w-16 h-16 rounded-full bg-[#ff6b00]/10 flex items-center justify-center mb-4">
-                    <svg className="w-8 h-8 text-[#ff6b00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                    </svg>
-                  </div>
-                  <h3 className="text-2xl md:text-3xl font-bold text-[#ff6b00] mb-4">
-                    Get Aligned
-                  </h3>
-                </div>
-                <p className="text-lg leading-relaxed text-[#1a1a1a]">
-                  Everyone rowing in the same direction. No more confusion about what you&apos;re building or who it&apos;s for.
-                </p>
+            {/* Right side - pain points */}
+            <div className="lg:col-span-8 space-y-0">
+              <div className="border-t border-white/10 py-8 group">
+                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">You know you&apos;re good. Your market doesn&apos;t.</h3>
+                <p className="text-white/50 text-lg">The work speaks for itself—except it doesn&apos;t. You&apos;re waiting to be discovered instead of being impossible to ignore.</p>
               </div>
-            </div>
 
-            {/* Benefit 3 */}
-            <div className="group relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#ff6b00]/10 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <div className="relative p-8 lg:p-10 h-full flex flex-col">
-                <div className="mb-6">
-                  <div className="w-16 h-16 rounded-full bg-[#ff6b00]/10 flex items-center justify-center mb-4">
-                    <svg className="w-8 h-8 text-[#ff6b00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                    </svg>
-                  </div>
-                  <h3 className="text-2xl md:text-3xl font-bold text-[#ff6b00] mb-4">
-                    Get Momentum
-                  </h3>
-                </div>
-                <p className="text-lg leading-relaxed text-[#1a1a1a]">
-                  Real, measurable growth. The kind that compounds because it&apos;s built on a foundation that actually works.
-                </p>
+              <div className="border-t border-white/10 py-8 group">
+                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">You blend in when you should stand out.</h3>
+                <p className="text-white/50 text-lg">You look like everyone else in your space. You compete on price because you haven&apos;t given them a reason to pay more.</p>
               </div>
-            </div>
-          </div>
 
-          {/* Bottom statement */}
-          <div className="text-center">
-            <div className="inline-block relative">
-              <div className="absolute inset-0 bg-[#ff6b00]/5 blur-xl rounded-full"></div>
-              <p className="relative text-2xl md:text-3xl lg:text-4xl font-[family-name:var(--font-playfair)] italic text-[#ff6b00] px-8 py-4">
-                No fluff. No generic frameworks.<br />Just strategy that fits your reality.
-              </p>
+              <div className="border-t border-white/10 py-8 group">
+                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">Growth stalled and you&apos;re not sure why.</h3>
+                <p className="text-white/50 text-lg">What got you here won&apos;t get you there. The tactics that worked are running out of steam.</p>
+              </div>
+
+              <div className="border-t border-white/10 py-8 group">
+                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">Your team is rowing in six different directions.</h3>
+                <p className="text-white/50 text-lg">Everyone has a different answer to &quot;what do we stand for?&quot; Decisions take forever because there&apos;s no North Star.</p>
+              </div>
+
+              <div className="border-t border-white/10 py-8 group">
+                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">You&apos;re leaving money on the table.</h3>
+                <p className="text-white/50 text-lg">You create real value but can&apos;t capture it. Margins shrink while the work gets harder.</p>
+              </div>
+
+              <div className="border-t border-b border-white/10 py-8 group">
+                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">You&apos;re ready for bold moves but stuck in place.</h3>
+                <p className="text-white/50 text-lg">You feel the urgency but lack the clarity. Big swings feel risky when you&apos;re not sure what you&apos;re swinging at.</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* How Does It Work */}
-      <section className="py-20 lg:py-32 bg-white font-[family-name:var(--font-open-sans)]">
+      {/* The Outcome - Minimal & Bold */}
+      <section className="py-24 lg:py-40 bg-white font-[family-name:var(--font-open-sans)]">
+        <div className="max-w-5xl mx-auto px-6 lg:px-8 text-center">
+          <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-8">
+            What Changes
+          </p>
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-[family-name:var(--font-playfair)] leading-[1.05] text-[#1a1a1a] mb-16">
+            Clarity. Alignment.<br />Momentum.
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-left max-w-4xl mx-auto">
+            <div>
+              <div className="text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00] mb-4">1</div>
+              <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Get Clear</h3>
+              <p className="text-[#666666]">About who you are, what you stand for, and why it matters. No more second-guessing.</p>
+            </div>
+
+            <div>
+              <div className="text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00] mb-4">2</div>
+              <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Get Aligned</h3>
+              <p className="text-[#666666]">Everyone rowing in the same direction. One story. One strategy. One team.</p>
+            </div>
+
+            <div>
+              <div className="text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00] mb-4">3</div>
+              <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Get Moving</h3>
+              <p className="text-[#666666]">Real momentum. The kind that compounds because it&apos;s built on a foundation that works.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Where Are You In Your Journey */}
+      <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)] overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-20">
-            <h2 className="text-4xl md:text-5xl leading-tight text-[#ff6b00] mb-6">
-              Where are you in your journey?
+          <div className="mb-16 lg:mb-24">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-white mb-4">
+              Where are you?
             </h2>
-            <p className="text-lg md:text-xl text-[#666666] max-w-3xl mx-auto leading-relaxed">
-              Different stages require different strategies.<br />Here&apos;s how we meet you where you&nbsp;are.
+            <p className="text-xl text-white/50">
+              Different stages. Different strategies.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-20">
-            <div className="flex flex-col items-center">
-              <div className="text-center mb-8 min-h-[140px] flex items-center px-4">
-                <p className="text-lg leading-relaxed text-[#1a1a1a]">
+          {/* Stacked full-width rows */}
+          <div className="space-y-0">
+            {/* Strategy Partnership */}
+            <div className="group border-t border-white/10 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div className="lg:col-span-5">
+                <p className="text-white/50 text-lg lg:text-xl">
                   You&apos;re an established enterprise navigating complex markets and competing priorities.
                 </p>
               </div>
-              <div className="mb-8">
-                <svg className="w-12 h-12 text-[#ff6b00]" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" transform="rotate(90 12 12)" />
+              <div className="lg:col-span-1 hidden lg:flex justify-center">
+                <svg className="w-8 h-8 text-[#ff6b00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </div>
-              <div className="bg-white p-8 rounded-xl border-2 border-[#ff6b00] w-full text-center">
-                <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">
+              <div className="lg:col-span-6">
+                <h3 className="text-3xl md:text-4xl lg:text-5xl font-[family-name:var(--font-playfair)] text-white group-hover:text-[#ff6b00] transition-colors mb-3">
                   Strategy Partnership
                 </h3>
-                <p className="text-base text-[#666666] leading-relaxed">
+                <p className="text-white/70 text-lg">
                   Deep partnership. Guaranteed outcomes. Built for scale.
                 </p>
               </div>
             </div>
 
-            <div className="flex flex-col items-center">
-              <div className="text-center mb-8 min-h-[140px] flex items-center px-4">
-                <p className="text-lg leading-relaxed text-[#1a1a1a]">
+            {/* Strategy Sprint */}
+            <div className="group border-t border-white/10 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div className="lg:col-span-5">
+                <p className="text-white/50 text-lg lg:text-xl">
                   You&apos;re between $1M-$20M and ready to unlock your next level of growth.
                 </p>
               </div>
-              <div className="mb-8">
-                <svg className="w-12 h-12 text-[#ff6b00]" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" transform="rotate(90 12 12)" />
+              <div className="lg:col-span-1 hidden lg:flex justify-center">
+                <svg className="w-8 h-8 text-[#ff6b00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </div>
-              <div className="bg-white p-8 rounded-xl border-2 border-[#ff6b00] w-full text-center">
-                <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">
+              <div className="lg:col-span-6">
+                <h3 className="text-3xl md:text-4xl lg:text-5xl font-[family-name:var(--font-playfair)] text-white group-hover:text-[#ff6b00] transition-colors mb-3">
                   Strategy Sprint
                 </h3>
-                <p className="text-base text-[#666666] leading-relaxed">
+                <p className="text-white/70 text-lg">
                   Focused. Fast. Designed to solve your most critical challenge.
                 </p>
               </div>
             </div>
 
-            <div className="flex flex-col items-center">
-              <div className="text-center mb-8 min-h-[140px] flex items-center px-4">
-                <p className="text-lg leading-relaxed text-[#1a1a1a]">
-                  You&apos;re a solopreneur, small business, or startup wanting to build your own strategy with our help.
+            {/* Clarity University */}
+            <div className="group border-t border-b border-white/10 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div className="lg:col-span-5">
+                <p className="text-white/50 text-lg lg:text-xl">
+                  You&apos;re a solopreneur, small business, or startup wanting to build your own strategy.
                 </p>
               </div>
-              <div className="mb-8">
-                <svg className="w-12 h-12 text-[#ff6b00]" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" transform="rotate(90 12 12)" />
+              <div className="lg:col-span-1 hidden lg:flex justify-center">
+                <svg className="w-8 h-8 text-[#ff6b00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </div>
-              <div className="bg-white p-8 rounded-xl border-2 border-[#ff6b00] w-full text-center">
-                <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">
+              <div className="lg:col-span-6">
+                <h3 className="text-3xl md:text-4xl lg:text-5xl font-[family-name:var(--font-playfair)] text-white group-hover:text-[#ff6b00] transition-colors mb-3">
                   Clarity University
                 </h3>
-                <p className="text-base text-[#666666] leading-relaxed">
+                <p className="text-white/70 text-lg">
                   Learn our methodology. At your pace. On your budget.
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="text-center pt-8">
-            <p className="text-xl md:text-2xl text-[#1a1a1a] font-semibold mb-10">
+          {/* CTA */}
+          <div className="mt-16 lg:mt-24 flex flex-col sm:flex-row items-center justify-between gap-8">
+            <p className="text-xl md:text-2xl text-white/70">
               Not sure which path fits? Let&apos;s figure it out together.
             </p>
             <Link
-              href="#"
-              className="inline-flex items-center justify-center px-12 py-6 text-lg font-bold bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] text-white rounded-full hover:shadow-xl hover:shadow-[#ff6b00]/40 hover:scale-105 transition-all duration-300"
+              href="#contact"
+              className="inline-flex items-center justify-center px-10 py-5 text-lg font-bold bg-white text-[#1a1a1a] rounded-full hover:bg-[#ff6b00] hover:text-white transition-all duration-300 group whitespace-nowrap"
             >
               Book a Call
+              <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Contact Form */}
-      <section className="py-16 lg:py-24 bg-[#f5f3ef] font-[family-name:var(--font-open-sans)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            <div>
-              <p className="text-sm font-bold uppercase tracking-widest text-[#ff6b00] mb-4">
-                Get In Touch
-              </p>
-              <h2 className="text-3xl md:text-4xl leading-tight text-[#1a1a1a]">
-                Start a conversation.
-              </h2>
-              <p className="mt-6 text-lg text-[#666666] leading-relaxed">
-                Tell us about your organization and the challenges you&apos;re
-                facing. We&apos;ll get back to you within 48 hours to discuss how
-                we might help.
-              </p>
-
-              <div className="mt-12 space-y-6">
-                <div>
-                  <h4 className="text-sm font-medium uppercase tracking-wider text-[#666666] mb-2">
-                    Email
-                  </h4>
-                  <a
-                    href="mailto:hello@jayneagency.com"
-                    className="text-lg text-[#1a1a1a] hover:text-[#ff6b00] transition-colors"
-                  >
-                    hello@jayneagency.com
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              {isSubmitted ? (
-                <div className="p-8 bg-white border-2 border-[#e5e3df] rounded-2xl text-center">
-                  <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-[#ff6b00]/20 flex items-center justify-center">
-                    <svg
-                      className="w-8 h-8 text-[#ff6b00]"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
-                  </div>
-                  <h3 className="text-2xl font-semibold text-[#1a1a1a] mb-2">
-                    Message received.
-                  </h3>
-                  <p className="text-[#666666]">
-                    We&apos;ll be in touch within 48 hours.
-                  </p>
-                </div>
-              ) : (
-                <form onSubmit={handleSubmit} className="space-y-6">
-                  <div>
-                    <label
-                      htmlFor="name"
-                      className="block text-sm font-medium text-[#1a1a1a] mb-2"
-                    >
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      required
-                      value={formState.name}
-                      onChange={(e) =>
-                        setFormState({ ...formState, name: e.target.value })
-                      }
-                      className="w-full px-4 py-3 bg-white border-2 border-[#e5e3df] rounded-lg focus:outline-none focus:border-[#ff6b00] transition-colors text-[#1a1a1a]"
-                      placeholder="Your name"
-                    />
-                  </div>
-
-                  <div>
-                    <label
-                      htmlFor="email"
-                      className="block text-sm font-medium text-[#1a1a1a] mb-2"
-                    >
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      required
-                      value={formState.email}
-                      onChange={(e) =>
-                        setFormState({ ...formState, email: e.target.value })
-                      }
-                      className="w-full px-4 py-3 bg-white border-2 border-[#e5e3df] rounded-lg focus:outline-none focus:border-[#ff6b00] transition-colors text-[#1a1a1a]"
-                      placeholder="you@company.com"
-                    />
-                  </div>
-
-                  <div>
-                    <label
-                      htmlFor="company"
-                      className="block text-sm font-medium text-[#1a1a1a] mb-2"
-                    >
-                      Company
-                    </label>
-                    <input
-                      type="text"
-                      id="company"
-                      value={formState.company}
-                      onChange={(e) =>
-                        setFormState({ ...formState, company: e.target.value })
-                      }
-                      className="w-full px-4 py-3 bg-white border-2 border-[#e5e3df] rounded-lg focus:outline-none focus:border-[#ff6b00] transition-colors text-[#1a1a1a]"
-                      placeholder="Your organization"
-                    />
-                  </div>
-
-                  <div>
-                    <label
-                      htmlFor="message"
-                      className="block text-sm font-medium text-[#1a1a1a] mb-2"
-                    >
-                      Message
-                    </label>
-                    <textarea
-                      id="message"
-                      required
-                      rows={5}
-                      value={formState.message}
-                      onChange={(e) =>
-                        setFormState({ ...formState, message: e.target.value })
-                      }
-                      className="w-full px-4 py-3 bg-white border-2 border-[#e5e3df] rounded-lg focus:outline-none focus:border-[#ff6b00] transition-colors resize-none text-[#1a1a1a]"
-                      placeholder="Tell us about your challenges and goals..."
-                    />
-                  </div>
-
-                  <button
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="w-full px-8 py-4 text-base font-semibold bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] text-white rounded-full hover:shadow-lg hover:shadow-[#ff6b00]/50 hover:scale-105 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
-                  >
-                    {isSubmitting ? "Sending..." : "Send Message"}
-                  </button>
-                </form>
-              )}
-            </div>
-          </div>
+      {/* Pull Quote */}
+      <section className="py-20 lg:py-28 bg-[#ff6b00]">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <p className="text-2xl md:text-4xl lg:text-5xl font-[family-name:var(--font-playfair)] italic text-white leading-tight">
+            &ldquo;No fluff. No generic frameworks.<br />Just strategy that fits your reality.&rdquo;
+          </p>
         </div>
       </section>
     </>
