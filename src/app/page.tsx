@@ -87,10 +87,10 @@ export default function Home() {
       {/* Founder Story Section */}
       <section className="py-24 lg:py-32 bg-white font-[family-name:var(--font-open-sans)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl leading-[1.1] text-[#1a1a1a] mb-2">
+          <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] leading-[1.1] text-[#1a1a1a] mb-2">
             Clarity, alignment,
           </h2>
-          <h2 className="text-4xl md:text-5xl italic leading-[1.1] text-[#1a1a1a] mb-10">
+          <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] italic leading-[1.1] text-[#1a1a1a] mb-10">
             and lasting impact.
           </h2>
 
@@ -135,7 +135,7 @@ export default function Home() {
             <p className="text-sm font-bold uppercase tracking-widest text-[#ff6b00] mb-4">
               How We Can Help
             </p>
-            <h2 className="text-4xl md:text-5xl leading-tight text-[#1a1a1a]">
+            <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] leading-tight text-[#1a1a1a]">
               Choose your path to clarity.
             </h2>
           </div>
@@ -148,7 +148,7 @@ export default function Home() {
                   01
                 </span>
               </div>
-              <h3 className="text-2xl mb-4 text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
+              <h3 className="text-2xl font-[family-name:var(--font-playfair)] mb-4 text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
                 Want the strategic breakthrough that&apos;ll take your business to the next level?
               </h3>
               <p className="text-[#666666] mb-8 leading-relaxed">
@@ -173,7 +173,7 @@ export default function Home() {
                   02
                 </span>
               </div>
-              <h3 className="text-2xl mb-4 text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
+              <h3 className="text-2xl font-[family-name:var(--font-playfair)] mb-4 text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
                 Want to inform and empower your team or audience?
               </h3>
               <p className="text-[#666666] mb-8 leading-relaxed">
@@ -198,7 +198,7 @@ export default function Home() {
                   03
                 </span>
               </div>
-              <h3 className="text-2xl mb-4 text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
+              <h3 className="text-2xl font-[family-name:var(--font-playfair)] mb-4 text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
                 Want to learn how to do strategy the Jayne way?
               </h3>
               <p className="text-[#666666] mb-8 leading-relaxed">
@@ -224,7 +224,7 @@ export default function Home() {
       {/* Simple CTA */}
       <section className="py-24 lg:py-32 bg-[#0a0a0a] font-[family-name:var(--font-open-sans)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl leading-tight mb-6 text-white">
+          <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] leading-tight mb-6 text-white">
             Ready for radical brand clarity?
           </h2>
           <p className="text-xl text-[#a1a1a1] max-w-2xl mx-auto mb-10">

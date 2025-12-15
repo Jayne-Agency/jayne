@@ -1,200 +1,159 @@
-"use client";
-
 import Link from "next/link";
-import { useState } from "react";
 
 const caseStudies = [
   {
-    id: 1,
-    title: "Fortune 50 Brand Transformation",
-    client: "Global Consumer Goods",
-    industry: "Consumer Packaged Goods",
-    year: "2024",
-    description: "Complete brand repositioning resulting in 34% market share growth",
-    size: "large", // Takes 2/3 width
-    image: "/case1.jpg"
+    id: "pepsico",
+    client: "PepsiCo",
+    hook: "What if your supply chain could change the world?",
+    result: "$800MM",
+    resultLabel: "diverse supplier spend",
+    teaser: "From compliance checkbox to competitive advantage.",
   },
   {
-    id: 2,
-    title: "Market Entry Strategy",
-    client: "Healthcare Technology",
-    industry: "Healthcare",
-    year: "2024",
-    description: "Strategic launch that captured 12% market share in year one",
-    size: "small",
-    image: "/case2.jpg"
-  },
-  {
-    id: 3,
-    title: "Digital Ecosystem Redesign",
-    client: "Financial Services",
-    industry: "Finance",
-    year: "2023",
-    description: "User experience overhaul driving 156% increase in customer engagement",
-    size: "small",
-    image: "/case3.jpg"
-  },
-  {
-    id: 4,
-    title: "Purpose-Driven Rebranding",
-    client: "Non-Profit Organization",
-    industry: "Non-Profit",
-    year: "2023",
-    description: "Brand clarity that increased donations by 89% and volunteer applications by 124%",
-    size: "large",
-    image: "/case4.jpg"
-  },
-  {
-    id: 5,
-    title: "Product Line Innovation",
-    client: "Food & Beverage",
-    industry: "Consumer Goods",
-    year: "2023",
-    description: "Strategic product portfolio realignment generating $42M in new revenue",
-    size: "small",
-    image: "/case5.jpg"
-  },
-  {
-    id: 6,
-    title: "Startup to Scale",
-    client: "Tech Startup",
-    industry: "Technology",
-    year: "2024",
-    description: "Brand foundation and go-to-market strategy enabling Series B funding",
-    size: "small",
-    image: "/case6.jpg"
+    id: "hornitos",
+    client: "Hornitos",
+    hook: "How do you make bartenders fall in love with a tequila?",
+    result: "83%",
+    resultLabel: "open rate",
+    teaser: "From overlooked import to must-have mixology essential.",
   },
 ];
 
 export default function CaseStudies() {
-  const [hoveredId, setHoveredId] = useState<number | null>(null);
-
   return (
     <>
-      {/* Hero Section */}
-      <section className="pt-32 pb-12 lg:pt-40 lg:pb-16 bg-white">
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl">
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-[family-name:var(--font-playfair)] leading-[0.95] tracking-tight text-[#1a1a1a]">
-              Our Work
-            </h1>
-            <p className="mt-8 text-xl md:text-2xl text-[#666666] max-w-3xl leading-relaxed">
-              Real businesses. Real challenges. Real results.
-            </p>
+      {/* Hero Section - Dramatic & Minimal */}
+      <section className="min-h-screen flex items-center justify-center bg-[#1a1a1a] font-[family-name:var(--font-open-sans)] relative overflow-hidden">
+        {/* Animated gradient orbs */}
+        <div className="absolute top-1/4 left-1/4 w-[600px] h-[600px] bg-[#ff6b00] rounded-full blur-[180px] opacity-20 animate-pulse pointer-events-none"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-[#ff6b00] rounded-full blur-[150px] opacity-10 pointer-events-none"></div>
+
+        <div className="relative z-10 text-center px-6 pt-20">
+          <p className="text-xs md:text-sm uppercase tracking-[0.4em] text-[#ff6b00] font-bold mb-8 opacity-80">
+            Case Studies
+          </p>
+          <h1 className="text-6xl md:text-8xl lg:text-[10rem] font-[family-name:var(--font-playfair)] leading-[0.85] text-white mb-8">
+            Proof.
+          </h1>
+          <p className="text-xl md:text-2xl text-white/40 max-w-xl mx-auto">
+            Not promises. Results.
+          </p>
+
+        </div>
+
+        {/* Scroll indicator */}
+        <div className="absolute bottom-12 left-1/2 -translate-x-1/2 pointer-events-none">
+          <div className="w-6 h-10 border-2 border-white/20 rounded-full flex justify-center">
+            <div className="w-1 h-3 bg-[#ff6b00] rounded-full mt-2 animate-bounce"></div>
           </div>
         </div>
       </section>
 
-      {/* Masonry Grid */}
-      <section className="py-12 lg:py-20 bg-white">
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
-            {caseStudies.map((study) => (
-              <Link
-                key={study.id}
-                href="#"
-                className={`group relative overflow-hidden cursor-pointer ${
-                  study.size === "large" ? "md:col-span-2" : "md:col-span-1"
-                }`}
-                onMouseEnter={() => setHoveredId(study.id)}
-                onMouseLeave={() => setHoveredId(null)}
-              >
-                {/* Image Container */}
-                <div className="relative w-full aspect-[4/3] bg-[#f5f3ef] overflow-hidden">
-                  {/* Placeholder for actual image */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] transition-transform duration-500 ease-out group-hover:scale-110">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-[#666666] text-sm font-mono">
-                        {study.client}
-                      </span>
-                    </div>
+      {/* Featured Case Study - Full Bleed */}
+      <section className="bg-white font-[family-name:var(--font-open-sans)]">
+        {caseStudies.map((study) => (
+          <Link
+            key={study.id}
+            href={`/case-studies/${study.id}`}
+            className="group block"
+          >
+            <div className="min-h-screen flex flex-col lg:flex-row">
+              {/* Left: Content */}
+              <div className="flex-1 flex items-center justify-center p-8 lg:p-16 xl:p-24 bg-[#f5f3ef]">
+                <div className="max-w-xl">
+                  <div className="inline-block px-4 py-2 bg-[#1a1a1a] rounded-full mb-8">
+                    <span className="text-xs uppercase tracking-[0.2em] text-white font-bold">
+                      {study.client}
+                    </span>
                   </div>
 
-                  {/* Overlay on hover */}
-                  <div className="absolute inset-0 bg-[#ff6b00]/0 group-hover:bg-[#ff6b00]/10 transition-all duration-500"></div>
-                </div>
+                  <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] leading-[1.05] mb-8 group-hover:text-[#ff6b00] transition-colors duration-500">
+                    {study.hook}
+                  </h2>
 
-                {/* Content */}
-                <div className="mt-6">
-                  <div className="flex items-center gap-3 text-sm text-[#999999] mb-3">
-                    <span>{study.industry}</span>
-                    <span>•</span>
-                    <span>{study.year}</span>
-                  </div>
-
-                  <h3 className="text-2xl md:text-3xl lg:text-4xl font-[family-name:var(--font-playfair)] leading-tight text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors duration-300 mb-4">
-                    {study.title}
-                  </h3>
-
-                  <p className="text-base md:text-lg text-[#666666] leading-relaxed">
-                    {study.description}
+                  <p className="text-xl text-[#666666] mb-10">
+                    {study.teaser}
                   </p>
 
-                  {/* Hover indicator */}
-                  <div className="mt-6 flex items-center gap-2 text-[#ff6b00] font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <span>View case study</span>
-                    <svg
-                      className="w-5 h-5 transform translate-x-0 group-hover:translate-x-2 transition-transform duration-300"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
+                  <div className="inline-flex items-center gap-4 text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
+                    <span className="text-lg font-bold uppercase tracking-wider">Read the story</span>
+                    <div className="w-12 h-12 rounded-full border-2 border-current flex items-center justify-center group-hover:bg-[#ff6b00] group-hover:border-[#ff6b00] transition-all">
+                      <svg className="w-5 h-5 group-hover:translate-x-1 group-hover:text-white transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </div>
                   </div>
                 </div>
-              </Link>
-            ))}
-          </div>
-        </div>
+              </div>
+
+              {/* Right: Result - Bold Impact */}
+              <div className="flex-1 flex items-center justify-center p-8 lg:p-16 bg-[#1a1a1a] group-hover:bg-[#ff6b00] transition-colors duration-500">
+                <div className="text-center">
+                  <div className="text-7xl md:text-8xl lg:text-9xl xl:text-[12rem] font-[family-name:var(--font-playfair)] text-[#ff6b00] group-hover:text-white transition-colors duration-500 leading-none">
+                    {study.result}
+                  </div>
+                  <p className="text-lg md:text-xl text-white/50 group-hover:text-white/80 transition-colors duration-500 mt-4 uppercase tracking-wider">
+                    {study.resultLabel}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Link>
+        ))}
       </section>
 
-      {/* Stats Section */}
-      <section className="py-24 lg:py-32 bg-[#1a1a1a]">
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
-            <div className="text-center">
-              <div className="text-5xl md:text-6xl lg:text-7xl font-[family-name:var(--font-playfair)] text-[#ff6b00] mb-4">
-                200+
-              </div>
-              <div className="text-lg md:text-xl text-[#a1a1a1]">
-                Successful Projects
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-5xl md:text-6xl lg:text-7xl font-[family-name:var(--font-playfair)] text-[#ff6b00] mb-4">
-                15+
-              </div>
-              <div className="text-lg md:text-xl text-[#a1a1a1]">
-                Years of Excellence
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-5xl md:text-6xl lg:text-7xl font-[family-name:var(--font-playfair)] text-[#ff6b00] mb-4">
-                50+
-              </div>
-              <div className="text-lg md:text-xl text-[#a1a1a1]">
-                Industries Served
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-24 lg:py-32 bg-white">
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
-          <h2 className="text-4xl md:text-6xl lg:text-7xl font-[family-name:var(--font-playfair)] leading-tight mb-6 text-[#1a1a1a]">
-            Ready to write your<br />success story?
+      {/* More Coming Soon - Teaser */}
+      <section className="py-32 lg:py-40 bg-[#f5f3ef] font-[family-name:var(--font-open-sans)]">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <p className="text-sm uppercase tracking-[0.3em] text-[#666666] mb-6">
+            More stories loading
+          </p>
+          <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a]/30">
+            Healthcare. Technology. Retail. Non-Profit.
           </h2>
-          <p className="text-xl md:text-2xl text-[#666666] max-w-2xl mx-auto mb-12 leading-relaxed">
-            Let&apos;s discuss how we can help your business achieve similar results.
+        </div>
+      </section>
+
+      {/* Pull Quote - Ultra Dramatic */}
+      <section className="py-32 lg:py-48 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)] relative overflow-hidden">
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <span className="text-[20rem] md:text-[30rem] font-[family-name:var(--font-playfair)] text-white/[0.02] select-none">
+            &ldquo;
+          </span>
+        </div>
+
+        <div className="max-w-5xl mx-auto px-6 lg:px-8 text-center relative z-10">
+          <p className="text-2xl md:text-4xl lg:text-5xl font-[family-name:var(--font-playfair)] text-white leading-tight mb-12">
+            Jayne helped us see what was right in front of us. The clarity they brought transformed not just our brand, but how we think about our entire business.
+          </p>
+          <div className="flex items-center justify-center gap-4">
+            <div className="w-12 h-[1px] bg-[#ff6b00]"></div>
+            <p className="text-[#ff6b00] font-bold uppercase tracking-wider text-sm">
+              CMO, Fortune 100 Company
+            </p>
+            <div className="w-12 h-[1px] bg-[#ff6b00]"></div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section - Clean & Bold */}
+      <section className="py-32 lg:py-40 bg-[#ff6b00] font-[family-name:var(--font-open-sans)] relative overflow-hidden">
+
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center relative z-10">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-[family-name:var(--font-playfair)] text-white leading-[1.05] mb-8">
+            Your story next?
+          </h2>
+          <p className="text-xl md:text-2xl text-white/70 max-w-xl mx-auto mb-12">
+            Let&apos;s talk about what&apos;s possible.
           </p>
           <Link
             href="/work-with-us"
-            className="inline-flex items-center justify-center px-12 py-6 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] hover:scale-105 transition-all duration-300 shadow-xl shadow-[#ff6b00]/20"
+            className="inline-flex items-center justify-center px-12 py-6 text-lg font-bold bg-[#1a1a1a] text-white rounded-full hover:bg-white hover:text-[#1a1a1a] transition-all duration-300 group"
           >
             Work With Us
+            <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
           </Link>
         </div>
       </section>
