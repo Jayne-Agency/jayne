@@ -1,55 +1,85 @@
-"use client";
-
-import { useState } from "react";
 import Link from "next/link";
 
 export default function Home() {
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    company: "",
-    message: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-
-    setIsSubmitting(false);
-    setIsSubmitted(true);
-  };
-
   return (
     <>
-      {/* Hero Section - Big & Bold */}
-      <section className="min-h-[80vh] flex items-center bg-[#f5f3ef] font-[family-name:var(--font-open-sans)] relative overflow-hidden">
+      {/* Hero Section */}
+      <section className="min-h-screen flex flex-col items-center justify-center pt-20 bg-[#f5f3ef] relative overflow-hidden">
         {/* Gradient overlay for depth */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#ff6b00]/5 via-transparent to-transparent pointer-events-none"></div>
+
         {/* Large decorative element */}
         <div className="absolute top-20 right-0 w-[800px] h-[800px] bg-[#ff6b00] rounded-full blur-[200px] opacity-10 pointer-events-none"></div>
 
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 pt-32">
-          <div className="max-w-4xl">
-            <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-6">
-              Work With Us
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32 text-center relative z-10">
+          <div className="max-w-5xl mx-auto">
+            {/* Eyebrow text */}
+            <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-8 opacity-0 animate-fade-in-up">
+              Strategy That Delivers
             </p>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-[family-name:var(--font-playfair)] leading-[0.95] text-[#1a1a1a] mb-10">
-              Get where you<br />want to go.
+
+            <h1 className="text-5xl md:text-8xl lg:text-9xl font-[family-name:var(--font-playfair)] leading-[0.9] tracking-tighter opacity-0 animate-fade-in-up animation-delay-100">
+              <span className="text-[#1a1a1a] block mb-4">Business</span>
+              <span className="text-[#ff6b00] block italic">Breakthroughs</span>
             </h1>
-            <Link
-              href="#contact"
-              className="inline-flex items-center justify-center px-10 py-5 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
-            >
-              Book a Call
-              <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
+
+            <p className="mt-12 text-xl md:text-2xl text-[#666666] max-w-3xl mx-auto leading-relaxed opacity-0 animate-fade-in-up animation-delay-200 font-light">
+              We help organizations reach their most important goals and overcome their toughest challenges through data-backed strategies.
+            </p>
+
+            <div className="mt-16 opacity-0 animate-fade-in-up animation-delay-400">
+              <Link
+                href="#contact"
+                className="inline-flex items-center justify-center px-8 md:px-12 py-5 md:py-6 text-base md:text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 border-2 border-[#ff6b00] hover:border-[#1a1a1a] group"
+              >
+                Book a Call
+                <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* Client Logo Carousel */}
+        <div className="w-full py-12 border-t border-[#e5e3df]">
+          <div className="max-w-7xl mx-auto px-6 lg:px-8">
+            <p className="text-center text-sm text-[#ff6b00] uppercase tracking-widest mb-8 font-semibold">
+              Companies we are proud to have partnered with
+            </p>
+            <div className="flex flex-wrap justify-center items-center gap-4 md:gap-10 mb-8">
+              {/* PepsiCo logo */}
+              <div className="h-20 md:h-32 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
+                <img src="/pepsico.png" alt="PepsiCo" className="h-full w-auto object-contain bg-transparent" />
+              </div>
+
+              {/* Red Cross logo */}
+              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
+                <img src="/redcross.png" alt="Red Cross" className="h-full w-auto object-contain bg-transparent" />
+              </div>
+
+              {/* Mondelez logo */}
+              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
+                <img src="/mondelez.png" alt="Mondelez" className="h-full w-auto object-contain bg-transparent" />
+              </div>
+
+              {/* Allstate logo */}
+              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
+                <img src="/allstate.png" alt="Allstate" className="h-full w-auto object-contain bg-transparent" />
+              </div>
+
+              {/* Abbott logo */}
+              <div className="h-10 md:h-16 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
+                <img src="/abbott.png" alt="Abbott" className="h-full w-auto object-contain bg-transparent" />
+              </div>
+            </div>
+
+            {/* Many more text on separate line */}
+            <div className="text-center">
+              <div className="text-2xl md:text-3xl font-[family-name:var(--font-playfair)] italic text-[#1a1a1a]">
+                + many more
+              </div>
+            </div>
           </div>
         </div>
       </section>
