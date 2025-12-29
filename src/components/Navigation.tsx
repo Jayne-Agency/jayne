@@ -133,32 +133,6 @@ export function Navigation() {
                 isActive("/case-studies") ? "w-full" : "w-0 group-hover:w-full"
               }`} />
             </Link>
-            <Link
-              href="/speaking"
-              className={`text-sm font-medium relative group transition-colors duration-300 ${
-                isActive("/speaking")
-                  ? "text-black"
-                  : "text-gray-600 hover:text-black"
-              }`}
-            >
-              Speaking
-              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] transition-all duration-300 ${
-                isActive("/speaking") ? "w-full" : "w-0 group-hover:w-full"
-              }`} />
-            </Link>
-            <Link
-              href="/agency-advisory"
-              className={`text-sm font-medium relative group transition-colors duration-300 ${
-                isActive("/agency-advisory")
-                  ? "text-black"
-                  : "text-gray-600 hover:text-black"
-              }`}
-            >
-              Agency & Advisory
-              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] transition-all duration-300 ${
-                isActive("/agency-advisory") ? "w-full" : "w-0 group-hover:w-full"
-              }`} />
-            </Link>
           </div>
 
           {/* CTA Button */}
@@ -285,28 +259,6 @@ export function Navigation() {
             }`}
           >
             Case Studies
-          </Link>
-          <Link
-            href="/speaking"
-            onClick={() => setIsOpen(false)}
-            className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
-              isActive("/speaking")
-                ? "bg-[#ff6b00]/10 text-black border-l-2 border-[#ff6b00]"
-                : "text-gray-600 hover:text-black hover:bg-gray-50"
-            }`}
-          >
-            Speaking
-          </Link>
-          <Link
-            href="/agency-advisory"
-            onClick={() => setIsOpen(false)}
-            className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
-              isActive("/agency-advisory")
-                ? "bg-[#ff6b00]/10 text-black border-l-2 border-[#ff6b00]"
-                : "text-gray-600 hover:text-black hover:bg-gray-50"
-            }`}
-          >
-            Agency & Advisory
           </Link>
           <div className="pt-4">
             <Link

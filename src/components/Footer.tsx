@@ -54,11 +54,6 @@ export function Footer() {
                   Speaking
                 </Link>
               </li>
-              <li>
-                <Link href="/agency-advisory" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
-                  Agency & Advisory
-                </Link>
-              </li>
             </ul>
           </div>
 
