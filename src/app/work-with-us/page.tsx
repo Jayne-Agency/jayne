@@ -1,33 +1,10 @@
-"use client";
-
-import { useState } from "react";
 import Link from "next/link";
 
 export default function WorkWithUs() {
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    company: "",
-    message: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-
-    setIsSubmitting(false);
-    setIsSubmitted(true);
-  };
-
   return (
     <>
-      {/* Hero Section - Big & Bold */}
-      <section className="min-h-[80vh] flex items-center bg-[#f5f3ef] font-[family-name:var(--font-open-sans)] relative overflow-hidden">
+      {/* Hero Section */}
+      <section className="min-h-[70vh] flex items-center bg-[#f5f3ef] font-[family-name:var(--font-open-sans)] relative overflow-hidden">
         {/* Gradient overlay for depth */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#ff6b00]/5 via-transparent to-transparent pointer-events-none"></div>
         {/* Large decorative element */}
@@ -38,211 +15,110 @@ export default function WorkWithUs() {
             <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-6">
               Work With Us
             </p>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-[family-name:var(--font-playfair)] leading-[0.95] text-[#1a1a1a] mb-10">
-              Get where you<br />want to go.
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-[family-name:var(--font-playfair)] leading-[0.95] text-[#1a1a1a] mb-8">
+              Choose your path<br />to <span className="italic text-[#ff6b00]">clarity.</span>
             </h1>
-            <Link
-              href="#contact"
-              className="inline-flex items-center justify-center px-10 py-5 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
-            >
-              Book a Call
-              <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Sound Familiar? - Dark & Dramatic */}
-      <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
-            {/* Left side - sticky heading */}
-            <div className="lg:col-span-4">
-              <div className="lg:sticky lg:top-32">
-                <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-white leading-[1.1] mb-6">
-                  Sound<br />familiar?
-                </h2>
-                <p className="text-xl text-white/50">
-                  If any of these hit home, we should talk.
-                </p>
-              </div>
-            </div>
-
-            {/* Right side - pain points */}
-            <div className="lg:col-span-8 space-y-0">
-              <div className="border-t border-white/10 py-8 group">
-                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">You know you&apos;re good. Your market doesn&apos;t.</h3>
-                <p className="text-white/50 text-lg">The work speaks for itself—except it doesn&apos;t. You&apos;re waiting to be discovered instead of being impossible to ignore.</p>
-              </div>
-
-              <div className="border-t border-white/10 py-8 group">
-                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">You blend in when you should stand out.</h3>
-                <p className="text-white/50 text-lg">You look like everyone else in your space. You compete on price because you haven&apos;t given them a reason to pay more.</p>
-              </div>
-
-              <div className="border-t border-white/10 py-8 group">
-                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">Growth stalled and you&apos;re not sure why.</h3>
-                <p className="text-white/50 text-lg">What got you here won&apos;t get you there. The tactics that worked are running out of steam.</p>
-              </div>
-
-              <div className="border-t border-white/10 py-8 group">
-                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">Your team is rowing in six different directions.</h3>
-                <p className="text-white/50 text-lg">Everyone has a different answer to &quot;what do we stand for?&quot; Decisions take forever because there&apos;s no North Star.</p>
-              </div>
-
-              <div className="border-t border-white/10 py-8 group">
-                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">You&apos;re leaving money on the table.</h3>
-                <p className="text-white/50 text-lg">You create real value but can&apos;t capture it. Margins shrink while the work gets harder.</p>
-              </div>
-
-              <div className="border-t border-b border-white/10 py-8 group">
-                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">You&apos;re ready for bold moves but stuck in place.</h3>
-                <p className="text-white/50 text-lg">You feel the urgency but lack the clarity. Big swings feel risky when you&apos;re not sure what you&apos;re swinging at.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* The Outcome - Minimal & Bold */}
-      <section className="py-24 lg:py-40 bg-white font-[family-name:var(--font-open-sans)]">
-        <div className="max-w-5xl mx-auto px-6 lg:px-8 text-center">
-          <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-8">
-            What Changes
-          </p>
-          <h2 className="text-4xl md:text-6xl lg:text-7xl font-[family-name:var(--font-playfair)] leading-[1.05] text-[#1a1a1a] mb-16">
-            Clarity. Alignment.<br />Momentum.
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-left max-w-4xl mx-auto">
-            <div>
-              <div className="text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00] mb-4">1</div>
-              <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Get Clear</h3>
-              <p className="text-[#666666]">About who you are, what you stand for, and why it matters. No more second-guessing.</p>
-            </div>
-
-            <div>
-              <div className="text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00] mb-4">2</div>
-              <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Get Aligned</h3>
-              <p className="text-[#666666]">Everyone rowing in the same direction. One story. One strategy. One team.</p>
-            </div>
-
-            <div>
-              <div className="text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00] mb-4">3</div>
-              <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Get Moving</h3>
-              <p className="text-[#666666]">Real momentum. The kind that compounds because it&apos;s built on a foundation that works.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Where Are You In Your Journey */}
-      <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)] overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="mb-16 lg:mb-24">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-white mb-4">
-              Where are you?
-            </h2>
-            <p className="text-xl text-white/50">
-              Different stages. Different strategies.
+            <p className="text-xl md:text-2xl text-[#666666] max-w-2xl leading-relaxed">
+              Whether you&apos;re a Fortune 500 or just getting started, we have a solution designed for where you are right now.
             </p>
           </div>
+        </div>
+      </section>
 
-          {/* Stacked full-width rows */}
-          <div className="space-y-0">
+      {/* Three Offerings Section - Redesigned */}
+      <section className="py-24 lg:py-32 bg-white font-[family-name:var(--font-open-sans)]">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          {/* Strategy Sprint - Full Width Feature */}
+          <Link href="/work-with-us/strategy-sprint" className="group block mb-6">
+            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#1a1a1a] to-[#2a2a2a] p-12 lg:p-16 transition-all duration-500 hover:shadow-2xl hover:shadow-black/20">
+              <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-bl from-[#ff6b00]/20 to-transparent rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                  <p className="text-sm uppercase tracking-[0.2em] text-[#ff6b00] font-semibold mb-4">For SMEs</p>
+                  <h3 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-white mb-6 group-hover:text-[#ff6b00] transition-colors duration-300">
+                    Strategy Sprint
+                  </h3>
+                  <p className="text-lg text-white/60 leading-relaxed mb-8">
+                    For businesses between $1M-$20M ready to unlock their next level. Focused, fast, and designed for your most critical challenge.
+                  </p>
+                  <div className="inline-flex items-center text-white font-semibold group-hover:text-[#ff6b00] transition-colors">
+                    Learn more
+                    <svg className="w-5 h-5 ml-3 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          {/* Two Column Grid for Partnership and University */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* Strategy Partnership */}
-            <div className="group border-t border-white/10 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-              <div className="lg:col-span-5">
-                <p className="text-white/50 text-lg lg:text-xl">
-                  You&apos;re an established enterprise navigating complex markets and competing priorities.
-                </p>
+            <Link href="/work-with-us/strategy-partnership" className="group block">
+              <div className="relative h-full overflow-hidden rounded-3xl border-2 border-[#e5e3df] bg-[#fafaf9] p-10 lg:p-12 transition-all duration-500 hover:border-[#ff6b00] hover:shadow-xl hover:shadow-[#ff6b00]/5">
+                <div className="absolute -bottom-20 -right-20 w-[300px] h-[300px] bg-gradient-to-tl from-[#ff6b00]/10 to-transparent rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="relative z-10">
+                  <p className="text-sm uppercase tracking-[0.2em] text-[#ff6b00] font-semibold mb-4">For Enterprise</p>
+                  <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-4 group-hover:text-[#ff6b00] transition-colors duration-300">
+                    Strategy Partnership
+                  </h3>
+                  <p className="text-[#666666] leading-relaxed mb-8">
+                    Deep, ongoing partnership for established enterprises navigating complex markets. Guaranteed outcomes, built for scale.
+                  </p>
+                  <div className="inline-flex items-center text-[#1a1a1a] font-semibold group-hover:text-[#ff6b00] transition-colors">
+                    Explore Partnership
+                    <svg className="w-5 h-5 ml-3 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
+                </div>
               </div>
-              <div className="lg:col-span-1 hidden lg:flex justify-center">
-                <svg className="w-8 h-8 text-[#ff6b00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </div>
-              <div className="lg:col-span-6">
-                <h3 className="text-3xl md:text-4xl lg:text-5xl font-[family-name:var(--font-playfair)] text-white group-hover:text-[#ff6b00] transition-colors mb-3">
-                  Strategy Partnership
-                </h3>
-                <p className="text-white/70 text-lg">
-                  Deep partnership. Guaranteed outcomes. Built for scale.
-                </p>
-              </div>
-            </div>
-
-            {/* Strategy Sprint */}
-            <div className="group border-t border-white/10 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-              <div className="lg:col-span-5">
-                <p className="text-white/50 text-lg lg:text-xl">
-                  You&apos;re between $1M-$20M and ready to unlock your next level of growth.
-                </p>
-              </div>
-              <div className="lg:col-span-1 hidden lg:flex justify-center">
-                <svg className="w-8 h-8 text-[#ff6b00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </div>
-              <div className="lg:col-span-6">
-                <h3 className="text-3xl md:text-4xl lg:text-5xl font-[family-name:var(--font-playfair)] text-white group-hover:text-[#ff6b00] transition-colors mb-3">
-                  Strategy Sprint
-                </h3>
-                <p className="text-white/70 text-lg">
-                  Focused. Fast. Designed to solve your most critical challenge.
-                </p>
-              </div>
-            </div>
+            </Link>
 
             {/* Clarity University */}
-            <div className="group border-t border-b border-white/10 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-              <div className="lg:col-span-5">
-                <p className="text-white/50 text-lg lg:text-xl">
-                  You&apos;re a solopreneur, small business, or startup wanting to build your own strategy.
-                </p>
+            <Link href="/work-with-us/clarity-university" className="group block">
+              <div className="relative h-full overflow-hidden rounded-3xl border-2 border-[#e5e3df] bg-[#fafaf9] p-10 lg:p-12 transition-all duration-500 hover:border-[#ff6b00] hover:shadow-xl hover:shadow-[#ff6b00]/5">
+                <div className="absolute -bottom-20 -right-20 w-[300px] h-[300px] bg-gradient-to-tl from-[#ff6b00]/10 to-transparent rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="relative z-10">
+                  <p className="text-sm uppercase tracking-[0.2em] text-[#ff6b00] font-semibold mb-4">For Entrepreneurs</p>
+                  <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-4 group-hover:text-[#ff6b00] transition-colors duration-300">
+                    Clarity University
+                  </h3>
+                  <p className="text-[#666666] leading-relaxed mb-8">
+                    Learn our proven methodology at your own pace. Enterprise-level strategy education that fits your budget and timeline.
+                  </p>
+                  <div className="inline-flex items-center text-[#1a1a1a] font-semibold group-hover:text-[#ff6b00] transition-colors">
+                    Start learning
+                    <svg className="w-5 h-5 ml-3 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
+                </div>
               </div>
-              <div className="lg:col-span-1 hidden lg:flex justify-center">
-                <svg className="w-8 h-8 text-[#ff6b00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </div>
-              <div className="lg:col-span-6">
-                <h3 className="text-3xl md:text-4xl lg:text-5xl font-[family-name:var(--font-playfair)] text-white group-hover:text-[#ff6b00] transition-colors mb-3">
-                  Clarity University
-                </h3>
-                <p className="text-white/70 text-lg">
-                  Learn our methodology. At your pace. On your budget.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* CTA */}
-          <div className="mt-16 lg:mt-24 flex flex-col sm:flex-row items-center justify-between gap-8">
-            <p className="text-xl md:text-2xl text-white/70">
-              Not sure which path fits? Let&apos;s figure it out together.
-            </p>
-            <Link
-              href="#contact"
-              className="inline-flex items-center justify-center px-10 py-5 text-lg font-bold bg-white text-[#1a1a1a] rounded-full hover:bg-[#ff6b00] hover:text-white transition-all duration-300 group whitespace-nowrap"
-            >
-              Book a Call
-              <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Pull Quote */}
-      <section className="py-20 lg:py-28 bg-[#ff6b00]">
+      {/* Not Sure Section */}
+      <section className="py-24 lg:py-32 bg-[#f5f3ef] font-[family-name:var(--font-open-sans)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <p className="text-2xl md:text-4xl lg:text-5xl font-[family-name:var(--font-playfair)] italic text-white leading-tight">
-            &ldquo;No fluff. No generic frameworks.<br />Just strategy that fits your reality.&rdquo;
+          <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] leading-tight mb-6 text-[#1a1a1a]">
+            Not sure which path fits?
+          </h2>
+          <p className="text-xl text-[#666666] max-w-2xl mx-auto mb-10">
+            Let&apos;s figure it out together. Book a free discovery call and we&apos;ll help you find the right solution for your business.
           </p>
+          <Link
+            href="#"
+            className="inline-flex items-center justify-center px-10 py-5 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
+          >
+            Book a Discovery Call
+            <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
         </div>
       </section>
     </>
