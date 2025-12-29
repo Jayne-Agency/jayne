@@ -25,75 +25,75 @@ export default function WorkWithUs() {
         </div>
       </section>
 
-      {/* Three Offerings Section */}
+      {/* Three Offerings Section - Redesigned */}
       <section className="py-24 lg:py-32 bg-white font-[family-name:var(--font-open-sans)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Strategy Partnership */}
-            <Link href="/work-with-us/strategy-partnership" className="group">
-              <div className="h-full p-10 bg-[#1a1a1a] rounded-2xl hover:bg-[#ff6b00] transition-all duration-300">
-                <div className="mb-8">
-                  <span className="text-5xl font-[family-name:var(--font-playfair)] text-[#ff6b00] group-hover:text-white transition-colors">
-                    01
-                  </span>
-                </div>
-                <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-white mb-4">
-                  Strategy Partnership
-                </h3>
-                <p className="text-white/70 group-hover:text-white/90 mb-6 leading-relaxed">
-                  For established enterprises navigating complex markets and competing priorities. Deep partnership with guaranteed outcomes.
-                </p>
-                <div className="flex items-center text-[#ff6b00] group-hover:text-white font-semibold">
-                  Learn more
-                  <svg className="w-5 h-5 ml-2 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+          {/* Strategy Partnership - Full Width Feature */}
+          <Link href="/work-with-us/strategy-partnership" className="group block mb-6">
+            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#1a1a1a] to-[#2a2a2a] p-12 lg:p-16 transition-all duration-500 hover:shadow-2xl hover:shadow-black/20">
+              <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-bl from-[#ff6b00]/20 to-transparent rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                  <p className="text-sm uppercase tracking-[0.2em] text-[#ff6b00] font-semibold mb-4">For Enterprise</p>
+                  <h3 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-white mb-6 group-hover:text-[#ff6b00] transition-colors duration-300">
+                    Strategy Partnership
+                  </h3>
+                  <p className="text-lg text-white/60 leading-relaxed mb-8">
+                    Deep, ongoing partnership for established enterprises navigating complex markets. Guaranteed outcomes, built for scale.
+                  </p>
+                  <div className="inline-flex items-center text-white font-semibold group-hover:text-[#ff6b00] transition-colors">
+                    Explore Partnership
+                    <svg className="w-5 h-5 ml-3 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
                 </div>
               </div>
-            </Link>
+            </div>
+          </Link>
 
+          {/* Two Column Grid for Sprint and University */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* Strategy Sprint */}
-            <Link href="/work-with-us/strategy-sprint" className="group">
-              <div className="h-full p-10 bg-[#1a1a1a] rounded-2xl hover:bg-[#ff6b00] transition-all duration-300">
-                <div className="mb-8">
-                  <span className="text-5xl font-[family-name:var(--font-playfair)] text-[#ff6b00] group-hover:text-white transition-colors">
-                    02
-                  </span>
-                </div>
-                <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-white mb-4">
-                  Strategy Sprint
-                </h3>
-                <p className="text-white/70 group-hover:text-white/90 mb-6 leading-relaxed">
-                  For businesses between $1M-$20M ready to unlock their next level of growth. Focused, fast, and designed to solve your most critical challenge.
-                </p>
-                <div className="flex items-center text-[#ff6b00] group-hover:text-white font-semibold">
-                  Learn more
-                  <svg className="w-5 h-5 ml-2 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+            <Link href="/work-with-us/strategy-sprint" className="group block">
+              <div className="relative h-full overflow-hidden rounded-3xl border-2 border-[#e5e3df] bg-[#fafaf9] p-10 lg:p-12 transition-all duration-500 hover:border-[#ff6b00] hover:shadow-xl hover:shadow-[#ff6b00]/5">
+                <div className="absolute -bottom-20 -right-20 w-[300px] h-[300px] bg-gradient-to-tl from-[#ff6b00]/10 to-transparent rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="relative z-10">
+                  <p className="text-sm uppercase tracking-[0.2em] text-[#ff6b00] font-semibold mb-4">For Growth-Stage</p>
+                  <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-4 group-hover:text-[#ff6b00] transition-colors duration-300">
+                    Strategy Sprint
+                  </h3>
+                  <p className="text-[#666666] leading-relaxed mb-8">
+                    For businesses between $1M-$20M ready to unlock their next level. Focused, fast, and designed for your most critical challenge.
+                  </p>
+                  <div className="inline-flex items-center text-[#1a1a1a] font-semibold group-hover:text-[#ff6b00] transition-colors">
+                    Learn more
+                    <svg className="w-5 h-5 ml-3 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
                 </div>
               </div>
             </Link>
 
             {/* Clarity University */}
-            <Link href="/work-with-us/clarity-university" className="group">
-              <div className="h-full p-10 bg-[#1a1a1a] rounded-2xl hover:bg-[#ff6b00] transition-all duration-300">
-                <div className="mb-8">
-                  <span className="text-5xl font-[family-name:var(--font-playfair)] text-[#ff6b00] group-hover:text-white transition-colors">
-                    03
-                  </span>
-                </div>
-                <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-white mb-4">
-                  Clarity University
-                </h3>
-                <p className="text-white/70 group-hover:text-white/90 mb-6 leading-relaxed">
-                  For solopreneurs, small businesses, and startups wanting to build their own strategy. Learn our methodology at your pace, on your budget.
-                </p>
-                <div className="flex items-center text-[#ff6b00] group-hover:text-white font-semibold">
-                  Learn more
-                  <svg className="w-5 h-5 ml-2 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+            <Link href="/work-with-us/clarity-university" className="group block">
+              <div className="relative h-full overflow-hidden rounded-3xl border-2 border-[#e5e3df] bg-[#fafaf9] p-10 lg:p-12 transition-all duration-500 hover:border-[#ff6b00] hover:shadow-xl hover:shadow-[#ff6b00]/5">
+                <div className="absolute -bottom-20 -right-20 w-[300px] h-[300px] bg-gradient-to-tl from-[#ff6b00]/10 to-transparent rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="relative z-10">
+                  <p className="text-sm uppercase tracking-[0.2em] text-[#ff6b00] font-semibold mb-4">For Entrepreneurs</p>
+                  <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-4 group-hover:text-[#ff6b00] transition-colors duration-300">
+                    Clarity University
+                  </h3>
+                  <p className="text-[#666666] leading-relaxed mb-8">
+                    Learn our proven methodology at your own pace. Enterprise-level strategy education that fits your budget and timeline.
+                  </p>
+                  <div className="inline-flex items-center text-[#1a1a1a] font-semibold group-hover:text-[#ff6b00] transition-colors">
+                    Start learning
+                    <svg className="w-5 h-5 ml-3 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
                 </div>
               </div>
             </Link>
