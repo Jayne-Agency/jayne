@@ -13,7 +13,46 @@ export default function WorkWithUs() {
         </p>
       </section>
 
-      {/* Sound Familiar */}
+      {/* How We Work - moved up */}
+      <section className="mb-24">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          How we work
+        </h2>
+        <div className="space-y-12">
+          <div className="border-b border-[#1a1a1a]/10 pb-8">
+            <h3 className="text-xl font-bold mb-2">Strategy Partnership</h3>
+            <p className="text-sm text-[#ff6b00] mb-4">For enterprises</p>
+            <p className="text-[#666666]">
+              Deep partnership over months. We become part of your team.
+              We work until the job is done, not until the hours run out.
+              Guaranteed outcomes because we don&apos;t leave until you have them.
+            </p>
+          </div>
+          <div className="border-b border-[#1a1a1a]/10 pb-8">
+            <h3 className="text-xl font-bold mb-2">Strategy Sprint</h3>
+            <p className="text-sm text-[#ff6b00] mb-4">For companies $1M-$20M</p>
+            <p className="text-[#666666]">
+              Focused. Fast. Designed to solve your most critical challenge.
+              We cut through the noise and give you a clear path forward.
+              No bloat. No padding. Just the work that matters.
+            </p>
+          </div>
+          <div className="border-b border-[#1a1a1a]/10 pb-8">
+            <h3 className="text-xl font-bold mb-2">Clarity University</h3>
+            <p className="text-sm text-[#ff6b00] mb-4">For founders building it themselves</p>
+            <p className="text-[#666666]">
+              Everything we know, taught step by step.
+              Our full methodology, available when you are.
+              Learn to do it yourself, at your pace, on your budget.
+            </p>
+            <a href="https://clarityuniversity.com" className="inline-block mt-4 text-[#ff6b00] hover:underline">
+              Visit Clarity University →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Sound Familiar - moved down */}
       <section className="mb-24">
         <h2 className="text-sm font-bold uppercase tracking-widest text-[#ff6b00] mb-8">
           Sound familiar?
@@ -57,45 +96,6 @@ export default function WorkWithUs() {
             <p className="text-lg text-white/70">
               The kind that compounds because it&apos;s built on a foundation that works.
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* How We Work */}
-      <section className="mb-24">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12">
-          How we work
-        </h2>
-        <div className="space-y-12">
-          <div className="border-b border-[#1a1a1a]/10 pb-8">
-            <h3 className="text-xl font-bold mb-2">Strategy Partnership</h3>
-            <p className="text-sm text-[#ff6b00] mb-4">For enterprises</p>
-            <p className="text-[#666666]">
-              Deep partnership over months. We become part of your team.
-              We work until the job is done, not until the hours run out.
-              Guaranteed outcomes because we don&apos;t leave until you have them.
-            </p>
-          </div>
-          <div className="border-b border-[#1a1a1a]/10 pb-8">
-            <h3 className="text-xl font-bold mb-2">Strategy Sprint</h3>
-            <p className="text-sm text-[#ff6b00] mb-4">For companies $1M-$20M</p>
-            <p className="text-[#666666]">
-              Focused. Fast. Designed to solve your most critical challenge.
-              We cut through the noise and give you a clear path forward.
-              No bloat. No padding. Just the work that matters.
-            </p>
-          </div>
-          <div className="border-b border-[#1a1a1a]/10 pb-8">
-            <h3 className="text-xl font-bold mb-2">Clarity University</h3>
-            <p className="text-sm text-[#ff6b00] mb-4">For founders building it themselves</p>
-            <p className="text-[#666666]">
-              Everything we know, taught step by step.
-              Our full methodology, available when you are.
-              Learn to do it yourself, at your pace, on your budget.
-            </p>
-            <a href="https://clarityuniversity.com" className="inline-block mt-4 text-[#ff6b00] hover:underline">
-              Visit Clarity University →
-            </a>
           </div>
         </div>
       </section>
