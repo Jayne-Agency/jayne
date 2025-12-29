@@ -5,268 +5,331 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="min-h-[80vh] flex flex-col items-center justify-center pt-20 bg-[#f5f3ef] relative overflow-hidden">
-        {/* Gradient overlay for depth */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#ff6b00]/5 via-transparent to-transparent pointer-events-none"></div>
-
-        {/* Large decorative element */}
         <div className="absolute top-20 right-0 w-[800px] h-[800px] bg-[#ff6b00] rounded-full blur-[200px] opacity-10 pointer-events-none"></div>
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32 text-center relative z-10">
           <div className="max-w-5xl mx-auto">
-            {/* Eyebrow text */}
-            <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-8 opacity-0 animate-fade-in-up">
-              Strategy That Delivers
+            <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-8">
+              $800MM+ in Client Outcomes
             </p>
 
-            <h1 className="text-5xl md:text-8xl lg:text-9xl font-[family-name:var(--font-playfair)] leading-[0.9] tracking-tighter opacity-0 animate-fade-in-up animation-delay-100">
-              <span className="text-[#1a1a1a] block mb-4">Business</span>
-              <span className="text-[#ff6b00] block italic">Breakthroughs</span>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-[family-name:var(--font-playfair)] leading-[0.9] tracking-tighter">
+              <span className="text-[#1a1a1a] block mb-4">Stop Blending In.</span>
+              <span className="text-[#ff6b00] block italic">Start Getting Chosen.</span>
             </h1>
 
-            <p className="mt-12 text-xl md:text-2xl text-[#666666] max-w-3xl mx-auto leading-relaxed opacity-0 animate-fade-in-up animation-delay-200 font-light">
-              You&apos;ve built something real. But if your market doesn&apos;t see what makes you different, growth stalls. We fix that.
+            <p className="mt-12 text-xl md:text-2xl text-[#666666] max-w-3xl mx-auto leading-relaxed font-light">
+              We help businesses become impossible to ignore. Get the brand clarity that turns &quot;maybe later&quot; into &quot;take my money.&quot;
             </p>
 
-            <div className="mt-16 opacity-0 animate-fade-in-up animation-delay-400">
+            <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="#offerings"
-                className="inline-flex items-center justify-center px-8 md:px-12 py-5 md:py-6 text-base md:text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 border-2 border-[#ff6b00] hover:border-[#1a1a1a] group"
+                className="inline-flex items-center justify-center px-8 md:px-12 py-5 md:py-6 text-base md:text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
               >
-                See How We Work
+                See Your Options
                 <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
+              </Link>
+              <Link
+                href="/case-studies"
+                className="inline-flex items-center justify-center px-8 md:px-12 py-5 md:py-6 text-base md:text-lg font-bold bg-transparent text-[#1a1a1a] rounded-full border-2 border-[#1a1a1a] hover:bg-[#1a1a1a] hover:text-white transition-all duration-300"
+              >
+                See the Proof
               </Link>
             </div>
           </div>
         </div>
 
-        {/* Client Logo Carousel */}
-        <div className="w-full py-12 border-t border-[#e5e3df]">
+        {/* Social Proof Bar */}
+        <div className="w-full py-8 border-t border-[#e5e3df] bg-white/50">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
-            <p className="text-center text-sm text-[#ff6b00] uppercase tracking-widest mb-8 font-semibold">
-              Companies we are proud to have partnered with
-            </p>
-            <div className="flex flex-wrap justify-center items-center gap-4 md:gap-10 mb-8">
-              {/* PepsiCo logo */}
-              <div className="h-20 md:h-32 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
-                <img src="/pepsico.png" alt="PepsiCo" className="h-full w-auto object-contain bg-transparent" />
+            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] font-bold">$800MM+</div>
+                <div className="text-sm text-[#666666]">Client Outcomes</div>
               </div>
-
-              {/* Red Cross logo */}
-              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
-                <img src="/redcross.png" alt="Red Cross" className="h-full w-auto object-contain bg-transparent" />
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] font-bold">15+</div>
+                <div className="text-sm text-[#666666]">Years in Business</div>
               </div>
-
-              {/* Mondelez logo */}
-              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
-                <img src="/mondelez.png" alt="Mondelez" className="h-full w-auto object-contain bg-transparent" />
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] font-bold">100s</div>
+                <div className="text-sm text-[#666666]">Brands Transformed</div>
               </div>
-
-              {/* Allstate logo */}
-              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
-                <img src="/allstate.png" alt="Allstate" className="h-full w-auto object-contain bg-transparent" />
-              </div>
-
-              {/* Abbott logo */}
-              <div className="h-10 md:h-16 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
-                <img src="/abbott.png" alt="Abbott" className="h-full w-auto object-contain bg-transparent" />
-              </div>
-            </div>
-
-            {/* Many more text on separate line */}
-            <div className="text-center">
-              <div className="text-2xl md:text-3xl font-[family-name:var(--font-playfair)] italic text-[#1a1a1a]">
-                + many more
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] font-bold">83%</div>
+                <div className="text-sm text-[#666666]">Avg. Engagement Rate</div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Where Are You In Your Journey - Offerings */}
-      <section id="offerings" className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)] overflow-hidden">
+      {/* The Problem Section */}
+      <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="mb-16 lg:mb-24">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-white mb-4">
-              Where are you?
+          <div className="max-w-4xl">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-white leading-[1.1] mb-12">
+              Here&apos;s the problem:
             </h2>
-            <p className="text-xl text-white/50">
-              Different stages. Different strategies.
+            <div className="space-y-8 text-xl md:text-2xl text-white/80 leading-relaxed">
+              <p>
+                You&apos;re <span className="text-white font-semibold">leaving money on the table</span> every single day because your market can&apos;t tell you apart from your competitors.
+              </p>
+              <p>
+                You compete on price when you should compete on value. You chase leads that ghost you. You discount to close deals you shouldn&apos;t have to discount.
+              </p>
+              <p>
+                The average business loses <span className="text-[#ff6b00] font-bold">20-40% of potential revenue</span> due to unclear positioning. That&apos;s not a branding problem. That&apos;s a cash flow problem.
+              </p>
+              <p className="text-white font-semibold">
+                We fix that.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Three Paths Section */}
+      <section id="offerings" className="py-24 lg:py-32 bg-white font-[family-name:var(--font-open-sans)]">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-6">
+              Three ways to work with us
+            </h2>
+            <p className="text-xl text-[#666666] max-w-2xl mx-auto">
+              Pick the path that matches your budget and timeline. All three use the same proven methodology.
             </p>
           </div>
 
-          {/* Stacked full-width rows */}
-          <div className="space-y-0">
-            {/* Strategy Partnership */}
-            <Link href="/work-with-us/strategy-partnership" className="group border-t border-white/10 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center block">
-              <div className="lg:col-span-5">
-                <p className="text-white/50 text-lg lg:text-xl">
-                  You&apos;re an established enterprise navigating complex markets and competing priorities.
-                </p>
-              </div>
-              <div className="lg:col-span-1 hidden lg:flex justify-center">
-                <svg className="w-8 h-8 text-[#ff6b00] group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </div>
-              <div className="lg:col-span-6">
-                <h3 className="text-3xl md:text-4xl lg:text-5xl font-[family-name:var(--font-playfair)] text-white group-hover:text-[#ff6b00] transition-colors mb-3">
-                  Strategy Partnership
-                </h3>
-                <p className="text-white/70 text-lg">
-                  Deep partnership. Guaranteed outcomes. Built for scale.
-                </p>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Strategy Sprint */}
+            <Link href="/work-with-us/strategy-sprint" className="group block">
+              <div className="h-full p-8 lg:p-10 bg-[#1a1a1a] rounded-3xl hover:scale-[1.02] transition-all duration-300 flex flex-col">
+                <div className="mb-auto">
+                  <p className="text-[#ff6b00] font-bold text-sm uppercase tracking-wider mb-4">Most Popular</p>
+                  <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-white mb-4 group-hover:text-[#ff6b00] transition-colors">
+                    Strategy Sprint
+                  </h3>
+                  <p className="text-white/60 mb-6">
+                    Complete brand strategy in 6 weeks. For businesses $1M-$20M ready to stop blending in.
+                  </p>
+                  <div className="space-y-3 text-white/80 text-sm mb-8">
+                    <div className="flex items-center gap-2">
+                      <svg className="w-5 h-5 text-[#ff6b00]" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                      Brand positioning & strategy
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <svg className="w-5 h-5 text-[#ff6b00]" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                      Messaging framework
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <svg className="w-5 h-5 text-[#ff6b00]" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                      90-day implementation roadmap
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <svg className="w-5 h-5 text-[#ff6b00]" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                      2 follow-up strategy sessions
+                    </div>
+                  </div>
+                </div>
+                <div className="pt-6 border-t border-white/10">
+                  <div className="flex items-baseline gap-2 mb-4">
+                    <span className="text-3xl font-bold text-white">$25,000</span>
+                    <span className="text-white/50">one-time</span>
+                  </div>
+                  <div className="inline-flex items-center text-[#ff6b00] font-semibold group-hover:translate-x-2 transition-transform">
+                    Learn more
+                    <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
+                </div>
               </div>
             </Link>
 
-            {/* Strategy Sprint */}
-            <Link href="/work-with-us/strategy-sprint" className="group border-t border-white/10 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center block">
-              <div className="lg:col-span-5">
-                <p className="text-white/50 text-lg lg:text-xl">
-                  You&apos;re between $1M-$20M and ready to unlock your next level of growth.
-                </p>
-              </div>
-              <div className="lg:col-span-1 hidden lg:flex justify-center">
-                <svg className="w-8 h-8 text-[#ff6b00] group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </div>
-              <div className="lg:col-span-6">
-                <h3 className="text-3xl md:text-4xl lg:text-5xl font-[family-name:var(--font-playfair)] text-white group-hover:text-[#ff6b00] transition-colors mb-3">
-                  Strategy Sprint
-                </h3>
-                <p className="text-white/70 text-lg">
-                  Focused. Fast. Designed to solve your most critical challenge.
-                </p>
+            {/* Strategy Partnership */}
+            <Link href="/work-with-us/strategy-partnership" className="group block">
+              <div className="h-full p-8 lg:p-10 bg-[#f5f3ef] rounded-3xl border-2 border-[#e5e3df] hover:border-[#ff6b00] hover:scale-[1.02] transition-all duration-300 flex flex-col">
+                <div className="mb-auto">
+                  <p className="text-[#ff6b00] font-bold text-sm uppercase tracking-wider mb-4">For Enterprise</p>
+                  <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-4 group-hover:text-[#ff6b00] transition-colors">
+                    Strategy Partnership
+                  </h3>
+                  <p className="text-[#666666] mb-6">
+                    Ongoing strategic partner for enterprises. Dedicated team, guaranteed outcomes.
+                  </p>
+                  <div className="space-y-3 text-[#666666] text-sm mb-8">
+                    <div className="flex items-center gap-2">
+                      <svg className="w-5 h-5 text-[#ff6b00]" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                      Dedicated strategy team
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <svg className="w-5 h-5 text-[#ff6b00]" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                      Executive advisory access
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <svg className="w-5 h-5 text-[#ff6b00]" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                      Performance guarantees
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <svg className="w-5 h-5 text-[#ff6b00]" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                      Quarterly strategy reviews
+                    </div>
+                  </div>
+                </div>
+                <div className="pt-6 border-t border-[#e5e3df]">
+                  <div className="flex items-baseline gap-2 mb-4">
+                    <span className="text-3xl font-bold text-[#1a1a1a]">$15,000</span>
+                    <span className="text-[#666666]">/month</span>
+                  </div>
+                  <div className="inline-flex items-center text-[#ff6b00] font-semibold group-hover:translate-x-2 transition-transform">
+                    Learn more
+                    <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
+                </div>
               </div>
             </Link>
 
             {/* Clarity University */}
-            <Link href="/work-with-us/clarity-university" className="group border-t border-b border-white/10 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center block">
-              <div className="lg:col-span-5">
-                <p className="text-white/50 text-lg lg:text-xl">
-                  You&apos;re a solopreneur, small business, or startup wanting to build your own strategy.
-                </p>
+            <Link href="/work-with-us/clarity-university" className="group block">
+              <div className="h-full p-8 lg:p-10 bg-[#f5f3ef] rounded-3xl border-2 border-[#e5e3df] hover:border-[#ff6b00] hover:scale-[1.02] transition-all duration-300 flex flex-col">
+                <div className="mb-auto">
+                  <p className="text-[#ff6b00] font-bold text-sm uppercase tracking-wider mb-4">DIY Option</p>
+                  <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-4 group-hover:text-[#ff6b00] transition-colors">
+                    Clarity University
+                  </h3>
+                  <p className="text-[#666666] mb-6">
+                    Learn our methodology yourself. Same frameworks, fraction of the cost.
+                  </p>
+                  <div className="space-y-3 text-[#666666] text-sm mb-8">
+                    <div className="flex items-center gap-2">
+                      <svg className="w-5 h-5 text-[#ff6b00]" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                      12+ hours of video training
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <svg className="w-5 h-5 text-[#ff6b00]" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                      Templates & worksheets
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <svg className="w-5 h-5 text-[#ff6b00]" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                      Private community access
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <svg className="w-5 h-5 text-[#ff6b00]" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                      Monthly group coaching
+                    </div>
+                  </div>
+                </div>
+                <div className="pt-6 border-t border-[#e5e3df]">
+                  <div className="flex items-baseline gap-2 mb-4">
+                    <span className="text-3xl font-bold text-[#1a1a1a]">$997</span>
+                    <span className="text-[#666666]">one-time</span>
+                  </div>
+                  <div className="inline-flex items-center text-[#ff6b00] font-semibold group-hover:translate-x-2 transition-transform">
+                    Learn more
+                    <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
+                </div>
               </div>
-              <div className="lg:col-span-1 hidden lg:flex justify-center">
-                <svg className="w-8 h-8 text-[#ff6b00] group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Case Study Proof Section */}
+      <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)]">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-white mb-6">
+              Don&apos;t take our word for it
+            </h2>
+            <p className="text-xl text-white/60">
+              Here&apos;s what happens when clarity meets execution.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Link href="/case-studies/pepsico" className="group block p-8 lg:p-12 bg-white/5 rounded-3xl hover:bg-white/10 transition-all">
+              <p className="text-[#ff6b00] font-bold text-sm uppercase tracking-wider mb-4">PepsiCo</p>
+              <h3 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] text-white mb-4">
+                $800MM
+              </h3>
+              <p className="text-white/60 mb-6">
+                in diverse supplier spend achieved through strategic brand positioning and stakeholder alignment.
+              </p>
+              <div className="inline-flex items-center text-[#ff6b00] font-semibold group-hover:translate-x-2 transition-transform">
+                Read case study
+                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </div>
-              <div className="lg:col-span-6">
-                <h3 className="text-3xl md:text-4xl lg:text-5xl font-[family-name:var(--font-playfair)] text-white group-hover:text-[#ff6b00] transition-colors mb-3">
-                  Clarity University
-                </h3>
-                <p className="text-white/70 text-lg">
-                  Learn our methodology. At your pace. On your budget.
-                </p>
-              </div>
             </Link>
-          </div>
 
-          {/* CTA */}
-          <div className="mt-16 lg:mt-24 flex flex-col sm:flex-row items-center justify-between gap-8">
-            <p className="text-xl md:text-2xl text-white/70">
-              Not sure which path fits? Let&apos;s figure it out together.
-            </p>
-            <Link
-              href="#contact"
-              className="inline-flex items-center justify-center px-10 py-5 text-lg font-bold bg-white text-[#1a1a1a] rounded-full hover:bg-[#ff6b00] hover:text-white transition-all duration-300 group whitespace-nowrap"
-            >
-              Book a Call
-              <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
+            <Link href="/case-studies/hornitos" className="group block p-8 lg:p-12 bg-white/5 rounded-3xl hover:bg-white/10 transition-all">
+              <p className="text-[#ff6b00] font-bold text-sm uppercase tracking-wider mb-4">Hornitos Tequila</p>
+              <h3 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] text-white mb-4">
+                83% Open Rate
+              </h3>
+              <p className="text-white/60 mb-6">
+                on campaign communications with 79% event attendance through targeted messaging strategy.
+              </p>
+              <div className="inline-flex items-center text-[#ff6b00] font-semibold group-hover:translate-x-2 transition-transform">
+                Read case study
+                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* The Outcome - Minimal & Bold */}
-      <section className="py-24 lg:py-40 bg-white font-[family-name:var(--font-open-sans)]">
-        <div className="max-w-5xl mx-auto px-6 lg:px-8 text-center">
-          <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-8">
-            What Changes
-          </p>
-          <h2 className="text-4xl md:text-6xl lg:text-7xl font-[family-name:var(--font-playfair)] leading-[1.05] text-[#1a1a1a] mb-16">
-            Clarity. Alignment.<br />Momentum.
+      {/* Guarantee Section */}
+      <section className="py-24 lg:py-32 bg-[#ff6b00] font-[family-name:var(--font-open-sans)]">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-white mb-8">
+            Our Guarantee
           </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-left max-w-4xl mx-auto">
-            <div>
-              <div className="text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00] mb-4">1</div>
-              <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Get Clear</h3>
-              <p className="text-[#666666]">About who you are, what you stand for, and why it matters. No more second-guessing.</p>
-            </div>
-
-            <div>
-              <div className="text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00] mb-4">2</div>
-              <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Get Aligned</h3>
-              <p className="text-[#666666]">Everyone rowing in the same direction. One story. One strategy. One team.</p>
-            </div>
-
-            <div>
-              <div className="text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00] mb-4">3</div>
-              <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Get Moving</h3>
-              <p className="text-[#666666]">Real momentum. The kind that compounds because it&apos;s built on a foundation that works.</p>
-            </div>
-          </div>
+          <p className="text-xl md:text-2xl text-white/90 leading-relaxed mb-8">
+            If you complete the Strategy Sprint and don&apos;t feel like you have complete clarity on your brand positioning and messaging, we&apos;ll keep working with you until you do—at no additional cost.
+          </p>
+          <p className="text-lg text-white/70">
+            We&apos;ve never had to use this guarantee. But it&apos;s there so you can say yes with confidence.
+          </p>
         </div>
       </section>
 
-      {/* Sound Familiar? - Dark & Dramatic */}
-      <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
-            {/* Left side - sticky heading */}
-            <div className="lg:col-span-4">
-              <div className="lg:sticky lg:top-32">
-                <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-white leading-[1.1] mb-6">
-                  Sound<br />familiar?
-                </h2>
-                <p className="text-xl text-white/50">
-                  If any of these hit home, we should talk.
-                </p>
-              </div>
-            </div>
-
-            {/* Right side - pain points */}
-            <div className="lg:col-span-8 space-y-0">
-              <div className="border-t border-white/10 py-8 group">
-                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">You know you&apos;re good. Your market doesn&apos;t.</h3>
-                <p className="text-white/50 text-lg">The work speaks for itself—except it doesn&apos;t. You&apos;re waiting to be discovered instead of being impossible to ignore.</p>
-              </div>
-
-              <div className="border-t border-white/10 py-8 group">
-                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">You blend in when you should stand out.</h3>
-                <p className="text-white/50 text-lg">You look like everyone else in your space. You compete on price because you haven&apos;t given them a reason to pay more.</p>
-              </div>
-
-              <div className="border-t border-white/10 py-8 group">
-                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">Growth stalled and you&apos;re not sure why.</h3>
-                <p className="text-white/50 text-lg">What got you here won&apos;t get you there. The tactics that worked are running out of steam.</p>
-              </div>
-
-              <div className="border-t border-white/10 py-8 group">
-                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">Your team is rowing in six different directions.</h3>
-                <p className="text-white/50 text-lg">Everyone has a different answer to &quot;what do we stand for?&quot; Decisions take forever because there&apos;s no North Star.</p>
-              </div>
-
-              <div className="border-t border-white/10 py-8 group">
-                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">You&apos;re leaving money on the table.</h3>
-                <p className="text-white/50 text-lg">You create real value but can&apos;t capture it. Margins shrink while the work gets harder.</p>
-              </div>
-
-              <div className="border-t border-b border-white/10 py-8 group">
-                <h3 className="text-2xl md:text-3xl text-white mb-3 group-hover:text-[#ff6b00] transition-colors">You&apos;re ready for bold moves but stuck in place.</h3>
-                <p className="text-white/50 text-lg">You feel the urgency but lack the clarity. Big swings feel risky when you&apos;re not sure what you&apos;re swinging at.</p>
-              </div>
-            </div>
-          </div>
+      {/* Final CTA Section */}
+      <section className="py-24 lg:py-32 bg-[#0a0a0a] font-[family-name:var(--font-open-sans)]">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-white mb-6">
+            Ready to stop leaving money on the table?
+          </h2>
+          <p className="text-xl text-white/60 mb-10">
+            Book a free 30-minute strategy call. We&apos;ll diagnose your biggest positioning gaps and tell you exactly how to fix them—whether you work with us or not.
+          </p>
+          <Link
+            href="#"
+            className="inline-flex items-center justify-center px-12 py-6 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-white hover:text-[#0a0a0a] transition-all duration-300 group"
+          >
+            Book Your Free Strategy Call
+            <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
+          <p className="mt-6 text-sm text-white/40">
+            No pitch. No pressure. Just clarity.
+          </p>
         </div>
       </section>
-
     </>
   );
 }
