@@ -267,14 +267,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pull Quote */}
-      <section className="py-20 lg:py-28 bg-[#ff6b00]">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <p className="text-2xl md:text-4xl lg:text-5xl font-[family-name:var(--font-playfair)] italic text-white leading-tight">
-            &ldquo;No fluff. No generic frameworks.<br />Just strategy that fits your reality.&rdquo;
-          </p>
-        </div>
-      </section>
     </>
   );
 }
