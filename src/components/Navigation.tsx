@@ -14,7 +14,7 @@ export function Navigation() {
   const isWorkWithUsActive = pathname.startsWith("/work-with-us");
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-lg border-b border-[#e8e4dc] shadow-lg shadow-black/5">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#faf6f0]/95 backdrop-blur-lg">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -81,7 +81,7 @@ export function Navigation() {
                   workWithUsOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
                 }`}
               >
-                <div className="bg-white rounded-2xl shadow-xl shadow-black/10 border border-[#ebe7e0] p-2 min-w-[280px]">
+                <div className="bg-[#faf6f0] rounded-2xl shadow-xl shadow-black/10 border border-[#e8e4dc] p-2 min-w-[280px]">
                   <Link
                     href="/work-with-us/strategy-partnership"
                     className="block px-4 py-3 rounded-xl hover:bg-[#f5f1ea] transition-colors group"
@@ -181,7 +181,7 @@ export function Navigation() {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden absolute top-full left-0 right-0 bg-white/98 backdrop-blur-xl border-b border-[#e8e4dc] shadow-2xl transition-all duration-300 ${
+        className={`md:hidden absolute top-full left-0 right-0 bg-[#faf6f0]/98 backdrop-blur-xl shadow-xl transition-all duration-300 ${
           isOpen ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-4"
         }`}
       >
