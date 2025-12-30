@@ -167,7 +167,7 @@ export default function AboutUs() {
             Let&apos;s talk about how we can help your business reach its most important goals.
           </p>
           <Link
-            href="/work-with-us"
+            href="/work-with-us/strategy-partnership"
             className="inline-flex items-center justify-center px-10 py-5 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-white hover:text-[#0a0a0a] hover:scale-105 transition-all duration-300 shadow-lg shadow-[#ff6b00]/30 group"
           >
             Work With Us

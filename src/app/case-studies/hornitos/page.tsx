@@ -282,7 +282,7 @@ export default function HornitosCaseStudy() {
             Let&apos;s talk about turning your audience into advocates.
           </p>
           <Link
-            href="/work-with-us"
+            href="/work-with-us/strategy-partnership"
             className="inline-flex items-center justify-center px-12 py-6 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-white hover:text-[#1a1a1a] transition-all duration-300 group"
           >
             Work With Us

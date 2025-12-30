@@ -10,7 +10,7 @@ export default function StrategySprint() {
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 pt-32">
           <div className="max-w-4xl">
-            <Link href="/work-with-us" className="inline-flex items-center text-[#ff6b00] hover:text-[#ff8c3a] mb-8 transition-colors">
+            <Link href="/" className="inline-flex items-center text-[#ff6b00] hover:text-[#ff8c3a] mb-8 transition-colors">
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16l-4-4m0 0l4-4m-4 4h18" />
               </svg>

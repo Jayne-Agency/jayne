@@ -54,9 +54,8 @@ export function Navigation() {
               onMouseEnter={() => setWorkWithUsOpen(true)}
               onMouseLeave={() => setWorkWithUsOpen(false)}
             >
-              <Link
-                href="/work-with-us"
-                className={`text-sm font-medium relative group transition-colors duration-300 inline-flex items-center gap-1 ${
+              <span
+                className={`text-sm font-medium relative group transition-colors duration-300 inline-flex items-center gap-1 cursor-pointer ${
                   isWorkWithUsActive
                     ? "text-black"
                     : "text-gray-600 hover:text-black"
@@ -74,7 +73,7 @@ export function Navigation() {
                 <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] transition-all duration-300 ${
                   isWorkWithUsActive ? "w-full" : "w-0 group-hover:w-full"
                 }`} />
-              </Link>
+              </span>
 
               {/* Dropdown Menu */}
               <div
@@ -201,17 +200,9 @@ export function Navigation() {
 
           {/* Work With Us Section in Mobile */}
           <div className="space-y-1">
-            <Link
-              href="/work-with-us"
-              onClick={() => setIsOpen(false)}
-              className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
-                isActive("/work-with-us")
-                  ? "bg-[#ff6b00]/10 text-black border-l-2 border-[#ff6b00]"
-                  : "text-gray-600 hover:text-black hover:bg-gray-50"
-              }`}
-            >
+            <div className="px-4 py-3 text-base font-medium text-gray-600">
               Work With Us
-            </Link>
+            </div>
             <div className="pl-4 space-y-1">
               <Link
                 href="/work-with-us/strategy-partnership"

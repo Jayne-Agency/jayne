@@ -147,7 +147,7 @@ export default function CaseStudies() {
             Let&apos;s talk about what&apos;s possible.
           </p>
           <Link
-            href="/work-with-us"
+            href="/work-with-us/strategy-partnership"
             className="inline-flex items-center justify-center px-12 py-6 text-lg font-bold bg-[#1a1a1a] text-white rounded-full hover:bg-white hover:text-[#1a1a1a] transition-all duration-300 group"
           >
             Work With Us
