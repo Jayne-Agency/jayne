@@ -87,7 +87,7 @@ export default function Home() {
               When your team can&apos;t explain what you do the same way twice, it&apos;s not your messaging.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
-              It&apos;s a <span className="text-[#ff6b00]">clarity</span> problem.
+              It&apos;s a <span className="text-[#f57214]">clarity</span> problem.
             </p>
           </div>
 
@@ -96,7 +96,7 @@ export default function Home() {
               When you attract the wrong clients and lose the right ones, it&apos;s not your sales team.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
-              It&apos;s a <span className="text-[#ff6b00]">positioning</span> problem.
+              It&apos;s a <span className="text-[#f57214]">positioning</span> problem.
             </p>
           </div>
 
@@ -105,7 +105,7 @@ export default function Home() {
               When growth stalls and you don&apos;t know where to focus, it&apos;s not your tactics.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
-              It&apos;s a <span className="text-[#ff6b00]">strategy</span> problem.
+              It&apos;s a <span className="text-[#f57214]">strategy</span> problem.
             </p>
           </div>
 
@@ -118,7 +118,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
             We work with leaders who know they&apos;re on the brink of something.
           </h2>
-          <p className="text-xl md:text-2xl text-[#ff6b00] italic mb-8">
+          <p className="text-xl md:text-2xl text-[#f57214] italic mb-8">
             A transaction. A transition. A transformation.
           </p>
           <p className="text-xl md:text-2xl text-[#8a8178]">
@@ -144,7 +144,7 @@ export default function Home() {
           <div className="reveal mt-16">
             <Link
               href="/contact"
-              className="inline-block px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-full hover:bg-[#ff6b00] transition-colors duration-300"
+              className="inline-block px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-full hover:bg-[#f57214] transition-colors duration-300"
             >
               Let&apos;s talk
             </Link>
@@ -161,37 +161,37 @@ export default function Home() {
           <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
 
             <Link href="/work-with-us/strategy-partnership" className="group">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors mb-4">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
                 Partnership
               </h3>
               <p className="text-lg text-[#8a8178] mb-4">
                 For organizations navigating major transitions and transformations.
               </p>
-              <span className="text-[#ff6b00]">
+              <span className="text-[#f57214]">
                 Learn more →
               </span>
             </Link>
 
             <Link href="/work-with-us/clarity-university" className="group">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors mb-4">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
                 Clarity University
               </h3>
               <p className="text-lg text-[#8a8178] mb-4">
                 For founders who need the methodology on their own timeline.
               </p>
-              <span className="text-[#ff6b00]">
+              <span className="text-[#f57214]">
                 Explore courses →
               </span>
             </Link>
 
             <Link href="/work-with-us/strategy-sprint" className="group">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors mb-4">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
                 Sprint
               </h3>
               <p className="text-lg text-[#8a8178] mb-4">
                 For growing businesses ready to solve their most critical challenge.
               </p>
-              <span className="text-[#ff6b00]">
+              <span className="text-[#f57214]">
                 See how it works →
               </span>
             </Link>
@@ -209,12 +209,12 @@ export default function Home() {
           <p className="text-lg text-white/50 mb-3">
             The question is:
           </p>
-          <p className="text-2xl md:text-4xl text-[#ff6b00] italic mb-12">
+          <p className="text-2xl md:text-4xl text-[#f57214] italic mb-12">
             Will you steer it, or will it steer you?
           </p>
           <Link
             href="/contact"
-            className="inline-block px-10 py-5 text-lg bg-[#ff6b00] text-white rounded-full hover:bg-white hover:text-[#1a1a1a] transition-colors duration-300"
+            className="inline-block px-10 py-5 text-lg bg-[#f57214] text-white rounded-full hover:bg-white hover:text-[#1a1a1a] transition-colors duration-300"
           >
             Start the conversation
           </Link>

@@ -43,7 +43,7 @@ export function Navigation() {
               }`}
             >
               About Us
-              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] transition-all duration-300 ${
+              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
                 isActive("/about-us") ? "w-full" : "w-0 group-hover:w-full"
               }`} />
             </Link>
@@ -70,7 +70,7 @@ export function Navigation() {
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
-                <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] transition-all duration-300 ${
+                <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
                   isWorkWithUsActive ? "w-full" : "w-0 group-hover:w-full"
                 }`} />
               </span>
@@ -86,7 +86,7 @@ export function Navigation() {
                     href="/work-with-us/strategy-partnership"
                     className="block px-4 py-3 rounded-xl hover:bg-[#f5f1ea] transition-colors group"
                   >
-                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
+                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
                       Partnership
                     </div>
                     <div className="text-sm text-[#9d968c] mt-0.5">
@@ -97,7 +97,7 @@ export function Navigation() {
                     href="/work-with-us/strategy-sprint"
                     className="block px-4 py-3 rounded-xl hover:bg-[#f5f1ea] transition-colors group"
                   >
-                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
+                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
                       Sprint
                     </div>
                     <div className="text-sm text-[#9d968c] mt-0.5">
@@ -108,7 +108,7 @@ export function Navigation() {
                     href="/work-with-us/clarity-university"
                     className="block px-4 py-3 rounded-xl hover:bg-[#f5f1ea] transition-colors group"
                   >
-                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
+                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
                       Clarity University
                     </div>
                     <div className="text-sm text-[#9d968c] mt-0.5">
@@ -128,7 +128,7 @@ export function Navigation() {
               }`}
             >
               Results
-              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] transition-all duration-300 ${
+              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
                 isActive("/results") ? "w-full" : "w-0 group-hover:w-full"
               }`} />
             </Link>
@@ -138,7 +138,7 @@ export function Navigation() {
           <div className="hidden md:block">
             <Link
               href="#"
-              className="inline-flex items-center px-6 py-2.5 text-sm font-semibold bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] text-white rounded-full hover:shadow-lg hover:shadow-[#ff6b00]/50 hover:scale-105 transition-all duration-300"
+              className="inline-flex items-center px-6 py-2.5 text-sm font-semibold bg-gradient-to-r from-[#f57214] to-[#f8923a] text-white rounded-full hover:shadow-lg hover:shadow-[#f57214]/50 hover:scale-105 transition-all duration-300"
             >
               Book a Call
             </Link>
@@ -191,7 +191,7 @@ export function Navigation() {
             onClick={() => setIsOpen(false)}
             className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
               isActive("/about-us")
-                ? "bg-[#ff6b00]/10 text-black border-l-2 border-[#ff6b00]"
+                ? "bg-[#f57214]/10 text-black border-l-2 border-[#f57214]"
                 : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
             }`}
           >
@@ -209,7 +209,7 @@ export function Navigation() {
                 onClick={() => setIsOpen(false)}
                 className={`block px-4 py-2 text-sm rounded-lg transition-all duration-300 ${
                   isActive("/work-with-us/strategy-partnership")
-                    ? "bg-[#ff6b00]/10 text-[#ff6b00]"
+                    ? "bg-[#f57214]/10 text-[#f57214]"
                     : "text-[#9d968c] hover:text-black hover:bg-[#faf6f0]"
                 }`}
               >
@@ -220,7 +220,7 @@ export function Navigation() {
                 onClick={() => setIsOpen(false)}
                 className={`block px-4 py-2 text-sm rounded-lg transition-all duration-300 ${
                   isActive("/work-with-us/strategy-sprint")
-                    ? "bg-[#ff6b00]/10 text-[#ff6b00]"
+                    ? "bg-[#f57214]/10 text-[#f57214]"
                     : "text-[#9d968c] hover:text-black hover:bg-[#faf6f0]"
                 }`}
               >
@@ -231,7 +231,7 @@ export function Navigation() {
                 onClick={() => setIsOpen(false)}
                 className={`block px-4 py-2 text-sm rounded-lg transition-all duration-300 ${
                   isActive("/work-with-us/clarity-university")
-                    ? "bg-[#ff6b00]/10 text-[#ff6b00]"
+                    ? "bg-[#f57214]/10 text-[#f57214]"
                     : "text-[#9d968c] hover:text-black hover:bg-[#faf6f0]"
                 }`}
               >
@@ -245,7 +245,7 @@ export function Navigation() {
             onClick={() => setIsOpen(false)}
             className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
               isActive("/results")
-                ? "bg-[#ff6b00]/10 text-black border-l-2 border-[#ff6b00]"
+                ? "bg-[#f57214]/10 text-black border-l-2 border-[#f57214]"
                 : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
             }`}
           >
@@ -255,7 +255,7 @@ export function Navigation() {
             <Link
               href="#"
               onClick={() => setIsOpen(false)}
-              className="flex items-center justify-center w-full px-6 py-3 text-sm font-semibold bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] text-white rounded-full hover:shadow-lg hover:shadow-[#ff6b00]/50 transition-all duration-300"
+              className="flex items-center justify-center w-full px-6 py-3 text-sm font-semibold bg-gradient-to-r from-[#f57214] to-[#f8923a] text-white rounded-full hover:shadow-lg hover:shadow-[#f57214]/50 transition-all duration-300"
             >
               Book a Call
             </Link>

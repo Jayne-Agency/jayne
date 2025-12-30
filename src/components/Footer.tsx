@@ -30,37 +30,37 @@ export function Footer() {
             </h4>
             <ul className="space-y-3">
               <li>
-                <Link href="/" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
+                <Link href="/" className="text-[#1a1a1a] hover:text-[#f57214] transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about-us" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
+                <Link href="/about-us" className="text-[#1a1a1a] hover:text-[#f57214] transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/work-with-us/strategy-partnership" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
+                <Link href="/work-with-us/strategy-partnership" className="text-[#1a1a1a] hover:text-[#f57214] transition-colors">
                   Partnership
                 </Link>
               </li>
               <li>
-                <Link href="/work-with-us/strategy-sprint" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
+                <Link href="/work-with-us/strategy-sprint" className="text-[#1a1a1a] hover:text-[#f57214] transition-colors">
                   Sprint
                 </Link>
               </li>
               <li>
-                <Link href="/work-with-us/clarity-university" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
+                <Link href="/work-with-us/clarity-university" className="text-[#1a1a1a] hover:text-[#f57214] transition-colors">
                   Clarity University
                 </Link>
               </li>
               <li>
-                <Link href="/results" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
+                <Link href="/results" className="text-[#1a1a1a] hover:text-[#f57214] transition-colors">
                   Results
                 </Link>
               </li>
               <li>
-                <Link href="/speaking" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
+                <Link href="/speaking" className="text-[#1a1a1a] hover:text-[#f57214] transition-colors">
                   Speaking
                 </Link>
               </li>
@@ -76,7 +76,7 @@ export function Footer() {
               <li>
                 <a
                   href="mailto:hello@jayneagency.com"
-                  className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors"
+                  className="text-[#1a1a1a] hover:text-[#f57214] transition-colors"
                 >
                   hello@jayneagency.com
                 </a>
