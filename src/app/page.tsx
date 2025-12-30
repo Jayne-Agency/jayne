@@ -137,7 +137,7 @@ export default function Home() {
             <h2 className="text-5xl md:text-7xl text-[#1a1a1a] leading-[1.15]">
               We help you name the problem.
             </h2>
-            <p className="text-5xl md:text-7xl text-[#1a1a1a] leading-[1.15] mt-2">
+            <p className="text-5xl md:text-7xl text-[#1a1a1a] leading-[1.15] mt-4">
               Then we build the path through it.
             </p>
           </div>
