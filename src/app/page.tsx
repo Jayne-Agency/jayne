@@ -129,16 +129,17 @@ export default function Home() {
 
       {/* The Promise */}
       <section className="py-32 lg:py-48 px-6">
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
             What we do
           </p>
           <div className="reveal">
             <h2 className="text-5xl md:text-7xl text-[#1a1a1a] leading-[1.15]">
               We help you name the problem.
-              <br />
-              <span className="text-[#8a8178]">Then we build the path through it.</span>
             </h2>
+            <p className="text-5xl md:text-7xl text-[#1a1a1a] leading-[1.15] mt-2">
+              Then we build the path through it.
+            </p>
           </div>
           <div className="reveal mt-16">
             <Link
