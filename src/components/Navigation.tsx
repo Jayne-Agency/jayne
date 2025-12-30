@@ -33,13 +33,13 @@ export function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-10">
+          <div className="hidden md:flex items-center gap-10 ml-auto mr-8">
             <Link
               href="/about-us"
               className={`text-sm font-medium relative group transition-colors duration-300 ${
                 isActive("/about-us")
                   ? "text-black"
-                  : "text-[#8a8178] hover:text-black"
+                  : "text-[#1a1a1a] hover:text-[#f57214]"
               }`}
             >
               About Us
@@ -58,7 +58,7 @@ export function Navigation() {
                 className={`text-sm font-medium relative group transition-colors duration-300 inline-flex items-center gap-1 cursor-pointer ${
                   isWorkWithUsActive
                     ? "text-black"
-                    : "text-[#8a8178] hover:text-black"
+                    : "text-[#1a1a1a] hover:text-[#f57214]"
                 }`}
               >
                 Work With Us
@@ -124,7 +124,7 @@ export function Navigation() {
               className={`text-sm font-medium relative group transition-colors duration-300 ${
                 isActive("/results")
                   ? "text-black"
-                  : "text-[#8a8178] hover:text-black"
+                  : "text-[#1a1a1a] hover:text-[#f57214]"
               }`}
             >
               Results
