@@ -173,18 +173,6 @@ export default function Home() {
               </span>
             </Link>
 
-            <Link href="/work-with-us/clarity-university" className="group">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
-                Clarity University
-              </h3>
-              <p className="text-lg text-[#8a8178] mb-4">
-                For founders who need the methodology on their own timeline.
-              </p>
-              <span className="text-[#f57214]">
-                Explore courses →
-              </span>
-            </Link>
-
             <Link href="/work-with-us/strategy-sprint" className="group">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
                 Sprint
@@ -194,6 +182,18 @@ export default function Home() {
               </p>
               <span className="text-[#f57214]">
                 See how it works →
+              </span>
+            </Link>
+
+            <Link href="/work-with-us/clarity-university" className="group">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
+                Clarity University
+              </h3>
+              <p className="text-lg text-[#8a8178] mb-4">
+                For founders who need the methodology on their own timeline.
+              </p>
+              <span className="text-[#f57214]">
+                Explore courses →
               </span>
             </Link>
 
