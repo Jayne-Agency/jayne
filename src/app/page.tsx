@@ -72,14 +72,9 @@ export default function Home() {
           <p className="reveal text-base md:text-lg text-[#1a1a1a]/50 uppercase tracking-widest mb-12">
             After 17 years and thousands of businesses
           </p>
-          <div className="reveal">
-            <h2 className="text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1] mb-4">
-              The problem isn&apos;t your marketing.
-            </h2>
-            <p className="text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
-              It&apos;s your <span className="text-[#ff6b00] italic">alignment.</span>
-            </p>
-          </div>
+          <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
+            The problem isn&apos;t your marketing.
+          </h2>
         </div>
       </section>
 
