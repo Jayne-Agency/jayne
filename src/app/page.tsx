@@ -144,9 +144,10 @@ export default function Home() {
           <div className="reveal mt-16">
             <Link
               href="/contact"
-              className="inline-block px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-full hover:bg-[#f57214] transition-colors duration-300"
+              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
               Let&apos;s talk
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
           </div>
         </div>

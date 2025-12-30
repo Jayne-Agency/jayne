@@ -138,9 +138,10 @@ export function Navigation() {
           <div className="hidden md:block">
             <Link
               href="#"
-              className="inline-flex items-center px-6 py-2.5 text-sm font-semibold bg-gradient-to-r from-[#f57214] to-[#f8923a] text-white rounded-full hover:shadow-lg hover:shadow-[#f57214]/50 hover:scale-105 transition-all duration-300"
+              className="group inline-flex items-center gap-2 px-6 py-2.5 text-sm font-semibold bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
               Book a Call
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
           </div>
 
@@ -255,9 +256,10 @@ export function Navigation() {
             <Link
               href="#"
               onClick={() => setIsOpen(false)}
-              className="flex items-center justify-center w-full px-6 py-3 text-sm font-semibold bg-gradient-to-r from-[#f57214] to-[#f8923a] text-white rounded-full hover:shadow-lg hover:shadow-[#f57214]/50 transition-all duration-300"
+              className="group flex items-center justify-center gap-2 w-full px-6 py-3 text-sm font-semibold bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
               Book a Call
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
           </div>
         </div>
