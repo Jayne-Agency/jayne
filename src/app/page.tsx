@@ -36,6 +36,32 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Client Logos */}
+        <div className="w-full py-12 border-t border-[#e5e3df]">
+          <div className="max-w-7xl mx-auto px-6 lg:px-8">
+            <p className="text-center text-sm text-[#666666] mb-8">
+              Trusted by 100+ companies including
+            </p>
+            <div className="flex flex-wrap justify-center items-center gap-4 md:gap-10">
+              <div className="h-20 md:h-32 opacity-60 hover:opacity-100 transition-opacity">
+                <img src="/pepsico.png" alt="PepsiCo" className="h-full w-auto object-contain" />
+              </div>
+              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity">
+                <img src="/redcross.png" alt="Red Cross" className="h-full w-auto object-contain" />
+              </div>
+              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity">
+                <img src="/mondelez.png" alt="Mondelez" className="h-full w-auto object-contain" />
+              </div>
+              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity">
+                <img src="/allstate.png" alt="Allstate" className="h-full w-auto object-contain" />
+              </div>
+              <div className="h-10 md:h-16 opacity-60 hover:opacity-100 transition-opacity">
+                <img src="/abbott.png" alt="Abbott" className="h-full w-auto object-contain" />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Sound Familiar? - Dark & Dramatic */}
