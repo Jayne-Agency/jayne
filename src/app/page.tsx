@@ -155,6 +155,9 @@ export default function Home() {
       {/* The Pathways */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-5xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#1a1a1a]/50 uppercase tracking-widest mb-16 text-center">
+            How we do it
+          </p>
           <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
 
             <Link href="/work-with-us/strategy-partnership" className="group">
