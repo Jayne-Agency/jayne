@@ -118,9 +118,14 @@ export default function StrategyPartnership() {
               <p className="text-xl text-[#8a8178]">Strategy isn&apos;t a deliverable you file away. We stay with you as markets shift, priorities change, and new challenges emerge.</p>
             </div>
 
-            <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
+            <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Outcomes over outputs</h3>
               <p className="text-xl text-[#8a8178]">We measure success by what changes in your business—not by the volume of work we produce.</p>
+            </div>
+
+            <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Strategy to execution</h3>
+              <p className="text-xl text-[#8a8178]">We don&apos;t just hand you a plan and walk away. When you&apos;re ready to build, we can build with you.</p>
             </div>
           </div>
         </div>

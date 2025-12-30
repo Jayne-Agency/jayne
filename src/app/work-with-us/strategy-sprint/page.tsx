@@ -120,9 +120,14 @@ export default function StrategySprint() {
               <p className="text-xl text-[#8a8178]">The same people who work with Fortune 500s—now right-sized for your reality.</p>
             </div>
 
-            <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
+            <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Ready to use</h3>
               <p className="text-xl text-[#8a8178]">You walk away with strategy you can implement immediately. Not a deck to file away.</p>
+            </div>
+
+            <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Execution optional</h3>
+              <p className="text-xl text-[#8a8178]">Need help bringing it to life? We can build it too—websites, campaigns, the works.</p>
             </div>
           </div>
         </div>
