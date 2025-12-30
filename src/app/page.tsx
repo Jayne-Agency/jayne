@@ -13,28 +13,26 @@ export default function Home() {
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32 text-center relative z-10">
           <div className="max-w-5xl mx-auto">
-            {/* Eyebrow text */}
-            <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-8 opacity-0 animate-fade-in-up">
-              Strategy That Delivers
+            <p className="text-xl md:text-2xl text-[#666666] mb-4 opacity-0 animate-fade-in-up font-light">
+              Hi, we&apos;re
             </p>
 
-            <h1 className="text-5xl md:text-8xl lg:text-9xl font-[family-name:var(--font-playfair)] leading-[0.9] tracking-tighter opacity-0 animate-fade-in-up animation-delay-100">
-              <span className="text-[#1a1a1a] block mb-4">Business</span>
-              <span className="text-[#ff6b00] block italic">Breakthroughs</span>
+            <h1 className="text-6xl md:text-8xl lg:text-9xl font-[family-name:var(--font-playfair)] leading-[0.9] tracking-tighter opacity-0 animate-fade-in-up animation-delay-100">
+              <span className="text-[#ff6b00] italic">Jayne</span>
             </h1>
 
             <p className="mt-12 text-xl md:text-2xl text-[#666666] max-w-3xl mx-auto leading-relaxed opacity-0 animate-fade-in-up animation-delay-200 font-light">
-              You&apos;ve built something real. But if your market doesn&apos;t see what makes you different, growth stalls. We fix that.
+              We help organizations of all sizes with change.
             </p>
 
-            <div className="mt-16 opacity-0 animate-fade-in-up animation-delay-400">
+            <div className="mt-20 opacity-0 animate-fade-in-up animation-delay-400">
               <Link
-                href="#offerings"
-                className="inline-flex items-center justify-center px-8 md:px-12 py-5 md:py-6 text-base md:text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 border-2 border-[#ff6b00] hover:border-[#1a1a1a] group"
+                href="#change"
+                className="inline-flex flex-col items-center text-[#666666] hover:text-[#ff6b00] transition-colors group"
               >
-                See How We Work
-                <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                <span className="text-sm uppercase tracking-widest mb-3">Discover more</span>
+                <svg className="w-6 h-6 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                 </svg>
               </Link>
             </div>
@@ -81,6 +79,16 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Change Statement */}
+      <section id="change" className="py-24 lg:py-32 bg-white">
+        <div className="max-w-5xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-[family-name:var(--font-playfair)] leading-[1.1] text-[#1a1a1a]">
+            Change is everywhere<br />
+            <span className="text-[#ff6b00] italic">and it&apos;s inevitable.</span>
+          </h2>
         </div>
       </section>
 
