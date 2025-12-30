@@ -1,115 +1,182 @@
+"use client";
+
 import Link from "next/link";
+import { useEffect } from "react";
 
 export default function StrategyPartnership() {
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
+    );
+
+    document.querySelectorAll(".reveal, .reveal-stagger").forEach((el) => {
+      observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <>
-      {/* Hero Section */}
-      <section className="min-h-[70vh] flex items-center bg-[#1a1a1a] font-[family-name:var(--font-open-sans)] relative overflow-hidden">
-        {/* Large decorative element */}
-        <div className="absolute top-20 right-0 w-[800px] h-[800px] bg-[#ff6b00] rounded-full blur-[200px] opacity-20 pointer-events-none"></div>
-
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 pt-32">
-          <div className="max-w-4xl">
-            <Link href="/work-with-us" className="inline-flex items-center text-[#ff6b00] hover:text-[#ff8c3a] mb-8 transition-colors">
-              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16l-4-4m0 0l4-4m-4 4h18" />
-              </svg>
-              Back to Work With Us
-            </Link>
-            <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-6">
-              For Enterprise
-            </p>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-[family-name:var(--font-playfair)] leading-[0.95] text-white mb-8">
-              Strategy<br /><span className="italic text-[#ff6b00]">Partnership</span>
-            </h1>
-            <p className="text-xl md:text-2xl text-white/70 max-w-2xl leading-relaxed">
-              Deep, ongoing partnership for established enterprises navigating complex markets. Guaranteed outcomes, built for scale.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Who It's For Section */}
-      <section className="py-24 lg:py-32 bg-white font-[family-name:var(--font-open-sans)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
-            <div className="lg:col-span-4">
-              <div className="lg:sticky lg:top-32">
-                <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] leading-[1.1] mb-6">
-                  Who it&apos;s for
-                </h2>
-              </div>
-            </div>
-            <div className="lg:col-span-8 space-y-6">
-              <p className="text-lg text-[#666666] leading-relaxed">
-                Strategy Partnership is designed for established enterprises with complex challenges that require sustained strategic attention. You&apos;re not looking for a one-time project—you need an ongoing partner who understands your business deeply.
-              </p>
-              <p className="text-lg text-[#666666] leading-relaxed">
-                This is ideal if you&apos;re navigating competing priorities across multiple business units, managing brand architecture challenges, or need executive-level strategic counsel on an ongoing basis.
-              </p>
-              <p className="text-xl text-[#1a1a1a] font-semibold leading-relaxed">
-                If your decisions impact millions in revenue and you need a partner who can keep pace with your complexity, this is for you.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* What's Included Section */}
-      <section className="py-24 lg:py-32 bg-[#f5f3ef] font-[family-name:var(--font-open-sans)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-16">
-            What&apos;s included
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="p-8 bg-white rounded-2xl">
-              <h3 className="text-2xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-4">Dedicated Strategy Team</h3>
-              <p className="text-[#666666]">A dedicated team of senior strategists who know your business inside and out, available when you need them.</p>
-            </div>
-            <div className="p-8 bg-white rounded-2xl">
-              <h3 className="text-2xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-4">Executive Advisory</h3>
-              <p className="text-[#666666]">Direct access to our senior leadership for high-stakes decisions and board-level presentations.</p>
-            </div>
-            <div className="p-8 bg-white rounded-2xl">
-              <h3 className="text-2xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-4">Comprehensive Brand Strategy</h3>
-              <p className="text-[#666666]">Full-scope brand strategy including positioning, architecture, messaging, and go-to-market planning.</p>
-            </div>
-            <div className="p-8 bg-white rounded-2xl">
-              <h3 className="text-2xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-4">Guaranteed Outcomes</h3>
-              <p className="text-[#666666]">We tie our success to yours with performance guarantees and measurable business outcomes.</p>
-            </div>
-            <div className="p-8 bg-white rounded-2xl">
-              <h3 className="text-2xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-4">Ongoing Optimization</h3>
-              <p className="text-[#666666]">Continuous refinement based on market feedback, competitive shifts, and business performance data.</p>
-            </div>
-            <div className="p-8 bg-white rounded-2xl">
-              <h3 className="text-2xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-4">Team Enablement</h3>
-              <p className="text-[#666666]">Training and workshops to ensure your internal teams can execute and maintain strategic alignment.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)]">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] leading-tight mb-6 text-white">
-            Ready for a strategic partner?
-          </h2>
-          <p className="text-xl text-white/70 max-w-2xl mx-auto mb-10">
-            Let&apos;s discuss how a Strategy Partnership can help your enterprise achieve its most ambitious goals.
+    <main className="font-[family-name:var(--font-playfair)]">
+      {/* Hero */}
+      <section className="min-h-[80vh] flex items-center pt-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
+            Partnership
           </p>
-          <Link
-            href="#"
-            className="inline-flex items-center justify-center px-10 py-5 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-white hover:text-[#1a1a1a] transition-all duration-300 group"
-          >
-            Schedule a Conversation
-            <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
+          <h1 className="text-5xl md:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
+            The bigger you are, the harder it is to <span className="text-[#f57214]">stay clear.</span>
+          </h1>
+          <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
+            For enterprises navigating complexity, transitions, and transformations.
+          </p>
         </div>
       </section>
-    </>
+
+      {/* The Enterprise Problem */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="reveal">
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+              You have the budget. You have the team. You&apos;ve hired the agencies.
+            </p>
+            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
+              And somehow, clarity keeps slipping away.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What Goes Wrong */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
+            The enterprise trap
+          </p>
+          <div className="reveal-stagger space-y-8">
+            <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+              Every business unit tells a different story.
+            </p>
+            <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+              Every acquisition adds another layer of confusion.
+            </p>
+            <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+              Your agency assigned you a team of juniors charging senior rates.
+            </p>
+            <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+              Meetings multiply. Decks accumulate. Clarity evaporates.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Cost */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="reveal">
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+              The bigger the company, the more expensive the confusion.
+            </p>
+            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
+              Misalignment at scale isn&apos;t a nuisance. It&apos;s millions in wasted motion.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What Partnership Means */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
+            What partnership means
+          </p>
+          <div className="reveal">
+            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-12">
+              Not a vendor. Not a retainer. A true strategic partner.
+            </p>
+          </div>
+          <div className="reveal-stagger space-y-8">
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Senior strategists only</h3>
+              <p className="text-xl text-[#8a8178]">Direct access to the people doing the thinking. No layers. No handoffs. No account managers between you and the work.</p>
+            </div>
+
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Deep integration</h3>
+              <p className="text-xl text-[#8a8178]">We learn your business, your politics, your constraints. We become an extension of your leadership team—not an outside voice.</p>
+            </div>
+
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Ongoing, not one-time</h3>
+              <p className="text-xl text-[#8a8178]">Strategy isn&apos;t a deliverable you file away. We stay with you as markets shift, priorities change, and new challenges emerge.</p>
+            </div>
+
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Outcomes over outputs</h3>
+              <p className="text-xl text-[#8a8178]">We measure success by what changes in your business—not by the volume of work we produce.</p>
+            </div>
+
+            <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Strategy to execution</h3>
+              <p className="text-xl text-[#8a8178]">We don&apos;t just hand you a plan and walk away. When you&apos;re ready to build, we can build with you.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Who This Is For */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
+            This is for you if
+          </p>
+          <div className="reveal-stagger space-y-6">
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+              Your decisions impact millions in revenue.
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+              You&apos;re navigating a merger, acquisition, or major market shift.
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+              Your brand architecture has become a liability, not an asset.
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+              You need executive-level counsel—not another vendor relationship.
+            </p>
+            <p className="text-xl md:text-2xl text-[#1a1a1a] leading-relaxed mt-8">
+              You&apos;re ready for a partner who can match your complexity with clarity.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
+            Let&apos;s talk about what&apos;s broken.
+          </h2>
+          <p className="reveal text-xl text-[#8a8178] mb-10">
+            No pitch. No pressure. Just a conversation about where you are and where you need to be.
+          </p>
+          <div className="reveal">
+            <Link
+              href="/contact"
+              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
+            >
+              Start the conversation
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }

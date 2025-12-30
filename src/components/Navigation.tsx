@@ -14,7 +14,7 @@ export function Navigation() {
   const isWorkWithUsActive = pathname.startsWith("/work-with-us");
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-lg border-b border-gray-200 shadow-lg shadow-black/5">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#faf6f0]/95 backdrop-blur-lg">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -33,17 +33,17 @@ export function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-10">
+          <div className="hidden md:flex items-center gap-10 ml-auto mr-8">
             <Link
               href="/about-us"
               className={`text-sm font-medium relative group transition-colors duration-300 ${
                 isActive("/about-us")
                   ? "text-black"
-                  : "text-gray-600 hover:text-black"
+                  : "text-[#1a1a1a] hover:text-[#f57214]"
               }`}
             >
               About Us
-              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] transition-all duration-300 ${
+              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
                 isActive("/about-us") ? "w-full" : "w-0 group-hover:w-full"
               }`} />
             </Link>
@@ -54,12 +54,11 @@ export function Navigation() {
               onMouseEnter={() => setWorkWithUsOpen(true)}
               onMouseLeave={() => setWorkWithUsOpen(false)}
             >
-              <Link
-                href="/work-with-us"
-                className={`text-sm font-medium relative group transition-colors duration-300 inline-flex items-center gap-1 ${
+              <span
+                className={`text-sm font-medium relative group transition-colors duration-300 inline-flex items-center gap-1 cursor-pointer ${
                   isWorkWithUsActive
                     ? "text-black"
-                    : "text-gray-600 hover:text-black"
+                    : "text-[#1a1a1a] hover:text-[#f57214]"
                 }`}
               >
                 Work With Us
@@ -71,10 +70,10 @@ export function Navigation() {
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
-                <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] transition-all duration-300 ${
+                <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
                   isWorkWithUsActive ? "w-full" : "w-0 group-hover:w-full"
                 }`} />
-              </Link>
+              </span>
 
               {/* Dropdown Menu */}
               <div
@@ -82,37 +81,37 @@ export function Navigation() {
                   workWithUsOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
                 }`}
               >
-                <div className="bg-white rounded-2xl shadow-xl shadow-black/10 border border-gray-100 p-2 min-w-[280px]">
+                <div className="bg-[#faf6f0] rounded-2xl shadow-xl shadow-black/10 border border-[#e8e4dc] p-2 min-w-[280px]">
                   <Link
                     href="/work-with-us/strategy-partnership"
-                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f3ef] transition-colors group"
+                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f1ea] transition-colors group"
                   >
-                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
-                      Strategy Partnership
+                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
+                      Partnership
                     </div>
-                    <div className="text-sm text-gray-500 mt-0.5">
+                    <div className="text-sm text-[#9d968c] mt-0.5">
                       For enterprise teams
                     </div>
                   </Link>
                   <Link
                     href="/work-with-us/strategy-sprint"
-                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f3ef] transition-colors group"
+                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f1ea] transition-colors group"
                   >
-                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
-                      Strategy Sprint
+                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
+                      Sprint
                     </div>
-                    <div className="text-sm text-gray-500 mt-0.5">
+                    <div className="text-sm text-[#9d968c] mt-0.5">
                       For SMEs
                     </div>
                   </Link>
                   <Link
                     href="/work-with-us/clarity-university"
-                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f3ef] transition-colors group"
+                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f1ea] transition-colors group"
                   >
-                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
+                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
                       Clarity University
                     </div>
-                    <div className="text-sm text-gray-500 mt-0.5">
+                    <div className="text-sm text-[#9d968c] mt-0.5">
                       For entrepreneurs
                     </div>
                   </Link>
@@ -121,16 +120,16 @@ export function Navigation() {
             </div>
 
             <Link
-              href="/case-studies"
+              href="/results"
               className={`text-sm font-medium relative group transition-colors duration-300 ${
-                isActive("/case-studies")
+                isActive("/results")
                   ? "text-black"
-                  : "text-gray-600 hover:text-black"
+                  : "text-[#1a1a1a] hover:text-[#f57214]"
               }`}
             >
-              Case Studies
-              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] transition-all duration-300 ${
-                isActive("/case-studies") ? "w-full" : "w-0 group-hover:w-full"
+              Results
+              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
+                isActive("/results") ? "w-full" : "w-0 group-hover:w-full"
               }`} />
             </Link>
           </div>
@@ -139,16 +138,17 @@ export function Navigation() {
           <div className="hidden md:block">
             <Link
               href="#"
-              className="inline-flex items-center px-6 py-2.5 text-sm font-semibold bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] text-white rounded-full hover:shadow-lg hover:shadow-[#ff6b00]/50 hover:scale-105 transition-all duration-300"
+              className="group inline-flex items-center gap-2 px-6 py-2.5 text-sm font-semibold bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
-              Book a Call
+              Let's talk
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
           </div>
 
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors duration-300"
+            className="md:hidden p-2 hover:bg-[#f5f1ea] rounded-lg transition-colors duration-300"
             aria-label="Toggle menu"
           >
             <div className="w-6 h-5 relative flex flex-col justify-between">
@@ -182,7 +182,7 @@ export function Navigation() {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden absolute top-full left-0 right-0 bg-white/98 backdrop-blur-xl border-b border-gray-200 shadow-2xl transition-all duration-300 ${
+        className={`md:hidden absolute top-full left-0 right-0 bg-[#faf6f0]/98 backdrop-blur-xl shadow-xl transition-all duration-300 ${
           isOpen ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-4"
         }`}
       >
@@ -192,8 +192,8 @@ export function Navigation() {
             onClick={() => setIsOpen(false)}
             className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
               isActive("/about-us")
-                ? "bg-[#ff6b00]/10 text-black border-l-2 border-[#ff6b00]"
-                : "text-gray-600 hover:text-black hover:bg-gray-50"
+                ? "bg-[#f57214]/10 text-black border-l-2 border-[#f57214]"
+                : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
             }`}
           >
             About Us
@@ -201,47 +201,39 @@ export function Navigation() {
 
           {/* Work With Us Section in Mobile */}
           <div className="space-y-1">
-            <Link
-              href="/work-with-us"
-              onClick={() => setIsOpen(false)}
-              className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
-                isActive("/work-with-us")
-                  ? "bg-[#ff6b00]/10 text-black border-l-2 border-[#ff6b00]"
-                  : "text-gray-600 hover:text-black hover:bg-gray-50"
-              }`}
-            >
+            <div className="px-4 py-3 text-base font-medium text-[#8a8178]">
               Work With Us
-            </Link>
+            </div>
             <div className="pl-4 space-y-1">
               <Link
                 href="/work-with-us/strategy-partnership"
                 onClick={() => setIsOpen(false)}
                 className={`block px-4 py-2 text-sm rounded-lg transition-all duration-300 ${
                   isActive("/work-with-us/strategy-partnership")
-                    ? "bg-[#ff6b00]/10 text-[#ff6b00]"
-                    : "text-gray-500 hover:text-black hover:bg-gray-50"
+                    ? "bg-[#f57214]/10 text-[#f57214]"
+                    : "text-[#9d968c] hover:text-black hover:bg-[#faf6f0]"
                 }`}
               >
-                Strategy Partnership
+                Partnership
               </Link>
               <Link
                 href="/work-with-us/strategy-sprint"
                 onClick={() => setIsOpen(false)}
                 className={`block px-4 py-2 text-sm rounded-lg transition-all duration-300 ${
                   isActive("/work-with-us/strategy-sprint")
-                    ? "bg-[#ff6b00]/10 text-[#ff6b00]"
-                    : "text-gray-500 hover:text-black hover:bg-gray-50"
+                    ? "bg-[#f57214]/10 text-[#f57214]"
+                    : "text-[#9d968c] hover:text-black hover:bg-[#faf6f0]"
                 }`}
               >
-                Strategy Sprint
+                Sprint
               </Link>
               <Link
                 href="/work-with-us/clarity-university"
                 onClick={() => setIsOpen(false)}
                 className={`block px-4 py-2 text-sm rounded-lg transition-all duration-300 ${
                   isActive("/work-with-us/clarity-university")
-                    ? "bg-[#ff6b00]/10 text-[#ff6b00]"
-                    : "text-gray-500 hover:text-black hover:bg-gray-50"
+                    ? "bg-[#f57214]/10 text-[#f57214]"
+                    : "text-[#9d968c] hover:text-black hover:bg-[#faf6f0]"
                 }`}
               >
                 Clarity University
@@ -250,23 +242,24 @@ export function Navigation() {
           </div>
 
           <Link
-            href="/case-studies"
+            href="/results"
             onClick={() => setIsOpen(false)}
             className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
-              isActive("/case-studies")
-                ? "bg-[#ff6b00]/10 text-black border-l-2 border-[#ff6b00]"
-                : "text-gray-600 hover:text-black hover:bg-gray-50"
+              isActive("/results")
+                ? "bg-[#f57214]/10 text-black border-l-2 border-[#f57214]"
+                : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
             }`}
           >
-            Case Studies
+            Results
           </Link>
           <div className="pt-4">
             <Link
               href="#"
               onClick={() => setIsOpen(false)}
-              className="flex items-center justify-center w-full px-6 py-3 text-sm font-semibold bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] text-white rounded-full hover:shadow-lg hover:shadow-[#ff6b00]/50 transition-all duration-300"
+              className="group flex items-center justify-center gap-2 w-full px-6 py-3 text-sm font-semibold bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
-              Book a Call
+              Let's talk
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
           </div>
         </div>

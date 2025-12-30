@@ -38,7 +38,7 @@ export default function Speaking() {
               Leverage Jayne Agency&apos;s brand strategy thought leadership for your business, community, or members—in-person or virtual.
             </p>
             <Link
-              href="/work-with-us"
+              href="/work-with-us/strategy-partnership"
               className="inline-flex items-center justify-center px-12 py-6 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
             >
               Book a Call
