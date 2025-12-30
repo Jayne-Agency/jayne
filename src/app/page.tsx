@@ -168,8 +168,8 @@ export default function Home() {
               <p className="text-lg text-[#8a8178] mb-4">
                 For organizations navigating major transitions and transformations.
               </p>
-              <span className="text-[#f57214]">
-                Learn more →
+              <span className="text-[#f57214] inline-flex items-center gap-1">
+                Learn more <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
               </span>
             </Link>
 
@@ -180,8 +180,8 @@ export default function Home() {
               <p className="text-lg text-[#8a8178] mb-4">
                 For growing businesses ready to solve their most critical challenge.
               </p>
-              <span className="text-[#f57214]">
-                See how it works →
+              <span className="text-[#f57214] inline-flex items-center gap-1">
+                See how it works <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
               </span>
             </Link>
 
@@ -192,8 +192,8 @@ export default function Home() {
               <p className="text-lg text-[#8a8178] mb-4">
                 For founders who need the methodology on their own timeline.
               </p>
-              <span className="text-[#f57214]">
-                Explore courses →
+              <span className="text-[#f57214] inline-flex items-center gap-1">
+                Explore <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
               </span>
             </Link>
 
