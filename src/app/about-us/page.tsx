@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 export default function AboutUs() {
@@ -39,7 +40,7 @@ export default function AboutUs() {
       </section>
 
       {/* What We Reject */}
-      <section className="py-24 lg:py-32 px-6">
+      <section className="py-24 lg:py-32 px-6 bg-[#f5f1ea]">
         <div className="max-w-3xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
             What we reject
@@ -88,23 +89,19 @@ export default function AboutUs() {
       </section>
 
       {/* The Proof - Client Logos */}
-      <section className="py-24 lg:py-32 px-6">
+      <section className="py-24 lg:py-32 px-6 bg-[#f5f1ea]">
         <div className="max-w-5xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-16">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-16 text-center">
             We&apos;ve worked with
           </p>
-          <div className="reveal grid grid-cols-2 md:grid-cols-4 gap-12 lg:gap-16 items-center opacity-60">
-            {/* Replace with actual client logos */}
-            <div className="text-2xl text-[#6b6560] font-medium">Fortune 50</div>
-            <div className="text-2xl text-[#6b6560] font-medium">Series A Startups</div>
-            <div className="text-2xl text-[#6b6560] font-medium">Private Equity</div>
-            <div className="text-2xl text-[#6b6560] font-medium">Family Businesses</div>
-            <div className="text-2xl text-[#6b6560] font-medium">Healthcare</div>
-            <div className="text-2xl text-[#6b6560] font-medium">SaaS</div>
-            <div className="text-2xl text-[#6b6560] font-medium">Manufacturing</div>
-            <div className="text-2xl text-[#6b6560] font-medium">Professional Services</div>
+          <div className="reveal grid grid-cols-2 md:grid-cols-5 gap-12 lg:gap-16 items-center justify-items-center">
+            <Image src="/pepsico.png" alt="PepsiCo" width={120} height={60} className="opacity-60 hover:opacity-100 transition-opacity h-12 w-auto object-contain" />
+            <Image src="/abbott.png" alt="Abbott" width={120} height={60} className="opacity-60 hover:opacity-100 transition-opacity h-12 w-auto object-contain" />
+            <Image src="/allstate.png" alt="Allstate" width={120} height={60} className="opacity-60 hover:opacity-100 transition-opacity h-12 w-auto object-contain" />
+            <Image src="/mondelez.png" alt="Mondelez" width={120} height={60} className="opacity-60 hover:opacity-100 transition-opacity h-12 w-auto object-contain" />
+            <Image src="/redcross.png" alt="Red Cross" width={120} height={60} className="opacity-60 hover:opacity-100 transition-opacity h-12 w-auto object-contain" />
           </div>
-          <p className="reveal text-xl text-[#6b6560] mt-16">
+          <p className="reveal text-xl text-[#6b6560] mt-16 text-center">
             From startups finding their first message to Fortune 50 companies rediscovering theirs.
           </p>
         </div>

@@ -50,7 +50,7 @@ export default function Home() {
       </section>
 
       {/* The Reframe */}
-      <section className="py-32 lg:py-48 px-6">
+      <section className="py-32 lg:py-48 px-6 bg-[#f5f1ea]">
         <div className="max-w-4xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
             After 17 years and thousands of businesses
@@ -137,7 +137,7 @@ export default function Home() {
       </section>
 
       {/* The Pathways */}
-      <section className="py-24 lg:py-32 px-6">
+      <section className="py-24 lg:py-32 px-6 bg-[#f5f1ea]">
         <div className="max-w-5xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-16">
             How we do it
