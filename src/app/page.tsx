@@ -36,6 +36,14 @@ export default function Home() {
           <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-12">
             Maybe it blindsided you.
           </p>
+
+          {/* Jack Butcher-style fading ellipsis */}
+          <div className="flex items-center gap-4 md:gap-6 mb-12">
+            <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-[#1a1a1a]"></div>
+            <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-[#1a1a1a] opacity-50"></div>
+            <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-[#1a1a1a] opacity-20"></div>
+          </div>
+
           <p className="text-xl md:text-2xl text-[#6b6560]">
             Either way, yesterday&apos;s story doesn&apos;t work anymore.
           </p>
