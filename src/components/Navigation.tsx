@@ -193,7 +193,7 @@ export function Navigation() {
             className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
               isActive("/about-us")
                 ? "bg-[#f57214]/10 text-black border-l-2 border-[#f57214]"
-                : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
+                : "text-[#6b6560] hover:text-black hover:bg-[#faf6f0]"
             }`}
           >
             About Us
@@ -201,7 +201,7 @@ export function Navigation() {
 
           {/* Work With Us Section in Mobile */}
           <div className="space-y-1">
-            <div className="px-4 py-3 text-base font-medium text-[#8a8178]">
+            <div className="px-4 py-3 text-base font-medium text-[#6b6560]">
               Work With Us
             </div>
             <div className="pl-4 space-y-1">
@@ -247,7 +247,7 @@ export function Navigation() {
             className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
               isActive("/results")
                 ? "bg-[#f57214]/10 text-black border-l-2 border-[#f57214]"
-                : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
+                : "text-[#6b6560] hover:text-black hover:bg-[#faf6f0]"
             }`}
           >
             Results

@@ -19,7 +19,7 @@ export default function StrategySprint() {
             <br />
             <span className="text-[#f57214]">You have now.</span>
           </h1>
-          <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
+          <p className="text-xl md:text-2xl text-[#6b6560] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
             For growing businesses ready to solve their most critical challenge—fast.
           </p>
         </div>
@@ -29,7 +29,7 @@ export default function StrategySprint() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed mb-8">
               You&apos;ve built something real. Customers. Revenue. A team that believes in the mission.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
@@ -66,7 +66,7 @@ export default function StrategySprint() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed mb-8">
               You don&apos;t have enterprise budgets. You don&apos;t have six months to wait.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
@@ -90,27 +90,27 @@ export default function StrategySprint() {
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Focused scope</h3>
-              <p className="text-xl text-[#8a8178]">One critical challenge. One clear outcome. No scope creep, no endless discovery phases.</p>
+              <p className="text-xl text-[#6b6560]">One critical challenge. One clear outcome. No scope creep, no endless discovery phases.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Compressed timeline</h3>
-              <p className="text-xl text-[#8a8178]">Weeks, not months. We move fast because you need answers, not process.</p>
+              <p className="text-xl text-[#6b6560]">Weeks, not months. We move fast because you need answers, not process.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Senior strategists</h3>
-              <p className="text-xl text-[#8a8178]">The same people who work with Fortune 500s—now right-sized for your reality.</p>
+              <p className="text-xl text-[#6b6560]">The same people who work with Fortune 500s—now right-sized for your reality.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Ready to use</h3>
-              <p className="text-xl text-[#8a8178]">You walk away with strategy you can implement immediately. Not a deck to file away.</p>
+              <p className="text-xl text-[#6b6560]">You walk away with strategy you can implement immediately. Not a deck to file away.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Execution optional</h3>
-              <p className="text-xl text-[#8a8178]">Need help bringing it to life? We can build it too—websites, campaigns, the works.</p>
+              <p className="text-xl text-[#6b6560]">Need help bringing it to life? We can build it too—websites, campaigns, the works.</p>
             </div>
           </div>
         </div>
@@ -126,19 +126,19 @@ export default function StrategySprint() {
             <div>
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Discovery</h3>
-              <p className="text-xl text-[#8a8178]">We dig into your business, your market, and your competition. We find the real problem—not the symptom.</p>
+              <p className="text-xl text-[#6b6560]">We dig into your business, your market, and your competition. We find the real problem—not the symptom.</p>
             </div>
 
             <div>
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Strategy</h3>
-              <p className="text-xl text-[#8a8178]">We develop your positioning and messaging. Clear, differentiated, and designed to convert.</p>
+              <p className="text-xl text-[#6b6560]">We develop your positioning and messaging. Clear, differentiated, and designed to convert.</p>
             </div>
 
             <div>
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Activation</h3>
-              <p className="text-xl text-[#8a8178]">We deliver everything you need to execute: messaging frameworks, guidelines, and a 90-day roadmap.</p>
+              <p className="text-xl text-[#6b6560]">We deliver everything you need to execute: messaging frameworks, guidelines, and a 90-day roadmap.</p>
             </div>
           </div>
         </div>
@@ -151,16 +151,16 @@ export default function StrategySprint() {
             This is for you if
           </p>
           <div className="reveal-stagger space-y-6">
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed">
               You&apos;ve found product-market fit but messaging hasn&apos;t caught up.
             </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed">
               You&apos;re between $1M and $20M and ready to scale.
             </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed">
               You need strategy but don&apos;t want a six-month engagement.
             </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed">
               You&apos;re making decisions now and can&apos;t afford to wait.
             </p>
             <p className="text-xl md:text-2xl text-[#1a1a1a] leading-relaxed mt-8">
@@ -176,7 +176,7 @@ export default function StrategySprint() {
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
             Ready to move?
           </h2>
-          <p className="reveal text-xl text-[#8a8178] mb-10">
+          <p className="reveal text-xl text-[#6b6560] mb-10">
             Let&apos;s talk about what&apos;s holding you back—and how fast we can fix it.
           </p>
           <div className="reveal">

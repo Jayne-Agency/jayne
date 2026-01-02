@@ -38,7 +38,7 @@ export default function Results() {
             <br />
             <span className="text-[#f57214]">Proof.</span>
           </h1>
-          <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
+          <p className="text-xl md:text-2xl text-[#6b6560] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
             Real transformations. Measurable outcomes.
           </p>
         </div>
@@ -57,7 +57,7 @@ export default function Results() {
                 <div className="text-4xl md:text-5xl text-[#f57214] leading-none mb-4">
                   {study.result}
                 </div>
-                <p className="text-base text-[#8a8178] mb-6">
+                <p className="text-base text-[#6b6560] mb-6">
                   {study.resultLabel}
                 </p>
                 <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-3">
@@ -66,7 +66,7 @@ export default function Results() {
                 <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-4 group-hover:text-[#f57214] transition-colors">
                   {study.hook}
                 </h2>
-                <p className="text-lg text-[#8a8178] mb-6">
+                <p className="text-lg text-[#6b6560] mb-6">
                   {study.teaser}
                 </p>
                 <span className="text-[#f57214] inline-flex items-center gap-2">
@@ -84,7 +84,7 @@ export default function Results() {
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-6">
             More stories loading
           </p>
-          <p className="reveal text-2xl md:text-3xl text-[#8a8178]">
+          <p className="reveal text-2xl md:text-3xl text-[#6b6560]">
             Healthcare. Technology. Retail. Non-Profit.
           </p>
         </div>
@@ -97,7 +97,7 @@ export default function Results() {
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8 italic">
               &ldquo;Jayne helped us see what was right in front of us. The clarity they brought transformed not just our brand, but how we think about our entire business.&rdquo;
             </p>
-            <p className="text-lg text-[#8a8178]">
+            <p className="text-lg text-[#6b6560]">
               — CMO, Fortune 100 Company
             </p>
           </div>
@@ -110,7 +110,7 @@ export default function Results() {
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
             Your story next?
           </h2>
-          <p className="reveal text-xl text-[#8a8178] mb-10">
+          <p className="reveal text-xl text-[#6b6560] mb-10">
             Let&apos;s talk about what&apos;s possible.
           </p>
           <div className="reveal">

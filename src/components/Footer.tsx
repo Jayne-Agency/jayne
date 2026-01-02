@@ -17,7 +17,7 @@ export function Footer() {
                 className="w-auto h-16"
               />
             </Link>
-            <p className="mt-4 text-[#8a8178] max-w-md">
+            <p className="mt-4 text-[#6b6560] max-w-md">
               Brand clarity and alignment for all. Since 2009, we&apos;ve equipped
               business leaders to build dependable, scalable, repeatable revenue.
             </p>
@@ -25,7 +25,7 @@ export function Footer() {
 
           {/* Navigation */}
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-[#8a8178] mb-4">
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-[#6b6560] mb-4">
               Navigation
             </h4>
             <ul className="space-y-3">
@@ -69,7 +69,7 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-[#8a8178] mb-4">
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-[#6b6560] mb-4">
               Contact
             </h4>
             <ul className="space-y-3">
@@ -86,10 +86,10 @@ export function Footer() {
         </div>
 
         <div className="mt-16 pt-8 border-t border-[#e8e4dc] flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-[#8a8178]">
+          <p className="text-sm text-[#6b6560]">
             © {new Date().getFullYear()} Jayne Agency. All rights reserved.
           </p>
-          <p className="text-sm text-[#8a8178]">
+          <p className="text-sm text-[#6b6560]">
             Making the world more gooder™
           </p>
         </div>

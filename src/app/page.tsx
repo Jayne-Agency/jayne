@@ -11,7 +11,7 @@ export default function Home() {
       {/* Hero */}
       <section className="min-h-screen flex flex-col items-center justify-center px-6 pt-20">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xl md:text-2xl text-[#8a8178] mb-6 opacity-0 animate-fade-in">
+          <p className="text-xl md:text-2xl text-[#6b6560] mb-6 opacity-0 animate-fade-in">
             If you&apos;re here
           </p>
           <h1 className="text-5xl md:text-7xl leading-[1] tracking-tight text-[#1a1a1a] opacity-0 animate-fade-in animation-delay-100">
@@ -29,7 +29,7 @@ export default function Home() {
           <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-12">
             Maybe it blindsided you.
           </p>
-          <p className="text-xl md:text-2xl text-[#8a8178]">
+          <p className="text-xl md:text-2xl text-[#6b6560]">
             Either way, yesterday&apos;s story doesn&apos;t work anymore.
           </p>
         </div>
@@ -41,7 +41,7 @@ export default function Home() {
           <h2 className="reveal text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-12">
             You&apos;ve probably already tried to fix it.
           </h2>
-          <div className="reveal-stagger text-xl md:text-2xl text-[#8a8178] space-y-2">
+          <div className="reveal-stagger text-xl md:text-2xl text-[#6b6560] space-y-2">
             <p>Hired the marketing people.</p>
             <p>Refreshed the logo.</p>
             <p>Spent money on things that felt like progress but weren&apos;t.</p>
@@ -66,7 +66,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto space-y-24 lg:space-y-32">
 
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] mb-4">
+            <p className="text-xl md:text-2xl text-[#6b6560] mb-4">
               When your team can&apos;t explain what you do the same way twice, it&apos;s not your messaging.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
 
           <div className="reveal text-right">
-            <p className="text-xl md:text-2xl text-[#8a8178] mb-4">
+            <p className="text-xl md:text-2xl text-[#6b6560] mb-4">
               When you attract the wrong clients and lose the right ones, it&apos;s not your sales team.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
@@ -84,7 +84,7 @@ export default function Home() {
           </div>
 
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] mb-4">
+            <p className="text-xl md:text-2xl text-[#6b6560] mb-4">
               When growth stalls and you don&apos;t know where to focus, it&apos;s not your tactics.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
@@ -104,7 +104,7 @@ export default function Home() {
           <p className="text-xl md:text-2xl text-[#f57214] italic mb-8">
             A transaction. A transition. A transformation.
           </p>
-          <p className="text-xl md:text-2xl text-[#8a8178]">
+          <p className="text-xl md:text-2xl text-[#6b6560]">
             They can&apos;t quite name what&apos;s broken or how to move forward.
           </p>
         </div>
@@ -148,7 +148,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
                 Partnership
               </h3>
-              <p className="text-lg text-[#8a8178] mb-4">
+              <p className="text-lg text-[#6b6560] mb-4">
                 For organizations navigating major transitions and transformations.
               </p>
               <span className="text-[#f57214] inline-flex items-center gap-1">
@@ -160,7 +160,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
                 Sprint
               </h3>
-              <p className="text-lg text-[#8a8178] mb-4">
+              <p className="text-lg text-[#6b6560] mb-4">
                 For growing businesses ready to solve their most critical challenge.
               </p>
               <span className="text-[#f57214] inline-flex items-center gap-1">
@@ -172,7 +172,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
                 Clarity University
               </h3>
-              <p className="text-lg text-[#8a8178] mb-4">
+              <p className="text-lg text-[#6b6560] mb-4">
                 For founders who need the methodology on their own timeline.
               </p>
               <span className="text-[#f57214] inline-flex items-center gap-1">

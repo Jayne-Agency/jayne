@@ -17,7 +17,7 @@ export default function StrategyPartnership() {
           <h1 className="text-5xl md:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
             The bigger you are, the harder it is to <span className="text-[#f57214]">stay clear.</span>
           </h1>
-          <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
+          <p className="text-xl md:text-2xl text-[#6b6560] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
             For enterprises navigating complexity, transitions, and transformations.
           </p>
         </div>
@@ -27,7 +27,7 @@ export default function StrategyPartnership() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed mb-8">
               You have the budget. You have the team. You&apos;ve hired the agencies.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
@@ -64,7 +64,7 @@ export default function StrategyPartnership() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed mb-8">
               The bigger the company, the more expensive the confusion.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
@@ -88,27 +88,27 @@ export default function StrategyPartnership() {
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Senior strategists only</h3>
-              <p className="text-xl text-[#8a8178]">Direct access to the people doing the thinking. No layers. No handoffs. No account managers between you and the work.</p>
+              <p className="text-xl text-[#6b6560]">Direct access to the people doing the thinking. No layers. No handoffs. No account managers between you and the work.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Deep integration</h3>
-              <p className="text-xl text-[#8a8178]">We learn your business, your politics, your constraints. We become an extension of your leadership team—not an outside voice.</p>
+              <p className="text-xl text-[#6b6560]">We learn your business, your politics, your constraints. We become an extension of your leadership team—not an outside voice.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Ongoing, not one-time</h3>
-              <p className="text-xl text-[#8a8178]">Strategy isn&apos;t a deliverable you file away. We stay with you as markets shift, priorities change, and new challenges emerge.</p>
+              <p className="text-xl text-[#6b6560]">Strategy isn&apos;t a deliverable you file away. We stay with you as markets shift, priorities change, and new challenges emerge.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Outcomes over outputs</h3>
-              <p className="text-xl text-[#8a8178]">We measure success by what changes in your business—not by the volume of work we produce.</p>
+              <p className="text-xl text-[#6b6560]">We measure success by what changes in your business—not by the volume of work we produce.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Strategy to execution</h3>
-              <p className="text-xl text-[#8a8178]">We don&apos;t just hand you a plan and walk away. When you&apos;re ready to build, we can build with you.</p>
+              <p className="text-xl text-[#6b6560]">We don&apos;t just hand you a plan and walk away. When you&apos;re ready to build, we can build with you.</p>
             </div>
           </div>
         </div>
@@ -121,16 +121,16 @@ export default function StrategyPartnership() {
             This is for you if
           </p>
           <div className="reveal-stagger space-y-6">
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed">
               Your decisions impact millions in revenue.
             </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed">
               You&apos;re navigating a merger, acquisition, or major market shift.
             </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed">
               Your brand architecture has become a liability, not an asset.
             </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed">
               You need executive-level counsel—not another vendor relationship.
             </p>
             <p className="text-xl md:text-2xl text-[#1a1a1a] leading-relaxed mt-8">
@@ -146,7 +146,7 @@ export default function StrategyPartnership() {
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
             Let&apos;s talk about what&apos;s broken.
           </h2>
-          <p className="reveal text-xl text-[#8a8178] mb-10">
+          <p className="reveal text-xl text-[#6b6560] mb-10">
             No pitch. No pressure. Just a conversation about where you are and where you need to be.
           </p>
           <div className="reveal">

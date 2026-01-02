@@ -49,8 +49,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable} ${openSans.variable}`}>
       <body className="antialiased">
+        <a href="#main-content" className="skip-link">
+          Skip to main content
+        </a>
         <Navigation />
-        <main>{children}</main>
+        <main id="main-content">{children}</main>
         <Footer />
       </body>
     </html>

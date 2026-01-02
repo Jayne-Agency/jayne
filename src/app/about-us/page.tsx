@@ -11,7 +11,7 @@ export default function AboutUs() {
       {/* Hero - The Break */}
       <section className="min-h-[80vh] flex items-center pt-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="text-xl md:text-2xl text-[#8a8178] mb-6 opacity-0 animate-fade-in">
+          <p className="text-xl md:text-2xl text-[#6b6560] mb-6 opacity-0 animate-fade-in">
             We spent two decades inside the machine.
           </p>
           <h1 className="text-5xl md:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
@@ -28,7 +28,7 @@ export default function AboutUs() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed mb-8">
               Our founder was Executive Creative Director at Ogilvy. Chief Creative Officer at Razorfish. The big offices. The big clients. The big budgets.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
@@ -74,13 +74,13 @@ export default function AboutUs() {
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
               A methodology refined over 17 years.
             </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-6">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed mb-6">
               Direct access to senior strategists—no layers, no handoffs.
             </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-6">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed mb-6">
               Engagements sized to your reality, not our overhead.
             </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed">
               Outcomes you can measure, not outputs you can count.
             </p>
           </div>
@@ -95,16 +95,16 @@ export default function AboutUs() {
           </p>
           <div className="reveal grid grid-cols-2 md:grid-cols-4 gap-12 lg:gap-16 items-center opacity-60">
             {/* Replace with actual client logos */}
-            <div className="text-2xl text-[#8a8178] font-medium">Fortune 50</div>
-            <div className="text-2xl text-[#8a8178] font-medium">Series A Startups</div>
-            <div className="text-2xl text-[#8a8178] font-medium">Private Equity</div>
-            <div className="text-2xl text-[#8a8178] font-medium">Family Businesses</div>
-            <div className="text-2xl text-[#8a8178] font-medium">Healthcare</div>
-            <div className="text-2xl text-[#8a8178] font-medium">SaaS</div>
-            <div className="text-2xl text-[#8a8178] font-medium">Manufacturing</div>
-            <div className="text-2xl text-[#8a8178] font-medium">Professional Services</div>
+            <div className="text-2xl text-[#6b6560] font-medium">Fortune 50</div>
+            <div className="text-2xl text-[#6b6560] font-medium">Series A Startups</div>
+            <div className="text-2xl text-[#6b6560] font-medium">Private Equity</div>
+            <div className="text-2xl text-[#6b6560] font-medium">Family Businesses</div>
+            <div className="text-2xl text-[#6b6560] font-medium">Healthcare</div>
+            <div className="text-2xl text-[#6b6560] font-medium">SaaS</div>
+            <div className="text-2xl text-[#6b6560] font-medium">Manufacturing</div>
+            <div className="text-2xl text-[#6b6560] font-medium">Professional Services</div>
           </div>
-          <p className="reveal text-xl text-[#8a8178] mt-16">
+          <p className="reveal text-xl text-[#6b6560] mt-16">
             From startups finding their first message to Fortune 50 companies rediscovering theirs.
           </p>
         </div>
@@ -122,7 +122,7 @@ export default function AboutUs() {
               <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
                 &ldquo;We couldn&apos;t explain what we did. Not to investors, not to customers, not even to each other. Six weeks later, our sales team was closing deals in half the time.&rdquo;
               </p>
-              <p className="text-lg text-[#8a8178]">
+              <p className="text-lg text-[#6b6560]">
                 — CEO, Series B SaaS Company
               </p>
             </div>
@@ -131,7 +131,7 @@ export default function AboutUs() {
               <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
                 &ldquo;We&apos;d spent $2M on agencies who gave us beautiful decks and zero clarity. Jayne gave us the strategy we actually use—every day, across every department.&rdquo;
               </p>
-              <p className="text-lg text-[#8a8178]">
+              <p className="text-lg text-[#6b6560]">
                 — CMO, Healthcare Technology
               </p>
             </div>
@@ -140,7 +140,7 @@ export default function AboutUs() {
               <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
                 &ldquo;For the first time in 30 years, everyone in this company can tell the same story about who we are and why we matter.&rdquo;
               </p>
-              <p className="text-lg text-[#8a8178]">
+              <p className="text-lg text-[#6b6560]">
                 — Third-Generation Owner, Manufacturing
               </p>
             </div>
@@ -155,10 +155,10 @@ export default function AboutUs() {
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
               &ldquo;I left because I was tired of watching good companies waste money on the wrong problems.&rdquo;
             </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed mb-8">
               The agency model is built for agencies, not clients. Long timelines justify big retainers. Complex deliverables justify complex fees. But none of it matters if you still can&apos;t answer the only question that counts: <em>why should anyone choose you?</em>
             </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            <p className="text-xl md:text-2xl text-[#6b6560] leading-relaxed">
               That&apos;s the question we answer. Everything else is noise.
             </p>
             <p className="text-lg text-[#9d968c] mt-12">
@@ -174,7 +174,7 @@ export default function AboutUs() {
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
             Ready for clarity?
           </h2>
-          <p className="reveal text-xl text-[#8a8178] mb-10">
+          <p className="reveal text-xl text-[#6b6560] mb-10">
             Let&apos;s talk about what&apos;s actually broken—and how to fix it.
           </p>
           <div className="reveal">

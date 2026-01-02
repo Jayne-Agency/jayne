@@ -6,7 +6,7 @@
  * Colors (4 only):
  * - Cream: #faf6f0 (background, warm)
  * - Black: #1a1a1a (headlines, primary)
- * - Warm Gray: #8a8178 (body text, warm undertone)
+ * - Warm Gray: #6b6560 (body text, WCAG AA compliant 4.5:1)
  * - Orange: #f57214 (accent, used sparingly)
  *
  * Typography (4 sizes):
@@ -23,7 +23,7 @@
 :root {
   --color-cream: #faf6f0;
   --color-black: #1a1a1a;
-  --color-gray: #8a8178;
+  --color-gray: #6b6560;
   --color-orange: #f57214;
 }
 
@@ -86,3 +86,29 @@ body {
 .reveal-stagger.visible > *:nth-child(2) { transition-delay: 0.1s; opacity: 1; transform: translateY(0); }
 .reveal-stagger.visible > *:nth-child(3) { transition-delay: 0.15s; opacity: 1; transform: translateY(0); }
 .reveal-stagger.visible > *:nth-child(4) { transition-delay: 0.2s; opacity: 1; transform: translateY(0); }
+
+/* Accessibility: Focus states */
+a:focus-visible,
+button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-cream), 0 0 0 4px var(--color-orange);
+  border-radius: 4px;
+}
+
+/* Accessibility: Skip to main content link */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-black);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  z-index: 100;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
