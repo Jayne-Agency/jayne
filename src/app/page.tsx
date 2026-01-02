@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="font-[family-name:var(--font-playfair)]">
       {/* Hero */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6">
+      <section className="min-h-screen flex flex-col items-center justify-center px-6 pt-20">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-xl md:text-2xl text-[#8a8178] mb-6 opacity-0 animate-fade-in">
             If you&apos;re here
