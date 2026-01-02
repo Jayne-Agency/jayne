@@ -63,13 +63,28 @@ export default function Home() {
           </div>
 
           {/* Investment vs Clarity visual - Jack Butcher style */}
-          <div className="reveal mt-16 flex items-end gap-3 md:gap-4">
-            {/* Ascending bars - money/time increasing */}
-            <div className="w-3 md:w-4 h-8 md:h-10 bg-[#1a1a1a]"></div>
-            <div className="w-3 md:w-4 h-14 md:h-18 bg-[#1a1a1a]"></div>
-            <div className="w-3 md:w-4 h-20 md:h-26 bg-[#1a1a1a]"></div>
-            {/* Flat line - clarity stays the same */}
-            <div className="w-16 md:w-24 h-[3px] bg-[#f57214] self-end mb-4"></div>
+          <div className="reveal mt-16 space-y-4">
+            {/* Time - hourglass + long line */}
+            <div className="flex items-center gap-4">
+              <svg className="w-5 h-5 md:w-6 md:h-6 text-[#1a1a1a]" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M6 2v6l4 4-4 4v6h12v-6l-4-4 4-4V2H6zm10 14.5V20H8v-3.5l4-4 4 4zm-4-5l-4-4V4h8v3.5l-4 4z"/>
+              </svg>
+              <div className="w-48 md:w-64 h-[3px] bg-[#1a1a1a]"></div>
+            </div>
+            {/* Money - dollar + long line */}
+            <div className="flex items-center gap-4">
+              <svg className="w-5 h-5 md:w-6 md:h-6 text-[#1a1a1a]" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93V18h-2v1.93c-2.61-.45-4.62-2.46-5.07-5.07H7v-2H5.07c.45-2.61 2.46-4.62 5.07-5.07V6h2v1.86c2.61.45 4.62 2.46 5.07 5.07H16v2h1.93c-.45 2.61-2.46 4.62-5.93 5z"/>
+              </svg>
+              <div className="w-48 md:w-64 h-[3px] bg-[#1a1a1a]"></div>
+            </div>
+            {/* Clarity - eye + short line */}
+            <div className="flex items-center gap-4">
+              <svg className="w-5 h-5 md:w-6 md:h-6 text-[#f57214]" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+              </svg>
+              <div className="w-16 md:w-24 h-[3px] bg-[#f57214]"></div>
+            </div>
           </div>
         </div>
       </section>
