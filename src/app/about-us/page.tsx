@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
 
@@ -44,17 +45,15 @@ export default function AboutUs() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-5xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-16 text-center">
-            Companies we&apos;ve helped find clarity
+            Companies we&apos;ve helped
           </p>
-          <div className="reveal grid grid-cols-2 md:grid-cols-4 gap-12 lg:gap-16 items-center justify-items-center">
-            <div className="text-xl md:text-2xl text-[#8a8178] font-medium opacity-70">PepsiCo</div>
-            <div className="text-xl md:text-2xl text-[#8a8178] font-medium opacity-70">Beam Suntory</div>
-            <div className="text-xl md:text-2xl text-[#8a8178] font-medium opacity-70">Johnson &amp; Johnson</div>
-            <div className="text-xl md:text-2xl text-[#8a8178] font-medium opacity-70">Kraft Heinz</div>
-            <div className="text-xl md:text-2xl text-[#8a8178] font-medium opacity-70">Nestlé</div>
-            <div className="text-xl md:text-2xl text-[#8a8178] font-medium opacity-70">Unilever</div>
-            <div className="text-xl md:text-2xl text-[#8a8178] font-medium opacity-70">AB InBev</div>
-            <div className="text-xl md:text-2xl text-[#8a8178] font-medium opacity-70">Mondelēz</div>
+          <div className="reveal grid grid-cols-2 md:grid-cols-3 gap-12 lg:gap-16 items-center justify-items-center">
+            <Image src="/pepsico.png" alt="PepsiCo" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
+            <Image src="/mondelez.png" alt="Mondelēz" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
+            <Image src="/abbott.png" alt="Abbott" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
+            <Image src="/allstate.png" alt="Allstate" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
+            <Image src="/redcross.png" alt="Red Cross" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
+            <Image src="/brooke.png" alt="Brooke" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
           </div>
         </div>
       </section>
