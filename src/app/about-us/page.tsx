@@ -138,26 +138,18 @@ export default function AboutUs() {
       {/* The Methodology - Section Header */}
       <section className="py-32 lg:py-48 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
             The Methodology
+          </p>
+          <h2 className="reveal text-4xl md:text-6xl text-[#1a1a1a] leading-[1.1] mb-12">
+            This is user-centered research applied to brand strategy.
           </h2>
-        </div>
-      </section>
-
-      {/* The Methodology - User-Centered Research */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              This is user-centered research applied to brand strategy.
-            </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-6">
-              Which means we&apos;re not going to ask you what you think your company does. We&apos;re going to find out what your customers actually buy from you.
-            </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
-              Those are rarely the same thing, and the gap between them is where most of your problems live.
-            </p>
-          </div>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-6">
+            Which means we&apos;re not going to ask you what you think your company does. We&apos;re going to find out what your customers actually buy from you.
+          </p>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            Those are rarely the same thing, and the gap between them is where most of your problems live.
+          </p>
         </div>
       </section>
 
