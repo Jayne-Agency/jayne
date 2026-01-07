@@ -130,11 +130,8 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
             We work with leaders who know they&apos;re on the brink of something.
           </h2>
-          <p className="text-xl md:text-2xl text-[#f57214] italic mb-8">
-            A transaction. A transition. A transformation.
-          </p>
           <p className="text-xl md:text-2xl text-[#8a8178]">
-            They can&apos;t quite name what&apos;s broken or how to move forward.
+            They can&apos;t quite name what&apos;s happening or how to <span className="text-[#f57214]">untangle</span> it.
           </p>
         </div>
       </section>
