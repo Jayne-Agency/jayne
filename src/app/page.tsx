@@ -43,11 +43,14 @@ export default function Home() {
           <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-4">
             Maybe you felt it coming.
           </p>
-          <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-12">
+          <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-4">
             Maybe it blindsided you.
           </p>
+          <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-12">
+            Maybe you already know but it&apos;s not here yet.
+          </p>
           <p className="text-xl md:text-2xl text-[#8a8178]">
-            Either way, yesterday&apos;s story doesn&apos;t work anymore.
+            Either way, yesterday&apos;s story won&apos;t work anymore.
           </p>
         </div>
       </section>
