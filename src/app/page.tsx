@@ -187,7 +187,7 @@ export default function Home() {
                 Sprint
               </h3>
               <p className="text-lg text-[#8a8178] mb-4">
-                For growing businesses ready to solve their most critical challenge.
+                For businesses ready to solve their most critical blockers and unlock their next level of growth.
               </p>
               <span className="text-[#f57214] inline-flex items-center gap-1">
                 See how it works <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
