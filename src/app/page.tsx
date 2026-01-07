@@ -59,7 +59,7 @@ export default function Home() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="reveal text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-12">
-            You&apos;ve probably already tried to fix it.
+            Maybe you&apos;ve already tried to fix it.
           </h2>
           <div className="reveal-stagger text-xl md:text-2xl text-[#8a8178] space-y-2">
             <p>Hired the marketing people.</p>
