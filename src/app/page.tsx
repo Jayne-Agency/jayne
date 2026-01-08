@@ -35,13 +35,14 @@ export default function Home() {
           <h1 className="text-5xl md:text-7xl leading-[1] tracking-tight text-[#1a1a1a] opacity-0 animate-fade-in animation-delay-100">
             something changed
           </h1>
-          <div className="mt-32 opacity-0 animate-fade-in animation-delay-200">
+          <div className="mt-16 pt-32 opacity-0 animate-fade-in animation-delay-200">
             <Image
               src="/Illustration 26 from Trevor.png"
               alt=""
-              width={600}
-              height={300}
-              className="mx-auto rotate-90 scale-150"
+              width={300}
+              height={600}
+              className="mx-auto rotate-90"
+              style={{ transformOrigin: 'center center' }}
             />
           </div>
         </div>
