@@ -81,6 +81,23 @@ export default function StrategySprint() {
           </div>
         </div>
       </section>
+
+      {/* The Deliverables */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="reveal">
+            <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
+              What you get
+            </p>
+            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
+              Ten concrete assets that define your brand platform.
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+              Not aspirational fluff. Documented positions based on evidence. Your objectives, your barriers, your audience insights, your value articulation—all of it grounded in reality.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
