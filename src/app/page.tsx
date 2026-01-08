@@ -39,9 +39,9 @@ export default function Home() {
             <Image
               src="/Illustration 26 from Trevor.png"
               alt=""
-              width={400}
-              height={200}
-              className="mx-auto"
+              width={600}
+              height={300}
+              className="mx-auto rotate-90 scale-150"
             />
           </div>
         </div>
