@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <main className="font-[family-name:var(--font-playfair)]">
       {/* Hero */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6">
+      <section className="min-h-[70vh] flex flex-col items-center justify-center px-6 pt-24">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-xl md:text-2xl text-[#8a8178] mb-6 opacity-0 animate-fade-in">
             If you&apos;re here...
@@ -35,21 +35,24 @@ export default function Home() {
           <h1 className="text-5xl md:text-7xl leading-[1] tracking-tight text-[#1a1a1a] opacity-0 animate-fade-in animation-delay-100">
             something changed
           </h1>
-          <div className="mt-16 pt-32 opacity-0 animate-fade-in animation-delay-200">
-            <Image
-              src="/Illustration 26 from Trevor.png"
-              alt=""
-              width={300}
-              height={600}
-              className="mx-auto rotate-90"
-              style={{ transformOrigin: 'center center' }}
-            />
-          </div>
+        </div>
+      </section>
+
+      {/* Visual connector */}
+      <section className="relative py-8 md:py-16 opacity-0 animate-fade-in animation-delay-200">
+        <div className="flex justify-center">
+          <Image
+            src="/Illustration 26 from Trevor.png"
+            alt=""
+            width={800}
+            height={400}
+            className="w-[80vw] md:w-[60vw] lg:w-[50vw] max-w-3xl h-auto rotate-90"
+          />
         </div>
       </section>
 
       {/* The Diagnosis */}
-      <section className="py-24 lg:py-32 px-6">
+      <section className="py-16 lg:py-24 px-6">
         <div className="max-w-3xl mx-auto reveal-stagger">
           <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-4">
             Maybe you felt it coming.
