@@ -72,24 +72,45 @@ export default function Home() {
       {/* The Failed Attempts - 3 illustrations with text */}
       <section className="py-16 lg:py-24 px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="flex gap-6 md:gap-12">
 
-            {/* Illustration column - stacked to connect */}
-            <div className="w-24 md:w-32 flex-shrink-0 flex flex-col">
+          {/* Part 1: Top tangle */}
+          <div className="reveal flex items-center gap-6 md:gap-12 mb-8 md:mb-12">
+            <div className="w-24 md:w-32 flex-shrink-0">
               <Image
                 src="/top tangle.png"
                 alt=""
                 width={200}
                 height={200}
-                className="w-full h-auto -mb-2"
+                className="w-full h-auto"
               />
+            </div>
+            <div className="flex-1">
+              <p className="text-xl md:text-3xl text-[#1a1a1a] leading-snug">
+                Maybe you&apos;ve already tried to fix it.
+              </p>
+            </div>
+          </div>
+
+          {/* Part 2: Middle line (false hope) */}
+          <div className="reveal flex items-center gap-6 md:gap-12 mb-8 md:mb-12">
+            <div className="w-24 md:w-32 flex-shrink-0">
               <Image
                 src="/falsehope.png"
                 alt=""
                 width={200}
                 height={200}
-                className="w-full h-auto -mb-2"
+                className="w-full h-auto"
               />
+            </div>
+            <div className="flex-1">
+              <p className="text-lg md:text-2xl text-[#8a8178]">Hired the marketing people.</p>
+              <p className="text-lg md:text-2xl text-[#8a8178] mt-1">Refreshed the logo.</p>
+            </div>
+          </div>
+
+          {/* Part 3: Bottom tangle */}
+          <div className="reveal flex items-center gap-6 md:gap-12">
+            <div className="w-24 md:w-32 flex-shrink-0">
               <Image
                 src="/Bottomtangle.png"
                 alt=""
@@ -98,28 +119,13 @@ export default function Home() {
                 className="w-full h-auto"
               />
             </div>
-
-            {/* Text column - spaced to align with illustrations */}
-            <div className="flex-1 flex flex-col justify-between py-4">
-              <div className="reveal">
-                <p className="text-xl md:text-3xl text-[#1a1a1a] leading-snug">
-                  Maybe you&apos;ve already tried to fix it.
-                </p>
-              </div>
-
-              <div className="reveal">
-                <p className="text-lg md:text-2xl text-[#8a8178]">Hired the marketing people.</p>
-                <p className="text-lg md:text-2xl text-[#8a8178] mt-1">Refreshed the logo.</p>
-              </div>
-
-              <div className="reveal">
-                <p className="text-xl md:text-3xl text-[#1a1a1a] leading-snug">
-                  Spent money on things that felt like progress but weren&apos;t.
-                </p>
-              </div>
+            <div className="flex-1">
+              <p className="text-xl md:text-3xl text-[#1a1a1a] leading-snug">
+                Spent money on things that felt like progress but weren&apos;t.
+              </p>
             </div>
-
           </div>
+
         </div>
       </section>
 
