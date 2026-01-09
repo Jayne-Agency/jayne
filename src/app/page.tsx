@@ -70,39 +70,39 @@ export default function Home() {
       </section>
 
       {/* The Failed Attempts - vertical illustration with aligned text */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-4xl mx-auto">
-          <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
+      <section className="py-24 lg:py-32 px-6 overflow-hidden">
+        <div className="max-w-5xl mx-auto">
+          <div className="flex flex-row gap-6 md:gap-12 items-stretch">
 
             {/* Vertical illustration */}
-            <div className="reveal flex-shrink-0">
+            <div className="reveal flex-shrink-0 flex items-center">
               <Image
                 src="/Untitled Artwork 25.png"
                 alt=""
-                width={400}
-                height={800}
-                className="w-48 md:w-64 h-auto rotate-90"
+                width={600}
+                height={300}
+                className="w-32 md:w-48 lg:w-56 h-auto rotate-90 origin-center"
               />
             </div>
 
             {/* Text aligned to illustration parts */}
-            <div className="reveal-stagger flex flex-col justify-between h-full space-y-16 md:space-y-24">
+            <div className="reveal-stagger flex flex-col justify-between py-8 md:py-12 min-h-[400px] md:min-h-[500px]">
               {/* Top tangle */}
               <div>
-                <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+                <p className="text-xl md:text-3xl text-[#1a1a1a] leading-snug">
                   Maybe you&apos;ve already tried to fix it.
                 </p>
               </div>
 
               {/* Middle - false hope */}
               <div>
-                <p className="text-xl md:text-2xl text-[#8a8178]">Hired the marketing people.</p>
-                <p className="text-xl md:text-2xl text-[#8a8178] mt-2">Refreshed the logo.</p>
+                <p className="text-lg md:text-2xl text-[#8a8178]">Hired the marketing people.</p>
+                <p className="text-lg md:text-2xl text-[#8a8178] mt-1">Refreshed the logo.</p>
               </div>
 
               {/* Bottom tangle */}
               <div>
-                <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+                <p className="text-xl md:text-3xl text-[#1a1a1a] leading-snug">
                   Spent money on things that felt like progress but weren&apos;t.
                 </p>
               </div>
