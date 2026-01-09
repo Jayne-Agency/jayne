@@ -84,7 +84,7 @@ export default function Home() {
       </section>
 
       {/* Visual connector - tangled */}
-      <section className="relative py-12 md:py-16">
+      <section className="relative -mt-8 -mb-8 md:-mt-12 md:-mb-16">
         <div className="flex justify-center">
           <Image
             src="/Untitled Artwork 25.png"
@@ -97,7 +97,7 @@ export default function Home() {
       </section>
 
       {/* The Reframe */}
-      <section className="py-32 lg:py-48 px-6">
+      <section className="py-16 lg:py-24 px-6">
         <div className="max-w-4xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
             After 17 years and thousands of businesses
