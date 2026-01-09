@@ -83,6 +83,19 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Visual connector - tangled */}
+      <section className="relative py-12 md:py-16">
+        <div className="flex justify-center">
+          <Image
+            src="/Untitled Artwork 25.png"
+            alt=""
+            width={800}
+            height={400}
+            className="w-[85vw] md:w-[60vw] lg:w-[50vw] max-w-3xl h-auto"
+          />
+        </div>
+      </section>
+
       {/* The Reframe */}
       <section className="py-32 lg:py-48 px-6">
         <div className="max-w-4xl mx-auto">
