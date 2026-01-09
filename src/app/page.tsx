@@ -69,44 +69,62 @@ export default function Home() {
         </div>
       </section>
 
-      {/* The Failed Attempts - integrated with illustration */}
+      {/* The Failed Attempts - 3 illustrations with text */}
       <section className="py-16 lg:py-24 px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="relative flex">
-            {/* Illustration column */}
-            <div className="reveal w-1/3 md:w-1/4 flex-shrink-0">
+        <div className="max-w-4xl mx-auto">
+
+          {/* Part 1: Top tangle */}
+          <div className="reveal flex items-center gap-6 md:gap-12 mb-8 md:mb-12">
+            <div className="w-24 md:w-32 flex-shrink-0">
+              {/* Replace with: /illustrations/tangle-top.png */}
               <Image
                 src="/Untitled Artwork 25.png"
                 alt=""
-                width={400}
-                height={800}
-                className="w-full h-auto rotate-90 origin-center scale-150 md:scale-125"
+                width={200}
+                height={200}
+                className="w-full h-auto"
               />
             </div>
-
-            {/* Text column - positioned to align with illustration parts */}
-            <div className="reveal-stagger flex flex-col w-2/3 md:w-3/4 pl-8 md:pl-16">
-              {/* Top - aligns with first tangle */}
-              <div className="text-right">
-                <p className="text-xl md:text-3xl text-[#1a1a1a] leading-snug">
-                  Maybe you&apos;ve already tried to fix it.
-                </p>
-              </div>
-
-              {/* Middle - aligns with the line (false hope) */}
-              <div className="text-right mt-24 md:mt-32">
-                <p className="text-lg md:text-2xl text-[#8a8178]">Hired the marketing people.</p>
-                <p className="text-lg md:text-2xl text-[#8a8178] mt-1">Refreshed the logo.</p>
-              </div>
-
-              {/* Bottom - aligns with second tangle */}
-              <div className="mt-24 md:mt-32">
-                <p className="text-xl md:text-3xl text-[#1a1a1a] leading-snug">
-                  Spent money on things that felt like progress but weren&apos;t.
-                </p>
-              </div>
+            <div className="flex-1">
+              <p className="text-xl md:text-3xl text-[#1a1a1a] leading-snug">
+                Maybe you&apos;ve already tried to fix it.
+              </p>
             </div>
           </div>
+
+          {/* Part 2: Middle line (false hope) */}
+          <div className="reveal flex items-center gap-6 md:gap-12 mb-8 md:mb-12">
+            <div className="w-24 md:w-32 flex-shrink-0">
+              {/* Replace with: /illustrations/line-middle.png */}
+              <div className="h-24 md:h-32 flex items-center justify-center">
+                <div className="w-1 h-full bg-[#f57214]"></div>
+              </div>
+            </div>
+            <div className="flex-1">
+              <p className="text-lg md:text-2xl text-[#8a8178]">Hired the marketing people.</p>
+              <p className="text-lg md:text-2xl text-[#8a8178] mt-1">Refreshed the logo.</p>
+            </div>
+          </div>
+
+          {/* Part 3: Bottom tangle */}
+          <div className="reveal flex items-center gap-6 md:gap-12">
+            <div className="w-24 md:w-32 flex-shrink-0">
+              {/* Replace with: /illustrations/tangle-bottom.png */}
+              <Image
+                src="/Untitled Artwork 25.png"
+                alt=""
+                width={200}
+                height={200}
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="flex-1">
+              <p className="text-xl md:text-3xl text-[#1a1a1a] leading-snug">
+                Spent money on things that felt like progress but weren&apos;t.
+              </p>
+            </div>
+          </div>
+
         </div>
       </section>
 
