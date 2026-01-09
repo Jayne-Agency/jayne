@@ -215,7 +215,7 @@ export default function Home() {
       </section>
 
       {/* The Promise */}
-      <section className="py-32 lg:py-48 px-6">
+      <section className="pt-12 lg:pt-16 pb-32 lg:pb-48 px-6">
         <div className="max-w-3xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
             What we do
