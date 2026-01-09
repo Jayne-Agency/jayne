@@ -136,9 +136,9 @@ export default function Home() {
             After 17 years and thousands of businesses
           </p>
           <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
-            The problem isn&apos;t your marketing.
+            The problem isn&apos;t your <span className="text-[#f57214]">marketing</span>.
           </h2>
-          <div className="reveal mt-16 flex justify-center">
+          <div className="reveal mt-12 flex justify-center">
             <Image
               src="/Untitled Artwork 23.png"
               alt=""
@@ -151,7 +151,7 @@ export default function Home() {
       </section>
 
       {/* The Three Problems */}
-      <section className="py-24 lg:py-32 px-6">
+      <section className="py-12 lg:py-16 px-6">
         <div className="max-w-4xl mx-auto space-y-24 lg:space-y-32">
 
           <div className="reveal">
