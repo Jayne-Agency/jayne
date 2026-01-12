@@ -34,50 +34,6 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* Methodology Section */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="reveal text-3xl md:text-4xl leading-[1.2] text-[#1a1a1a] mb-8">
-            We help organizations of all sizes overcome their most pressing challenges while building sustainable long-term growth through a brand strategy methodology developed and refined over 17 years in service of hundreds of businesses.
-          </h2>
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] mb-16">
-            Learn more about our methodology and how we can help you
-          </p>
-
-          <div className="reveal grid md:grid-cols-3 gap-8">
-            <div className="group">
-              <h3 className="text-2xl text-[#1a1a1a] mb-4">Partnership</h3>
-              <p className="text-lg text-[#8a8178] mb-6">
-                For established enterprises navigating complex markets and competing priorities.
-              </p>
-              <a href="/work-with-us/strategy-partnership" className="inline-flex items-center text-lg text-[#1a1a1a] hover:text-[#8a8178] transition-colors">
-                Learn more <span className="ml-2">→</span>
-              </a>
-            </div>
-
-            <div className="group">
-              <h3 className="text-2xl text-[#1a1a1a] mb-4">Sprint</h3>
-              <p className="text-lg text-[#8a8178] mb-6">
-                For businesses ready to solve their most critical blockers and unlock their next level of growth.
-              </p>
-              <a href="/work-with-us/strategy-sprint" className="inline-flex items-center text-lg text-[#1a1a1a] hover:text-[#8a8178] transition-colors">
-                See how it works <span className="ml-2">→</span>
-              </a>
-            </div>
-
-            <div className="group">
-              <h3 className="text-2xl text-[#1a1a1a] mb-4">Clarity University</h3>
-              <p className="text-lg text-[#8a8178] mb-6">
-                MBA-level brand strategy education + hands on guidance for solopreneurs and early stage startups.
-              </p>
-              <a href="/work-with-us/clarity-university" className="inline-flex items-center text-lg text-[#1a1a1a] hover:text-[#8a8178] transition-colors">
-                Explore <span className="ml-2">→</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Client Logos */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-5xl mx-auto">
@@ -178,6 +134,50 @@ export default function AboutUs() {
               <p className="text-lg text-[#8a8178]">
                 — Marketing Director, B2B Technology
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Methodology Section */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="reveal text-3xl md:text-4xl leading-[1.2] text-[#1a1a1a] mb-8">
+            We help organizations of all sizes overcome their most pressing challenges while building sustainable long-term growth through a brand strategy methodology developed and refined over 17 years in service of hundreds of businesses.
+          </h2>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] mb-16">
+            Learn more about our methodology and how we can help you
+          </p>
+
+          <div className="reveal grid md:grid-cols-3 gap-8">
+            <div className="group">
+              <h3 className="text-2xl text-[#1a1a1a] mb-4">Partnership</h3>
+              <p className="text-lg text-[#8a8178] mb-6">
+                For established enterprises navigating complex markets and competing priorities.
+              </p>
+              <a href="/work-with-us/strategy-partnership" className="inline-flex items-center text-lg text-[#1a1a1a] hover:text-[#8a8178] transition-colors">
+                Learn more <span className="ml-2">→</span>
+              </a>
+            </div>
+
+            <div className="group">
+              <h3 className="text-2xl text-[#1a1a1a] mb-4">Sprint</h3>
+              <p className="text-lg text-[#8a8178] mb-6">
+                For businesses ready to solve their most critical blockers and unlock their next level of growth.
+              </p>
+              <a href="/work-with-us/strategy-sprint" className="inline-flex items-center text-lg text-[#1a1a1a] hover:text-[#8a8178] transition-colors">
+                See how it works <span className="ml-2">→</span>
+              </a>
+            </div>
+
+            <div className="group">
+              <h3 className="text-2xl text-[#1a1a1a] mb-4">Clarity University</h3>
+              <p className="text-lg text-[#8a8178] mb-6">
+                MBA-level brand strategy education + hands on guidance for solopreneurs and early stage startups.
+              </p>
+              <a href="/work-with-us/clarity-university" className="inline-flex items-center text-lg text-[#1a1a1a] hover:text-[#8a8178] transition-colors">
+                Explore <span className="ml-2">→</span>
+              </a>
             </div>
           </div>
         </div>
