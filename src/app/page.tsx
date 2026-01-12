@@ -52,7 +52,7 @@ export default function Home() {
       </section>
 
       {/* The Diagnosis */}
-      <section className="py-16 lg:py-20 px-6">
+      <section className="py-20 lg:py-24 px-6">
         <div className="max-w-3xl mx-auto reveal-stagger">
           <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-4">
             Maybe you felt it coming.
@@ -70,7 +70,7 @@ export default function Home() {
       </section>
 
       {/* The Failed Attempts - 3 illustrations with text */}
-      <section className="py-16 lg:py-24 px-6">
+      <section className="py-20 lg:py-24 px-6">
         <div className="max-w-4xl mx-auto">
 
           {/* Part 1: Top tangle */}
@@ -130,10 +130,10 @@ export default function Home() {
       </section>
 
       {/* The Reframe */}
-      <section className="py-16 lg:py-24 px-6">
+      <section className="pt-24 lg:pt-32 pb-8 lg:pb-12 px-6">
         <div className="max-w-4xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
-            After 17 years and thousands of businesses
+            After 17 years and hundreds of businesses
           </p>
           <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
             The problem isn&apos;t your <span className="text-[#f57214]">marketing</span>.
@@ -151,8 +151,8 @@ export default function Home() {
       </section>
 
       {/* The Three Problems */}
-      <section className="py-12 lg:py-16 px-6">
-        <div className="max-w-4xl mx-auto space-y-24 lg:space-y-32">
+      <section className="pt-16 lg:pt-20 pb-24 lg:pb-32 px-6">
+        <div className="max-w-4xl mx-auto space-y-20 lg:space-y-24">
 
           <div className="reveal">
             <p className="text-xl md:text-2xl text-[#8a8178] mb-4">
@@ -194,7 +194,7 @@ export default function Home() {
       </section>
 
       {/* Who We Serve */}
-      <section className="py-32 lg:py-48 px-6">
+      <section className="pt-24 lg:pt-32 pb-8 lg:pb-12 px-6">
         <div className="max-w-3xl mx-auto reveal">
           <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
             We work with leaders who know they&apos;re on the brink of something.
@@ -215,7 +215,7 @@ export default function Home() {
       </section>
 
       {/* The Promise */}
-      <section className="pt-12 lg:pt-16 pb-32 lg:pb-48 px-6">
+      <section className="pt-16 lg:pt-20 pb-24 lg:pb-32 px-6">
         <div className="max-w-3xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
             What we do
