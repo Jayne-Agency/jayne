@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect } from "react";
 
 export default function AboutUs() {
@@ -149,36 +150,42 @@ export default function AboutUs() {
             Learn more about our methodology and how we can help you
           </p>
 
-          <div className="reveal grid md:grid-cols-3 gap-8">
-            <div className="group">
-              <h3 className="text-2xl text-[#1a1a1a] mb-4">Partnership</h3>
-              <p className="text-lg text-[#8a8178] mb-6">
+          <div className="reveal grid md:grid-cols-3 gap-12 lg:gap-16">
+            <Link href="/work-with-us/strategy-partnership" className="group">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
+                Partnership
+              </h3>
+              <p className="text-lg text-[#8a8178] mb-4">
                 For established enterprises navigating complex markets and competing priorities.
               </p>
-              <a href="/work-with-us/strategy-partnership" className="inline-flex items-center text-lg text-[#1a1a1a] hover:text-[#8a8178] transition-colors">
-                Learn more <span className="ml-2">→</span>
-              </a>
-            </div>
+              <span className="text-[#f57214] inline-flex items-center gap-1">
+                Learn more <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+              </span>
+            </Link>
 
-            <div className="group">
-              <h3 className="text-2xl text-[#1a1a1a] mb-4">Sprint</h3>
-              <p className="text-lg text-[#8a8178] mb-6">
+            <Link href="/work-with-us/strategy-sprint" className="group">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
+                Sprint
+              </h3>
+              <p className="text-lg text-[#8a8178] mb-4">
                 For businesses ready to solve their most critical blockers and unlock their next level of growth.
               </p>
-              <a href="/work-with-us/strategy-sprint" className="inline-flex items-center text-lg text-[#1a1a1a] hover:text-[#8a8178] transition-colors">
-                See how it works <span className="ml-2">→</span>
-              </a>
-            </div>
+              <span className="text-[#f57214] inline-flex items-center gap-1">
+                See how it works <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+              </span>
+            </Link>
 
-            <div className="group">
-              <h3 className="text-2xl text-[#1a1a1a] mb-4">Clarity University</h3>
-              <p className="text-lg text-[#8a8178] mb-6">
+            <Link href="/work-with-us/clarity-university" className="group">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
+                Clarity University
+              </h3>
+              <p className="text-lg text-[#8a8178] mb-4">
                 MBA-level brand strategy education + hands on guidance for solopreneurs and early stage startups.
               </p>
-              <a href="/work-with-us/clarity-university" className="inline-flex items-center text-lg text-[#1a1a1a] hover:text-[#8a8178] transition-colors">
-                Explore <span className="ml-2">→</span>
-              </a>
-            </div>
+              <span className="text-[#f57214] inline-flex items-center gap-1">
+                Explore <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+              </span>
+            </Link>
           </div>
         </div>
       </section>
