@@ -133,7 +133,7 @@ export default function Home() {
       <section className="py-16 lg:py-24 px-6">
         <div className="max-w-4xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
-            After 17 years and thousands of businesses
+            After 17 years and hundreds of businesses
           </p>
           <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
             The problem isn&apos;t your <span className="text-[#f57214]">marketing</span>.
