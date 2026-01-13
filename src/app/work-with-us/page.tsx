@@ -146,15 +146,24 @@ export default function WorkWithUs() {
         </div>
       </section>
 
-      {/* Week 1: The Strategy Sprint */}
+      {/* How We Build It */}
       <section className="py-12 lg:py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
+            How we build it
+          </h2>
+        </div>
+      </section>
+
+      {/* Week 1: The Strategy Sprint */}
+      <section className="py-8 lg:py-12 px-6">
         <div className="max-w-4xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-3">
             Week 1
           </p>
-          <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
+          <h3 className="reveal text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-6">
             The Strategy Sprint
-          </h2>
+          </h3>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
             An eight-hour, expertly facilitated deep-dive into the 10 evidence-based elements that define your brand.
           </p>
@@ -171,14 +180,14 @@ export default function WorkWithUs() {
       </section>
 
       {/* Weeks 2 & 3 */}
-      <section className="py-12 lg:py-16 px-6">
+      <section className="py-8 lg:py-12 px-6">
         <div className="max-w-4xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-3">
             Weeks 2 &amp; 3
           </p>
-          <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
+          <h3 className="reveal text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-6">
             We Build Your Platform
-          </h2>
+          </h3>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
             While you get back to running your business, our strategists integrate everything—including the conflicting perspectives—into a cohesive brand platform.
           </p>
@@ -189,14 +198,14 @@ export default function WorkWithUs() {
       </section>
 
       {/* Week 4: Alignment Review */}
-      <section className="py-12 lg:py-16 px-6">
+      <section className="py-8 lg:py-12 px-6">
         <div className="max-w-4xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-3">
             Week 4
           </p>
-          <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
+          <h3 className="reveal text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-6">
             Alignment Review
-          </h2>
+          </h3>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
             We present your draft platform to your team. Your job: be critics.
           </p>
@@ -207,14 +216,14 @@ export default function WorkWithUs() {
       </section>
 
       {/* Week 5 & 6: Final Delivery */}
-      <section className="py-12 lg:py-16 px-6">
+      <section className="py-8 lg:py-12 px-6">
         <div className="max-w-4xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-3">
             Weeks 5 &amp; 6
           </p>
-          <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
+          <h3 className="reveal text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-6">
             Final Delivery
-          </h2>
+          </h3>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed">
             We incorporate your feedback and deliver your completed Brand Platform—a comprehensive document containing all 10 assets, fully refined and ready to use.
           </p>
