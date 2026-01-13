@@ -62,6 +62,24 @@ export default function StrategySprint() {
           </p>
         </div>
       </section>
+
+      {/* Weeks 2 & 3 */}
+      <section className="py-32 lg:py-48 px-6">
+        <div className="max-w-4xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-6">
+            Weeks 2 &amp; 3
+          </p>
+          <h2 className="reveal text-4xl md:text-6xl text-[#1a1a1a] leading-[1.1] mb-12">
+            We Build Your Platform
+          </h2>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+            While you get back to running your business, our strategists integrate everything—including the conflicting perspectives—into a cohesive brand platform.
+          </p>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            We cross-check, challenge, pressure-test, and create alternatives. We consolidate 60+ pages of input into a focused 16-page platform.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
