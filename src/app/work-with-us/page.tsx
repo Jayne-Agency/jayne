@@ -147,16 +147,16 @@ export default function WorkWithUs() {
       </section>
 
       {/* How We Build It */}
-      <section className="py-12 lg:py-16 px-6">
+      <section className="pt-12 lg:pt-16 pb-4 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
+          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-[1.1]">
             How we build it
           </h2>
         </div>
       </section>
 
       {/* Week 1: The Strategy Sprint */}
-      <section className="py-8 lg:py-12 px-6">
+      <section className="py-6 lg:py-8 px-6">
         <div className="max-w-4xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-3">
             Week 1
@@ -180,7 +180,7 @@ export default function WorkWithUs() {
       </section>
 
       {/* Weeks 2 & 3 */}
-      <section className="py-8 lg:py-12 px-6">
+      <section className="py-6 lg:py-8 px-6">
         <div className="max-w-4xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-3">
             Weeks 2 &amp; 3
@@ -198,7 +198,7 @@ export default function WorkWithUs() {
       </section>
 
       {/* Week 4: Alignment Review */}
-      <section className="py-8 lg:py-12 px-6">
+      <section className="py-6 lg:py-8 px-6">
         <div className="max-w-4xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-3">
             Week 4
@@ -216,7 +216,7 @@ export default function WorkWithUs() {
       </section>
 
       {/* Week 5 & 6: Final Delivery */}
-      <section className="py-8 lg:py-12 px-6">
+      <section className="py-6 lg:py-8 px-6">
         <div className="max-w-4xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-3">
             Weeks 5 &amp; 6
@@ -231,7 +231,7 @@ export default function WorkWithUs() {
       </section>
 
       {/* What Happens Next */}
-      <section className="py-12 lg:py-16 px-6">
+      <section className="pt-12 lg:pt-16 pb-16 lg:pb-24 px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
             What happens next?
