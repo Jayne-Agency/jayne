@@ -35,6 +35,27 @@ export default function StrategySprint() {
           </p>
         </div>
       </section>
+
+      {/* Week 1: The Strategy Session */}
+      <section className="py-32 lg:py-48 px-6">
+        <div className="max-w-4xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-6">
+            Week 1
+          </p>
+          <h2 className="reveal text-4xl md:text-6xl text-[#1a1a1a] leading-[1.1] mb-12">
+            The Strategy Session
+          </h2>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+            An eight-hour, expertly facilitated deep-dive into the 10 evidence-based elements that define your brand.
+          </p>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+            This isn&apos;t a workshop where everyone shares feelings and leaves with vague inspiration. This is a rigorous, structured process that extracts the provable reality of your business.
+          </p>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            The session includes your key stakeholders. The debates happen in the room, facilitated by professionals trained to push through discomfort to clarity. Everyone leaves on the same page.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
