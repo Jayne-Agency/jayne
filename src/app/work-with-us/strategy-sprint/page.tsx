@@ -43,7 +43,7 @@ export default function StrategySprint() {
             The path we build together
           </h2>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed">
-            Every successful company has these well defined 10 brand assets. They hold the levers, controls, opportunity, creativity, boundaries, and blue sky on your finances, marketing, culture, market share and innovation.
+            These 10 brand assets hold the levers, controls, opportunity, creativity, boundaries, and blue sky on your finances, marketing, culture, market share and innovation. Success comes when you nail all 10. With our help, you will.
           </p>
         </div>
       </section>
