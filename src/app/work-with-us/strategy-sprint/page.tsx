@@ -80,6 +80,24 @@ export default function StrategySprint() {
           </p>
         </div>
       </section>
+
+      {/* Week 4: Alignment Review */}
+      <section className="py-32 lg:py-48 px-6">
+        <div className="max-w-4xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-6">
+            Week 4
+          </p>
+          <h2 className="reveal text-4xl md:text-6xl text-[#1a1a1a] leading-[1.1] mb-12">
+            Alignment Review
+          </h2>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+            We present your draft platform to your team. Your job: be critics.
+          </p>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            What doesn&apos;t sit right? What needs refinement? What&apos;s missing? This is a collaborative session where we kick the tires together and refine until it feels unmistakably yours.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
