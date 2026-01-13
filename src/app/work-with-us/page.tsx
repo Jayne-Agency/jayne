@@ -146,14 +146,14 @@ export default function WorkWithUs() {
         </div>
       </section>
 
-      {/* Week 1: The Strategy Session */}
+      {/* Week 1: The Strategy Sprint */}
       <section className="py-12 lg:py-16 px-6">
         <div className="max-w-4xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-3">
             Week 1
           </p>
           <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
-            The Strategy Session
+            The Strategy Sprint
           </h2>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
             An eight-hour, expertly facilitated deep-dive into the 10 evidence-based elements that define your brand.
