@@ -31,7 +31,7 @@ export default function StrategySprint() {
             Drive dependable, repeatable, and scalable revenue in six weeks.
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed opacity-0 animate-fade-in animation-delay-100">
-            Our user-centered and evidence-based approach to brand building has been proven globally over 17 years with hundreds of businesses ranging from $20K to $2B in revenue.
+            Our <span className="text-[#f57214]">evidence-based</span> approach to brand building has been proven globally over 17 years with hundreds of businesses ranging from $20K to $2B in revenue.
           </p>
         </div>
       </section>
