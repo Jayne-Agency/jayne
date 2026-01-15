@@ -95,7 +95,7 @@ export function Navigation() {
               rel="noopener noreferrer"
               className="text-sm font-medium relative group transition-colors duration-300 text-[#1a1a1a] hover:text-[#f57214]"
             >
-              Writing
+              Devil&apos;s Advocate
               <span className="absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 w-0 group-hover:w-full" />
             </a>
           </div>
