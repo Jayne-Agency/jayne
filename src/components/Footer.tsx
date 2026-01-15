@@ -70,10 +70,10 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:hello@jayneagency.com"
+                  href="mailto:admin@jayneagency.com"
                   className="text-[#1a1a1a] hover:text-[#f57214] transition-colors"
                 >
-                  hello@jayneagency.com
+                  admin@jayneagency.com
                 </a>
               </li>
             </ul>
