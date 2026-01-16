@@ -130,7 +130,8 @@ export default function EverTecCaseStudy() {
           <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-8">
             Situation
           </p>
-          <div className="reveal">
+          <div className="reveal flex items-start gap-3">
+            <span className="text-[#f57214] mt-2 text-[10px] flex-shrink-0">●</span>
             <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed">
               In the vortex of a pandemic, a multi-million dollar deal, a rise in ecommerce demands, and public outrage at the damage being done through the waste stream, the sale of TMS EcoMailer (now rebranded to EverTec) to Pregis was industry watershed.
             </p>
@@ -144,7 +145,8 @@ export default function EverTecCaseStudy() {
           <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-8">
             Complication
           </p>
-          <div className="reveal">
+          <div className="reveal flex items-start gap-3">
+            <span className="text-[#f57214] mt-2 text-[10px] flex-shrink-0">●</span>
             <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed">
               Jayne Agency used a proven user research methodology that revealed that the intended promise for TMS&apos;s EcoMailer&apos;s environmental promise was &ldquo;tolerated&rdquo; by distributors and large retailers, but not at a higher price point. What became more evident and valuable was that the primary audience was willing to pay MORE for increased durability, specifically the kind the EcoMailer&apos;s naturally provided due to how the mailer was designed. More durability meant less breakage, less returns, longer lifetime value of the customer.
             </p>
@@ -158,7 +160,8 @@ export default function EverTecCaseStudy() {
           <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-8">
             Approach
           </p>
-          <div className="reveal">
+          <div className="reveal flex items-start gap-3">
+            <span className="text-[#f57214] mt-2 text-[10px] flex-shrink-0">●</span>
             <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed">
               Jayne Agency carefully counseled the EcoMailer founders, Pregis, the new ownership organization, and the marketing team to embrace the clarity demonstrated in the research data and how to integrate that clarity – on a deliverable by deliverable, day by day basis. With ongoing demands from the sales team, new ownership, new markets, and the largest consumer of ecommerce protective packaging (Amazon) the need for clarity and alignment became urgent. Jayne Agency performed as an extension of the Pregis Marketing team, leading marketing and sales strategy partnering with Pregis&apos;s CMO and SVP of Innovation, as well as the business unit leader who innovated the original product line. With Jayne&apos;s focus on durability, vs. eco-friendly, the relationship development with Amazon became more hard hitting - for original owners, for Warburg Pinkus, for Pregis and for the multiple teams at Amazon banking on the EcoMailer solving more than just environmental concerns. By creating clear alignment and focus prior to acquisition, the value of the transaction for Warburg Pinkus increased in multiples that were industry watershed. It also secured the long term sales at Amazon to becoming the largest volume of protective packaging purchased by Amazon in the history of a single source providers. Securing the brand position based on evidence allowed Pregis (EverTec aka EcoMailer) to displace 80% of small use corrugated card board boxes - making the relationship more valuable than just the commodity of an envelope.
             </p>
@@ -172,7 +175,8 @@ export default function EverTecCaseStudy() {
           <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-8">
             Impact
           </p>
-          <div className="reveal">
+          <div className="reveal flex items-start gap-3">
+            <span className="text-[#f57214] mt-2 text-[10px] flex-shrink-0">●</span>
             <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed">
               Sales for EcoMailer skyrocketed with the new resources and distribution available through Pregis. A rebrand was incited to secure that the brand ownership of the original product was aligned with Pregis. Newly branded as EcoMailer now known as the award winning brand and product of EverTec has created billions of dollars of displacement and redirection of what was once a commodity, and is now a packaging solution line of over 14 products. The rebrand took place swiftly, with 100% engagement and led to increased sales commitment, driving more pressure for demand than Pregis can supply. The new brand holds an exciting position for sales, as the dominant next step to eliminate small corrugated boxes, with the upside of zero waste. The day to day marketing needs are &ldquo;ever-present&rdquo; as the demand for EverTec continues to rise across sell sheets, digital strategy, public relations, sales collateral, website, tool kits and more.
             </p>
