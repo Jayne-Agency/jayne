@@ -237,22 +237,22 @@ export default function WorkWithUs() {
           <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
             What happens next?
           </h2>
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4 font-[family-name:var(--font-open-sans)]">
             Your Brand Platform is built to stand on its own. Every asset, every insight, every strategic decision is documented so your team can execute without us. Many clients do exactly that.
           </p>
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4 font-[family-name:var(--font-open-sans)]">
             But you don&apos;t have to go it alone.
           </p>
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4 font-[family-name:var(--font-open-sans)]">
             As part of your delivery, we identify your three highest-leverage priorities. These are the moves that will create the most impact, fastest.
           </p>
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4 font-[family-name:var(--font-open-sans)]">
             And we have a team ready to execute them for you.
           </p>
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-12">
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-12 font-[family-name:var(--font-open-sans)]">
             Strategists. Designers. Writers. Implementers. Whatever the work requires, we can take you from platform to market.
           </p>
-          <p className="reveal text-xl md:text-2xl text-[#1a1a1a] leading-relaxed mb-6">
+          <p className="reveal text-xl md:text-2xl text-[#1a1a1a] leading-relaxed mb-6 font-[family-name:var(--font-open-sans)]">
             Interested? Or just need help clarifying a few things?
           </p>
           <div className="reveal">
