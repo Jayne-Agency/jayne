@@ -136,29 +136,25 @@ export default function Results() {
       {/* Case Studies Grid */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-5xl mx-auto">
-          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
+          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-12">
             {caseStudies.map((study) => (
               <Link
                 key={study.id}
                 href={`/results/${study.id}`}
                 className="group block"
               >
-                <div className="text-4xl md:text-5xl text-[#f57214] leading-none mb-4">
-                  {study.result}
+                <div className="flex items-baseline gap-4 mb-4">
+                  <span className="text-3xl md:text-4xl text-[#f57214] leading-none">
+                    {study.result}
+                  </span>
+                  <span className="text-base md:text-lg text-[#f57214] uppercase tracking-widest">
+                    {study.client}
+                  </span>
                 </div>
-                <p className="text-base text-[#8a8178] mb-6">
-                  {study.resultLabel}
-                </p>
-                <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-3">
-                  {study.client}
-                </p>
-                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-4 group-hover:text-[#f57214] transition-colors">
+                <h2 className="text-xl md:text-2xl text-[#1a1a1a] leading-snug mb-3 group-hover:text-[#f57214] transition-colors">
                   {study.hook}
                 </h2>
-                <p className="text-lg text-[#8a8178] mb-6">
-                  {study.teaser}
-                </p>
-                <span className="text-[#f57214] inline-flex items-center gap-2">
+                <span className="text-[#8a8178] inline-flex items-center gap-2 text-base">
                   Read the story <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
                 </span>
               </Link>
