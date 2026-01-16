@@ -152,12 +152,20 @@ export default function EverTecCaseStudy() {
           <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-8">
             Complication
           </p>
-          <div className="reveal flex items-start gap-3">
-            <span className="text-[#f57214] mt-2 text-[10px] flex-shrink-0">●</span>
-            <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed">
-              Jayne Agency used a proven user research methodology that revealed that the intended promise for TMS&apos;s EcoMailer&apos;s environmental promise was &ldquo;tolerated&rdquo; by distributors and large retailers, but not at a higher price point. What became more evident and valuable was that the primary audience was willing to pay MORE for increased durability, specifically the kind the EcoMailer&apos;s naturally provided due to how the mailer was designed. More durability meant less breakage, less returns, longer lifetime value of the customer.
-            </p>
-          </div>
+          <ul className="reveal space-y-4 text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed">
+            <li className="flex items-start gap-3">
+              <span className="text-[#f57214] mt-2 text-[10px] flex-shrink-0">●</span>
+              <span>Research revealed TMS&apos;s EcoMailer&apos;s environmental promise was &ldquo;tolerated&rdquo; by distributors and large retailers...but not at a higher price point.</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-[#f57214] mt-2 text-[10px] flex-shrink-0">●</span>
+              <span>The primary audience was willing to pay more for increased durability, specifically the kind the EcoMailer naturally provided due to how the mailer was designed.</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-[#f57214] mt-2 text-[10px] flex-shrink-0">●</span>
+              <span>More durability meant less breakage, fewer returns, longer lifetime value of the customer—a selling point not so obvious due to the assumption that &lsquo;environmental&rsquo; was the story.</span>
+            </li>
+          </ul>
         </div>
       </section>
 
