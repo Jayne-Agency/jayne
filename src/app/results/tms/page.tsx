@@ -26,7 +26,7 @@ export default function TMSCaseStudy() {
   return (
     <main className="font-[family-name:var(--font-playfair)]">
       {/* Hero */}
-      <section className="min-h-[80vh] flex items-center pt-32 px-6">
+      <section className="pt-32 pb-12 lg:pb-16 px-6">
         <div className="max-w-3xl mx-auto">
           <Link
             href="/results"
