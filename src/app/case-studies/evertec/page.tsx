@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect } from "react";
 
-export default function TMSCaseStudy() {
+export default function EverTecCaseStudy() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -29,20 +29,20 @@ export default function TMSCaseStudy() {
       <section className="pt-32 pb-12 lg:pb-16 px-6">
         <div className="max-w-3xl mx-auto">
           <Link
-            href="/results"
+            href="/case-studies"
             className="inline-flex items-center gap-2 text-[#8a8178] hover:text-[#f57214] transition-colors mb-8"
           >
             <span className="transition-transform duration-300 hover:-translate-x-1">←</span>
-            All Results
+            All Case Studies
           </Link>
           <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
-            TMS
+            Pregis EverTec
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            How do you position an impossible innovation for the biggest buyer in the world?
+            What happens when you discover your product&apos;s real value?
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            From 1 million to 1 billion mailers in 3 years.
+            From eco-friendly promise to durability powerhouse.
           </p>
         </div>
       </section>
@@ -52,13 +52,13 @@ export default function TMSCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              TMS was asked to solve an impossible problem: create a 99% curbside recyclable paper packaging solution for e-commerce.
+              In the vortex of a pandemic, a multi-million dollar deal, and public outrage at packaging waste.
             </p>
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              They did it—developing the world&apos;s only patented approach using natural paper fibers with zero waste.
+              The sale of TMS EcoMailer to Pregis was an industry watershed.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Now they needed to <span className="text-[#f57214]">sell it to Amazon</span>.
+              But the product&apos;s <span className="text-[#f57214]">true value</span> was hiding in plain sight.
             </p>
           </div>
         </div>
@@ -68,14 +68,17 @@ export default function TMSCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
-              TMS was a machining company—not marketing strategists.
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+              Everyone assumed the value was
             </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-4">
-              Selling to the <span className="text-[#f57214]">largest purchaser of protective packaging</span> required a different skill set.
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-relaxed line-through decoration-[#f57214]/50 mb-8">
+              &ldquo;eco-friendly packaging.&rdquo;
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+              The research revealed something different:
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              And competitors were already circling.
+              &ldquo;Customers would pay more for <span className="text-[#f57214]">durability</span>.&rdquo;
             </p>
           </div>
         </div>
@@ -86,10 +89,10 @@ export default function TMSCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              Research identified three core strategies that were urgent to protect through intellectual property.
+              The eco-friendly promise was <span className="text-[#f57214]">tolerated</span> by distributors and retailers—but not at a higher price point.
             </p>
             <p className="text-3xl md:text-4xl text-[#f57214] leading-snug">
-              TMS needed to get ahead of competitive inquiry while simultaneously positioning for acquisition.
+              What they would pay more for? Less breakage. Fewer returns. Longer customer lifetime value.
             </p>
           </div>
         </div>
@@ -104,20 +107,20 @@ export default function TMSCaseStudy() {
           <div className="reveal-stagger space-y-12">
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Competitive defense</h3>
-              <p className="text-xl text-[#8a8178]">Develop competitive research and user-centered research to help TMS get out ahead of competitive inquiry and infiltration.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Research-driven clarity</h3>
+              <p className="text-xl text-[#8a8178]">User research with customers, prospects, non-buyers, Private Equity, and distributors revealed the true value proposition hiding in the product.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">IP guidance</h3>
-              <p className="text-xl text-[#8a8178]">Provide guidance on all three critical strategies that needed intellectual property protection.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Strategic alignment</h3>
+              <p className="text-xl text-[#8a8178]">Counseled founders, new ownership, and marketing teams to embrace the clarity—deliverable by deliverable, day by day—through an urgent acquisition process.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Dual narrative</h3>
-              <p className="text-xl text-[#8a8178]">Create the narrative and script for both securing Amazon orders AND securing the acquisition commitment from Pregis.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Brand transformation</h3>
+              <p className="text-xl text-[#8a8178]">Complete rebrand from EcoMailer to EverTec, with new identity, messaging, and positioning built on durability rather than eco-friendliness.</p>
             </div>
           </div>
         </div>
@@ -131,25 +134,25 @@ export default function TMSCaseStudy() {
           </p>
           <div className="reveal">
             <div className="text-7xl md:text-8xl lg:text-9xl text-[#f57214] leading-none mb-4">
-              500%
+              80%
             </div>
             <p className="text-xl md:text-2xl text-[#8a8178] mb-16">
-              sales increase in 3 years
+              of small corrugated boxes displaced
             </p>
           </div>
 
           <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">1MM→1B</div>
-              <p className="text-lg text-[#8a8178]">mailers in 3 years</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">100%</div>
+              <p className="text-lg text-[#8a8178]">rebrand engagement</p>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">3 Years</div>
-              <p className="text-lg text-[#8a8178]">reduced time to horizon</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">14+</div>
+              <p className="text-lg text-[#8a8178]">product line expansion</p>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">Watershed</div>
-              <p className="text-lg text-[#8a8178]">industry acquisition</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">#1</div>
+              <p className="text-lg text-[#8a8178]">Amazon protective packaging supplier</p>
             </div>
           </div>
         </div>
@@ -163,18 +166,18 @@ export default function TMSCaseStudy() {
           </p>
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Amazon secured</h3>
-              <p className="text-xl text-[#8a8178]">The narrative positioned TMS to secure Amazon&apos;s orders as the largest purchaser of protective packaging.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Transaction value multiplied</h3>
+              <p className="text-xl text-[#8a8178]">Clear alignment and focus prior to acquisition increased the transaction value for Warburg Pinkus in industry-watershed multiples.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Acquisition achieved</h3>
-              <p className="text-xl text-[#8a8178]">The EcoMailer acquisition by Pregis (via Warburg Pincus) was seen as the watershed deal of the industry.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Amazon relationship transformed</h3>
+              <p className="text-xl text-[#8a8178]">Became the largest volume of protective packaging purchased by Amazon from a single source provider in history.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Accelerated timeline</h3>
-              <p className="text-xl text-[#8a8178]">Reduced time to horizon by over 3 years through strategic positioning and clear narrative.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Commodity to solution</h3>
+              <p className="text-xl text-[#8a8178]">Created billions of dollars of displacement and redirection from what was once a commodity to a 14+ product packaging solution line.</p>
             </div>
           </div>
         </div>
@@ -185,10 +188,10 @@ export default function TMSCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              The innovation was impossible.
+              The product didn&apos;t change.
             </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug mt-2">
-              The story made it inevitable.
+            <p className="text-3xl md:text-4xl text-[#8a8178] leading-snug mt-2">
+              The story did.
             </p>
           </div>
         </div>
@@ -198,10 +201,10 @@ export default function TMSCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
-            Ready to position your innovation?
+            Ready to discover your real value?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10">
-            Let&apos;s talk about creating narratives that open doors.
+            Let&apos;s talk about what your customers actually want to pay for.
           </p>
           <div className="reveal">
             <Link

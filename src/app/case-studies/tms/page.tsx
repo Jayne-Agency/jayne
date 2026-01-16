@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect } from "react";
 
-export default function EatonCaseStudy() {
+export default function TMSCaseStudy() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -29,20 +29,20 @@ export default function EatonCaseStudy() {
       <section className="pt-32 pb-12 lg:pb-16 px-6">
         <div className="max-w-3xl mx-auto">
           <Link
-            href="/results"
+            href="/case-studies"
             className="inline-flex items-center gap-2 text-[#8a8178] hover:text-[#f57214] transition-colors mb-8"
           >
             <span className="transition-transform duration-300 hover:-translate-x-1">←</span>
-            All Results
+            All Case Studies
           </Link>
           <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
-            Eaton Corporation
+            TMS
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            How do you align 94,000 employees across the globe around one mission?
+            How do you position an impossible innovation for the biggest buyer in the world?
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            From departmental silos to unified brand alignment.
+            From 1 million to 1 billion mailers in 3 years.
           </p>
         </div>
       </section>
@@ -52,13 +52,44 @@ export default function EatonCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              Eaton Corporation was tasked with addressing mission-based objectives inside of bottom-line requirements.
+              TMS was asked to solve an impossible problem: create a 99% curbside recyclable paper packaging solution for e-commerce.
             </p>
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              But mission-based approaches don&apos;t always mean the same thing to every receiver—especially across continents.
+              They did it—developing the world&apos;s only patented approach using natural paper fibers with zero waste.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              With a new CEO transitioning in, <span className="text-[#f57214]">alignment became urgent</span>.
+              Now they needed to <span className="text-[#f57214]">sell it to Amazon</span>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Question */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="reveal">
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+              TMS was a machining company—not marketing strategists.
+            </p>
+            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-4">
+              Selling to the <span className="text-[#f57214]">largest purchaser of protective packaging</span> required a different skill set.
+            </p>
+            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
+              And competitors were already circling.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Insight */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="reveal">
+            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
+              Research identified three core strategies that were urgent to protect through intellectual property.
+            </p>
+            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug">
+              TMS needed to get ahead of competitive inquiry while simultaneously positioning for acquisition.
             </p>
           </div>
         </div>
@@ -73,20 +104,20 @@ export default function EatonCaseStudy() {
           <div className="reveal-stagger space-y-12">
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Facilitated alignment</h3>
-              <p className="text-xl text-[#8a8178]">Using proven brand strategy methodology to align teams globally, locally, across departments, continents, and areas of focus.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Competitive defense</h3>
+              <p className="text-xl text-[#8a8178]">Develop competitive research and user-centered research to help TMS get out ahead of competitive inquiry and infiltration.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Multi-department integration</h3>
-              <p className="text-xl text-[#8a8178]">Working with brand strategy, supplier development, quality assurance, and quality control to develop aligned brand strategies that integrated mission-based objectives with bottom-line outcomes.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">IP guidance</h3>
+              <p className="text-xl text-[#8a8178]">Provide guidance on all three critical strategies that needed intellectual property protection.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Platform as documentation</h3>
-              <p className="text-xl text-[#8a8178]">Using the brand platform as a means to articulate, confirm, and document—supporting personal and professional goals across the organization.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Dual narrative</h3>
+              <p className="text-xl text-[#8a8178]">Create the narrative and script for both securing Amazon orders AND securing the acquisition commitment from Pregis.</p>
             </div>
           </div>
         </div>
@@ -100,21 +131,25 @@ export default function EatonCaseStudy() {
           </p>
           <div className="reveal">
             <div className="text-7xl md:text-8xl lg:text-9xl text-[#f57214] leading-none mb-4">
-              4
+              500%
             </div>
             <p className="text-xl md:text-2xl text-[#8a8178] mb-16">
-              awards across 3 different award shows
+              sales increase in 3 years
             </p>
           </div>
 
-          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">94K</div>
-              <p className="text-lg text-[#8a8178]">employees aligned globally</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">1MM→1B</div>
+              <p className="text-lg text-[#8a8178]">mailers in 3 years</p>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">#1</div>
-              <p className="text-lg text-[#8a8178]">highest internal engagement</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">3 Years</div>
+              <p className="text-lg text-[#8a8178]">reduced time to horizon</p>
+            </div>
+            <div>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">Watershed</div>
+              <p className="text-lg text-[#8a8178]">industry acquisition</p>
             </div>
           </div>
         </div>
@@ -128,18 +163,18 @@ export default function EatonCaseStudy() {
           </p>
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Cross-regional respect</h3>
-              <p className="text-xl text-[#8a8178]">Each discipline and region could see themselves represented within the Eaton brand—creating respect across the board.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Amazon secured</h3>
+              <p className="text-xl text-[#8a8178]">The narrative positioned TMS to secure Amazon&apos;s orders as the largest purchaser of protective packaging.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Internal engagement</h3>
-              <p className="text-xl text-[#8a8178]">The highest engagement across internally created materials—decks, videos, annual communications—in company history.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Acquisition achieved</h3>
+              <p className="text-xl text-[#8a8178]">The EcoMailer acquisition by Pregis (via Warburg Pincus) was seen as the watershed deal of the industry.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Industry recognition</h3>
-              <p className="text-xl text-[#8a8178]">Multi-year award-winning crucial communications including videos, annual end-of-year global thank-yous, and internal/external pitch decks.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Accelerated timeline</h3>
+              <p className="text-xl text-[#8a8178]">Reduced time to horizon by over 3 years through strategic positioning and clear narrative.</p>
             </div>
           </div>
         </div>
@@ -150,10 +185,10 @@ export default function EatonCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Interpretation can be everything in a global community.
+              The innovation was impossible.
             </p>
             <p className="text-3xl md:text-4xl text-[#f57214] leading-snug mt-2">
-              Alignment makes it one story.
+              The story made it inevitable.
             </p>
           </div>
         </div>
@@ -163,10 +198,10 @@ export default function EatonCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
-            Ready to align your organization?
+            Ready to position your innovation?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10">
-            Let&apos;s talk about creating one story across every team.
+            Let&apos;s talk about creating narratives that open doors.
           </p>
           <div className="reveal">
             <Link

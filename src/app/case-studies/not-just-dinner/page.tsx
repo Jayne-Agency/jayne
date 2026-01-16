@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect } from "react";
 
-export default function MercerValveCaseStudy() {
+export default function NotJustDinnerCaseStudy() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -29,20 +29,20 @@ export default function MercerValveCaseStudy() {
       <section className="pt-32 pb-12 lg:pb-16 px-6">
         <div className="max-w-3xl mx-auto">
           <Link
-            href="/results"
+            href="/case-studies"
             className="inline-flex items-center gap-2 text-[#8a8178] hover:text-[#f57214] transition-colors mb-8"
           >
             <span className="transition-transform duration-300 hover:-translate-x-1">←</span>
-            All Results
+            All Case Studies
           </Link>
           <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
-            Mercer Valve Company
+            It&apos;s Not Just Dinner
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            How do you protect a 36-year legacy from competitors stealing your story?
+            How do you build a brand when all you have is urgent need?
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            From borrowed equity to reclaimed brand authority.
+            From $150 donations to $20,000 annual giving.
           </p>
         </div>
       </section>
@@ -52,44 +52,13 @@ export default function MercerValveCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              For 36 years, Mercer Valve had been the premier provider of safety pressure relief valves.
+              It&apos;s Not Just Dinner developed out of need. Five WBEs created a 501c3 with no infrastructure, vision, mission, or brand.
             </p>
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              They&apos;d built it on the strength of their patented solution alone. No marketing. No brand investment.
+              When COVID hit, developing a brand and communication platform became urgent.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Then competitors started claiming they sold <span className="text-[#f57214]">&ldquo;Mercer-like valves.&rdquo;</span>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Question */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
-              The problem wasn&apos;t product quality.
-            </p>
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-relaxed mb-8">
-              The problem was that Mercer had become the <span className="text-[#f57214]">Kleenex of valves</span>—a benchmark everyone borrowed from.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Without an articulated brand identity, they couldn&apos;t protect what they&apos;d built.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Insight */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              Research revealed competitors were promoting <span className="text-[#f57214]">faulty products</span> using Mercer&apos;s credibility.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug">
-              By not branding themselves, Mercer was allowing their own reputation to sell someone else&apos;s failures.
+              They needed to <span className="text-[#f57214]">tell their story</span> and <span className="text-[#f57214]">report their impact</span>—fast.
             </p>
           </div>
         </div>
@@ -104,35 +73,21 @@ export default function MercerValveCaseStudy() {
           <div className="reveal-stagger space-y-12">
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Define the brand</h3>
-              <p className="text-xl text-[#8a8178]">Develop a brand identity that spoke to the power of safety as only Mercer could define it—backed by 36 years of protecting people, equipment, and communities.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Foundation first</h3>
+              <p className="text-xl text-[#8a8178]">Lead two brand strategy sessions—the first to form the 501c3 properly, the second to allow the brand identity to emerge.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Reclaim the position</h3>
-              <p className="text-xl text-[#8a8178]">Work to reclaim Mercer&apos;s rightful place atop the life-saving category of safety relief valves through new messaging, position, and promise.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Adaptive strategy</h3>
+              <p className="text-xl text-[#8a8178]">As times around supplier development changed quickly, adjust the vision, mission, and promise to match changing realities while maintaining core identity.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Combat the perception</h3>
-              <p className="text-xl text-[#8a8178]">Create a campaign addressing the misconception that Mercer lead times were compromised—when in fact they performed three times more testing than any competitor.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Complete execution</h3>
+              <p className="text-xl text-[#8a8178]">Brand strategy, identity, naming, trademark, content strategy, social media, email marketing, donation strategy, and donor outreach.</p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* The Campaign */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              The campaign that emerged:
-            </p>
-            <p className="text-4xl md:text-5xl text-[#f57214] leading-snug italic">
-              &ldquo;Because Safety Takes Time.&rdquo;
-            </p>
           </div>
         </div>
       </section>
@@ -145,21 +100,25 @@ export default function MercerValveCaseStudy() {
           </p>
           <div className="reveal">
             <div className="text-7xl md:text-8xl lg:text-9xl text-[#f57214] leading-none mb-4">
-              100%
+              $20K
             </div>
             <p className="text-xl md:text-2xl text-[#8a8178] mb-16">
-              employee engagement on brand rollout
+              donor level achieved (up from $150-200)
             </p>
           </div>
 
-          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">36</div>
-              <p className="text-lg text-[#8a8178]">years of legacy protected</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">800+</div>
+              <p className="text-lg text-[#8a8178]">WBEs served globally</p>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">9+</div>
-              <p className="text-lg text-[#8a8178]">years of ongoing partnership</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">4</div>
+              <p className="text-lg text-[#8a8178]">years of conference scholarships</p>
+            </div>
+            <div>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">$18K</div>
+              <p className="text-lg text-[#8a8178]">annual donations now standard</p>
             </div>
           </div>
         </div>
@@ -173,18 +132,18 @@ export default function MercerValveCaseStudy() {
           </p>
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Defensible position</h3>
-              <p className="text-xl text-[#8a8178]">Mercer now has a highly defensible position in the marketplace—competitors can no longer borrow their equity unchallenged.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Powerful community</h3>
+              <p className="text-xl text-[#8a8178]">A strong brand that allows emerging and existing entrepreneurs to learn to leverage supplier development inside supply chains.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Sustained sales</h3>
-              <p className="text-xl text-[#8a8178]">While the oil industry saw an overall dip in production demand in late 2019, Mercer sustained its level of sales and continued serving existing clients.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Multi-faceted support</h3>
+              <p className="text-xl text-[#8a8178]">A community dedicated to magic, mentorship, education, development, information, and connection.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Integrated partnership</h3>
-              <p className="text-xl text-[#8a8178]">Jayne Agency continues as Mercer&apos;s outsourced marketing arm, crafting messaging and creative that inspires employees, partners, and clients.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Major donor evolution</h3>
+              <p className="text-xl text-[#8a8178]">Donors evolved from $150-200 to consistently giving at $14,000, $18,000, and $20,000 annually.</p>
             </div>
           </div>
         </div>
@@ -195,10 +154,10 @@ export default function MercerValveCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              After 36 years of not investing in marketing,
+              Urgent need became lasting impact.
             </p>
             <p className="text-3xl md:text-4xl text-[#f57214] leading-snug mt-2">
-              they finally own what was always theirs.
+              That&apos;s what brand clarity makes possible.
             </p>
           </div>
         </div>
@@ -208,10 +167,10 @@ export default function MercerValveCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
-            Ready to protect what you&apos;ve built?
+            Ready to turn need into impact?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10">
-            Let&apos;s talk about reclaiming your rightful position.
+            Let&apos;s talk about building something that lasts.
           </p>
           <div className="reveal">
             <Link

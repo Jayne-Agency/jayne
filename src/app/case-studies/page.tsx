@@ -140,7 +140,7 @@ export default function Results() {
             {caseStudies.map((study, index) => (
               <Link
                 key={study.id}
-                href={`/results/${study.id}`}
+                href={`/case-studies/${study.id}`}
                 className={`group block py-8 ${index !== caseStudies.length - 1 ? 'border-b border-[#e5e0d8]' : ''}`}
               >
                 <div className="flex flex-col md:flex-row md:items-start gap-2 md:gap-8">
