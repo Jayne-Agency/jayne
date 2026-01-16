@@ -36,26 +36,33 @@ export default function EverTecCaseStudy() {
             All Results
           </Link>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] font-bold mb-12 opacity-0 animate-fade-in">
-            What happens when you unlock your product&apos;s value?
+            Value was hiding in product features. We isolated it and the new narrative multiplied the acquisition value.
           </h1>
 
           {/* Client Info Bar */}
           <div className="opacity-0 animate-fade-in animation-delay-100 bg-[#faf9f7] rounded-lg p-8 md:p-10">
             {/* Top row - Key facts */}
-            <div className="flex flex-wrap items-center gap-x-8 gap-y-4 pb-8 border-b border-[#e5e0d8] font-[family-name:var(--font-open-sans)]">
-              <div className="flex items-center gap-3">
-                <span className="text-xs uppercase tracking-widest text-[#8a8178]">Client</span>
-                <span className="text-sm text-[#1a1a1a] font-medium">Pregis EverTec</span>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pb-8 border-b border-[#e5e0d8] font-[family-name:var(--font-open-sans)]">
+              <div>
+                <p className="text-xs uppercase tracking-widest text-[#8a8178] mb-2">Client</p>
+                <p className="flex items-center gap-2 text-sm text-[#1a1a1a]">
+                  <span className="text-[#f57214] text-[8px]">●</span>
+                  <span>Pregis EverTec</span>
+                </p>
               </div>
-              <span className="hidden md:block text-[#e5e0d8]">|</span>
-              <div className="flex items-center gap-3">
-                <span className="text-xs uppercase tracking-widest text-[#8a8178]">Industry</span>
-                <span className="text-sm text-[#1a1a1a] font-medium">Packaging Manufacturing</span>
+              <div>
+                <p className="text-xs uppercase tracking-widest text-[#8a8178] mb-2">Industry</p>
+                <p className="flex items-center gap-2 text-sm text-[#1a1a1a]">
+                  <span className="text-[#f57214] text-[8px]">●</span>
+                  <span>Packaging Manufacturing</span>
+                </p>
               </div>
-              <span className="hidden md:block text-[#e5e0d8]">|</span>
-              <div className="flex items-center gap-3">
-                <span className="text-xs uppercase tracking-widest text-[#8a8178]">Size</span>
-                <span className="text-sm text-[#1a1a1a] font-medium">3k - 5k Employees</span>
+              <div>
+                <p className="text-xs uppercase tracking-widest text-[#8a8178] mb-2">Size</p>
+                <p className="flex items-center gap-2 text-sm text-[#1a1a1a]">
+                  <span className="text-[#f57214] text-[8px]">●</span>
+                  <span>3k - 5k Employees</span>
+                </p>
               </div>
             </div>
 
