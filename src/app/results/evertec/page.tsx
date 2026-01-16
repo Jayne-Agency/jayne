@@ -36,7 +36,7 @@ export default function EverTecCaseStudy() {
             All Results
           </Link>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] font-bold mb-12 opacity-0 animate-fade-in">
-            Value was hiding in product features. We isolated it and the new narrative multiplied the acquisition value.
+            Value was hiding in product features. When we isolated it, a new narrative multiplied everything.
           </h1>
 
           {/* Client Info Bar */}
