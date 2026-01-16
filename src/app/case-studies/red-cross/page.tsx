@@ -42,25 +42,8 @@ export default function RedCrossCaseStudy() {
             Why did no one remember being offered disaster preparedness?
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            From invisible program to strategic foundation.
+            American Red Cross has 98% brand recognition. Their disaster preparedness program had none.
           </p>
-        </div>
-      </section>
-
-      {/* The Story */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal-stagger space-y-8">
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              The American Red Cross has four pillars to its brand. One was failing.
-            </p>
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              People were no longer motivated to engage in disaster preparedness education or purchase the tools for it.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              How do you get past the <span className="text-[#f57214]">glazed look in people&apos;s eyes</span> when you talk about disaster relief?
-            </p>
-          </div>
         </div>
       </section>
 
@@ -68,28 +51,17 @@ export default function RedCrossCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
-              Research showed something unexpected:
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+              The question wasn&apos;t
             </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-4">
-              No one was <span className="text-[#f57214]">rejecting</span> the brand.
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-relaxed line-through decoration-[#f57214]/50 mb-8">
+              &ldquo;why don&apos;t people care about preparedness?&rdquo;
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+              It was
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              There were no negatives. Just acceptance. When asked why they didn&apos;t participate, many didn&apos;t recall it being offered.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Insight */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              The program wasn&apos;t failing because people didn&apos;t want it.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug">
-              It was invisible—lost in the shadow of a 98% recognized global brand.
+              &ldquo;why don&apos;t people remember it being offered?&rdquo;
             </p>
           </div>
         </div>
@@ -104,20 +76,14 @@ export default function RedCrossCaseStudy() {
           <div className="reveal-stagger space-y-12">
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Global user research</h3>
-              <p className="text-xl text-[#8a8178]">Surveys and interviews to prove out the brand platform and identify critical gaps that went undetected in standardized testing.</p>
-            </div>
-
-            <div className="border-t border-[#e5e0d8] pt-8">
-              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Diversity nuances</h3>
-              <p className="text-xl text-[#8a8178]">Identify 3 critical gaps related to the crucial nuances of visible and invisible diversity—factors standard testing couldn&apos;t capture.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Problem</h3>
+              <p className="text-xl text-[#8a8178]">Understand why a program backed by one of the world&apos;s most recognized brands wasn&apos;t registering.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Strategic imperatives</h3>
-              <p className="text-xl text-[#8a8178]">Develop critical insights and strategic imperatives that could serve as a foothold—not just for Preparedness, but for the whole American Red Cross brand.</p>
+              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Solution</h3>
+              <p className="text-xl text-[#8a8178]">Conduct surveys and interviews to prove out the brand platform. Identify critical gaps that standard testing missed—the nuances of visible and invisible diversity in how the message was received.</p>
             </div>
           </div>
         </div>
@@ -134,18 +100,22 @@ export default function RedCrossCaseStudy() {
               98%
             </div>
             <p className="text-xl md:text-2xl text-[#8a8178] mb-16">
-              brand recognition leveraged for Preparedness revival
+              brand recognition leveraged as foundation
             </p>
           </div>
 
-          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">3</div>
-              <p className="text-lg text-[#8a8178]">critical gaps identified</p>
+              <p className="text-lg text-[#8a8178]">critical gaps identified that went undetected</p>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">Global</div>
-              <p className="text-lg text-[#8a8178]">brand impact potential</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">4</div>
+              <p className="text-lg text-[#8a8178]">brand pillars now informed by findings</p>
+            </div>
+            <div>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">Strategic</div>
+              <p className="text-lg text-[#8a8178]">imperatives established for revival</p>
             </div>
           </div>
         </div>
@@ -159,18 +129,18 @@ export default function RedCrossCaseStudy() {
           </p>
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Understanding motivation</h3>
-              <p className="text-xl text-[#8a8178]">The preparedness education team now understands what motivates individuals to take steps to be better prepared before disasters and emergencies.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Problem diagnosis</h3>
+              <p className="text-xl text-[#8a8178]">Shifted from &ldquo;why don&apos;t people care&rdquo; to &ldquo;why don&apos;t people remember.&rdquo;</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Applied knowledge</h3>
-              <p className="text-xl text-[#8a8178]">Insights were applied directly to the Be Red Cross Ready program with measurable improvements.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Brand leverage</h3>
+              <p className="text-xl text-[#8a8178]">98% recognition became an asset, not an assumption.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Brand-wide foundation</h3>
-              <p className="text-xl text-[#8a8178]">The findings became a foothold for strengthening not just Preparedness, but the entire American Red Cross brand.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Strategic foundation</h3>
+              <p className="text-xl text-[#8a8178]">Insights applicable across all four pillars.</p>
             </div>
           </div>
         </div>
@@ -181,10 +151,10 @@ export default function RedCrossCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Sometimes the problem isn&apos;t rejection.
+              They weren&apos;t saying no.
             </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug mt-2">
-              It&apos;s invisibility.
+            <p className="text-3xl md:text-4xl text-[#8a8178] leading-snug mt-2">
+              They just didn&apos;t hear the question.
             </p>
           </div>
         </div>
@@ -197,7 +167,7 @@ export default function RedCrossCaseStudy() {
             Ready to uncover what&apos;s really happening?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10">
-            Let&apos;s talk about finding the insights that standard testing misses.
+            Let&apos;s talk about how we can make that happen.
           </p>
           <div className="reveal">
             <Link

@@ -42,23 +42,26 @@ export default function NotJustDinnerCaseStudy() {
             How do you build a brand when all you have is urgent need?
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            From $150 donations to $20,000 annual giving.
+            It&apos;s Not Just Dinner started as five women responding to a crisis. There was no infrastructure, no vision, no brand.
           </p>
         </div>
       </section>
 
-      {/* The Story */}
+      {/* The Question */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <div className="reveal-stagger space-y-8">
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              It&apos;s Not Just Dinner developed out of need. Five WBEs created a 501c3 with no infrastructure, vision, mission, or brand.
+          <div className="reveal">
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+              The question wasn&apos;t
             </p>
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              When COVID hit, developing a brand and communication platform became urgent.
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-relaxed line-through decoration-[#f57214]/50 mb-8">
+              &ldquo;how do we start a nonprofit?&rdquo;
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+              It was
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              They needed to <span className="text-[#f57214]">tell their story</span> and <span className="text-[#f57214]">report their impact</span>—fast.
+              &ldquo;how do we build a brand and identity from nothing while adapting to changing times?&rdquo;
             </p>
           </div>
         </div>
@@ -73,20 +76,14 @@ export default function NotJustDinnerCaseStudy() {
           <div className="reveal-stagger space-y-12">
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Foundation first</h3>
-              <p className="text-xl text-[#8a8178]">Lead two brand strategy sessions—the first to form the 501c3 properly, the second to allow the brand identity to emerge.</p>
-            </div>
-
-            <div className="border-t border-[#e5e0d8] pt-8">
-              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Adaptive strategy</h3>
-              <p className="text-xl text-[#8a8178]">As times around supplier development changed quickly, adjust the vision, mission, and promise to match changing realities while maintaining core identity.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Problem</h3>
+              <p className="text-xl text-[#8a8178]">Build a brand and identity from nothing while adapting to changing times.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Complete execution</h3>
-              <p className="text-xl text-[#8a8178]">Brand strategy, identity, naming, trademark, content strategy, social media, email marketing, donation strategy, and donor outreach.</p>
+              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Solution</h3>
+              <p className="text-xl text-[#8a8178]">Lead two brand strategy sessions—the first to form the 501c3, the second to develop the brand identity. Adjust vision, mission, and promise as supplier development demands changed. Create donation strategy, donor outreach, and content marketing.</p>
             </div>
           </div>
         </div>
@@ -103,22 +100,22 @@ export default function NotJustDinnerCaseStudy() {
               $20K
             </div>
             <p className="text-xl md:text-2xl text-[#8a8178] mb-16">
-              donor level achieved (up from $150-200)
+              annual donor level achieved (up from $150-$200)
             </p>
           </div>
 
           <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">800+</div>
-              <p className="text-lg text-[#8a8178]">WBEs served globally</p>
+              <p className="text-lg text-[#8a8178]">WBEs served globally with professional development</p>
             </div>
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">4</div>
-              <p className="text-lg text-[#8a8178]">years of conference scholarships</p>
+              <p className="text-lg text-[#8a8178]">years of scholarships to first national trade show</p>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">$18K</div>
-              <p className="text-lg text-[#8a8178]">annual donations now standard</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">Sustainable</div>
+              <p className="text-lg text-[#8a8178]">community built around mentorship</p>
             </div>
           </div>
         </div>
@@ -132,18 +129,18 @@ export default function NotJustDinnerCaseStudy() {
           </p>
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Powerful community</h3>
-              <p className="text-xl text-[#8a8178]">A strong brand that allows emerging and existing entrepreneurs to learn to leverage supplier development inside supply chains.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Donor evolution</h3>
+              <p className="text-xl text-[#8a8178]">From small donations to major annual giving.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Multi-faceted support</h3>
-              <p className="text-xl text-[#8a8178]">A community dedicated to magic, mentorship, education, development, information, and connection.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Community impact</h3>
+              <p className="text-xl text-[#8a8178]">Global reach with tangible professional development.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Major donor evolution</h3>
-              <p className="text-xl text-[#8a8178]">Donors evolved from $150-200 to consistently giving at $14,000, $18,000, and $20,000 annually.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Organizational clarity</h3>
+              <p className="text-xl text-[#8a8178]">Brand that adapts without losing its mission.</p>
             </div>
           </div>
         </div>
@@ -154,10 +151,10 @@ export default function NotJustDinnerCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Urgent need became lasting impact.
+              It started with dinner.
             </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug mt-2">
-              That&apos;s what brand clarity makes possible.
+            <p className="text-3xl md:text-4xl text-[#8a8178] leading-snug mt-2">
+              It became a movement.
             </p>
           </div>
         </div>
@@ -167,10 +164,10 @@ export default function NotJustDinnerCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
-            Ready to turn need into impact?
+            Ready to turn urgent need into lasting impact?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10">
-            Let&apos;s talk about building something that lasts.
+            Let&apos;s talk about how we can make that happen.
           </p>
           <div className="reveal">
             <Link

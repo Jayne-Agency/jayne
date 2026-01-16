@@ -42,25 +42,8 @@ export default function EverTecCaseStudy() {
             What happens when you discover your product&apos;s real value?
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            From eco-friendly promise to durability powerhouse.
+            TMS created the world&apos;s first 99% curbside recyclable paper mailer. Everyone assumed the value was environmental. It wasn&apos;t.
           </p>
-        </div>
-      </section>
-
-      {/* The Story */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal-stagger space-y-8">
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              In the vortex of a pandemic, a multi-million dollar deal, and public outrage at packaging waste.
-            </p>
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              The sale of TMS EcoMailer to Pregis was an industry watershed.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              But the product&apos;s <span className="text-[#f57214]">true value</span> was hiding in plain sight.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -69,30 +52,16 @@ export default function EverTecCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
-              Everyone assumed the value was
+              The question wasn&apos;t
             </p>
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-relaxed line-through decoration-[#f57214]/50 mb-8">
-              &ldquo;eco-friendly packaging.&rdquo;
+              &ldquo;how do we sell eco-friendly packaging?&rdquo;
             </p>
             <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
-              The research revealed something different:
+              It was
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              &ldquo;Customers would pay more for <span className="text-[#f57214]">durability</span>.&rdquo;
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Insight */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              The eco-friendly promise was <span className="text-[#f57214]">tolerated</span> by distributors and retailers—but not at a higher price point.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug">
-              What they would pay more for? Less breakage. Fewer returns. Longer customer lifetime value.
+              &ldquo;what would customers actually pay more for?&rdquo;
             </p>
           </div>
         </div>
@@ -107,20 +76,14 @@ export default function EverTecCaseStudy() {
           <div className="reveal-stagger space-y-12">
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Research-driven clarity</h3>
-              <p className="text-xl text-[#8a8178]">User research with customers, prospects, non-buyers, Private Equity, and distributors revealed the true value proposition hiding in the product.</p>
-            </div>
-
-            <div className="border-t border-[#e5e0d8] pt-8">
-              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Strategic alignment</h3>
-              <p className="text-xl text-[#8a8178]">Counseled founders, new ownership, and marketing teams to embrace the clarity—deliverable by deliverable, day by day—through an urgent acquisition process.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Problem</h3>
+              <p className="text-xl text-[#8a8178]">Reposition from eco-friendly to durability before acquisition and Amazon negotiations.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Brand transformation</h3>
-              <p className="text-xl text-[#8a8178]">Complete rebrand from EcoMailer to EverTec, with new identity, messaging, and positioning built on durability rather than eco-friendliness.</p>
+              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Solution</h3>
+              <p className="text-xl text-[#8a8178]">Counsel founders, Pregis leadership, and the marketing team to pivot messaging. Lead strategy as an extension of the Pregis marketing team. Create the narrative for both the Amazon relationship and the Warburg Pincus acquisition.</p>
             </div>
           </div>
         </div>
@@ -144,15 +107,15 @@ export default function EverTecCaseStudy() {
           <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">100%</div>
-              <p className="text-lg text-[#8a8178]">rebrand engagement</p>
+              <p className="text-lg text-[#8a8178]">employee engagement on rebrand</p>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">14+</div>
-              <p className="text-lg text-[#8a8178]">product line expansion</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">14</div>
+              <p className="text-lg text-[#8a8178]">products generating billions in displacement</p>
             </div>
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">#1</div>
-              <p className="text-lg text-[#8a8178]">Amazon protective packaging supplier</p>
+              <p className="text-lg text-[#8a8178]">largest single-source protective packaging in Amazon history</p>
             </div>
           </div>
         </div>
@@ -166,18 +129,18 @@ export default function EverTecCaseStudy() {
           </p>
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Transaction value multiplied</h3>
-              <p className="text-xl text-[#8a8178]">Clear alignment and focus prior to acquisition increased the transaction value for Warburg Pinkus in industry-watershed multiples.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Market position</h3>
+              <p className="text-xl text-[#8a8178]">From eco-friendly promise to durability powerhouse.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Amazon relationship transformed</h3>
-              <p className="text-xl text-[#8a8178]">Became the largest volume of protective packaging purchased by Amazon from a single source provider in history.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Sales trajectory</h3>
+              <p className="text-xl text-[#8a8178]">From commodity envelope to packaging solution platform.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Commodity to solution</h3>
-              <p className="text-xl text-[#8a8178]">Created billions of dollars of displacement and redirection from what was once a commodity to a 14+ product packaging solution line.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Strategic clarity</h3>
+              <p className="text-xl text-[#8a8178]">Evidence-based positioning that survived acquisition.</p>
             </div>
           </div>
         </div>
@@ -204,7 +167,7 @@ export default function EverTecCaseStudy() {
             Ready to discover your real value?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10">
-            Let&apos;s talk about what your customers actually want to pay for.
+            Let&apos;s talk about how we can make that happen.
           </p>
           <div className="reveal">
             <Link

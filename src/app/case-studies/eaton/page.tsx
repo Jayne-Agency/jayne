@@ -42,23 +42,26 @@ export default function EatonCaseStudy() {
             How do you align 94,000 employees across the globe around one mission?
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            From departmental silos to unified brand alignment.
+            Eaton had a mission. Getting 94,000 people in different countries to interpret it the same way was the problem.
           </p>
         </div>
       </section>
 
-      {/* The Story */}
+      {/* The Question */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <div className="reveal-stagger space-y-8">
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              Eaton Corporation was tasked with addressing mission-based objectives inside of bottom-line requirements.
+          <div className="reveal">
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+              The question wasn&apos;t
             </p>
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              But mission-based approaches don&apos;t always mean the same thing to every receiver—especially across continents.
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-relaxed line-through decoration-[#f57214]/50 mb-8">
+              &ldquo;how do we communicate our mission?&rdquo;
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+              It was
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              With a new CEO transitioning in, <span className="text-[#f57214]">alignment became urgent</span>.
+              &ldquo;how do we create alignment across departments, continents, and areas of focus during a leadership transition?&rdquo;
             </p>
           </div>
         </div>
@@ -73,20 +76,14 @@ export default function EatonCaseStudy() {
           <div className="reveal-stagger space-y-12">
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Facilitated alignment</h3>
-              <p className="text-xl text-[#8a8178]">Using proven brand strategy methodology to align teams globally, locally, across departments, continents, and areas of focus.</p>
-            </div>
-
-            <div className="border-t border-[#e5e0d8] pt-8">
-              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Multi-department integration</h3>
-              <p className="text-xl text-[#8a8178]">Working with brand strategy, supplier development, quality assurance, and quality control to develop aligned brand strategies that integrated mission-based objectives with bottom-line outcomes.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Problem</h3>
+              <p className="text-xl text-[#8a8178]">Create alignment across departments, continents, and areas of focus during a leadership transition.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Platform as documentation</h3>
-              <p className="text-xl text-[#8a8178]">Using the brand platform as a means to articulate, confirm, and document—supporting personal and professional goals across the organization.</p>
+              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Solution</h3>
+              <p className="text-xl text-[#8a8178]">Facilitate brand strategy alignment using a documented brand platform. Work with brand strategy, supplier development, quality assurance, and quality control teams to see themselves represented within the Eaton brand while driving bottom-line outcomes.</p>
             </div>
           </div>
         </div>
@@ -107,14 +104,18 @@ export default function EatonCaseStudy() {
             </p>
           </div>
 
-          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">94K</div>
               <p className="text-lg text-[#8a8178]">employees aligned globally</p>
             </div>
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">#1</div>
-              <p className="text-lg text-[#8a8178]">highest internal engagement</p>
+              <p className="text-lg text-[#8a8178]">highest engagement on internal materials</p>
+            </div>
+            <div>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">Multi-Year</div>
+              <p className="text-lg text-[#8a8178]">partnership continues</p>
             </div>
           </div>
         </div>
@@ -128,18 +129,18 @@ export default function EatonCaseStudy() {
           </p>
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Cross-regional respect</h3>
-              <p className="text-xl text-[#8a8178]">Each discipline and region could see themselves represented within the Eaton brand—creating respect across the board.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Global alignment</h3>
+              <p className="text-xl text-[#8a8178]">Every region and discipline sees themselves in the brand.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Internal engagement</h3>
-              <p className="text-xl text-[#8a8178]">The highest engagement across internally created materials—decks, videos, annual communications—in company history.</p>
+              <p className="text-xl text-[#8a8178]">Materials created with unprecedented buy-in.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Industry recognition</h3>
-              <p className="text-xl text-[#8a8178]">Multi-year award-winning crucial communications including videos, annual end-of-year global thank-yous, and internal/external pitch decks.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Recognition</h3>
+              <p className="text-xl text-[#8a8178]">External validation of internal transformation.</p>
             </div>
           </div>
         </div>
@@ -150,10 +151,10 @@ export default function EatonCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Interpretation can be everything in a global community.
+              94,000 people. One story.
             </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug mt-2">
-              Alignment makes it one story.
+            <p className="text-3xl md:text-4xl text-[#8a8178] leading-snug mt-2">
+              Finally.
             </p>
           </div>
         </div>
@@ -166,7 +167,7 @@ export default function EatonCaseStudy() {
             Ready to align your organization?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10">
-            Let&apos;s talk about creating one story across every team.
+            Let&apos;s talk about how we can make that happen.
           </p>
           <div className="reveal">
             <Link

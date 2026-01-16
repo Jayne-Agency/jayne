@@ -42,23 +42,26 @@ export default function NMSDCEYECaseStudy() {
             How do you fast-track entrepreneurs who don&apos;t know their own value yet?
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            From stragglers to standing room only.
+            NMSDC built EYE (Emerging Young Entrepreneurs) to accelerate diverse business owners. The program needed to compete for attention.
           </p>
         </div>
       </section>
 
-      {/* The Story */}
+      {/* The Question */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <div className="reveal-stagger space-y-8">
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              NMSDC&apos;s Emerging Young Entrepreneurs program was built to help entrepreneurs elevate on a fast track.
+          <div className="reveal">
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+              The question wasn&apos;t
             </p>
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              But recruiting the right participants and keeping them engaged became more competitive each year.
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-relaxed line-through decoration-[#f57214]/50 mb-8">
+              &ldquo;how do we run a better accelerator program?&rdquo;
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+              It was
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              The curriculum needed to reflect <span className="text-[#f57214]">real-world complications</span>—not theoretical exercises.
+              &ldquo;how do we give entrepreneurs brand strategy earlier with measurable, competition-ready outcomes?&rdquo;
             </p>
           </div>
         </div>
@@ -73,26 +76,14 @@ export default function NMSDCEYECaseStudy() {
           <div className="reveal-stagger space-y-12">
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Early brand strategy access</h3>
-              <p className="text-xl text-[#8a8178]">Ensure entrepreneurs had access to high-quality brand strategy sooner rather than later in their journey.</p>
-            </div>
-
-            <div className="border-t border-[#e5e0d8] pt-8">
-              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Pitch-driven curriculum</h3>
-              <p className="text-xl text-[#8a8178]">Design learning that drove directly into a final deliverable—being valuable for the competitive national pitch stage the program culminated in.</p>
-            </div>
-
-            <div className="border-t border-[#e5e0d8] pt-8">
-              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Measurable impact</h3>
-              <p className="text-xl text-[#8a8178]">Create distinguishably measurable program impacts with judge training, scoring criteria development, and year-over-year tracking.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Problem</h3>
+              <p className="text-xl text-[#8a8178]">Give entrepreneurs brand strategy earlier in the program with measurable, competition-ready outcomes.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">04</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Long-term partnership</h3>
-              <p className="text-xl text-[#8a8178]">Build a year-over-year relationship serving the NMSDC EYE brand, leadership, judges, and cohorts.</p>
+              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Solution</h3>
+              <p className="text-xl text-[#8a8178]">Integrate brand strategy curriculum that drives toward the final pitch. Train judges. Develop scoring criteria. Build a year-over-year relationship that serves leadership, judges, and cohorts.</p>
             </div>
           </div>
         </div>
@@ -109,18 +100,22 @@ export default function NMSDCEYECaseStudy() {
               #1
             </div>
             <p className="text-xl md:text-2xl text-[#8a8178] mb-16">
-              highlight of the NMSDC national conference
+              highlight of NMSDC&apos;s national conference
             </p>
           </div>
 
-          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">YoY</div>
-              <p className="text-lg text-[#8a8178]">increasing scores and engagement</p>
+              <p className="text-lg text-[#8a8178]">scores increased year-over-year</p>
             </div>
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">Full</div>
-              <p className="text-lg text-[#8a8178]">house requiring venue changes</p>
+              <p className="text-lg text-[#8a8178]">houses requiring venue changes</p>
+            </div>
+            <div>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">VIP</div>
+              <p className="text-lg text-[#8a8178]">corporations, partners, investors now attend</p>
             </div>
           </div>
         </div>
@@ -134,18 +129,18 @@ export default function NMSDCEYECaseStudy() {
           </p>
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Education quality</h3>
-              <p className="text-xl text-[#8a8178]">High scores increasing year-over-year as curriculum was refined and participants arrived better prepared.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Program visibility</h3>
+              <p className="text-xl text-[#8a8178]">From overlooked session to conference centerpiece.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Judge engagement</h3>
-              <p className="text-xl text-[#8a8178]">Training and criteria development created more meaningful evaluation and feedback for participants.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Participant readiness</h3>
+              <p className="text-xl text-[#8a8178]">Entrepreneurs arrive at the pitch stage with clarity.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Attendance transformation</h3>
-              <p className="text-xl text-[#8a8178]">From stragglers in the beginning to full houses requiring venue moves—attracting high-profile corporations, partners, family, and investors.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Institutional value</h3>
+              <p className="text-xl text-[#8a8178]">EYE now attracts the attention it deserves.</p>
             </div>
           </div>
         </div>
@@ -156,10 +151,10 @@ export default function NMSDCEYECaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              When emerging entrepreneurs know their value,
+              They stopped being stragglers.
             </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug mt-2">
-              everyone wants to see what they&apos;ll do next.
+            <p className="text-3xl md:text-4xl text-[#8a8178] leading-snug mt-2">
+              Now there&apos;s standing room only.
             </p>
           </div>
         </div>
@@ -172,7 +167,7 @@ export default function NMSDCEYECaseStudy() {
             Ready to elevate your program?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10">
-            Let&apos;s talk about building curriculum that creates real impact.
+            Let&apos;s talk about how we can make that happen.
           </p>
           <div className="reveal">
             <Link
