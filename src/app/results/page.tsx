@@ -133,31 +133,37 @@ export default function Results() {
         </div>
       </section>
 
-      {/* Case Studies Grid */}
+      {/* Case Studies */}
       <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-12">
-            {caseStudies.map((study) => (
+        <div className="max-w-4xl mx-auto">
+          <div className="reveal-stagger">
+            {caseStudies.map((study, index) => (
               <Link
                 key={study.id}
                 href={`/results/${study.id}`}
-                className="group block"
+                className={`group block py-8 ${index !== caseStudies.length - 1 ? 'border-b border-[#e5e0d8]' : ''}`}
               >
-                <div className="text-3xl md:text-4xl text-[#f57214] leading-none mb-1">
-                  {study.result}
+                <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8">
+                  <div className="flex items-baseline gap-3 md:w-48 shrink-0">
+                    <span className="text-2xl md:text-3xl text-[#f57214] leading-none">
+                      {study.result}
+                    </span>
+                    <span className="text-sm text-[#8a8178]">
+                      {study.resultLabel}
+                    </span>
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-sm md:text-base text-[#f57214] uppercase tracking-widest mb-2">
+                      {study.client}
+                    </p>
+                    <h2 className="text-lg md:text-xl text-[#1a1a1a] leading-snug group-hover:text-[#f57214] transition-colors">
+                      {study.hook}
+                    </h2>
+                  </div>
+                  <span className="hidden md:block text-[#8a8178] group-hover:text-[#f57214] transition-colors shrink-0">
+                    <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+                  </span>
                 </div>
-                <p className="text-base text-[#8a8178] mb-5">
-                  {study.resultLabel}
-                </p>
-                <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-2">
-                  {study.client}
-                </p>
-                <h2 className="text-xl md:text-2xl text-[#1a1a1a] leading-snug mb-3 group-hover:text-[#f57214] transition-colors">
-                  {study.hook}
-                </h2>
-                <span className="text-[#8a8178] inline-flex items-center gap-2 text-base">
-                  Read the story <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-                </span>
               </Link>
             ))}
           </div>
