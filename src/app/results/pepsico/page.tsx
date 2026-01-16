@@ -182,7 +182,7 @@ export default function PepsiCoCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Impact beyond the supply chain.
+              How we built a path to growth and stability for our clients.
             </p>
             <p className="text-3xl md:text-4xl text-[#8a8178] leading-snug mt-2">
               That&apos;s the part that matters.
