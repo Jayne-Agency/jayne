@@ -20,6 +20,14 @@ const caseStudies = [
     resultLabel: "open rate",
     teaser: "From overlooked import to must-have mixology essential.",
   },
+  {
+    id: "evertec",
+    client: "Pregis EverTec",
+    hook: "What happens when you discover your product's real value?",
+    result: "80%",
+    resultLabel: "corrugated boxes displaced",
+    teaser: "From eco-friendly promise to durability powerhouse.",
+  },
 ];
 
 export default function Results() {
