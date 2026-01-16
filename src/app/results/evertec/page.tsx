@@ -40,9 +40,9 @@ export default function EverTecCaseStudy() {
           </h1>
 
           {/* Client Info Bar */}
-          <div className="opacity-0 animate-fade-in animation-delay-100 border-t border-[#e5e0d8] pt-10">
+          <div className="opacity-0 animate-fade-in animation-delay-100 bg-[#faf9f7] rounded-lg p-8 md:p-10">
             {/* Top row - Key facts */}
-            <div className="flex flex-wrap items-center gap-x-8 gap-y-4 mb-10 font-[family-name:var(--font-open-sans)]">
+            <div className="flex flex-wrap items-center gap-x-8 gap-y-4 pb-8 border-b border-[#e5e0d8] font-[family-name:var(--font-open-sans)]">
               <div className="flex items-center gap-3">
                 <span className="text-xs uppercase tracking-widest text-[#8a8178]">Client</span>
                 <span className="text-sm text-[#1a1a1a] font-medium">Pregis EverTec</span>
@@ -60,27 +60,63 @@ export default function EverTecCaseStudy() {
             </div>
 
             {/* Bottom row - Deliverables */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 font-[family-name:var(--font-open-sans)]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 pt-8 font-[family-name:var(--font-open-sans)]">
               <div>
                 <p className="text-xs uppercase tracking-widest text-[#8a8178] mb-4">Strategic Deliverables</p>
                 <ul className="space-y-2 text-sm text-[#1a1a1a]">
-                  <li>User Research (Customer, prospective, non-buyers, Private Equity, Distributor)</li>
-                  <li>Brand Platform</li>
-                  <li>Strategic Consulting</li>
-                  <li>Brand Change Management</li>
-                  <li>Content Strategy</li>
-                  <li>Sales Consulting</li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#f57214] mt-1.5 text-[8px]">●</span>
+                    <span>User Research (Customer, prospective, non-buyers, Private Equity, Distributor)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#f57214] mt-1.5 text-[8px]">●</span>
+                    <span>Brand Platform</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#f57214] mt-1.5 text-[8px]">●</span>
+                    <span>Strategic Consulting</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#f57214] mt-1.5 text-[8px]">●</span>
+                    <span>Brand Change Management</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#f57214] mt-1.5 text-[8px]">●</span>
+                    <span>Content Strategy</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#f57214] mt-1.5 text-[8px]">●</span>
+                    <span>Sales Consulting</span>
+                  </li>
                 </ul>
               </div>
               <div>
                 <p className="text-xs uppercase tracking-widest text-[#8a8178] mb-4">Creative Deliverables</p>
                 <ul className="space-y-2 text-sm text-[#1a1a1a]">
-                  <li>Brand Naming</li>
-                  <li>Brand Identity</li>
-                  <li>Collateral Development</li>
-                  <li>User Experience Design</li>
-                  <li>Web Development</li>
-                  <li>Content Management</li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#f57214] mt-1.5 text-[8px]">●</span>
+                    <span>Brand Naming</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#f57214] mt-1.5 text-[8px]">●</span>
+                    <span>Brand Identity</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#f57214] mt-1.5 text-[8px]">●</span>
+                    <span>Collateral Development</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#f57214] mt-1.5 text-[8px]">●</span>
+                    <span>User Experience Design</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#f57214] mt-1.5 text-[8px]">●</span>
+                    <span>Web Development</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#f57214] mt-1.5 text-[8px]">●</span>
+                    <span>Content Management</span>
+                  </li>
                 </ul>
               </div>
             </div>
