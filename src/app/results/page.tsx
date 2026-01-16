@@ -143,14 +143,15 @@ export default function Results() {
                 href={`/results/${study.id}`}
                 className="group block"
               >
-                <div className="flex items-baseline gap-4 mb-4">
-                  <span className="text-3xl md:text-4xl text-[#f57214] leading-none">
-                    {study.result}
-                  </span>
-                  <span className="text-base md:text-lg text-[#f57214] uppercase tracking-widest">
-                    {study.client}
-                  </span>
+                <div className="text-3xl md:text-4xl text-[#f57214] leading-none mb-1">
+                  {study.result}
                 </div>
+                <p className="text-base text-[#8a8178] mb-5">
+                  {study.resultLabel}
+                </p>
+                <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-2">
+                  {study.client}
+                </p>
                 <h2 className="text-xl md:text-2xl text-[#1a1a1a] leading-snug mb-3 group-hover:text-[#f57214] transition-colors">
                   {study.hook}
                 </h2>
