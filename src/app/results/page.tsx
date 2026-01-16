@@ -47,10 +47,7 @@ export default function Results() {
       {/* Hero */}
       <section className="min-h-[80vh] flex items-center pt-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
-            Case Studies
-          </p>
-          <h1 className="text-5xl md:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
+          <h1 className="text-5xl md:text-7xl leading-[1.05] text-[#1a1a1a] opacity-0 animate-fade-in">
             Problems we&apos;ve solved.
           </h1>
         </div>
