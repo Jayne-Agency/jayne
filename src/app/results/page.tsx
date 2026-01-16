@@ -87,32 +87,6 @@ export default function Results() {
         </div>
       </section>
 
-      {/* More Coming */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6">
-            More stories loading
-          </p>
-          <p className="reveal text-2xl md:text-3xl text-[#8a8178]">
-            Healthcare. Technology. Retail. Non-Profit.
-          </p>
-        </div>
-      </section>
-
-      {/* Testimonial */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8 italic">
-              &ldquo;Jayne helped us see what was right in front of us. The clarity they brought transformed not just our brand, but how we think about our entire business.&rdquo;
-            </p>
-            <p className="text-lg text-[#8a8178]">
-              — CMO, Fortune 100 Company
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
