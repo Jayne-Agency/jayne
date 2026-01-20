@@ -270,7 +270,7 @@ export default function WorkWithUs() {
             Your Brand Platform is built to stand on its own. Every asset, every insight, every strategic decision is documented so your team can execute without us. Many clients do exactly that.
           </p>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4 font-[family-name:var(--font-open-sans)]">
-            But you don&apos;t have to go it alone.
+            But you don&apos;t have to do it alone.
           </p>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4 font-[family-name:var(--font-open-sans)]">
             As part of your delivery, we identify your three highest-leverage priorities. These are the moves that will create the most impact, fastest.
@@ -281,9 +281,9 @@ export default function WorkWithUs() {
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-12 font-[family-name:var(--font-open-sans)]">
             Strategists. Designers. Writers. Implementers. Whatever the work requires, we can take you from platform to market.
           </p>
-          <p className="reveal text-xl md:text-2xl text-[#1a1a1a] leading-relaxed mb-6 font-[family-name:var(--font-open-sans)]">
+          <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
             Interested? Or just need help clarifying a few things?
-          </p>
+          </h2>
           <div className="reveal">
             <Link
               href="#"
