@@ -24,7 +24,7 @@ export default function AboutUs() {
           <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-16 text-center">
             Some companies we&apos;ve helped
           </p>
-          <div className="reveal grid grid-cols-2 md:grid-cols-4 gap-12 lg:gap-16 items-center justify-items-center">
+          <div className="reveal grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-12 lg:gap-16 items-center justify-items-center">
             <Image src="/pepsico.png" alt="PepsiCo" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
             <Image src="/mondelez.png" alt="Mondelēz" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
             <Image src="/abbott.png" alt="Abbott" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
@@ -36,7 +36,7 @@ export default function AboutUs() {
             <Image src="/wbenc.png" alt="WBENC" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
             <Image src="/nmsdc.png" alt="NMSDC" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
             <Image src="/nevermined.png" alt="Nevermined" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
-            <Image src="/2818aef9ee6485cb446a0ed0f545c340.png" alt="Nationwide Insurance" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/nationwide.png" alt="Nationwide Insurance" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
           </div>
         </div>
       </section>

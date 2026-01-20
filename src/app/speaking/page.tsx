@@ -25,7 +25,7 @@ export default function Speaking() {
       {/* Hero Section */}
       <section className="min-h-[70vh] flex items-center bg-[#f5f3ef] font-[family-name:var(--font-open-sans)] relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#f57214]/5 via-transparent to-transparent pointer-events-none"></div>
-        <div className="absolute top-20 right-0 w-[800px] h-[800px] bg-[#f57214] rounded-full blur-[200px] opacity-10 pointer-events-none"></div>
+        <div className="absolute top-20 right-0 w-[300px] h-[300px] md:w-[800px] md:h-[800px] bg-[#f57214] rounded-full blur-[200px] opacity-10 pointer-events-none"></div>
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 pt-32">
           <div className="max-w-4xl">
@@ -54,7 +54,7 @@ export default function Speaking() {
       {/* Topics Section - Dark */}
       <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
             {/* Left side - heading */}
             <div className="lg:col-span-4">
               <div className="lg:sticky lg:top-32">
@@ -88,7 +88,7 @@ export default function Speaking() {
       {/* About the Speaker */}
       <section className="py-24 lg:py-32 bg-white font-[family-name:var(--font-open-sans)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-24 items-center">
             {/* Image */}
             <div className="relative">
               <div className="aspect-[4/5] bg-[#f5f3ef] rounded-2xl overflow-hidden relative">
@@ -100,7 +100,7 @@ export default function Speaking() {
                 />
               </div>
               {/* Decorative element */}
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-[#f57214] rounded-2xl -z-10"></div>
+              <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 w-24 h-24 md:w-32 md:h-32 bg-[#f57214] rounded-2xl -z-10"></div>
             </div>
 
             {/* Content */}

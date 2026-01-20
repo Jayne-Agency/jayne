@@ -109,7 +109,7 @@ export function Navigation() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 hover:bg-[#f5f1ea] rounded-lg transition-colors duration-300"
+            className="md:hidden p-3 min-h-[44px] min-w-[44px] flex items-center justify-center hover:bg-[#f5f1ea] rounded-lg transition-colors duration-300"
             aria-label="Toggle menu"
           >
             <div className="w-6 h-5 relative flex flex-col justify-between">

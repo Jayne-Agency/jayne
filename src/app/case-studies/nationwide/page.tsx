@@ -118,7 +118,7 @@ export default function NationwideCaseStudy() {
             The result
           </p>
           <div className="reveal">
-            <div className="text-6xl md:text-7xl lg:text-8xl text-[#f57214] leading-none mb-4">
+            <div className="text-4xl md:text-6xl lg:text-8xl text-[#f57214] leading-none mb-4">
               Multi-Year
             </div>
             <p className="text-xl md:text-2xl text-[#8a8178] mb-16">

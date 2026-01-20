@@ -110,7 +110,7 @@ export default function PepsiCoCaseStudy() {
             The result
           </p>
           <div className="reveal">
-            <div className="text-7xl md:text-8xl lg:text-9xl text-[#f57214] leading-none mb-4">
+            <div className="text-5xl md:text-7xl lg:text-9xl text-[#f57214] leading-none mb-4">
               $800MM
             </div>
             <p className="text-xl md:text-2xl text-[#8a8178] mb-16">

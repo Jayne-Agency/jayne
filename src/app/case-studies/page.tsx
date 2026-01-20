@@ -126,7 +126,7 @@ export default function Results() {
                 href={`/case-studies/${study.id}`}
                 className={`group block py-8 ${index !== caseStudies.length - 1 ? 'border-b border-[#e5e0d8]' : ''}`}
               >
-                <div className="flex flex-col md:flex-row md:items-start gap-2 md:gap-8">
+                <div className="flex flex-col md:flex-row md:items-start gap-3 md:gap-8">
                   <div className="md:w-48 shrink-0">
                     <span className="text-2xl md:text-3xl text-[#f57214] leading-none block">
                       {study.result}
