@@ -13,7 +13,7 @@ export default function WBENCCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <Link
             href="/case-studies"
-            className="inline-flex items-center gap-2 text-[#8a8178] hover:text-[#f57214] transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-[#8a8178] hover:text-[#f57214] transition-colors mb-8 font-[family-name:var(--font-open-sans)]"
           >
             <span className="transition-transform duration-300 hover:-translate-x-1">←</span>
             All Case Studies
@@ -24,7 +24,7 @@ export default function WBENCCaseStudy() {
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
             What if the real pitch problem isn&apos;t how you present—but what you say?
           </h1>
-          <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
+          <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200 font-[family-name:var(--font-open-sans)]">
             From generic pitch training to brand clarity breakthrough.
           </p>
         </div>
@@ -34,10 +34,10 @@ export default function WBENCCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
               WBENCPitch is a signature program helping women business owners strengthen their pitches and compete for funding.
             </p>
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
               But participants needed more than presentation tips.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
@@ -51,7 +51,7 @@ export default function WBENCCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8 font-[family-name:var(--font-open-sans)]">
               Many WBEs had invested in marketing—websites, logos, campaigns—but still struggled to articulate what made their business different.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-4">
@@ -88,19 +88,19 @@ export default function WBENCCaseStudy() {
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The AMPLIFY Series</h3>
-              <p className="text-xl text-[#8a8178]">Three sessions focused on strengthening message, voice, and delivery—incorporating elements of Clarity University and the 10 Assets of a Brand methodology tested across 5,000+ brand platforms.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Three sessions focused on strengthening message, voice, and delivery—incorporating elements of Clarity University and the 10 Assets of a Brand methodology tested across 5,000+ brand platforms.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Brand clarity first</h3>
-              <p className="text-xl text-[#8a8178]">Help participants gain clarity and command around their brand platform to develop an 11-second elevator pitch rooted in who they actually are—not who they think they should be.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Help participants gain clarity and command around their brand platform to develop an 11-second elevator pitch rooted in who they actually are—not who they think they should be.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Hands-on coaching</h3>
-              <p className="text-xl text-[#8a8178]">Virtual sessions and in-person support at pitch competitions. Constructive feedback identifying where participants spent too much time, what was unclear, and where they rambled.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Virtual sessions and in-person support at pitch competitions. Constructive feedback identifying where participants spent too much time, what was unclear, and where they rambled.</p>
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@ export default function WBENCCaseStudy() {
             <div className="text-5xl md:text-7xl lg:text-9xl text-[#f57214] leading-none mb-4">
               800+
             </div>
-            <p className="text-xl md:text-2xl text-[#8a8178] mb-16">
+            <p className="text-xl md:text-2xl text-[#8a8178] mb-16 font-[family-name:var(--font-open-sans)]">
               WBEs coached through the program
             </p>
           </div>
@@ -124,15 +124,15 @@ export default function WBENCCaseStudy() {
           <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">75</div>
-              <p className="text-lg text-[#8a8178]">semi-finalists received group coaching</p>
+              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">semi-finalists received group coaching</p>
             </div>
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">24</div>
-              <p className="text-lg text-[#8a8178]">live contestants coached on-site</p>
+              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">live contestants coached on-site</p>
             </div>
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">#1</div>
-              <p className="text-lg text-[#8a8178]">best pitch series in WBENC history</p>
+              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">best pitch series in WBENC history</p>
             </div>
           </div>
         </div>
@@ -147,17 +147,17 @@ export default function WBENCCaseStudy() {
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Tangible clarity</h3>
-              <p className="text-xl text-[#8a8178]">Participants walked away able to articulate their brand&apos;s strengths with confidence and precision. The first-place winner credited the coaching as &ldquo;essential.&rdquo;</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Participants walked away able to articulate their brand&apos;s strengths with confidence and precision. The first-place winner credited the coaching as &ldquo;essential.&rdquo;</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Prepared and confident</h3>
-              <p className="text-xl text-[#8a8178]">Every single pitch was better than the next. Everyone was prepared, on time, and had a clear ask of the room.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Every single pitch was better than the next. Everyone was prepared, on time, and had a clear ask of the room.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Gateway protection</h3>
-              <p className="text-xl text-[#8a8178]">&ldquo;Pitches are gateways, and if you don&apos;t know what you&apos;re inviting into the gateway, you can&apos;t protect your company.&rdquo;</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">&ldquo;Pitches are gateways, and if you don&apos;t know what you&apos;re inviting into the gateway, you can&apos;t protect your company.&rdquo;</p>
             </div>
           </div>
         </div>
@@ -169,7 +169,7 @@ export default function WBENCCaseStudy() {
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
             Ready to find your clarity?
           </h2>
-          <p className="reveal text-xl text-[#8a8178] mb-10">
+          <p className="reveal text-xl text-[#8a8178] mb-10 font-[family-name:var(--font-open-sans)]">
             Let&apos;s talk about what you actually want to say.
           </p>
           <div className="reveal">
