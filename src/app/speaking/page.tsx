@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Speaking() {
   const topics = [
@@ -23,12 +24,12 @@ export default function Speaking() {
     <>
       {/* Hero Section */}
       <section className="min-h-[70vh] flex items-center bg-[#f5f3ef] font-[family-name:var(--font-open-sans)] relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#ff6b00]/5 via-transparent to-transparent pointer-events-none"></div>
-        <div className="absolute top-20 right-0 w-[800px] h-[800px] bg-[#ff6b00] rounded-full blur-[200px] opacity-10 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-[#f57214]/5 via-transparent to-transparent pointer-events-none"></div>
+        <div className="absolute top-20 right-0 w-[300px] h-[300px] md:w-[800px] md:h-[800px] bg-[#f57214] rounded-full blur-[200px] opacity-10 pointer-events-none"></div>
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 pt-32">
           <div className="max-w-4xl">
-            <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-6">
+            <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#f57214] font-bold mb-6">
               Speaking Engagements
             </p>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-[family-name:var(--font-playfair)] leading-[0.95] text-[#1a1a1a] mb-8">
@@ -38,8 +39,8 @@ export default function Speaking() {
               Leverage Jayne Agency&apos;s brand strategy thought leadership for your business, community, or members—in-person or virtual.
             </p>
             <Link
-              href="/work-with-us/strategy-partnership"
-              className="inline-flex items-center justify-center px-12 py-6 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
+              href="/work-with-us"
+              className="inline-flex items-center justify-center px-12 py-6 text-lg font-bold bg-[#f57214] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
             >
               Book a Call
               <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -53,7 +54,7 @@ export default function Speaking() {
       {/* Topics Section - Dark */}
       <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
             {/* Left side - heading */}
             <div className="lg:col-span-4">
               <div className="lg:sticky lg:top-32">
@@ -70,10 +71,10 @@ export default function Speaking() {
             <div className="lg:col-span-8">
               {topics.map((topic, i) => (
                 <div key={i} className="border-t border-white/10 py-6 group flex items-start gap-6">
-                  <span className="text-[#ff6b00] font-[family-name:var(--font-playfair)] text-2xl mt-1">
+                  <span className="text-[#f57214] font-[family-name:var(--font-playfair)] text-2xl mt-1">
                     {String(i + 1).padStart(2, '0')}
                   </span>
-                  <p className="text-xl md:text-2xl text-white group-hover:text-[#ff6b00] transition-colors">
+                  <p className="text-xl md:text-2xl text-white group-hover:text-[#f57214] transition-colors">
                     {topic}
                   </p>
                 </div>
@@ -87,29 +88,30 @@ export default function Speaking() {
       {/* About the Speaker */}
       <section className="py-24 lg:py-32 bg-white font-[family-name:var(--font-open-sans)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-24 items-center">
             {/* Image */}
             <div className="relative">
-              <div className="aspect-[4/5] bg-[#f5f3ef] rounded-2xl overflow-hidden">
-                <img
+              <div className="aspect-[4/5] bg-[#f5f3ef] rounded-2xl overflow-hidden relative">
+                <Image
                   src="/brooke.png"
                   alt="Brooke Foley"
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                 />
               </div>
               {/* Decorative element */}
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-[#ff6b00] rounded-2xl -z-10"></div>
+              <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 w-24 h-24 md:w-32 md:h-32 bg-[#f57214] rounded-2xl -z-10"></div>
             </div>
 
             {/* Content */}
             <div>
-              <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-6">
+              <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#f57214] font-bold mb-6">
                 About the Speaker
               </p>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] leading-[1.1] mb-6">
                 Brooke Foley
               </h2>
-              <p className="text-xl md:text-2xl text-[#ff6b00] font-[family-name:var(--font-playfair)] italic mb-8">
+              <p className="text-xl md:text-2xl text-[#f57214] font-[family-name:var(--font-playfair)] italic mb-8">
                 Agent of Intrigue
               </p>
 

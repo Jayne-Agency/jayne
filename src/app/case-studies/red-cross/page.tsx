@@ -1,27 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect } from "react";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
-export default function WBENCCaseStudy() {
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-          }
-        });
-      },
-      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
-    );
-
-    document.querySelectorAll(".reveal, .reveal-stagger").forEach((el) => {
-      observer.observe(el);
-    });
-
-    return () => observer.disconnect();
-  }, []);
+export default function RedCrossCaseStudy() {
+  useScrollReveal();
 
   return (
     <main className="font-[family-name:var(--font-playfair)]">
@@ -29,20 +12,20 @@ export default function WBENCCaseStudy() {
       <section className="pt-32 pb-12 lg:pb-16 px-6">
         <div className="max-w-3xl mx-auto">
           <Link
-            href="/results"
+            href="/case-studies"
             className="inline-flex items-center gap-2 text-[#8a8178] hover:text-[#f57214] transition-colors mb-8"
           >
             <span className="transition-transform duration-300 hover:-translate-x-1">←</span>
             All Case Studies
           </Link>
           <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
-            WBENC
+            American Red Cross
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            What if the real pitch problem isn&apos;t how you present—but what you say?
+            Why did no one remember being offered disaster preparedness?
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            From generic pitch training to brand clarity breakthrough.
+            From invisible program to strategic foundation.
           </p>
         </div>
       </section>
@@ -52,13 +35,13 @@ export default function WBENCCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              WBENCPitch is a signature program helping women business owners strengthen their pitches and compete for funding.
+              The American Red Cross has four pillars to its brand. One was failing.
             </p>
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              But participants needed more than presentation tips.
+              People were no longer motivated to engage in disaster preparedness education or purchase the tools for it.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              They needed to get to the <span className="text-[#f57214]">root of their business clarity</span>.
+              How do you get past the <span className="text-[#f57214]">glazed look in people&apos;s eyes</span> when you talk about disaster relief?
             </p>
           </div>
         </div>
@@ -69,13 +52,13 @@ export default function WBENCCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
-              Many WBEs had invested in marketing—websites, logos, campaigns—but still struggled to articulate what made their business different.
+              Research showed something unexpected:
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-4">
-              The underlying issue wasn&apos;t about <span className="text-[#f57214]">how to present</span>.
+              No one was <span className="text-[#f57214]">rejecting</span> the brand.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              It was about <span className="text-[#f57214]">what to say</span>.
+              There were no negatives. Just acceptance. When asked why they didn&apos;t participate, many didn&apos;t recall it being offered.
             </p>
           </div>
         </div>
@@ -86,10 +69,10 @@ export default function WBENCCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              Without brand clarity—a clear understanding of position, promise, and value—
+              The program wasn&apos;t failing because people didn&apos;t want it.
             </p>
             <p className="text-3xl md:text-4xl text-[#f57214] leading-snug">
-              WBEs couldn&apos;t protect their businesses when opportunities came through the gateway of a pitch.
+              It was invisible—lost in the shadow of a 98% recognized global brand.
             </p>
           </div>
         </div>
@@ -104,20 +87,20 @@ export default function WBENCCaseStudy() {
           <div className="reveal-stagger space-y-12">
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The AMPLIFY Series</h3>
-              <p className="text-xl text-[#8a8178]">Three sessions focused on strengthening message, voice, and delivery—incorporating elements of Clarity University and the 10 Assets of a Brand methodology tested across 5,000+ brand platforms.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Global user research</h3>
+              <p className="text-xl text-[#8a8178]">Surveys and interviews to prove out the brand platform and identify critical gaps that went undetected in standardized testing.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Brand clarity first</h3>
-              <p className="text-xl text-[#8a8178]">Help participants gain clarity and command around their brand platform to develop an 11-second elevator pitch rooted in who they actually are—not who they think they should be.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Diversity nuances</h3>
+              <p className="text-xl text-[#8a8178]">Identify 3 critical gaps related to the crucial nuances of visible and invisible diversity—factors standard testing couldn&apos;t capture.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Hands-on coaching</h3>
-              <p className="text-xl text-[#8a8178]">Virtual sessions and in-person support at pitch competitions. Constructive feedback identifying where participants spent too much time, what was unclear, and where they rambled.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Strategic imperatives</h3>
+              <p className="text-xl text-[#8a8178]">Develop critical insights and strategic imperatives that could serve as a foothold—not just for Preparedness, but for the whole American Red Cross brand.</p>
             </div>
           </div>
         </div>
@@ -130,26 +113,22 @@ export default function WBENCCaseStudy() {
             The result
           </p>
           <div className="reveal">
-            <div className="text-7xl md:text-8xl lg:text-9xl text-[#f57214] leading-none mb-4">
-              800+
+            <div className="text-5xl md:text-7xl lg:text-9xl text-[#f57214] leading-none mb-4">
+              98%
             </div>
             <p className="text-xl md:text-2xl text-[#8a8178] mb-16">
-              WBEs coached through the program
+              brand recognition leveraged for Preparedness revival
             </p>
           </div>
 
-          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">75</div>
-              <p className="text-lg text-[#8a8178]">semi-finalists received group coaching</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">3</div>
+              <p className="text-lg text-[#8a8178]">critical gaps identified</p>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">24</div>
-              <p className="text-lg text-[#8a8178]">live contestants coached on-site</p>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">#1</div>
-              <p className="text-lg text-[#8a8178]">best pitch series in WBENC history</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">Global</div>
+              <p className="text-lg text-[#8a8178]">brand impact potential</p>
             </div>
           </div>
         </div>
@@ -163,18 +142,18 @@ export default function WBENCCaseStudy() {
           </p>
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Tangible clarity</h3>
-              <p className="text-xl text-[#8a8178]">Participants walked away able to articulate their brand&apos;s strengths with confidence and precision. The first-place winner credited the coaching as &ldquo;essential.&rdquo;</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Understanding motivation</h3>
+              <p className="text-xl text-[#8a8178]">The preparedness education team now understands what motivates individuals to take steps to be better prepared before disasters and emergencies.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Prepared and confident</h3>
-              <p className="text-xl text-[#8a8178]">Every single pitch was better than the next. Everyone was prepared, on time, and had a clear ask of the room.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Applied knowledge</h3>
+              <p className="text-xl text-[#8a8178]">Insights were applied directly to the Be Red Cross Ready program with measurable improvements.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Gateway protection</h3>
-              <p className="text-xl text-[#8a8178]">&ldquo;Pitches are gateways, and if you don&apos;t know what you&apos;re inviting into the gateway, you can&apos;t protect your company.&rdquo;</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Brand-wide foundation</h3>
+              <p className="text-xl text-[#8a8178]">The findings became a foothold for strengthening not just Preparedness, but the entire American Red Cross brand.</p>
             </div>
           </div>
         </div>
@@ -184,14 +163,14 @@ export default function WBENCCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
-            Ready to find your clarity?
+            Ready to uncover what&apos;s really happening?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10">
-            Let&apos;s talk about what you actually want to say.
+            Let&apos;s talk about finding the insights that standard testing misses.
           </p>
           <div className="reveal">
             <Link
-              href="/contact"
+              href="#"
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
               Book a call

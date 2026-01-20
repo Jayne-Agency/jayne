@@ -49,16 +49,16 @@ export function Navigation() {
             </Link>
 
             <Link
-              href="/results"
+              href="/case-studies"
               className={`text-sm font-medium relative group transition-colors duration-300 ${
-                isActive("/results")
+                isActive("/case-studies")
                   ? "text-black"
                   : "text-[#1a1a1a] hover:text-[#f57214]"
               }`}
             >
               Case Studies
               <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
-                isActive("/results") ? "w-full" : "w-0 group-hover:w-full"
+                isActive("/case-studies") ? "w-full" : "w-0 group-hover:w-full"
               }`} />
             </Link>
 
@@ -109,7 +109,7 @@ export function Navigation() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 hover:bg-[#f5f1ea] rounded-lg transition-colors duration-300"
+            className="md:hidden p-3 min-h-[44px] min-w-[44px] flex items-center justify-center hover:bg-[#f5f1ea] rounded-lg transition-colors duration-300"
             aria-label="Toggle menu"
           >
             <div className="w-6 h-5 relative flex flex-col justify-between">
@@ -156,10 +156,10 @@ export function Navigation() {
           </Link>
 
           <Link
-            href="/results"
+            href="/case-studies"
             onClick={() => setIsOpen(false)}
             className={`text-3xl font-medium transition-colors duration-300 py-3 ${
-              isActive("/results")
+              isActive("/case-studies")
                 ? "text-[#f57214]"
                 : "text-[#1a1a1a] hover:text-[#f57214]"
             }`}

@@ -20,8 +20,25 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Jayne Agency | Brand Clarity for All",
+  title: {
+    default: "Jayne Agency | Brand Clarity for All",
+    template: "%s | Jayne Agency",
+  },
   description: "Since 2009, Jayne Agency has equipped business leaders to build dependable, scalable, repeatable revenue through evidence-based brand platforms. We're driving the Clarity Economy™.",
+  keywords: ["brand strategy", "brand clarity", "business growth", "marketing strategy", "brand platform"],
+  authors: [{ name: "Jayne Agency" }],
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "Jayne Agency",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
