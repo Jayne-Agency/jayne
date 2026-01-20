@@ -65,20 +65,21 @@ export default function AboutUs() {
             In their words
           </p>
 
-          <div className="reveal grid md:grid-cols-2 gap-8 lg:gap-12">
-            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
-              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
-              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
-                Jayne has become a true thought-partner to our organization and our public relations team. The team contributes regularly to much more than our brand and marketing objectives. They help us look ahead, think strategically about complex business challenges and map out authentic and integrated ways to elevate our brand and company as a whole. Their strategic approach is coupled with creative messaging that can build or refresh brand stories that are distinctive, memorable and meaningful. We have a high-performance, fast moving environment and they constantly look for ways to drive performance and make sure we never lose sight of the brand stewardship that will enable us to meet our goals.
-              </p>
-              <p className="text-base text-[#8a8178] font-medium">
-                Dache Davidson
-              </p>
-              <p className="text-sm text-[#9d968c]">
-                Chief Marketing Officer, Pregis, LLC
-              </p>
-            </div>
+          {/* Featured Testimonial */}
+          <div className="reveal bg-[#faf9f7] rounded-2xl p-8 lg:p-12 mb-8 lg:mb-12 border-l-4 border-[#f57214]">
+            <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+            <p className="text-xl lg:text-2xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+              Jayne has become a true thought-partner to our organization and our public relations team. The team contributes regularly to much more than our brand and marketing objectives. They help us look ahead, think strategically about complex business challenges and map out authentic and integrated ways to elevate our brand and company as a whole. Their strategic approach is coupled with creative messaging that can build or refresh brand stories that are distinctive, memorable and meaningful. We have a high-performance, fast moving environment and they constantly look for ways to drive performance and make sure we never lose sight of the brand stewardship that will enable us to meet our goals.
+            </p>
+            <p className="text-base text-[#8a8178] font-medium">
+              Dache Davidson
+            </p>
+            <p className="text-sm text-[#9d968c]">
+              Chief Marketing Officer, Pregis, LLC
+            </p>
+          </div>
 
+          <div className="reveal grid md:grid-cols-2 gap-8 lg:gap-12">
             <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
@@ -118,7 +119,7 @@ export default function AboutUs() {
               </p>
             </div>
 
-            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10 md:col-span-2 md:max-w-xl md:mx-auto">
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
                 Brooke is clearly a subject matter expert with a depth of experience working with big brands. She knows what she&apos;s talking about and provides exceptional strategic counsel while encouraging robust collaboration in the process.
