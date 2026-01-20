@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect } from "react";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const caseStudies = [
   {
@@ -103,24 +103,7 @@ const caseStudies = [
 ];
 
 export default function Results() {
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-          }
-        });
-      },
-      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
-    );
-
-    document.querySelectorAll(".reveal, .reveal-stagger").forEach((el) => {
-      observer.observe(el);
-    });
-
-    return () => observer.disconnect();
-  }, []);
+  useScrollReveal();
 
   return (
     <main className="font-[family-name:var(--font-playfair)]">
@@ -140,7 +123,7 @@ export default function Results() {
             {caseStudies.map((study, index) => (
               <Link
                 key={study.id}
-                href={`/results/${study.id}`}
+                href={`/case-studies/${study.id}`}
                 className={`group block py-8 ${index !== caseStudies.length - 1 ? 'border-b border-[#e5e0d8]' : ''}`}
               >
                 <div className="flex flex-col md:flex-row md:items-start gap-2 md:gap-8">
@@ -181,7 +164,7 @@ export default function Results() {
           </p>
           <div className="reveal">
             <Link
-              href="/contact"
+              href="#"
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
               Book a call

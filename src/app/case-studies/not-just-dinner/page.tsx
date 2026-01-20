@@ -1,27 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect } from "react";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
-export default function EverTecCaseStudy() {
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-          }
-        });
-      },
-      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
-    );
-
-    document.querySelectorAll(".reveal, .reveal-stagger").forEach((el) => {
-      observer.observe(el);
-    });
-
-    return () => observer.disconnect();
-  }, []);
+export default function NotJustDinnerCaseStudy() {
+  useScrollReveal();
 
   return (
     <main className="font-[family-name:var(--font-playfair)]">
@@ -29,20 +12,20 @@ export default function EverTecCaseStudy() {
       <section className="pt-32 pb-12 lg:pb-16 px-6">
         <div className="max-w-3xl mx-auto">
           <Link
-            href="/results"
+            href="/case-studies"
             className="inline-flex items-center gap-2 text-[#8a8178] hover:text-[#f57214] transition-colors mb-8"
           >
             <span className="transition-transform duration-300 hover:-translate-x-1">←</span>
             All Case Studies
           </Link>
           <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
-            Pregis EverTec
+            It&apos;s Not Just Dinner
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            How do you turn an eco-friendly product into a billion-dollar brand?
+            How do you build a brand when all you have is urgent need?
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            From environmental promise to durability-driven value.
+            From $150 donations to $20,000 annual giving.
           </p>
         </div>
       </section>
@@ -52,27 +35,13 @@ export default function EverTecCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              In the vortex of a pandemic, a multi-million dollar deal, a rise in ecommerce demands, and public outrage at packaging waste—the sale of TMS EcoMailer to Pregis was an industry watershed.
+              It&apos;s Not Just Dinner developed out of need. Five WBEs created a 501c3 with no infrastructure, vision, mission, or brand.
             </p>
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              The product had an environmental promise. But research revealed that promise was &ldquo;tolerated&rdquo; by distributors and retailers—not valued.
+              When COVID hit, developing a brand and communication platform became urgent.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              The real value was hiding in <span className="text-[#f57214]">durability, not sustainability</span>.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Insight */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              The primary audience was willing to pay more for increased durability—the kind the EcoMailer naturally provided due to its design.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug">
-              More durability meant less breakage, fewer returns, and longer customer lifetime value.
+              They needed to <span className="text-[#f57214]">tell their story</span> and <span className="text-[#f57214]">report their impact</span>—fast.
             </p>
           </div>
         </div>
@@ -87,20 +56,20 @@ export default function EverTecCaseStudy() {
           <div className="reveal-stagger space-y-12">
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Reposition on durability</h3>
-              <p className="text-xl text-[#8a8178]">Counseled founders, Pregis, and new ownership to embrace the clarity in research data: durability sells, environmental is a bonus.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Foundation first</h3>
+              <p className="text-xl text-[#8a8178]">Lead two brand strategy sessions—the first to form the 501c3 properly, the second to allow the brand identity to emerge.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Align stakeholders</h3>
-              <p className="text-xl text-[#8a8178]">Served as an extension of the Pregis marketing team, aligning the CMO, SVP of Innovation, founders, Warburg Pincus, and Amazon teams around a single narrative.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Adaptive strategy</h3>
+              <p className="text-xl text-[#8a8178]">As times around supplier development changed quickly, adjust the vision, mission, and promise to match changing realities while maintaining core identity.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Execute the rebrand</h3>
-              <p className="text-xl text-[#8a8178]">Swift rebrand from EcoMailer to EverTec with 100% engagement, driving sales commitment and creating demand that outpaces supply.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Complete execution</h3>
+              <p className="text-xl text-[#8a8178]">Brand strategy, identity, naming, trademark, content strategy, social media, email marketing, donation strategy, and donor outreach.</p>
             </div>
           </div>
         </div>
@@ -114,21 +83,25 @@ export default function EverTecCaseStudy() {
           </p>
           <div className="reveal">
             <div className="text-7xl md:text-8xl lg:text-9xl text-[#f57214] leading-none mb-4">
-              80%
+              $20K
             </div>
             <p className="text-xl md:text-2xl text-[#8a8178] mb-16">
-              displacement of small corrugated boxes at Amazon
+              donor level achieved (up from $150-200)
             </p>
           </div>
 
-          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">14+</div>
-              <p className="text-lg text-[#8a8178]">products in the solution line</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">800+</div>
+              <p className="text-lg text-[#8a8178]">WBEs served globally</p>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">Billions</div>
-              <p className="text-lg text-[#8a8178]">in value created</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">4</div>
+              <p className="text-lg text-[#8a8178]">years of conference scholarships</p>
+            </div>
+            <div>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">$18K</div>
+              <p className="text-lg text-[#8a8178]">annual donations now standard</p>
             </div>
           </div>
         </div>
@@ -142,18 +115,18 @@ export default function EverTecCaseStudy() {
           </p>
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Strategic clarity</h3>
-              <p className="text-xl text-[#8a8178]">By focusing on durability vs. eco-friendly, the Amazon relationship became hard-hitting—solving more than just environmental concerns.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Powerful community</h3>
+              <p className="text-xl text-[#8a8178]">A strong brand that allows emerging and existing entrepreneurs to learn to leverage supplier development inside supply chains.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Acquisition value</h3>
-              <p className="text-xl text-[#8a8178]">Clear alignment prior to acquisition increased the transaction value for Warburg Pincus in multiples that were industry watershed.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Multi-faceted support</h3>
+              <p className="text-xl text-[#8a8178]">A community dedicated to magic, mentorship, education, development, information, and connection.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Market position</h3>
-              <p className="text-xl text-[#8a8178]">What was once a commodity envelope is now a packaging solution—the dominant next step to eliminate small corrugated boxes with zero waste upside.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Major donor evolution</h3>
+              <p className="text-xl text-[#8a8178]">Donors evolved from $150-200 to consistently giving at $14,000, $18,000, and $20,000 annually.</p>
             </div>
           </div>
         </div>
@@ -163,14 +136,14 @@ export default function EverTecCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
-            Ready to unlock your value?
+            Ready to turn need into impact?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10">
-            Let&apos;s talk about what your customers actually want to pay for.
+            Let&apos;s talk about building something that lasts.
           </p>
           <div className="reveal">
             <Link
-              href="/contact"
+              href="#"
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
               Book a call

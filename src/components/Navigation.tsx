@@ -49,16 +49,16 @@ export function Navigation() {
             </Link>
 
             <Link
-              href="/results"
+              href="/case-studies"
               className={`text-sm font-medium relative group transition-colors duration-300 ${
-                isActive("/results")
+                isActive("/case-studies")
                   ? "text-black"
                   : "text-[#1a1a1a] hover:text-[#f57214]"
               }`}
             >
               Case Studies
               <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
-                isActive("/results") ? "w-full" : "w-0 group-hover:w-full"
+                isActive("/case-studies") ? "w-full" : "w-0 group-hover:w-full"
               }`} />
             </Link>
 
@@ -156,10 +156,10 @@ export function Navigation() {
           </Link>
 
           <Link
-            href="/results"
+            href="/case-studies"
             onClick={() => setIsOpen(false)}
             className={`text-3xl font-medium transition-colors duration-300 py-3 ${
-              isActive("/results")
+              isActive("/case-studies")
                 ? "text-[#f57214]"
                 : "text-[#1a1a1a] hover:text-[#f57214]"
             }`}

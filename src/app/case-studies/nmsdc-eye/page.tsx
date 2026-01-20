@@ -1,27 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect } from "react";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 export default function NMSDCEYECaseStudy() {
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-          }
-        });
-      },
-      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
-    );
-
-    document.querySelectorAll(".reveal, .reveal-stagger").forEach((el) => {
-      observer.observe(el);
-    });
-
-    return () => observer.disconnect();
-  }, []);
+  useScrollReveal();
 
   return (
     <main className="font-[family-name:var(--font-playfair)]">
@@ -29,7 +12,7 @@ export default function NMSDCEYECaseStudy() {
       <section className="pt-32 pb-12 lg:pb-16 px-6">
         <div className="max-w-3xl mx-auto">
           <Link
-            href="/results"
+            href="/case-studies"
             className="inline-flex items-center gap-2 text-[#8a8178] hover:text-[#f57214] transition-colors mb-8"
           >
             <span className="transition-transform duration-300 hover:-translate-x-1">←</span>
@@ -162,7 +145,7 @@ export default function NMSDCEYECaseStudy() {
           </p>
           <div className="reveal">
             <Link
-              href="/contact"
+              href="#"
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
               Book a call
