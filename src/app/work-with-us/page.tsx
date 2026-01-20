@@ -142,7 +142,7 @@ export default function WorkWithUs() {
       {/* Week 1: The Strategy Sprint */}
       <section className="py-6 lg:py-8 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-3">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-3">
             Week 1
           </p>
           <h3 className="reveal text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-6">
@@ -166,7 +166,7 @@ export default function WorkWithUs() {
       {/* Weeks 2 & 3 */}
       <section className="py-6 lg:py-8 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-3">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-3">
             Weeks 2 &amp; 3
           </p>
           <h3 className="reveal text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-6">
@@ -184,7 +184,7 @@ export default function WorkWithUs() {
       {/* Week 4: Alignment Review */}
       <section className="py-6 lg:py-8 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-3">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-3">
             Week 4
           </p>
           <h3 className="reveal text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-6">
@@ -202,7 +202,7 @@ export default function WorkWithUs() {
       {/* Week 5 & 6: Final Delivery */}
       <section className="py-6 lg:py-8 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-3">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-3">
             Weeks 5 &amp; 6
           </p>
           <h3 className="reveal text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-6">
@@ -217,7 +217,7 @@ export default function WorkWithUs() {
       {/* Workshop Testimonials */}
       <section className="py-12 lg:py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-12">
             What they say
           </p>
           <div className="reveal grid md:grid-cols-2 gap-6 lg:gap-8">
