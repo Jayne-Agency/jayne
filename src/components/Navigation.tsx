@@ -98,7 +98,7 @@ export function Navigation() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Link
-              href="#"
+              href="https://form.typeform.com/to/Bsx0IpzP"
               className="group inline-flex items-center gap-2 px-6 py-2.5 text-sm font-semibold bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
               Book a call
@@ -200,7 +200,7 @@ export function Navigation() {
 
         <div className="pt-8 pb-8">
           <Link
-            href="#"
+            href="https://form.typeform.com/to/Bsx0IpzP"
             onClick={() => setIsOpen(false)}
             className="group flex items-center justify-center gap-3 w-full px-8 py-4 text-base font-semibold bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
           >

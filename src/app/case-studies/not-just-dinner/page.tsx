@@ -140,7 +140,7 @@ export default function NotJustDinnerCaseStudy() {
           </p>
           <div className="reveal">
             <Link
-              href="#"
+              href="https://form.typeform.com/to/Bsx0IpzP"
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
               Book a call
