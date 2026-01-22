@@ -31,7 +31,7 @@ const cohorts = [
   {
     month: "March",
     status: "OPEN",
-    stripeUrl: "#",
+    stripeUrl: "https://buy.stripe.com/6oE9BmfRXeLw5Us9B9",
     weeks: [
       { week: 1, date: "Monday, March 3, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, March 10, 2025", time: "11:00am – 12:00pm CT", title: "1-Hour Workbook Guidance" },
@@ -55,7 +55,7 @@ const cohorts = [
   {
     month: "May",
     status: "OPEN",
-    stripeUrl: "#",
+    stripeUrl: "https://buy.stripe.com/8wM7te21746S82A8wN",
     weeks: [
       { week: 1, date: "Monday, May 5, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, May 12, 2025", time: "11:00am – 12:00pm CT", title: "1-Hour Workbook Guidance" },
