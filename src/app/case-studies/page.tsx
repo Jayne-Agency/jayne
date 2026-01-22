@@ -156,12 +156,9 @@ export default function Results() {
       {/* CTA */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
+          <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1] mb-12">
             Your story next?
           </h2>
-          <p className="reveal text-xl text-[#8a8178] mb-10 font-[family-name:var(--font-open-sans)]">
-            Let&apos;s talk about what&apos;s possible.
-          </p>
           <div className="reveal">
             <a
               href="https://form.typeform.com/to/Bsx0IpzP"
