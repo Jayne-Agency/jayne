@@ -11,6 +11,7 @@ export function Navigation() {
 
   const isActive = (path: string) => pathname === path;
   const isWorkWithUsActive = pathname.startsWith("/work-with-us");
+  const isClarityUniversityActive = pathname.startsWith("/clarity-university");
 
   return (
     <>
@@ -77,11 +78,17 @@ export function Navigation() {
             </Link>
 
             <Link
-              href="#"
-              className="text-sm font-medium relative group transition-colors duration-300 text-[#1a1a1a] hover:text-[#f57214]"
+              href="/clarity-university"
+              className={`text-sm font-medium relative group transition-colors duration-300 ${
+                isClarityUniversityActive
+                  ? "text-black"
+                  : "text-[#1a1a1a] hover:text-[#f57214]"
+              }`}
             >
               Clarity University
-              <span className="absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 w-0 group-hover:w-full" />
+              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
+                isClarityUniversityActive ? "w-full" : "w-0 group-hover:w-full"
+              }`} />
             </Link>
 
             <a
@@ -182,9 +189,13 @@ export function Navigation() {
           </Link>
 
           <Link
-            href="#"
+            href="/clarity-university"
             onClick={() => setIsOpen(false)}
-            className="text-3xl font-medium transition-colors duration-300 py-3 text-[#1a1a1a] hover:text-[#f57214]"
+            className={`text-3xl font-medium transition-colors duration-300 py-3 ${
+              isClarityUniversityActive
+                ? "text-[#f57214]"
+                : "text-[#1a1a1a] hover:text-[#f57214]"
+            }`}
           >
             Clarity University
           </Link>
