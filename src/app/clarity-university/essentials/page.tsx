@@ -5,6 +5,30 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const cohorts = [
   {
+    month: "January",
+    status: "CLOSED",
+    stripeUrl: "",
+    weeks: [
+      { week: 1, date: "Monday, January 6, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+      { week: 3, date: "Monday, January 20, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "N/A", time: "", title: "N/A" },
+    ],
+    aiAddon: "Monday, January 27, 2025 | 11:00am – 12:00pm CT",
+  },
+  {
+    month: "February",
+    status: "CLOSED",
+    stripeUrl: "",
+    weeks: [
+      { week: 1, date: "Monday, February 3, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+      { week: 3, date: "Monday, February 17, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "N/A", time: "", title: "N/A" },
+    ],
+    aiAddon: "Monday, February 24, 2025 | 11:00am – 12:00pm CT",
+  },
+  {
     month: "March",
     status: "OPEN",
     stripeUrl: "https://buy.stripe.com/5kAdRCdJPbzkfv23cK",
@@ -17,6 +41,18 @@ const cohorts = [
     aiAddon: "Monday, March 24, 2025 | 11:00am – 12:00pm CT",
   },
   {
+    month: "April",
+    status: "CLOSED",
+    stripeUrl: "",
+    weeks: [
+      { week: 1, date: "Monday, April 7, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+      { week: 3, date: "Monday, April 21, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "N/A", time: "", title: "N/A" },
+    ],
+    aiAddon: "Monday, April 28, 2025 | 11:00am – 12:00pm CT",
+  },
+  {
     month: "May",
     status: "OPEN",
     stripeUrl: "https://buy.stripe.com/28o3cYcFLgTEaaI4go",
@@ -27,6 +63,90 @@ const cohorts = [
       { week: 4, date: "N/A", time: "", title: "N/A" },
     ],
     aiAddon: "Monday, May 26, 2025 | 11:00am – 12:00pm CT",
+  },
+  {
+    month: "June",
+    status: "CLOSED",
+    stripeUrl: "",
+    weeks: [
+      { week: 1, date: "Monday, June 2, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+      { week: 3, date: "Monday, June 16, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "N/A", time: "", title: "N/A" },
+    ],
+    aiAddon: "Monday, June 23, 2025 | 11:00am – 12:00pm CT",
+  },
+  {
+    month: "July",
+    status: "CLOSED",
+    stripeUrl: "",
+    weeks: [
+      { week: 1, date: "Monday, July 7, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+      { week: 3, date: "Monday, July 21, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "N/A", time: "", title: "N/A" },
+    ],
+    aiAddon: "Monday, July 28, 2025 | 11:00am – 12:00pm CT",
+  },
+  {
+    month: "August",
+    status: "CLOSED",
+    stripeUrl: "",
+    weeks: [
+      { week: 1, date: "Monday, August 4, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+      { week: 3, date: "Monday, August 18, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "N/A", time: "", title: "N/A" },
+    ],
+    aiAddon: "Monday, August 25, 2025 | 11:00am – 12:00pm CT",
+  },
+  {
+    month: "September",
+    status: "CLOSED",
+    stripeUrl: "",
+    weeks: [
+      { week: 1, date: "Monday, September 8, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+      { week: 3, date: "Monday, September 22, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "N/A", time: "", title: "N/A" },
+    ],
+    aiAddon: "Monday, September 29, 2025 | 11:00am – 12:00pm CT",
+  },
+  {
+    month: "October",
+    status: "CLOSED",
+    stripeUrl: "",
+    weeks: [
+      { week: 1, date: "Monday, October 6, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+      { week: 3, date: "Monday, October 20, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "N/A", time: "", title: "N/A" },
+    ],
+    aiAddon: "Monday, October 27, 2025 | 11:00am – 12:00pm CT",
+  },
+  {
+    month: "November",
+    status: "CLOSED",
+    stripeUrl: "",
+    weeks: [
+      { week: 1, date: "Monday, November 3, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+      { week: 3, date: "Monday, November 17, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "N/A", time: "", title: "N/A" },
+    ],
+    aiAddon: "Monday, November 24, 2025 | 11:00am – 12:00pm CT",
+  },
+  {
+    month: "December",
+    status: "CLOSED",
+    stripeUrl: "",
+    weeks: [
+      { week: 1, date: "Monday, December 1, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+      { week: 3, date: "Monday, December 15, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "N/A", time: "", title: "N/A" },
+    ],
+    aiAddon: "Monday, December 22, 2025 | 11:00am – 12:00pm CT",
   },
 ];
 
@@ -69,7 +189,9 @@ export default function EssentialsRegistration() {
                 {/* Header */}
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-8 pb-6 border-b border-[#e5e0d8]">
                   <h3 className="text-2xl md:text-3xl text-[#1a1a1a]">{cohort.month}</h3>
-                  <span className="text-sm font-semibold uppercase tracking-widest font-[family-name:var(--font-open-sans)] text-[#f57214]">
+                  <span className={`text-sm font-semibold uppercase tracking-widest font-[family-name:var(--font-open-sans)] ${
+                    cohort.status === "OPEN" ? "text-[#f57214]" : "text-[#8a8178]"
+                  }`}>
                     ESSENTIALS – {cohort.status}
                   </span>
                 </div>
@@ -106,15 +228,21 @@ export default function EssentialsRegistration() {
                 </div>
 
                 {/* CTA Button */}
-                <a
-                  href={cohort.stripeUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group inline-flex items-center justify-center gap-3 px-8 py-4 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300 w-full md:w-auto"
-                >
-                  Secure Your Spot
-                  <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-                </a>
+                {cohort.status === "OPEN" ? (
+                  <a
+                    href={cohort.stripeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center justify-center gap-3 px-8 py-4 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300 w-full md:w-auto"
+                  >
+                    Secure Your Spot
+                    <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+                  </a>
+                ) : (
+                  <span className="inline-flex items-center justify-center gap-3 px-8 py-4 text-lg bg-[#ccc] text-white rounded-lg w-full md:w-auto cursor-not-allowed">
+                    Registration Closed
+                  </span>
+                )}
               </div>
             ))}
           </div>
