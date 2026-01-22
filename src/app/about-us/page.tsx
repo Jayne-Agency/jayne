@@ -121,8 +121,8 @@ export default function AboutUs() {
       {/* Methodology Section */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="reveal text-3xl md:text-4xl leading-[1.2] text-[#1a1a1a] mb-8">
-            We help organizations of all sizes overcome their most pressing challenges while building sustainable long-term growth through a brand strategy methodology developed and refined over 17 years in service of hundreds of businesses.
+          <h2 className="reveal text-4xl md:text-5xl leading-[1.2] text-[#1a1a1a] mb-8">
+            We help organizations overcome their most pressing challenges while building sustainable long-term growth. Our brand strategy methodology has been developed and refined over 17 years in service of hundreds of businesses.
           </h2>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] mb-16 font-[family-name:var(--font-open-sans)]">
             Learn more about our methodology and how we can help you <span className="text-[#f57214]">↓</span>
@@ -133,7 +133,7 @@ export default function AboutUs() {
               href="/work-with-us"
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
-              Work with Us
+              How We Work
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
           </div>

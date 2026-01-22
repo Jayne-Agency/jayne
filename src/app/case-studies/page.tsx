@@ -128,7 +128,7 @@ export default function Results() {
               >
                 <div className="flex flex-col md:flex-row md:items-start gap-3 md:gap-8">
                   <div className="md:w-48 shrink-0">
-                    <span className="text-2xl md:text-3xl text-[#f57214] leading-none block">
+                    <span className="text-3xl md:text-4xl text-[#f57214] leading-none block">
                       {study.result}
                     </span>
                     <span className="text-sm text-[#8a8178] font-[family-name:var(--font-open-sans)] block mt-1 font-[family-name:var(--font-open-sans)]">
@@ -136,7 +136,7 @@ export default function Results() {
                     </span>
                   </div>
                   <div className="flex-1">
-                    <p className="text-sm md:text-base text-[#f57214] uppercase tracking-widest mb-2">
+                    <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-2">
                       {study.client}
                     </p>
                     <h2 className="text-lg md:text-xl text-[#1a1a1a] leading-snug group-hover:text-[#f57214] transition-colors">
