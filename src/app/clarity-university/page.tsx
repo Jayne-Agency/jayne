@@ -70,7 +70,7 @@ export default function ClarityUniversity() {
       {/* Choose Your Package */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="reveal text-4xl md:text-5xl text-[#f57214] leading-tight mb-16">
+          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-16 font-[family-name:var(--font-open-sans)]">
             Choose Your Package
           </h2>
 
