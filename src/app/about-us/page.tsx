@@ -133,7 +133,7 @@ export default function AboutUs() {
               href="/work-with-us"
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
-              Work with Us
+              How We Work
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
           </div>
