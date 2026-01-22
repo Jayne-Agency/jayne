@@ -239,6 +239,69 @@ export default function ClarityUniversity() {
         </div>
       </section>
 
+      {/* Alumni Success Stories */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-16">
+            Clarity University® Alumni Success Stories
+          </h2>
+
+          <div className="reveal grid md:grid-cols-2 gap-8 lg:gap-12">
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                They just helped me mitigate a lot of risk, saved me a lot of money, and I&apos;m actually enjoying the whole experience a lot more. I was feeling like a deer in headlights. I really couldn&apos;t get [my brand message] out. And now I can.
+              </p>
+              <p className="text-base text-[#8a8178] font-medium">
+                Stefanie Schodrof
+              </p>
+              <p className="text-sm text-[#9d968c]">
+                Founder, Senseory
+              </p>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                I have to say, Clarity University was transformational! I&apos;ve had so many epiphanies; the haze is gone, and there is a clear and concise direction. My favorite parts were defining what sets me apart, crafting a compelling personal brand story and messaging (really liked this exercise), and developing a strategic plan to build my brand across channels—highly recommend!
+              </p>
+              <p className="text-base text-[#8a8178] font-medium">
+                John Taylor
+              </p>
+              <p className="text-sm text-[#9d968c]">
+                Sr. Director Supplier Outreach, Medtronic
+              </p>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                One of the things that was important for me […] was how brand touches so many different things. I had to take a step back as a founder of a business […] and understand that brand touches HR, touches finances, it touches sales, it touches operations.
+              </p>
+              <p className="text-base text-[#8a8178] font-medium">
+                Jared Gibson
+              </p>
+              <p className="text-sm text-[#9d968c]">
+                Co-Founder, Outworks
+              </p>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                We have a really, really loyal following of donors, but we&apos;re trying to expand that. Until now, we didn&apos;t really know how to make them [new donors] care…Clarity University helped us identify how to approach those people with our unique organization, and explain why they should spend their dollars with us.
+              </p>
+              <p className="text-base text-[#8a8178] font-medium">
+                Lori Dann
+              </p>
+              <p className="text-sm text-[#9d968c]">
+                Founder, MyPLC, Board Chair, Mother&apos;s Trust Foundation
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Still Unsure? */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-4xl mx-auto">
