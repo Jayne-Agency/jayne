@@ -31,7 +31,7 @@ const cohorts = [
   {
     month: "March",
     status: "OPEN",
-    stripeUrl: "https://buy.stripe.com/6oE8xi8pvgTE5Us14E",
+    stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
       { week: 1, date: "Monday, March 3, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, March 10, 2025", time: "11:00am – 1:30pm CT", title: "2.5 Hours Brand Strategy Consulting" },
@@ -55,7 +55,7 @@ const cohorts = [
   {
     month: "May",
     status: "OPEN",
-    stripeUrl: "https://buy.stripe.com/7sI9Bm7lr32O6Yw8wS",
+    stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
       { week: 1, date: "Monday, May 5, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, May 12, 2025", time: "11:00am – 1:30pm CT", title: "2.5 Hours Brand Strategy Consulting" },
