@@ -241,7 +241,9 @@ export default function ClarityUniversity() {
           </p>
           <div className="reveal flex flex-wrap gap-4">
             <a
-              href="#"
+              href="https://form.typeform.com/to/UlCaLLMV"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#f57214] text-white rounded-lg transition-all duration-300"
             >
               Clarity Assessment
