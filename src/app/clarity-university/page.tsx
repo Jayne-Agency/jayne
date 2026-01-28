@@ -256,7 +256,7 @@ export default function ClarityUniversity() {
 
           <div className="reveal grid md:grid-cols-2 gap-8 lg:gap-12">
             <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10 overflow-hidden">
-              <div style={{padding: "56.25% 0 0 0", position: "relative"}}>
+              <div className="mb-8 -mx-8 lg:-mx-10 -mt-8 lg:-mt-10" style={{padding: "56.25% 0 0 0", position: "relative"}}>
                 <iframe
                   src="https://player.vimeo.com/video/908872505?badge=0&autopause=0&player_id=0&app_id=58479"
                   frameBorder="0"
@@ -266,9 +266,6 @@ export default function ClarityUniversity() {
                   title="Clarity University - Stef"
                 />
               </div>
-            </div>
-
-            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
                 They just helped me mitigate a lot of risk, saved me a lot of money, and I&apos;m actually enjoying the whole experience a lot more. I was feeling like a deer in headlights. I really couldn&apos;t get [my brand message] out. And now I can.
