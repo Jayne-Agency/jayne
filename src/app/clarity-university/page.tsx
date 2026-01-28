@@ -392,6 +392,10 @@ export default function ClarityUniversity() {
                   title="DC Crenshaw FOCUSES at Clarity University"
                 />
               </div>
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                As an entrepreneur, it can be a really lonely job. So listening to the challenges that others are going through allows me to be able to relate and resonate with whatever I was doing.
+              </p>
               <div className="flex items-center gap-4">
                 <div>
                   <p className="text-base text-[#8a8178] font-medium">
