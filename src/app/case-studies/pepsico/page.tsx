@@ -106,7 +106,7 @@ export default function PepsiCoCaseStudy() {
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Solution</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Help people see the ability to cross the 1BB threshold. Appeal to the PepsiCO&reg; culture of performance, innovation and scale.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Help people see the ability to cross the $1B threshold. Appeal to the PepsiCO&reg; culture of performance, innovation and scale.</p>
             </div>
           </div>
         </div>
