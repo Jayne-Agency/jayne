@@ -95,7 +95,7 @@ const caseStudies = [
   {
     id: "tms",
     client: "TMS",
-    hook: "How do you position an impossible innovation for the biggest buyer in the world?",
+    hook: "How do we solve a prospect's impossible task and develop a coveted innovation worth selling to the highest bidder?",
     result: "500%",
     resultLabel: "sales increase",
     teaser: "From 1 million to 1 billion mailers in 3 years.",
