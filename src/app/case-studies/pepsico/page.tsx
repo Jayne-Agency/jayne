@@ -22,7 +22,7 @@ export default function PepsiCoCaseStudy() {
             PepsiCo
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            What if your supply chain could change the world?
+            How do we ensure 1BB in Supply Chain spend in 120 days?
           </h1>
         </div>
       </section>
@@ -32,13 +32,25 @@ export default function PepsiCoCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
-              PepsiCo had a supplier diversity program.
+              With an $800M supplier diversity spend, PepsiCO&reg; was $200M short of $1B.
             </p>
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
-              A checkbox. A report filed once a year.
+              But supply chains are fragile and not always in your control.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              But <span className="text-[#f57214]">$250 million</span> in spending power isn&apos;t a checkbox—it&apos;s a lever.
+              A WBE contracted for <span className="text-[#f57214]">$250M</span> sold to a non-certified company.
+            </p>
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
+              Now facing a <span className="text-[#f57214]">$450M shortfall</span>, PepsiCO&reg; needed to close the gap—fast.
+            </p>
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
+              Our solution: leverage the enterprise-wide culture and speak to PepsiCO&reg; in their language.
+            </p>
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
+              We created a marketing campaign to identify $450M of internal spend that could count as diverse, or find new opportunities to close the gap.
+            </p>
+            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
+              It became a movement that hit a cultural trigger point at exactly the right moment in time.
             </p>
           </div>
         </div>
@@ -88,13 +100,13 @@ export default function PepsiCoCaseStudy() {
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Problem</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Moving from a Supplier Diversity program to an enterprise platform. The old way was transactional. Check the box. File the report. Move on.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">How people were looking at what a &ldquo;diverse spend&rdquo; meant.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Solution</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Call all advocates to help create opportunity and awareness. Use an approved style guide to condense timing. Appeal to PepsiCo&apos;s culture of performance.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Help people see the ability to cross the $1B threshold. Appeal to the PepsiCO&reg; culture of performance, innovation and scale.</p>
             </div>
           </div>
         </div>
@@ -108,10 +120,10 @@ export default function PepsiCoCaseStudy() {
           </p>
           <div className="reveal">
             <div className="text-5xl md:text-7xl lg:text-9xl text-[#f57214] leading-none mb-4">
-              $800MM
+              $1B
             </div>
             <p className="text-xl md:text-2xl text-[#8a8178] mb-16 font-[family-name:var(--font-open-sans)]">
-              in forecasted diverse supplier spend
+              in forecasted inclusive spend
             </p>
           </div>
 
@@ -122,11 +134,11 @@ export default function PepsiCoCaseStudy() {
             </div>
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">23</div>
-              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">categories transformed</p>
+              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">Categories Engaged</p>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">35+</div>
-              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">years of relationships deepened</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">100%</div>
+              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">C-Suite Support</p>
             </div>
           </div>
         </div>
@@ -141,12 +153,12 @@ export default function PepsiCoCaseStudy() {
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Highly valued pipeline</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">A steady flow of qualified diverse suppliers ready to meet PepsiCo&apos;s needs.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">A steady flow of qualified suppliers ready to meet PepsiCO&reg;&apos;s needs.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Disruptive innovation</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Fresh perspectives from diverse suppliers driving new ideas across the organization.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Fresh perspectives from suppliers driving new ideas across the organization.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">

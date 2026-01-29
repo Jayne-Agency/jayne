@@ -19,10 +19,10 @@ export default function NMSDCEYECaseStudy() {
             All Case Studies
           </Link>
           <p className="text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-6 opacity-0 animate-fade-in">
-            NMSDC EYE
+            NMSDC (National Minority Supplier Development Council) EYE
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            How do you fast-track entrepreneurs who don&apos;t know their own value yet?
+            How do we fast-track entrepreneurs to fully command their value?
           </h1>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function NMSDCEYECaseStudy() {
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">04</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Long-term partnership</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Build a year-over-year relationship serving the NMSDC EYE brand, leadership, judges, and cohorts.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Build a year-over-year relationship serving the NMSDC EYE brand, leadership, judges, sponsors, and cohorts.</p>
             </div>
           </div>
         </div>
@@ -86,10 +86,10 @@ export default function NMSDCEYECaseStudy() {
           </p>
           <div className="reveal">
             <div className="text-5xl md:text-7xl lg:text-9xl text-[#f57214] leading-none mb-4">
-              #1
+              50+
             </div>
             <p className="text-xl md:text-2xl text-[#8a8178] mb-16 font-[family-name:var(--font-open-sans)]">
-              highlight of the NMSDC national conference
+              brands fast-tracked
             </p>
           </div>
 

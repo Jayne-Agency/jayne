@@ -19,10 +19,10 @@ export default function HornitosCaseStudy() {
             All Case Studies
           </Link>
           <p className="text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-6 opacity-0 animate-fade-in">
-            Hornitos
+            Hornitos&reg; Tequila
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            How do you make bartenders fall in love with a tequila?
+            How do we expand sales for a global tequila brand, when U.S. bartenders won&apos;t mix with it?
           </h1>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function HornitosCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
-              Hornitos was a globally renowned mixing tequila.
+              Hornitos&reg; was a renowned global tequila.
             </p>
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
               But in the U.S., bartenders overlooked it, preferring familiar brands.
@@ -41,7 +41,7 @@ export default function HornitosCaseStudy() {
               The question wasn&apos;t <span className="text-[#f57214]">&ldquo;how do we advertise?&rdquo;</span>
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              It was &ldquo;how do we create an experience they&apos;ll never forget?&rdquo;
+              It was &ldquo;how do we get bartenders to embrace Hornitos&reg;, locally.&rdquo;
             </p>
           </div>
         </div>
@@ -52,10 +52,10 @@ export default function HornitosCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              We stopped trying to <span className="text-[#f57214]">tell</span> bartenders about the tequila.
+              We decided to <span className="text-[#f57214]">show</span>. Not tell.
             </p>
             <p className="text-3xl md:text-4xl text-[#f57214] leading-snug">
-              We let them discover its flexible nature for themselves.
+              We brought bartenders and a new way of thinking about mixology together, to break through to the U.S. Market.
             </p>
           </div>
         </div>
@@ -92,12 +92,12 @@ export default function HornitosCaseStudy() {
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Nimble process</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Training NYC bartenders live as a means to force education and mixology usage.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Training NYC bartenders live as a means to foster education.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Innovative solutions</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Branded mixology handbook developed to further engage bartenders and consumers post event.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Cocktail table books doubled as a master class in mixology for bartenders, and as a beloved party favor for guests.</p>
             </div>
           </div>
         </div>
@@ -109,14 +109,10 @@ export default function HornitosCaseStudy() {
           <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-12">
             The result
           </p>
-          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="reveal">
             <div>
-              <div className="text-7xl md:text-8xl text-[#f57214] leading-none mb-2">83%</div>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">open rate</p>
-            </div>
-            <div>
-              <div className="text-7xl md:text-8xl text-[#f57214] leading-none mb-2">79%</div>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">attendance</p>
+              <div className="text-7xl md:text-8xl text-[#f57214] leading-none mb-2">100%</div>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">bartender supported</p>
             </div>
           </div>
         </div>
@@ -136,7 +132,7 @@ export default function HornitosCaseStudy() {
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Cultural moment</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Partnership with Bon Jovi&apos;s 25th anniversary and Showtime created massive cultural relevance.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Helped bartenders fall in love with Hornitos&reg; by throwing the most mischievous experiential mixology event in NYC including media icons, celebrities, publishing houses and guests.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
@@ -151,7 +147,7 @@ export default function HornitosCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
-            Ready to create experiences that stick?
+            Ready to influence your market?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10 font-[family-name:var(--font-open-sans)]">
             Let&apos;s talk about turning your audience into advocates.

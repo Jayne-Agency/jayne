@@ -32,10 +32,10 @@ export default function NationwideCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
-              Nationwide was required to prove plan performance to end clients—large organizations and plan sponsors demanding tangible evidence.
+              A national insurance and plan benefits provider was required to prove plan performance to end clients&mdash;large organizations and plan sponsors demanding tangible evidence.
             </p>
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
-              But they also wanted to improve marketing and communications at both B2B and B2C levels.
+              But they also wanted to improve marketing and communications to both plan administrators and end-users.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
               Meeting both mandates <span className="text-[#f57214]">simultaneously</span> introduced significant complexity.
@@ -71,10 +71,10 @@ export default function NationwideCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              Nationwide needed a way to connect proof of performance with perception of value.
+              The national insurance and plan benefits provider needed to connect proof of performance with perception of value.
             </p>
             <p className="text-3xl md:text-4xl text-[#f57214] leading-snug">
-              Transforming required satisfaction deliverables into strategic advantage.
+              This required transforming standardized YOY customer satisfaction deliverables (a check box) into a strategic advantage.
             </p>
           </div>
         </div>
@@ -96,7 +96,7 @@ export default function NationwideCaseStudy() {
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Competitive landscape analysis</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">At key moments, step back to examine how Nationwide was showing up, where competitors were sounding the same, and where Nationwide had real strengths not being communicated.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">At key moments, step back to examine how the brand was showing up, where competitors were sounding the same, and where the brand had real strengths not being communicated.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
@@ -129,8 +129,8 @@ export default function NationwideCaseStudy() {
               <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">employees supported</p>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">YoY</div>
-              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">consistent data tracking</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">8</div>
+              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">YOY trends tracked</p>
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@ export default function NationwideCaseStudy() {
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Clearer view</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Nationwide gained reliable insight into what mattered most to clients and plan users, backed by consistent data gathered year after year.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">The brand gained reliable insight into what mattered most to clients and plan users, backed by consistent data gathered year after year.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
@@ -155,7 +155,7 @@ export default function NationwideCaseStudy() {
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Informed decisions</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Instead of isolated reports, Nationwide had insight, language, and perspective needed to better serve partners and plan users.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Instead of isolated reports, the brand leadership team had insight, language, and perspective needed to better serve partners and plan users.</p>
             </div>
           </div>
         </div>

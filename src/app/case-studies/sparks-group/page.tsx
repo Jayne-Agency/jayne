@@ -22,7 +22,7 @@ export default function SparksGroupCaseStudy() {
             National Contract Sanitation Provider
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            How does a company with no marketing materials scale nationally?
+            How do you stand out in an industry where everyone looks. . .dirty?
           </h1>
         </div>
       </section>
@@ -38,7 +38,7 @@ export default function SparksGroupCaseStudy() {
               As the only female-owned national sanitation provider, they had grown significantly. But the industry itself was becoming harder to navigate.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Competitors were <span className="text-[#f57214]">destroying the industry&apos;s reputation</span>—and they had no brand to stand apart.
+              Competitors were destroying the industry&apos;s credibility through unethical practices&mdash;article after news segment after industry alert. With no gold standard and no end in sight, it became urgent to stand apart from the bad actors calling themselves <span className="text-[#f57214]">&ldquo;competitors.&rdquo;</span>
             </p>
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function SparksGroupCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8 font-[family-name:var(--font-open-sans)]">
-              With no brand or marketing materials, it was hard to:
+              Without a brand platform, and an industry black eye, it was hard to:
             </p>
             <div className="space-y-4">
               <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
@@ -62,20 +62,6 @@ export default function SparksGroupCaseStudy() {
                 Provide the philanthropy they intended.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* The Insight */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              Corporations were scrutinizing national contract sanitation suppliers more than ever.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug">
-              Leadership, board members, and decision-makers needed clear materials to evaluate and expand.
-            </p>
           </div>
         </div>
       </section>
@@ -115,11 +101,11 @@ export default function SparksGroupCaseStudy() {
             The result
           </p>
           <div className="reveal">
-            <div className="text-4xl md:text-6xl lg:text-8xl text-[#f57214] leading-none mb-4">
-              Multi-Year
+            <div className="text-5xl md:text-7xl lg:text-9xl text-[#f57214] leading-none mb-4">
+              83%
             </div>
             <p className="text-xl md:text-2xl text-[#8a8178] mb-16 font-[family-name:var(--font-open-sans)]">
-              integrated growth partnership
+              Growth
             </p>
           </div>
 
@@ -129,8 +115,8 @@ export default function SparksGroupCaseStudy() {
               <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">CMO services ongoing</p>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">National</div>
-              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">scale now achievable</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">100%</div>
+              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">Marketing Integration</p>
             </div>
           </div>
         </div>
