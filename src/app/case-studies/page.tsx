@@ -38,9 +38,9 @@ const caseStudies = [
   },
   {
     id: "mercer-valve",
-    client: "Mercer Valve Company",
-    hook: "How do you protect a 36-year legacy from competitors stealing your story?",
-    result: "100%",
+    client: "Mercer Valve Co.",
+    hook: "How do we protect a 36 year legacy from competitors stealing our story?",
+    result: "95%",
     resultLabel: "employee engagement",
     teaser: "From borrowed equity to reclaimed brand authority.",
   },
