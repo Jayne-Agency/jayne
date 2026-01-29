@@ -6,7 +6,7 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 const caseStudies = [
   {
     id: "pepsico",
-    client: "PepsiCo",
+    client: "PepsiCo®",
     hook: "How do we ensure 1BB in Supply Chain spend in 120 days?",
     result: "$1B",
     resultLabel: "forecasted inclusive spend",
@@ -102,7 +102,7 @@ const caseStudies = [
   },
   {
     id: "nationwide",
-    client: "Nationwide",
+    client: "Leading global insurance enterprise",
     hook: "How do you turn required compliance reporting into competitive advantage?",
     result: "Multi-Year",
     resultLabel: "strategic partnership",
