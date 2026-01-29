@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Open_Sans } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
@@ -52,6 +53,14 @@ export default function RootLayout({
         <Navigation />
         <main>{children}</main>
         <Footer />
+        <Script id="activecampaign-tracking" strategy="afterInteractive">
+          {`
+            (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
+            vgo('setAccount', '1003587258');
+            vgo('setTrackByDefault', true);
+            vgo('process');
+          `}
+        </Script>
       </body>
     </html>
   );
