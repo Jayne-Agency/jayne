@@ -29,6 +29,14 @@ const caseStudies = [
     teaser: "From eco-friendly promise to durability powerhouse.",
   },
   {
+    id: "pregis",
+    client: "Pregis",
+    hook: "How do you create alignment across 10+ product brands without losing what makes each one valuable?",
+    result: "62%",
+    resultLabel: "growth",
+    teaser: "From house of brands to One Pregis.",
+  },
+  {
     id: "mercer-valve",
     client: "Mercer Valve Company",
     hook: "How do you protect a 36-year legacy from competitors stealing your story?",
