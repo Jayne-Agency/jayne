@@ -87,7 +87,7 @@ const caseStudies = [
   {
     id: "not-just-dinner",
     client: "It's Not Just Dinner",
-    hook: "How do you build a brand when all you have is urgent need?",
+    hook: "How does dining with colleagues turn into high-quality supplier development?",
     result: "$20K",
     resultLabel: "donor level achieved",
     teaser: "From $150 donations to $20,000 annual giving.",

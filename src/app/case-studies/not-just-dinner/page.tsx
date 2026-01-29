@@ -22,7 +22,7 @@ export default function NotJustDinnerCaseStudy() {
             It&apos;s Not Just Dinner
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            How do you build a brand when all you have is urgent need?
+            How does dining with colleagues turn into high-quality supplier development?
           </h1>
         </div>
       </section>
