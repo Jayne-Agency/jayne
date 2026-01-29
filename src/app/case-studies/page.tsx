@@ -47,9 +47,9 @@ const caseStudies = [
   {
     id: "wbenc",
     client: "WBENC",
-    hook: "What if the real pitch problem isn't how you present—but what you say?",
+    hook: "Everyone wants to be a pitch coach. Nobody wants to define the ROI. Except us.",
     result: "800+",
-    resultLabel: "WBEs coached",
+    resultLabel: "WBEs elevated",
     teaser: "From generic pitch training to brand clarity breakthrough.",
   },
   {
