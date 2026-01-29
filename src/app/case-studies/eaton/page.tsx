@@ -22,7 +22,7 @@ export default function EatonCaseStudy() {
             Eaton Corporation
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            How do you align 94,000 employees across the globe around one mission?
+            How do we align across 5 continents, 9 departments, and endless conflicting directives in less than 6 weeks?
           </h1>
         </div>
       </section>
@@ -60,13 +60,13 @@ export default function EatonCaseStudy() {
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Multi-department integration</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Working with brand strategy, supplier development, quality assurance, and quality control to develop aligned brand strategies that integrated mission-based objectives with bottom-line outcomes.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Working with brand strategy, supplier development, quality assurance, and quality control to develop aligned brand management that integrated mission-based objectives with bottom-line outcomes.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Platform as documentation</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Using the brand platform as a means to articulate, confirm, and document—supporting personal and professional goals across the organization.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Documentation is King</h3>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">The brand platform methodology provides a safe environment to articulate, confirm, and then document personal, professional and business goals.</p>
             </div>
           </div>
         </div>
@@ -89,12 +89,12 @@ export default function EatonCaseStudy() {
 
           <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">94K</div>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">Employees</div>
               <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">employees aligned globally</p>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">#1</div>
-              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">highest internal engagement</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">High</div>
+              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">internal engagement</p>
             </div>
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function EatonCaseStudy() {
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Internal engagement</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">The highest engagement across internally created materials—decks, videos, annual communications—in company history.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">The high engagement across internally created materials—decks, videos, annual communications—in company history.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">

@@ -63,7 +63,7 @@ const caseStudies = [
   {
     id: "eaton",
     client: "Eaton Corporation",
-    hook: "How do you align 94,000 employees across the globe around one mission?",
+    hook: "How do we align across 5 continents, 9 departments, and endless conflicting directives in less than 6 weeks?",
     result: "4",
     resultLabel: "awards across 3 shows",
     teaser: "From departmental silos to unified brand alignment.",
