@@ -19,7 +19,7 @@ export default function WBENCCaseStudy() {
             All Case Studies
           </Link>
           <p className="text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-6 opacity-0 animate-fade-in">
-            WBENC
+            WBENC (Women&apos;s Business Enterprise National Council)
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
             Everyone wants to be a pitch coach. Nobody wants to be an analytics party &ldquo;downer&rdquo; defining the sum total value (ROI) for contestants and people who attend the pitch based on brand metrics.
