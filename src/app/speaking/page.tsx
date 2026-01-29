@@ -60,14 +60,14 @@ export default function Speaking() {
               </div>
               <div>
                 <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
-                  Brooke Foley
+                  Brooke Foley, CEO, Agent of Intrigue
                 </h2>
                 <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
                   Agent of Intrigue | Program Leader
                 </p>
                 <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                   <p>
-                    Co-founder and CEO of Jayne and Clarity University; Previous DDB, Ogilvy, Razorfish UX and Chief Creative Officer; Branding Expert for Celebrity Brands, Fortune 50s and the emerging entrepreneur sectors.
+                    On a mission to make sure every business in the world has access to high quality brand strategy. CEO of Jayne and Co-Founder of Clarity University; Brand Strategy Expert for Businesses, Celebrity Brands, Fortune 50s and the emerging entrepreneur sectors. Award Winning 2020 Enterprising Woman of the Year Winner, 2022 &ldquo;100 Women to KNOW&rdquo;, contributor to MBE Magazine, WE USA BEST OF THE DECADE, TOP WE USA Magazine, Keynote speaker, Author, Investor, Board Chair, Board Member.
                   </p>
                 </div>
               </div>
