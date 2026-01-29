@@ -79,9 +79,9 @@ const caseStudies = [
   {
     id: "sparks-group",
     client: "National Contract Sanitation Provider",
-    hook: "How does a company with no marketing materials scale nationally?",
-    result: "Multi-Year",
-    resultLabel: "growth partnership",
+    hook: "How do you stand out in an industry where everyone looks. . .dirty?",
+    result: "83%",
+    resultLabel: "growth",
     teaser: "From zero brand presence to scalable growth.",
   },
   {
