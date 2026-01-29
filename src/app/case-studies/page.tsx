@@ -55,9 +55,9 @@ const caseStudies = [
   {
     id: "nmsdc-eye",
     client: "NMSDC EYE",
-    hook: "How do you fast-track entrepreneurs who don't know their own value yet?",
-    result: "#1",
-    resultLabel: "conference highlight",
+    hook: "How do we fast-track entrepreneurs to fully command their value?",
+    result: "50+",
+    resultLabel: "brands fast-tracked",
     teaser: "From stragglers to standing room only.",
   },
   {
