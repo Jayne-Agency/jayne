@@ -70,10 +70,10 @@ const caseStudies = [
   },
   {
     id: "red-cross",
-    client: "American Red Cross",
-    hook: "Why did no one remember being offered disaster preparedness?",
-    result: "98%",
-    resultLabel: "brand recognition leveraged",
+    client: "American Red Cross®",
+    hook: "How do we reposition the most recognized 501c3 around what people need most but expect least?",
+    result: "100%",
+    resultLabel: "acceptance",
     teaser: "From invisible program to strategic foundation.",
   },
   {
