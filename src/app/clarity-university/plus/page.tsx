@@ -78,8 +78,8 @@ const cohorts = [
   },
   {
     month: "July",
-    status: "OPEN",
-    stripeUrl: "https://buy.stripe.com/6oU6oGdEl7Ou1uv3a59Ve12",
+    status: "CLOSED",
+    stripeUrl: "",
     weeks: [
       { week: 1, date: "Monday, July 7, 2026", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, July 14, 2026", time: "11:00am – 12:00pm CT", title: "1-Hour Workbook Guidance" },
@@ -102,8 +102,8 @@ const cohorts = [
   },
   {
     month: "September",
-    status: "OPEN",
-    stripeUrl: "https://buy.stripe.com/6oU6oGdEl7Ou1uv3a59Ve12",
+    status: "CLOSED",
+    stripeUrl: "",
     weeks: [
       { week: 1, date: "Monday, September 8, 2026", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, September 15, 2026", time: "11:00am – 12:00pm CT", title: "1-Hour Workbook Guidance" },
@@ -126,8 +126,8 @@ const cohorts = [
   },
   {
     month: "November",
-    status: "OPEN",
-    stripeUrl: "https://buy.stripe.com/6oU6oGdEl7Ou1uv3a59Ve12",
+    status: "CLOSED",
+    stripeUrl: "",
     weeks: [
       { week: 1, date: "Monday, November 3, 2026", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, November 10, 2026", time: "11:00am – 12:00pm CT", title: "1-Hour Workbook Guidance" },

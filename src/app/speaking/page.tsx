@@ -108,12 +108,12 @@ export default function Speaking() {
               </div>
             </div>
 
-            {/* Varronica */}
+            {/* Varonnica */}
             <div className="reveal flex flex-col md:flex-row items-start gap-8">
               <div className="shrink-0">
                 <Image
                   src="/varonnica.png"
-                  alt="Varronica Kirn"
+                  alt="Varonnica Kirn"
                   width={160}
                   height={160}
                   className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
@@ -121,7 +121,7 @@ export default function Speaking() {
               </div>
               <div>
                 <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
-                  Varronica Kirn
+                  Varonnica Kirn
                 </h2>
                 <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
                   Program Facilitator | Brand Consultant and Strategist
