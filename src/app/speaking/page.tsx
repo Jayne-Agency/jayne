@@ -69,9 +69,6 @@ export default function Speaking() {
                   <p>
                     Co-founder and CEO of Jayne and Clarity University; Previous DDB, Ogilvy, Razorfish UX and Chief Creative Officer; Branding Expert for Celebrity Brands, Fortune 50s and the emerging entrepreneur sectors.
                   </p>
-                  <p>
-                    Investor | Author | Pitch Expert | Board Chair
-                  </p>
                 </div>
               </div>
             </div>
