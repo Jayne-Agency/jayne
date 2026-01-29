@@ -14,10 +14,10 @@ const caseStudies = [
   },
   {
     id: "hornitos",
-    client: "Hornitos",
-    hook: "How do you make bartenders fall in love with a tequila?",
-    result: "83%",
-    resultLabel: "open rate",
+    client: "Hornitos® Tequila",
+    hook: "How do we expand sales for a global tequila brand, when U.S. bartenders won't mix with it?",
+    result: "100%",
+    resultLabel: "bartender supported",
     teaser: "From overlooked import to must-have mixology essential.",
   },
   {
