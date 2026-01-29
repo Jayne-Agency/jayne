@@ -23,7 +23,7 @@ const caseStudies = [
   {
     id: "evertec",
     client: "Pregis EverTec",
-    hook: "What happens when you discover your product's real value?",
+    hook: "The only time half beats whole? When orders jump from $1 million to half a billion.",
     result: "80%",
     resultLabel: "corrugated boxes displaced",
     teaser: "From eco-friendly promise to durability powerhouse.",
