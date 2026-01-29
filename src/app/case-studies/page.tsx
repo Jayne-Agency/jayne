@@ -7,9 +7,9 @@ const caseStudies = [
   {
     id: "pepsico",
     client: "PepsiCo",
-    hook: "What if your supply chain could change the world?",
-    result: "$800MM",
-    resultLabel: "diverse supplier spend",
+    hook: "How do we ensure 1BB in Supply Chain spend in 120 days?",
+    result: "$1B",
+    resultLabel: "forecasted inclusive spend",
     teaser: "From compliance checkbox to competitive advantage.",
   },
   {
