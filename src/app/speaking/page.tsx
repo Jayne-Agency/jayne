@@ -14,6 +14,7 @@ export default function Speaking() {
     "Elevating the diverse supply chain",
     "Engagement through brand strategy and storytelling",
     "A better time to horizon - brand and venture capital",
+    "Brand strategy for local businesses",
     "Customized brand strategy topics available upon request",
   ];
 
