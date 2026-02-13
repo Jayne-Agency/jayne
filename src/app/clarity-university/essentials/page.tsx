@@ -57,12 +57,12 @@ const cohorts = [
     status: "OPEN",
     stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
-      { week: 1, date: "Monday, May 5, 2026", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
+      { week: 1, date: "Tuesday, May 5, 2026", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
-      { week: 3, date: "Monday, May 19, 2026", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
+      { week: 3, date: "Tuesday, May 19, 2026", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
       { week: 4, date: "N/A", time: "", title: "N/A" },
     ],
-    aiAddon: "Monday, May 26, 2026 | 11:00am – 12:00pm CT",
+    aiAddon: "Tuesday, May 26, 2026 | 11:00am – 12:00pm CT",
   },
   {
     month: "June",
