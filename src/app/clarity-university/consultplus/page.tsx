@@ -30,8 +30,8 @@ const cohorts = [
   },
   {
     month: "March",
-    status: "OPEN",
-    stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
+    status: "CLOSED",
+    stripeUrl: "",
     weeks: [
       { week: 1, date: "Monday, March 3, 2026", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Scheduled separately", time: "", title: "2.5 Hours Brand Strategy Consulting" },
@@ -57,24 +57,24 @@ const cohorts = [
     status: "OPEN",
     stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
-      { week: 1, date: "Tuesday, May 5, 2026", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
+      { week: 1, date: "Wednesday, May 6, 2026", time: "12:00pm – 2:30pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Scheduled separately", time: "", title: "2.5 Hours Brand Strategy Consulting" },
-      { week: 3, date: "Tuesday, May 19, 2026", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "Tuesday, May 26, 2026", time: "11:00am – 12:00pm CT", title: "Test Your Messaging Workshop" },
+      { week: 3, date: "Wednesday, May 20, 2026", time: "12:30pm – 1:30pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "Thursday, May 28, 2026", time: "12:30pm – 2:30pm CT", title: "Test Your Messaging Workshop" },
     ],
-    aiAddon: "Monday, June 2, 2026 | 11:00am – 12:00pm CT",
+    aiAddon: "Tuesday, June 2, 2026 | 12:30pm – 2:00pm CT",
   },
   {
     month: "June",
     status: "OPEN",
     stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
-      { week: 1, date: "Monday, June 2, 2026", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
+      { week: 1, date: "Tuesday, June 9, 2026", time: "11:30am – 1:30pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Scheduled separately", time: "", title: "2.5 Hours Brand Strategy Consulting" },
-      { week: 3, date: "Monday, June 16, 2026", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "Monday, June 23, 2026", time: "11:00am – 12:00pm CT", title: "Test Your Messaging Workshop" },
+      { week: 3, date: "Tuesday, June 23, 2026", time: "1:30pm – 2:30pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "Tuesday, June 30, 2026", time: "11:30am – 1:30pm CT", title: "Test Your Messaging Workshop" },
     ],
-    aiAddon: "Monday, June 30, 2026 | 11:00am – 12:00pm CT",
+    aiAddon: "Tuesday, July 7, 2026 | 11:30am – 1:00pm CT",
   },
   {
     month: "July",
@@ -93,12 +93,12 @@ const cohorts = [
     status: "OPEN",
     stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
-      { week: 1, date: "Monday, August 4, 2026", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
+      { week: 1, date: "Tuesday, August 4, 2026", time: "11:30am – 1:30pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Scheduled separately", time: "", title: "2.5 Hours Brand Strategy Consulting" },
-      { week: 3, date: "Monday, August 18, 2026", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "Monday, August 25, 2026", time: "11:00am – 12:00pm CT", title: "Test Your Messaging Workshop" },
+      { week: 3, date: "Thursday, August 20, 2026", time: "2:00pm – 3:00pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "Thursday, August 27, 2026", time: "12:30pm – 2:30pm CT", title: "Test Your Messaging Workshop" },
     ],
-    aiAddon: "Monday, September 1, 2026 | 11:00am – 12:00pm CT",
+    aiAddon: "Tuesday, September 1, 2026 | 11:30am – 1:00pm CT",
   },
   {
     month: "September",
@@ -117,12 +117,12 @@ const cohorts = [
     status: "OPEN",
     stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
-      { week: 1, date: "Monday, October 6, 2026", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
+      { week: 1, date: "Tuesday, October 6, 2026", time: "11:30am – 1:30pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Scheduled separately", time: "", title: "2.5 Hours Brand Strategy Consulting" },
-      { week: 3, date: "Monday, October 20, 2026", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "Monday, October 27, 2026", time: "11:00am – 12:00pm CT", title: "Test Your Messaging Workshop" },
+      { week: 3, date: "Tuesday, October 20, 2026", time: "11:30am – 12:30pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "Thursday, October 29, 2026", time: "12:30pm – 2:30pm CT", title: "Test Your Messaging Workshop" },
     ],
-    aiAddon: "Monday, November 3, 2026 | 11:00am – 12:00pm CT",
+    aiAddon: "Tuesday, November 3, 2026 | 11:30am – 1:00pm CT",
   },
   {
     month: "November",
@@ -141,12 +141,12 @@ const cohorts = [
     status: "OPEN",
     stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
-      { week: 1, date: "Monday, December 1, 2026", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
+      { week: 1, date: "Tuesday, December 1, 2026", time: "11:30am – 1:30pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Scheduled separately", time: "", title: "2.5 Hours Brand Strategy Consulting" },
-      { week: 3, date: "Monday, December 15, 2026", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "Monday, December 22, 2026", time: "11:00am – 12:00pm CT", title: "Test Your Messaging Workshop" },
+      { week: 3, date: "Tuesday, December 15, 2026", time: "11:30am – 12:30pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "Tuesday, December 22, 2026", time: "11:30am – 1:30pm CT", title: "Test Your Messaging Workshop" },
     ],
-    aiAddon: "Monday, December 29, 2026 | 11:00am – 12:00pm CT",
+    aiAddon: "Tuesday, December 29, 2026 | 11:30am – 1:00pm CT",
   },
 ];
 
@@ -231,7 +231,7 @@ export default function ConsultPlusRegistration() {
                     href={cohort.stripeUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group inline-flex items-center justify-center gap-3 px-8 py-4 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300 w-full md:w-auto"
+                    className="group inline-flex items-center justify-center gap-3 px-8 py-4 text-lg bg-[#f57214] text-white rounded-lg transition-all duration-300 w-full md:w-auto"
                   >
                     Secure Your Spot
                     <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
