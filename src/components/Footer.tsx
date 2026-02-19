@@ -80,6 +80,16 @@ export function Footer() {
                   Devil&apos;s Advocate
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://shadowed-lettuce-db6.notion.site/How-to-Add-Your-Certification-on-LinkedIn-30c08ccd1d6f803aac9ff48f24650542"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#1a1a1a] hover:text-[#f57214] transition-colors"
+                >
+                  How to Add CU Certification
+                </a>
+              </li>
             </ul>
           </div>
 
