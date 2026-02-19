@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export default function ClarityUniversity() {
   useScrollReveal();
@@ -243,6 +244,11 @@ export default function ClarityUniversity() {
               View Add-Ons
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">&rarr;</span>
             </Link>
+          </div>
+
+          {/* Newsletter */}
+          <div className="mt-16">
+            <NewsletterSignup />
           </div>
         </div>
       </section>

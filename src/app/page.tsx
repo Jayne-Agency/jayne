@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export default function Home() {
   useScrollReveal();
@@ -217,6 +218,13 @@ export default function Home() {
         </div>
       </section>
 
+
+      {/* Newsletter */}
+      <section className="pb-24 lg:pb-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <NewsletterSignup />
+        </div>
+      </section>
 
     </main>
   );
