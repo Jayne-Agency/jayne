@@ -230,6 +230,27 @@ export default function ClarityUniversity() {
         </div>
       </section>
 
+      {/* Add-Ons CTA */}
+      <section className="py-16 lg:py-24 px-6 bg-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="reveal text-3xl md:text-4xl text-[#1a1a1a] leading-tight mb-6">
+            Already enrolled? Maximize your experience.
+          </h2>
+          <p className="reveal text-xl text-[#8a8178] mb-10 font-[family-name:var(--font-open-sans)]">
+            Explore our exclusive add-ons for AI sessions, post-event support, and ongoing strategist consultations.
+          </p>
+          <div className="reveal">
+            <Link
+              href="/clarity-university/add-ons"
+              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#f57214] text-white rounded-lg transition-all duration-300"
+            >
+              View Add-Ons
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">&rarr;</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* 4. Still Unsure? */}
       <section className="py-24 lg:py-32 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
