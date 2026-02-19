@@ -1,10 +1,19 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type FormEvent } from "react";
+
+const SUBSTACK_URL = "https://devilsadvocatebyjayneagency.substack.com";
 
 export function NewsletterSignup() {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
+
+  function handleSubmit(e: FormEvent) {
+    e.preventDefault();
+    const url = `${SUBSTACK_URL}/subscribe?email=${encodeURIComponent(email)}`;
+    window.open(url, "_blank", "noopener,noreferrer");
+    setSubmitted(true);
+  }
 
   return (
     <div className="reveal">
@@ -17,15 +26,12 @@ export function NewsletterSignup() {
       {submitted ? (
         <div className="max-w-lg px-5 py-4 rounded-lg bg-[#faf9f7] border border-[#e8e4dc] font-[family-name:var(--font-open-sans)]">
           <p className="text-lg text-[#1a1a1a]">
-            Thanks for subscribing! Check your inbox to confirm.
+            Thanks for subscribing! Complete your signup in the Substack tab.
           </p>
         </div>
       ) : (
         <form
-          action="https://devilsadvocatebyjayneagency.substack.com/api/v1/free"
-          method="POST"
-          target="_blank"
-          onSubmit={() => setSubmitted(true)}
+          onSubmit={handleSubmit}
           className="flex flex-col sm:flex-row gap-4 max-w-lg"
         >
           <input
