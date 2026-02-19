@@ -227,6 +227,23 @@ export default function ClarityUniversity() {
               </Link>
             </div>
           </div>
+
+          {/* Add-Ons CTA */}
+          <div className="reveal">
+            <h3 className="text-3xl md:text-4xl text-[#1a1a1a] leading-tight mb-6">
+              Already enrolled? Maximize your experience.
+            </h3>
+            <p className="text-xl text-[#8a8178] mb-10 font-[family-name:var(--font-open-sans)]">
+              Explore our exclusive add-ons for AI sessions, post-event support, and ongoing strategist consultations.
+            </p>
+            <Link
+              href="/clarity-university/add-ons"
+              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#f57214] text-white rounded-lg transition-all duration-300"
+            >
+              View Add-Ons
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">&rarr;</span>
+            </Link>
+          </div>
         </div>
       </section>
 
