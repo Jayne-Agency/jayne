@@ -30,8 +30,8 @@ const cohorts = [
   },
   {
     month: "March",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
       { week: 1, date: "Monday, March 3, 2026", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Scheduled separately", time: "", title: "2.5 Hours Brand Strategy Consulting" },
