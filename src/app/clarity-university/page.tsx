@@ -77,7 +77,7 @@ export default function ClarityUniversity() {
             It&apos;s Time to Strategize: Build your Brand Platform with Clarity University®
           </h2>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
-            Welcome to Clarity University® by Jayne Agency, a proven 4-week path to mastering the 10 essential brand assets within a brand platform that will positively impact your business&apos;s finance, culture, and market share. Designed for busy small and medium-sized business leaders, our program guides you through crafting an impactful 11-second elevator pitch and building a strong brand platform. Tailored for your schedule and budget, we offer a range of high-quality education, tools, support, and the community needed to enhance your brand&apos;s strategic potential without overburdening your resources, through flexible package options.
+            Welcome to Clarity University® by Jayne Agency, a proven 4-week path to mastering the <Link href="/work-with-us#the-path" className="text-[#f57214] underline hover:text-[#1a1a1a] transition-colors">10 essential brand assets</Link> within a brand platform that will positively impact your business&apos;s finance, culture, and market share. Designed for busy small and medium-sized business leaders, our program guides you through crafting an impactful 11-second elevator pitch and building a strong brand platform. Tailored for your schedule and budget, we offer a range of high-quality education, tools, support, and the community needed to enhance your brand&apos;s strategic potential without overburdening your resources, through flexible package options.
           </p>
         </div>
       </section>

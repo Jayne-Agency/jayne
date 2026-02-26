@@ -35,7 +35,7 @@ export default function WorkWithUs() {
       </section>
 
       {/* The Path We Build Together */}
-      <section className="py-12 lg:py-16 px-6">
+      <section id="the-path" className="py-12 lg:py-16 px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
             The path we build together
