@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import ActiveCampaignForm from "@/components/ActiveCampaignForm";
 
 export default function ClarityUniversity() {
   useScrollReveal();
@@ -483,6 +484,13 @@ export default function ClarityUniversity() {
               <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Whether you&apos;re a business leader or designating a team member, the program&apos;s flexibility allows for effective learning and application within your organization.</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* ActiveCampaign Sign-Up Form */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-4xl mx-auto flex justify-center">
+          <ActiveCampaignForm />
         </div>
       </section>
     </main>
