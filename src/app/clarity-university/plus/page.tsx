@@ -150,8 +150,18 @@ const cohorts = [
   },
 ];
 
+const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
 export default function PlusRegistration() {
   useScrollReveal();
+
+  const now = new Date();
+  const activeCohorts = cohorts.filter((cohort) => {
+    const monthIndex = monthNames.indexOf(cohort.month);
+    const yearMatch = cohort.weeks[0].date.match(/\d{4}/);
+    const year = yearMatch ? parseInt(yearMatch[0]) : now.getFullYear();
+    return year > now.getFullYear() || (year === now.getFullYear() && monthIndex >= now.getMonth());
+  });
 
   return (
     <main className="font-[family-name:var(--font-playfair)]">
@@ -181,7 +191,7 @@ export default function PlusRegistration() {
           </h2>
 
           <div className="space-y-8">
-            {cohorts.map((cohort) => (
+            {activeCohorts.map((cohort) => (
               <div
                 key={cohort.month}
                 className="reveal bg-[#faf9f7] rounded-2xl p-8 lg:p-10"
