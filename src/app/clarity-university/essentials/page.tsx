@@ -233,7 +233,7 @@ export default function EssentialsRegistration() {
                     href={cohort.stripeUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group inline-flex items-center justify-center gap-3 px-8 py-4 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300 w-full md:w-auto"
+                    className="group inline-flex items-center justify-center gap-3 px-8 py-4 text-lg bg-[#f57214] text-white rounded-lg transition-all duration-300 w-full md:w-auto"
                   >
                     Secure Your Spot
                     <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
