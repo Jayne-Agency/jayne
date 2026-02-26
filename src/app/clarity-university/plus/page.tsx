@@ -33,12 +33,12 @@ const cohorts = [
     status: "OPEN",
     stripeUrl: "https://buy.stripe.com/6oU6oGdEl7Ou1uv3a59Ve12",
     weeks: [
-      { week: 1, date: "Monday, March 2, 2026", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
+      { week: 1, date: "Thursday, March 5, 2026", time: "12:00pm – 2:30pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Scheduled separately", time: "", title: "1-Hour Workbook Guidance" },
-      { week: 3, date: "Monday, March 16, 2026", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "Monday, March 23, 2026", time: "11:00am – 12:00pm CT", title: "Test Your Messaging Workshop" },
+      { week: 3, date: "Wednesday, March 18, 2026", time: "12:30pm – 1:30pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "Thursday, March 26, 2026", time: "12:30pm – 2:30pm CT", title: "Test Your Messaging Workshop" },
     ],
-    aiAddon: "Monday, March 30, 2026 | 11:00am – 12:00pm CT",
+    aiAddon: "Tuesday, March 31, 2026 | 12:30pm – 2:00pm CT",
   },
   {
     month: "April",

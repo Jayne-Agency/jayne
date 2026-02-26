@@ -33,12 +33,12 @@ const cohorts = [
     status: "OPEN",
     stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
-      { week: 1, date: "Monday, March 2, 2026", time: "11:00am – 1:30pm CT", title: "Brand Platform Primer" },
-      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
-      { week: 3, date: "Monday, March 16, 2026", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "N/A", time: "", title: "N/A" },
+      { week: 1, date: "Thursday, March 5, 2026", time: "12:00pm – 2:30pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "Homework week", time: "", title: "Independent Workbook Completion" },
+      { week: 3, date: "Wednesday, March 18, 2026", time: "12:30pm – 1:30pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "Thursday, March 26, 2026", time: "12:30pm – 2:30pm CT", title: "Test Your Messaging Workshop" },
     ],
-    aiAddon: "Monday, March 23, 2026 | 11:00am – 12:00pm CT",
+    aiAddon: "Tuesday, March 31, 2026 | 12:30pm – 2:00pm CT",
   },
   {
     month: "April",
@@ -58,9 +58,9 @@ const cohorts = [
     stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
       { week: 1, date: "Wednesday, May 6, 2026", time: "12:00pm – 2:30pm CT", title: "Brand Platform Primer" },
-      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+      { week: 2, date: "Homework week", time: "", title: "Independent Workbook Completion" },
       { week: 3, date: "Wednesday, May 20, 2026", time: "12:30pm – 1:30pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "N/A", time: "", title: "N/A" },
+      { week: 4, date: "Thursday, May 28, 2026", time: "12:30pm – 2:30pm CT", title: "Test Your Messaging Workshop" },
     ],
     aiAddon: "Thursday, May 28, 2026 | 12:30pm – 2:00pm CT",
   },
@@ -69,10 +69,15 @@ const cohorts = [
     status: "OPEN",
     stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
+<<<<<<< HEAD
       { week: 1, date: "Tuesday, June 9, 2026", time: "11:30am – 2:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+=======
+      { week: 1, date: "Tuesday, June 9, 2026", time: "11:30am – 1:30pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "Homework week", time: "", title: "Independent Workbook Completion" },
+>>>>>>> 48afd16 (Update CU schedules with new dates for all open months)
       { week: 3, date: "Tuesday, June 23, 2026", time: "1:30pm – 2:30pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "N/A", time: "", title: "N/A" },
+      { week: 4, date: "Tuesday, June 30, 2026", time: "11:30am – 1:30pm CT", title: "Test Your Messaging Workshop" },
     ],
     aiAddon: "Tuesday, June 30, 2026 | 11:30am – 1:00pm CT",
   },
@@ -93,10 +98,15 @@ const cohorts = [
     status: "OPEN",
     stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
+<<<<<<< HEAD
       { week: 1, date: "Tuesday, August 4, 2026", time: "11:30am – 2:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+=======
+      { week: 1, date: "Tuesday, August 4, 2026", time: "11:30am – 1:30pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "Homework week", time: "", title: "Independent Workbook Completion" },
+>>>>>>> 48afd16 (Update CU schedules with new dates for all open months)
       { week: 3, date: "Thursday, August 20, 2026", time: "2:00pm – 3:00pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "N/A", time: "", title: "N/A" },
+      { week: 4, date: "Thursday, August 27, 2026", time: "12:30pm – 2:30pm CT", title: "Test Your Messaging Workshop" },
     ],
     aiAddon: "Thursday, August 27, 2026 | 11:30am – 1:00pm CT",
   },
@@ -117,10 +127,15 @@ const cohorts = [
     status: "OPEN",
     stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
+<<<<<<< HEAD
       { week: 1, date: "Tuesday, October 6, 2026", time: "11:30am – 2:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+=======
+      { week: 1, date: "Tuesday, October 6, 2026", time: "11:30am – 1:30pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "Homework week", time: "", title: "Independent Workbook Completion" },
+>>>>>>> 48afd16 (Update CU schedules with new dates for all open months)
       { week: 3, date: "Tuesday, October 20, 2026", time: "11:30am – 12:30pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "N/A", time: "", title: "N/A" },
+      { week: 4, date: "Thursday, October 29, 2026", time: "12:30pm – 2:30pm CT", title: "Test Your Messaging Workshop" },
     ],
     aiAddon: "Thursday, October 29, 2026 | 11:30am – 1:00pm CT",
   },
@@ -141,10 +156,15 @@ const cohorts = [
     status: "OPEN",
     stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
+<<<<<<< HEAD
       { week: 1, date: "Tuesday, December 1, 2026", time: "11:30am – 2:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+=======
+      { week: 1, date: "Tuesday, December 1, 2026", time: "11:30am – 1:30pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "Homework week", time: "", title: "Independent Workbook Completion" },
+>>>>>>> 48afd16 (Update CU schedules with new dates for all open months)
       { week: 3, date: "Tuesday, December 15, 2026", time: "11:30am – 12:30pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "N/A", time: "", title: "N/A" },
+      { week: 4, date: "Tuesday, December 22, 2026", time: "11:30am – 1:30pm CT", title: "Test Your Messaging Workshop" },
     ],
     aiAddon: "Tuesday, December 22, 2026 | 11:30am – 1:00pm CT",
   },
@@ -209,7 +229,7 @@ export default function EssentialsRegistration() {
                         </p>
                         {week.date !== "N/A" && (
                           <p className="text-[#8a8178] text-sm font-[family-name:var(--font-open-sans)]">
-                            {week.date} | {week.time}
+                            {week.date}{week.time && ` | ${week.time}`}
                           </p>
                         )}
                       </div>
