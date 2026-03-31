@@ -37,25 +37,38 @@ export default function FilecoinCaseStudy() {
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
               RWO spent four years building the content engine that changed that.
             </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              An unbelievable case study on teammanship, volume, mainstream media, and <span className="text-[#f57214]">fintech as we know it</span>.
-            </p>
           </div>
         </div>
       </section>
 
       {/* Key Metrics */}
+      <section className="py-16 px-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="reveal-stagger space-y-8">
+            <div>
+              <p className="text-sm text-[#8a8178] font-[family-name:var(--font-open-sans)] mb-1 uppercase tracking-wider">Storage utilization</p>
+              <div className="text-3xl md:text-4xl text-[#f57214] mb-1">18% &rarr; 30%</div>
+              <p className="text-sm text-[#8a8178] font-[family-name:var(--font-open-sans)]">Q4 2023 to Q3 2024</p>
+            </div>
+            <div>
+              <p className="text-sm text-[#8a8178] font-[family-name:var(--font-open-sans)] mb-1 uppercase tracking-wider">Orbit events reported on</p>
+              <div className="text-3xl md:text-4xl text-[#f57214] mb-1">136</div>
+              <p className="text-sm text-[#8a8178] font-[family-name:var(--font-open-sans)]">Across 21 countries in 2024</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Pull Quotes */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">18%&rarr;30%</div>
-              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">storage utilization, Q4 2023 to Q3 2024</p>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">136</div>
-              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">Orbit events reported on across 21 countries in 2024</p>
-            </div>
+          <div className="reveal-stagger space-y-8">
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
+              RWO built the content engine of a lifetime &mdash; one worthy of driving adoption of the network &mdash; worthy of storing humanity&apos;s most important datasets and information.
+            </p>
+            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug">
+              An unbelievable case study on teammanship, volume, mainstream media, and fintech as we know it.
+            </p>
           </div>
         </div>
       </section>
@@ -81,14 +94,39 @@ export default function FilecoinCaseStudy() {
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The channels</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Content strategy, Twitter / X campaigns, whitepaper development, podcast production, social media management, KPI tracking, and newsletters.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-4">The channels</h3>
+              <ul className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)] space-y-2">
+                <li>Content strategy</li>
+                <li>Twitter / X campaigns</li>
+                <li>Whitepaper development</li>
+                <li>Podcast production</li>
+                <li>Social media management</li>
+                <li>KPI tracking</li>
+                <li>Newsletters</li>
+              </ul>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">04</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">What changed</h3>
-              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Filecoin found audiences it had never spoken to before. People who never understood what distributed storage was, or why it was pertinent to the broader conversation around verifiable storage, began joining the conversation.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-6">What changed</h3>
+              <div className="space-y-8">
+                <div>
+                  <h4 className="text-lg font-bold text-[#f57214] font-[family-name:var(--font-open-sans)] mb-2">New audiences reached</h4>
+                  <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Filecoin found audiences it had never spoken to before and invited them into the ecosystem. People who never understood what distributed storage was, or why it was pertinent to the broader conversation around verifiable storage, began joining the conversation.</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-[#f57214] font-[family-name:var(--font-open-sans)] mb-2">Existing community fortification</h4>
+                  <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Followers became participants. Participants became advocates. Advocates became partners.</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-[#f57214] font-[family-name:var(--font-open-sans)] mb-2">Brand awareness</h4>
+                  <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Filecoin and Filecoin Foundation built a consistent, recognizable presence.</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-[#f57214] font-[family-name:var(--font-open-sans)] mb-2">Engagement</h4>
+                  <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">A content system that consistently performed and performed and performed and performed and performed.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -104,20 +142,9 @@ export default function FilecoinCaseStudy() {
             <div className="text-5xl md:text-7xl lg:text-9xl text-[#f57214] leading-none mb-4">
               60%
             </div>
-            <p className="text-xl md:text-2xl text-[#8a8178] mb-16 font-[family-name:var(--font-open-sans)]">
+            <p className="text-xl md:text-2xl text-[#8a8178] mb-4 font-[family-name:var(--font-open-sans)]">
               growth in data utilization
             </p>
-          </div>
-
-          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Existing community fortification</h3>
-              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">Followers became participants. Participants became advocates. Advocates became partners.</p>
-            </div>
-            <div>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Brand awareness</h3>
-              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">Filecoin and Filecoin Foundation built a consistent, recognizable presence.</p>
-            </div>
           </div>
         </div>
       </section>
