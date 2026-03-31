@@ -79,7 +79,7 @@ export default function NeverminedCaseStudy() {
             The result
           </p>
           <div className="reveal">
-            <div className="text-5xl md:text-7xl lg:text-9xl text-[#f57214] leading-none mb-4">
+            <div className="text-4xl md:text-5xl lg:text-6xl text-[#f57214] leading-tight mb-4">
               Client Adoption &amp; Founder-Led Growth
             </div>
           </div>
