@@ -112,8 +112,8 @@ const caseStudies = [
     id: "nevermined",
     client: "Nevermined",
     hook: "Unpaid agents. Unheard founder. One story that fixed both.",
-    result: "Category",
-    resultLabel: "client adoption & founder-led growth",
+    result: "Client Adoption",
+    resultLabel: "& founder-led growth",
     teaser: "From abstract tech to fundable AI-to-AI payments.",
   },
   {
