@@ -42,7 +42,7 @@ export default function FilecoinCaseStudy() {
       </section>
 
       {/* Key Metrics */}
-      <section className="py-16 px-6">
+      <section className="pb-16 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
             <div>
@@ -60,7 +60,7 @@ export default function FilecoinCaseStudy() {
       </section>
 
       {/* Pull Quotes */}
-      <section className="py-24 lg:py-32 px-6">
+      <section className="pt-8 pb-24 lg:pb-32 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
