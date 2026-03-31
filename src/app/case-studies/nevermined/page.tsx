@@ -38,7 +38,7 @@ export default function NeverminedCaseStudy() {
               The proven technology was established with a founder&apos;s clear vision for the future.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              The right story was waiting to be found. With builders needing to get paid, buyers wanting to transact and Nevermined being the one who <span className="text-[#f57214]">built the tech to do it</span>.
+              The right story was waiting to be found. With builders needing to get paid, buyers wanting to transact and Nevermined being the one who built the tech to do it.
             </p>
           </div>
         </div>
