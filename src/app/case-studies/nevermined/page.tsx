@@ -73,13 +73,13 @@ export default function NeverminedCaseStudy() {
       </section>
 
       {/* The Result */}
-      <section className="py-24 lg:py-32 px-6">
+      <section className="py-16 lg:py-20 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-12">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-8">
             The result
           </p>
           <div className="reveal">
-            <div className="text-4xl md:text-5xl lg:text-6xl text-[#f57214] leading-tight mb-4">
+            <div className="text-4xl md:text-5xl lg:text-6xl text-[#f57214] leading-tight">
               Client Adoption &amp; Founder-Led Growth
             </div>
           </div>
