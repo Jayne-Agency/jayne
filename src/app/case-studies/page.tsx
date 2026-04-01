@@ -5,6 +5,14 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const caseStudies = [
   {
+    id: "filecoin",
+    client: "Filecoin",
+    hook: "The proof was irrefutable, the story needed some humanizing.",
+    result: "60%",
+    resultLabel: "growth in data utilization",
+    teaser: "From Web3 jargon to stories the market could follow.",
+  },
+  {
     id: "pepsico",
     client: "PepsiCo®",
     hook: "How do we ensure 1BB in Supply Chain spend in 120 days?",
@@ -19,6 +27,14 @@ const caseStudies = [
     result: "100%",
     resultLabel: "bartender supported",
     teaser: "From overlooked import to must-have mixology essential.",
+  },
+  {
+    id: "nevermined",
+    client: "Nevermined",
+    hook: "Unpaid agents. Unheard founder. One story that fixed both.",
+    result: "Client Adoption",
+    resultLabel: "& founder-led growth",
+    teaser: "From abstract tech to fundable AI-to-AI payments.",
   },
   {
     id: "evertec",
@@ -107,22 +123,6 @@ const caseStudies = [
     result: "Multi-Year",
     resultLabel: "strategic partnership",
     teaser: "From data silos to unified brand clarity.",
-  },
-  {
-    id: "nevermined",
-    client: "Nevermined",
-    hook: "Unpaid agents. Unheard founder. One story that fixed both.",
-    result: "Client Adoption",
-    resultLabel: "& founder-led growth",
-    teaser: "From abstract tech to fundable AI-to-AI payments.",
-  },
-  {
-    id: "filecoin",
-    client: "Filecoin",
-    hook: "The proof was irrefutable, the story needed some humanizing.",
-    result: "60%",
-    resultLabel: "growth in data utilization",
-    teaser: "From Web3 jargon to stories the market could follow.",
   },
 ];
 
