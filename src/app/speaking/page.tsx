@@ -11,10 +11,11 @@ export default function Speaking() {
     "The fundamental 10 assets of a brand platform",
     "Women and leadership / authentic leadership",
     "Increasing the power of the buy-and-sell cycle within the supply chain",
-    "Elevating the diverse supply chain",
+    "Elevating supply chains from the inside out",
     "Engagement through brand strategy and storytelling",
     "A better time to horizon - brand and venture capital",
     "Brand strategy for local businesses",
+    "Anchor and Evolve",
     "Customized brand strategy topics available upon request",
   ];
 
