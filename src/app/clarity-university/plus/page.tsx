@@ -178,7 +178,7 @@ export default function PlusRegistration() {
             Plus Package Cohort Registration and Payment
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] opacity-0 animate-fade-in animation-delay-100 font-[family-name:var(--font-open-sans)] leading-relaxed">
-            Our most popular option. Perfect for those who want guided support throughout the brand strategy process. Includes weekly sessions, 1-on-1 workbook guidance, a messaging workshop, and full access to the Clarity University community and business directory.
+            Our most popular option. Perfect for those who want guided support throughout the brand strategy process. Includes weekly sessions, 1-on-1 workbook guidance, a messaging workshop, and full access to the Clarity University&reg; community and business directory.
           </p>
         </div>
       </section>

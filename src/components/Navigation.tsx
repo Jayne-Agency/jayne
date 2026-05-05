@@ -85,7 +85,7 @@ export function Navigation() {
                   : "text-[#1a1a1a] hover:text-[#f57214]"
               }`}
             >
-              Clarity University
+              Clarity University&reg;
               <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
                 isClarityUniversityActive ? "w-full" : "w-0 group-hover:w-full"
               }`} />
@@ -197,7 +197,7 @@ export function Navigation() {
                 : "text-[#1a1a1a] hover:text-[#f57214]"
             }`}
           >
-            Clarity University
+            Clarity University&reg;
           </Link>
 
           <a

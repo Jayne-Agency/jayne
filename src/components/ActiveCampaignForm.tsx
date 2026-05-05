@@ -18,11 +18,11 @@ const FORM_EMBED = `
   <input type="hidden" name="or" value="e0cf4def-05b1-4efb-aa2f-3f429795c02c" />
   <div class="_form-content">
     <div class="_form_element _field_header _full_width _clear">
-      <h2 class="_form-title">Stay Updated on Clarity University</h2>
+      <h2 class="_form-title">Stay Updated on Clarity University&reg;</h2>
     </div>
     <div class="_form_element _field_html _full_width _clear">
       <div class="_html-code">
-        Get notified about new cohort openings, exciting add-ons, and the latest offerings from Clarity University. Join our community of business leaders committed to brand clarity.
+        Get notified about new cohort openings, exciting add-ons, and the latest offerings from Clarity University&reg;. Join our community of business leaders committed to brand clarity.
       </div>
     </div>
     <div class="_form_element _field_firstname _full_width">

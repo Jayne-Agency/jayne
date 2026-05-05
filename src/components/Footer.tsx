@@ -67,7 +67,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/clarity-university" className="text-[#1a1a1a] hover:text-[#f57214] transition-colors">
-                  Clarity University
+                  Clarity University&reg;
                 </Link>
               </li>
               <li>
