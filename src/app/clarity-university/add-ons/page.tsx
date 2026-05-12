@@ -61,15 +61,6 @@ export default function CUAddOns() {
         </div>
       </section>
 
-      {/* Intro */}
-      <section className="py-16 lg:py-24 px-6 bg-white">
-        <div className="max-w-4xl mx-auto">
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
-            We&apos;re here to provide you with the brand strategy tools you need to succeed, both in your Clarity University&reg; cohort, and beyond. Whether you&apos;re looking for a comprehensive review of your progress or ongoing strategic support, our add-on options are built to complement your journey toward brand clarity and growth.
-          </p>
-        </div>
-      </section>
-
       {/* Individual Add-Ons */}
       <section className="py-16 lg:py-24 px-6">
         <div className="max-w-4xl mx-auto">
