@@ -27,14 +27,14 @@ const strategistPackages = [
     price: "$1,125",
     description:
       "Monthly 1-hour calls with a strategist help review what\u2019s working over time, keep you accountable to the work you put into your brand, and help course correct wherever need be.",
-    stripeUrl: "https://buy.stripe.com/dR66pacFL0UG0A8aFj",
+    stripeUrl: "https://buy.stripe.com/7sYaEW0RzfgW0qrdOJ9Ve1c",
   },
   {
     title: "6-Pack",
     price: "$2,100",
     description:
       "Double the hours, double the impact. Get the same monthly calls with a strategist, extended across six months.",
-    stripeUrl: "https://buy.stripe.com/aEUfZK0X3cDociQ7t8",
+    stripeUrl: "https://buy.stripe.com/bJe4gy9o55Gm8WX11X9Ve1b",
   },
 ];
 
