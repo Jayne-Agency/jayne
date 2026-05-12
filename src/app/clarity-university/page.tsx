@@ -14,7 +14,7 @@ export default function ClarityUniversity() {
       <section className="pt-32 pb-16 lg:pb-24 px-6">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl leading-[1.05] text-[#1a1a1a] opacity-0 animate-fade-in mb-8">
-            Clarity University
+            Clarity University®
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] opacity-0 animate-fade-in animation-delay-100 font-[family-name:var(--font-open-sans)]">
             MBA-level brand strategy education + hands-on guidance for solopreneurs, small business, and early stage startups.
@@ -119,7 +119,7 @@ export default function ClarityUniversity() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#ccc] mt-1">✗</span>
-                  <span className="text-[#ccc]">Inclusion in the Clarity University Business Directory</span>
+                  <span className="text-[#ccc]">Inclusion in the Clarity University® Business Directory</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#ccc] mt-1">✗</span>
@@ -165,7 +165,7 @@ export default function ClarityUniversity() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-green-500 mt-1">✓</span>
-                  <span>Inclusion in the Clarity University Business Directory</span>
+                  <span>Inclusion in the Clarity University® Business Directory</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-green-500 mt-1">✓</span>
@@ -208,7 +208,7 @@ export default function ClarityUniversity() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-green-500 mt-1">✓</span>
-                  <span>Inclusion in the Clarity University Business Directory</span>
+                  <span>Inclusion in the Clarity University® Business Directory</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-green-500 mt-1">✓</span>
@@ -232,16 +232,16 @@ export default function ClarityUniversity() {
           {/* Add-Ons CTA */}
           <div className="reveal">
             <h3 className="text-3xl md:text-4xl text-[#1a1a1a] leading-tight mb-6">
-              Already enrolled? Maximize your experience.
+              There&apos;s more after week four.
             </h3>
             <p className="text-xl text-[#8a8178] mb-10 font-[family-name:var(--font-open-sans)]">
-              Explore our exclusive add-ons for AI sessions, post-event support, and ongoing strategist consultations.
+              Continue leveraging brand strategy resources how and when you need them post-program, with the Growth Stack.
             </p>
             <Link
               href="/clarity-university/add-ons"
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#f57214] text-white rounded-lg transition-all duration-300"
             >
-              View Add-Ons
+              See the Stack
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">&rarr;</span>
             </Link>
           </div>
@@ -296,7 +296,7 @@ export default function ClarityUniversity() {
                   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
                   style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
-                  title="Clarity University - Stef"
+                  title="Clarity University® - Stef"
                 />
               </div>
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
@@ -325,7 +325,7 @@ export default function ClarityUniversity() {
             <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
-                I have to say, Clarity University was transformational! I&apos;ve had so many epiphanies; the haze is gone, and there is a clear and concise direction. My favorite parts were defining what sets me apart, crafting a compelling personal brand story and messaging (really liked this exercise), and developing a strategic plan to build my brand across channels—highly recommend!
+                I have to say, Clarity University® was transformational! I&apos;ve had so many epiphanies; the haze is gone, and there is a clear and concise direction. My favorite parts were defining what sets me apart, crafting a compelling personal brand story and messaging (really liked this exercise), and developing a strategic plan to build my brand across channels—highly recommend!
               </p>
               <div className="flex items-center gap-4">
                 <Image
@@ -354,7 +354,7 @@ export default function ClarityUniversity() {
                   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
                   style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
-                  title="Clarity University - Jared"
+                  title="Clarity University® - Jared"
                 />
               </div>
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
@@ -393,7 +393,7 @@ export default function ClarityUniversity() {
               </div>
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
-                We have a really, really loyal following of donors, but we&apos;re trying to expand that. Until now, we didn&apos;t really know how to make them [new donors] care…Clarity University helped us identify how to approach those people with our unique organization, and explain why they should spend their dollars with us.
+                We have a really, really loyal following of donors, but we&apos;re trying to expand that. Until now, we didn&apos;t really know how to make them [new donors] care…Clarity University® helped us identify how to approach those people with our unique organization, and explain why they should spend their dollars with us.
               </p>
               <div className="flex items-center gap-4">
                 <Image
@@ -422,7 +422,7 @@ export default function ClarityUniversity() {
                   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
                   style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
-                  title="DC Crenshaw FOCUSES at Clarity University"
+                  title="DC Crenshaw FOCUSES at Clarity University®"
                 />
               </div>
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>

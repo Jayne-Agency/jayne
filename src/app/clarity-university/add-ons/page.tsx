@@ -5,51 +5,36 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const addOns = [
   {
-    title: "CU AI Add-On Session",
+    title: "Brand Acceleration AI Lab",
     price: "$450",
     description:
-      "This course is a precision based approach specific to the Clarity University\u00AE brand platform. We are educating ChatGPT users at all levels, to use their brand platform as a driver of brand alignment when generating strategies, tactics or content on ChatGPT.",
-    note: "This add-on is designed specifically for people who\u2019ve been through Clarity University\u00AE and have a completed brand platform workbook from the program.",
+      "Move your business at the speed of clarity. The Brand Acceleration AI Lab is an AI framework with anchored guardrails that both fuel and protect your brand platform. Plan, operate, and generate content in ways that look and sound like you, no matter how fast you want to go.",
+    note: "There are a lot of AI tools out there, we know. For the purposes of this session we\u2019re demonstrating brand platform applications using ChatGPT. Our approach works across most major language models.",
     stripeUrl: "https://buy.stripe.com/14A8wO2ZH5Gm8WXeSN9Ve0Z",
-  },
-  {
-    title: "Post Week 4 Event Support",
-    price: "$375",
-    description:
-      "After completing the Week 4 \u201CTest Your Message\u201D event, you\u2019ll have the opportunity to receive a final round of 1-on-1 support with our expert strategists. This 1-hour session is designed to help you refine the messaging you tested during the event, provide personalized feedback, and finalize your brand\u2019s position and promise. It\u2019s a focused, hands-on opportunity to ensure your messaging is clear, compelling, and aligned with your overall brand platform. This session can also include support on how to continue leveraging insights from your AI session or get additional AI guidance as it relates to your brand platform.",
-    note: "This add-on is only available to participants who have purchased the Plus or ConsultPlus package and have attended the Week 4 \u201CTest Your Message\u201D session.",
-    stripeUrl: "https://buy.stripe.com/00gcNyfRXavg5Us00K",
   },
 ];
 
 const strategistPackages = [
   {
-    title: "3-Month 1-Hour Strategist Support",
-    price: "$1,500",
+    title: "Single Session",
+    price: "$375",
     description:
-      "One hour each month with a strategist to review your brand platform progress, address any challenges, and help you refine your brand\u2019s direction as you implement key lessons.",
-    stripeUrl: "https://buy.stripe.com/dR66pacFL0UG0A8aFj",
+      "Whether you have questions from your cohort or need a strategic sounding board for your brand, bring it on. This strategic 1:1 is yours to use for anything your brand might need.",
+    stripeUrl: "https://buy.stripe.com/00gcNyfRXavg5Us00K",
   },
   {
-    title: "6-Month 1-Hour Strategist Support",
-    price: "$2,500",
+    title: "3-Pack",
+    price: "$1,125",
     description:
-      "Enjoy the same expert strategist support for a longer period, allowing you to stay consistently aligned with your brand goals over six months.",
-    stripeUrl: "https://buy.stripe.com/aEUfZK0X3cDociQ7t8",
+      "Monthly 1-hour calls with a strategist help review what\u2019s working over time, keep you accountable to the work you put into your brand, and help course correct wherever need be.",
+    stripeUrl: "https://buy.stripe.com/7sYaEW0RzfgW0qrdOJ9Ve1c",
   },
   {
-    title: "3-Month 1.5-Hour Senior Strategist Consultation",
-    price: "$3,300",
+    title: "6-Pack",
+    price: "$2,100",
     description:
-      "Receive in-depth, 1.5-hour monthly consultations from a senior strategist, providing advanced strategic insights and hands-on support for your brand platform. This is ideal for businesses seeking more detailed guidance and personalized recommendations.",
-    stripeUrl: "https://buy.stripe.com/8wM28U8pv7j4dmU28P",
-  },
-  {
-    title: "6-Month 1.5-Hour Senior Strategist Consultation",
-    price: "$6,000",
-    description:
-      "For a premium level of senior support over a full six months, this option ensures you\u2019re guided by the highest level of expertise, giving you the clarity and confidence to take your brand to the next level.",
-    stripeUrl: "https://buy.stripe.com/28o4h2dJP6f02IgeVC",
+      "Double the hours, double the impact. Get the same monthly calls with a strategist, extended across six months.",
+    stripeUrl: "https://buy.stripe.com/bJe4gy9o55Gm8WX11X9Ve1b",
   },
 ];
 
@@ -65,22 +50,13 @@ export default function CUAddOns() {
             href="/clarity-university"
             className="text-[#f57214] hover:text-[#1a1a1a] transition-colors font-[family-name:var(--font-open-sans)] text-sm mb-6 inline-flex items-center gap-2"
           >
-            <span>&larr;</span> Back to Clarity University
+            <span>&larr;</span> Back to Clarity University&reg;
           </Link>
           <h1 className="text-4xl md:text-6xl leading-[1.05] text-[#1a1a1a] opacity-0 animate-fade-in mb-8 tracking-wide">
-            Maximize Your Clarity University Experience with Our Exclusive Add-Ons
+            Brand clarity doesn&apos;t graduate, it grows!
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] opacity-0 animate-fade-in animation-delay-100 font-[family-name:var(--font-open-sans)] leading-relaxed">
-            Take your brand to the next level with tailored support and comprehensive resources designed to keep you on track, focused, and empowered.
-          </p>
-        </div>
-      </section>
-
-      {/* Intro */}
-      <section className="py-16 lg:py-24 px-6 bg-white">
-        <div className="max-w-4xl mx-auto">
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
-            We&apos;re here to provide you with the brand strategy tools you need to succeed, both in your Clarity University cohort, and beyond. Whether you&apos;re looking for a comprehensive review of your progress or ongoing strategic support, our add-on options are built to complement your journey toward brand clarity and growth.
+            Looking to accelerate progress? The Clarity University&reg; Growth Stack is built to complement wherever you are on your brand strategy journey.
           </p>
         </div>
       </section>
@@ -134,13 +110,13 @@ export default function CUAddOns() {
       <section className="py-16 lg:py-24 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
-            Strategist Support Add-Ons
+            1:1 Strategic Office Hours
           </h2>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-16 font-[family-name:var(--font-open-sans)]">
-            Need expert guidance after the course? Choose one of our Strategist Support packages for dedicated, ongoing consultation tailored to your evolving needs.
+            Clarity University&reg; strategists are ready to help. These sessions allow you to continuously tap into support that enables you to pressure-test decisions, refine positioning (the market changes fast these days, have you noticed?), and make sure what you built at Clarity University&reg; works to help your brand excel amidst change.
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {strategistPackages.map((pkg) => (
               <div
                 key={pkg.title}
@@ -176,10 +152,10 @@ export default function CUAddOns() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
-            Have questions about our add-ons?
+            Not sure how to best leverage the growth stack &mdash; ideate here
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10 font-[family-name:var(--font-open-sans)]">
-            Talk it through with us.
+            Tell us what you&apos;re working on right now and we&apos;ll help you decide.
           </p>
           <div className="reveal">
             <a
@@ -188,7 +164,7 @@ export default function CUAddOns() {
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
-              Book a call
+              Talk to a strategist
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
                 &rarr;
               </span>

@@ -69,7 +69,7 @@ export default function Speaking() {
                 </p>
                 <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                   <p>
-                    On a mission to make sure every business in the world has access to high quality brand strategy. CEO of Jayne and Co-Founder of Clarity University; Brand Strategy Expert for Businesses, Celebrity Brands, Fortune 50s and the emerging entrepreneur sectors. Award Winning 2020 Enterprising Woman of the Year Winner, 2022 &ldquo;100 Women to KNOW&rdquo;, contributor to MBE Magazine, WE USA BEST OF THE DECADE, TOP WE USA Magazine, Keynote speaker, Author, Investor, Board Chair, Board Member.
+                    On a mission to make sure every business in the world has access to high quality brand strategy. CEO of Jayne and Co-Founder of Clarity University&reg;; Brand Strategy Expert for Businesses, Celebrity Brands, Fortune 50s and the emerging entrepreneur sectors. Award Winning 2020 Enterprising Woman of the Year Winner, 2022 &ldquo;100 Women to KNOW&rdquo;, contributor to MBE Magazine, WE USA BEST OF THE DECADE, TOP WE USA Magazine, Keynote speaker, Author, Investor, Board Chair, Board Member.
                   </p>
                 </div>
               </div>
@@ -101,7 +101,7 @@ export default function Speaking() {
                     Serves as lead strategist across engagements spanning early-stage startups to Fortune 50 enterprises; responsible for translating complex organizational, market, and brand challenges into actionable strategy frameworks.
                   </p>
                   <p>
-                    Primary facilitator of Clarity University cohorts, guiding leaders through brand clarity, positioning, and growth clarity and alignment.
+                    Primary facilitator of Clarity University&reg; cohorts, guiding leaders through brand clarity, positioning, and growth clarity and alignment.
                   </p>
                 </div>
               </div>
