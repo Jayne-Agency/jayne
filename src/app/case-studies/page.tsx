@@ -45,6 +45,14 @@ const caseStudies = [
     teaser: "From eco-friendly promise to durability powerhouse.",
   },
   {
+    id: "know-women",
+    client: "KNOW Women",
+    hook: "How do I unite my empire?",
+    result: "500+",
+    resultLabel: "names evaluated, one chosen",
+    teaser: "From 5 local chapters to one national book.",
+  },
+  {
     id: "pregis",
     client: "Pregis",
     hook: "How do you create alignment across 10+ product brands without losing what makes each one valuable?",

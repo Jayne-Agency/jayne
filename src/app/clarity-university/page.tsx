@@ -17,7 +17,7 @@ export default function ClarityUniversity() {
             Clarity University®
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] opacity-0 animate-fade-in animation-delay-100 font-[family-name:var(--font-open-sans)]">
-            MBA-level brand strategy education + hands-on guidance for solopreneurs, small business, and early stage startups.
+            MBA-level brand strategy education + hands-on guidance for small and medium sized business leaders.
           </p>
         </div>
       </section>
@@ -289,6 +289,7 @@ export default function ClarityUniversity() {
 
           <div className="reveal grid md:grid-cols-2 gap-8 lg:gap-12">
             <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10 overflow-hidden">
+              {/* Video temporarily removed - to restore, uncomment block below
               <div className="mb-8 -mx-8 lg:-mx-10 -mt-8 lg:-mt-10" style={{padding: "56.25% 0 0 0", position: "relative"}}>
                 <iframe
                   src="https://player.vimeo.com/video/908872505?badge=0&autopause=0&player_id=0&app_id=58479"
@@ -299,6 +300,7 @@ export default function ClarityUniversity() {
                   title="Clarity University® - Stef"
                 />
               </div>
+              */}
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
                 They just helped me mitigate a lot of risk, saved me a lot of money, and I&apos;m actually enjoying the whole experience a lot more. I was feeling like a deer in headlights. I really couldn&apos;t get [my brand message] out. And now I can.
@@ -347,6 +349,7 @@ export default function ClarityUniversity() {
             </div>
 
             <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10 overflow-hidden">
+              {/* Video temporarily removed - to restore, uncomment block below
               <div className="mb-8 -mx-8 lg:-mx-10 -mt-8 lg:-mt-10" style={{padding: "56.25% 0 0 0", position: "relative"}}>
                 <iframe
                   src="https://player.vimeo.com/video/909586708?badge=0&autopause=0&player_id=0&app_id=58479"
@@ -357,6 +360,7 @@ export default function ClarityUniversity() {
                   title="Clarity University® - Jared"
                 />
               </div>
+              */}
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
                 One of the things that was important for me […] was how brand touches so many different things. I had to take a step back as a founder of a business […] and understand that brand touches HR, touches finances, it touches sales, it touches operations.
@@ -381,6 +385,7 @@ export default function ClarityUniversity() {
             </div>
 
             <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10 overflow-hidden">
+              {/* Video temporarily removed - to restore, uncomment block below
               <div className="mb-8 -mx-8 lg:-mx-10 -mt-8 lg:-mt-10" style={{padding: "75% 0 0 0", position: "relative"}}>
                 <iframe
                   src="https://player.vimeo.com/video/899346470?badge=0&autopause=0&player_id=0&app_id=58479"
@@ -391,6 +396,7 @@ export default function ClarityUniversity() {
                   title="Mother's Trust - Lori Dann Testimonial"
                 />
               </div>
+              */}
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
                 We have a really, really loyal following of donors, but we&apos;re trying to expand that. Until now, we didn&apos;t really know how to make them [new donors] care…Clarity University® helped us identify how to approach those people with our unique organization, and explain why they should spend their dollars with us.
@@ -415,6 +421,7 @@ export default function ClarityUniversity() {
             </div>
 
             <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10 overflow-hidden">
+              {/* Video temporarily removed - to restore, uncomment block below
               <div className="mb-8 -mx-8 lg:-mx-10 -mt-8 lg:-mt-10" style={{padding: "56.25% 0 0 0", position: "relative"}}>
                 <iframe
                   src="https://player.vimeo.com/video/1092834364?badge=0&autopause=0&player_id=0&app_id=58479"
@@ -425,6 +432,7 @@ export default function ClarityUniversity() {
                   title="DC Crenshaw FOCUSES at Clarity University®"
                 />
               </div>
+              */}
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
                 As an entrepreneur, it can be a really lonely job. So listening to the challenges that others are going through allows me to be able to relate and resonate with whatever I was doing.
