@@ -46,11 +46,11 @@ const caseStudies = [
   },
   {
     id: "know-women",
-    client: "KNOW Women",
-    hook: "How do I unite my empire?",
+    client: "The KNOW Women",
+    hook: "Uniting local chapters into a single national product.",
     result: "500+",
     resultLabel: "names evaluated, one chosen",
-    teaser: "From 5 local chapters to one national book.",
+    teaser: "Uniting local chapters into a single national product.",
   },
   {
     id: "pregis",
