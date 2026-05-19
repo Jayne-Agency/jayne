@@ -46,7 +46,7 @@ const caseStudies = [
   },
   {
     id: "know-women",
-    client: "KNOW Women",
+    client: "The KNOW Women",
     hook: "How do I unite my empire?",
     result: "500+",
     resultLabel: "names evaluated, one chosen",

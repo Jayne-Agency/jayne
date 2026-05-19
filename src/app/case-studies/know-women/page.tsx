@@ -19,13 +19,13 @@ export default function KnowWomenCaseStudy() {
             All Case Studies
           </Link>
           <p className="text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-6 opacity-0 animate-fade-in">
-            KNOW Women Book Naming
+            The KNOW Women Book Naming
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
             I want to unite my EMPIRE.
           </h1>
           <p className="text-3xl md:text-4xl text-[#f57214] leading-snug opacity-0 animate-fade-in animation-delay-200">
-            How do I UNITE my empire?
+            Uniting local chapters into a single national product.
           </p>
         </div>
       </section>
@@ -35,10 +35,13 @@ export default function KnowWomenCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
-              Sarah Benken, CEO of KNOW Women, was tangled inside of what every community-focused brand leader eventually faces when it&apos;s time to scale.
+              Sarah Benken, CEO of The KNOW Women, was tangled inside of what every community-focused brand leader eventually faces when it&apos;s time to scale.
+            </p>
+            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug italic">
+              How do I UNITE my empire?
             </p>
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
-              KNOW Women, a media company dedicated to driving visibility to high achieving women, was launching a new strategy&mdash;uniting local KNOW Women chapters into a single NATIONAL PRODUCT.
+              The KNOW Women, a media company dedicated to driving visibility to high achieving women, was launching a new strategy&mdash;uniting local KNOW Women chapters into a single NATIONAL PRODUCT.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
               But what to <span className="text-[#f57214]">name it?</span>
@@ -157,7 +160,7 @@ export default function KnowWomenCaseStudy() {
               Jayne stuck with the naming project until we found the perfect name. The team did not let us settle for just ok, they were committed and I appreciate that. I loved the scoring process too! The book was well received. It feels like the perfect final addition to our print product suite.
             </p>
             <p className="text-base md:text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">
-              &mdash; Sarah Benken Foushee, Founder &amp; CEO, KNOW Women
+              &mdash; Sarah Benken Foushee, Founder &amp; CEO, The KNOW Women
             </p>
           </div>
         </div>
