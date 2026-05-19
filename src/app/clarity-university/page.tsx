@@ -10,8 +10,24 @@ export default function ClarityUniversity() {
 
   return (
     <main className="font-[family-name:var(--font-playfair)]">
+      {/* Organization Banner */}
+      <Link
+        href="#"
+        className="block pt-24 px-6 group"
+      >
+        <div className="max-w-5xl mx-auto bg-[#f57214] text-white rounded-lg px-6 py-4 flex items-center justify-center gap-3 text-center text-sm md:text-base font-[family-name:var(--font-open-sans)] transition-opacity duration-300 group-hover:opacity-90">
+          <span>
+            Are you an organization looking to make measurable, reportable impact elevating multiple businesses?
+          </span>
+          <span className="font-semibold uppercase tracking-wider whitespace-nowrap inline-flex items-center gap-1">
+            Click here
+            <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">&rarr;</span>
+          </span>
+        </div>
+      </Link>
+
       {/* Hero */}
-      <section className="pt-32 pb-16 lg:pb-24 px-6">
+      <section className="pt-16 pb-16 lg:pb-24 px-6">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl leading-[1.05] text-[#1a1a1a] opacity-0 animate-fade-in mb-8">
             Clarity University®
