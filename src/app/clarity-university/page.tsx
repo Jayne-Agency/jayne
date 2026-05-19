@@ -17,7 +17,7 @@ export default function ClarityUniversity() {
             Clarity University®
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] opacity-0 animate-fade-in animation-delay-100 font-[family-name:var(--font-open-sans)]">
-            MBA-level brand strategy education + hands-on guidance for solopreneurs, small business, and early stage startups.
+            MBA-level brand strategy education + hands-on guidance for small and medium sized business leaders.
           </p>
         </div>
       </section>
