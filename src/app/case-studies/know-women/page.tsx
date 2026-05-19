@@ -19,7 +19,7 @@ export default function KnowWomenCaseStudy() {
             All Case Studies
           </Link>
           <p className="text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-6 opacity-0 animate-fade-in">
-            The KNOW Women Book Naming
+            KNOW Women Book Naming
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
             I want to unite my EMPIRE.
@@ -35,10 +35,10 @@ export default function KnowWomenCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
-              Sarah Benken, CEO of the KNOW Women, was tangled inside of what every community-focused brand leader eventually faces when it&apos;s time to scale.
+              Sarah Benken, CEO of KNOW Women, was tangled inside of what every community-focused brand leader eventually faces when it&apos;s time to scale.
             </p>
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
-              The KNOW Women, a media company dedicated to driving visibility to high achieving women, was launching a new strategy&mdash;uniting local KNOW Women chapters into a single NATIONAL PRODUCT.
+              KNOW Women, a media company dedicated to driving visibility to high achieving women, was launching a new strategy&mdash;uniting local KNOW Women chapters into a single NATIONAL PRODUCT.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
               But what to <span className="text-[#f57214]">name it?</span>
