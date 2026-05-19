@@ -5,6 +5,14 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const caseStudies = [
   {
+    id: "know-women",
+    client: "The KNOW Women",
+    hook: "How do I unite my empire?",
+    result: "500+",
+    resultLabel: "names evaluated, one chosen",
+    teaser: "From 5 local chapters to one national book.",
+  },
+  {
     id: "filecoin",
     client: "Filecoin",
     hook: "The proof was irrefutable, the story needed some humanizing.",
