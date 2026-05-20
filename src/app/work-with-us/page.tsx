@@ -281,6 +281,26 @@ export default function WorkWithUs() {
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-20 font-[family-name:var(--font-open-sans)]">
             Strategists. Designers. Writers. Implementers. Whatever the work requires, we can take you from platform to market.
           </p>
+
+          <div className="reveal bg-[#faf9f7] rounded-2xl p-8 lg:p-10 mb-20">
+            <p className="text-sm md:text-base text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-3">
+              Already have a platform? Facing change?
+            </p>
+            <h3 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.15] mb-4">
+              Our Facilitation packages diagnose, refresh, and roll out brand transformations.
+            </h3>
+            <p className="text-lg text-[#8a8178] leading-relaxed mb-6 font-[family-name:var(--font-open-sans)]">
+              For boards demanding impact, leadership demanding performance, and brand fundamentals that no longer fit the company you&apos;ve become.
+            </p>
+            <Link
+              href="/work-with-us/facilitation"
+              className="group inline-flex items-center gap-2 text-base text-[#f57214] hover:text-[#1a1a1a] transition-colors font-[family-name:var(--font-open-sans)] font-semibold"
+            >
+              See the Facilitation packages
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+            </Link>
+          </div>
+
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
             Interested? Or just need help clarifying a few things?
           </h2>
