@@ -61,7 +61,7 @@ export default function KnowWomenCaseStudy() {
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">100s</p>
+              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">Hundreds</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Of women, businesses, and identities</h3>
               <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">To represent and celebrate in a single name.</p>
             </div>
