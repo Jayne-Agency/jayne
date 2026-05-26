@@ -176,7 +176,7 @@ export default function AboutUs() {
                 </p>
                 <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                   <p>
-                    Trevor came to Jayne through the 2025 acquisition of RWO, the content marketing and go-to-market agency he founded and ran for four years. Before RWO, he worked as a biomedical engineer, covered the tech industry as a journalist, and wrote for The Second City. At Jayne, he&apos;s rebuilding the internal systems and intelligence layer that runs the firm, and works with select clients on the same.
+                    Trevor helps Jayne clients build the go-to-market and intelligence systems they need to move faster and make better decisions. He came to Jayne through the 2025 acquisition of RWO, the content marketing and go-to-market agency he founded and ran for four years.
                   </p>
                 </div>
               </div>
