@@ -69,7 +69,7 @@ export default function AboutUs() {
                 </p>
                 <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                   <p>
-                    Brooke spent her career as an executive creative director at major agencies, building brands including Dell, AT&amp;T, and Kraft. By 2009, she&apos;d concluded that roughly 90% of what big agencies sold was filler and 10% actually moved the needle. She founded Jayne to deliver only the 10%.
+                    Brooke built her approach leading creative and digital transformation at three of the world&apos;s largest ad-tech agencies. She founded Jayne to provide clients with clarity, alignment, and a path to scalable results, whether through a full brand strategy engagement, a research program, or a stint with Brooke as fractional CMO. She works with seasoned leaders who already know that evidence-based brands aren&apos;t a nice-to-have. They&apos;re how serious companies grow.
                   </p>
                 </div>
               </div>
@@ -95,7 +95,10 @@ export default function AboutUs() {
                 </p>
                 <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                   <p>
-                    Brad started at Jayne 15 years ago and now leads our strategy practice. Over the years, he has more than his 10,000 hours getting his hands dirty solving problems with businesses of all sizes.
+                    Serves as lead strategist across engagements spanning early-stage startups to Fortune 50 enterprises; responsible for translating complex organizational, market, and brand challenges into actionable strategy frameworks.
+                  </p>
+                  <p>
+                    13+ years at Jayne leading, facilitating, and evolving the firm&apos;s strategic approach — shaping how the firm thinks about brand strategy, go-to-market positioning, and organizational alignment. Co-developed and built the Clarity University&reg; methodology and core curriculum from the ground up, turning that same strategic lens inward to create proprietary programming now used to guide leaders through brand clarity and growth.
                   </p>
                 </div>
               </div>
@@ -147,7 +150,7 @@ export default function AboutUs() {
                 </p>
                 <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                   <p>
-                    Varonnica has spent over a decade figuring out what companies actually stand for and how to say it in a way that gets people to buy.
+                    Varonnica is a Jayne Agency veteran in brand strategy, facilitation and client program management. As a master of the 10 Assets of the Brand Platform methodology she has led the adaptation of the methodology working with Jayne&apos;s platform partners for custom education including NMSDC (501c3), WBENC (501c3), enterprise clients like Eaton, Takeda, International and more overseeing cohorts while also serving Jayne Private Clients.
                   </p>
                 </div>
               </div>
