@@ -41,6 +41,202 @@ export default function AboutUs() {
         </div>
       </section>
 
+      {/* Team */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-4xl mx-auto">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-16">
+            Meet the team
+          </p>
+
+          <div className="space-y-16">
+            {/* Brooke */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
+                <Image
+                  src="/brooke.png"
+                  alt="Brooke Foley"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Brooke Foley
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Founder and CEO
+                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Brooke built her approach leading creative and digital transformation at three of the world&apos;s largest ad-tech agencies. She founded Jayne to provide clients with clarity, alignment, and a path to scalable results, whether through a full brand strategy engagement, a research program, or a stint with Brooke as fractional CMO. She works with seasoned leaders who already know that evidence-based brands aren&apos;t a nice-to-have. They&apos;re how serious companies grow.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Brad */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
+                <Image
+                  src="/brad.png"
+                  alt="Brad Pierce"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Brad Pierce
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Chief Strategy Officer
+                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Serves as lead strategist across engagements spanning early-stage startups to Fortune 50 enterprises; responsible for translating complex organizational, market, and brand challenges into actionable strategy frameworks.
+                  </p>
+                  <p>
+                    13+ years at Jayne leading, facilitating, and evolving the firm&apos;s strategic approach — shaping how the firm thinks about brand strategy, go-to-market positioning, and organizational alignment. Co-developed and built the Clarity University&reg; methodology and core curriculum from the ground up, turning that same strategic lens inward to create proprietary programming now used to guide leaders through brand clarity and growth.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* John */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
+                <Image
+                  src="/john.png"
+                  alt="John Taylor"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  John Taylor
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Strategic Growth Advisor
+                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    John spent 25 years running procurement and contracts at Fortune 500 companies. He&apos;s negotiated multimillion-dollar deals across IT, data, and services, built supplier risk frameworks, and rewritten the contract templates and playbooks that govern how big healthcare and med-tech companies actually buy things.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Varonnica */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
+                <Image
+                  src="/varonnica.png"
+                  alt="Varonnica Kirn"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Varonnica Kirn
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Senior Brand Strategist
+                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Varonnica is a Jayne Agency veteran in brand strategy, facilitation and client program management. As a master of the 10 Assets of the Brand Platform methodology she has led the adaptation of the methodology working with Jayne&apos;s platform partners for custom education including NMSDC (501c3), WBENC (501c3), enterprise clients like Eaton, Takeda, International and more overseeing cohorts while also serving Jayne Private Clients.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Carly */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
+                <Image
+                  src="/carly.png"
+                  alt="Carly Nanberg"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Carly Nanberg
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Brand Strategist
+                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Carly runs communications and PR at Jayne, bringing equal parts wit and strategy to the work. She&apos;s built campaigns and messaging for major nonprofits, global enterprise suppliers, and emerging technology companies, and she&apos;s the person Jayne calls when a strategic idea needs to become something the market actually sees, whether that&apos;s a launch, a media moment, or an internal rollout. User-centered research grounds the work, so what gets said is what audiences are ready to hear.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Natalie */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
+                <Image
+                  src="/natalie.png"
+                  alt="Natalie Clark"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Natalie Clark
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Art Director
+                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Natalie leads how Jayne&apos;s clients&apos; brands look and behave, building the visual systems, tone, and personality that make a brand recognizable everywhere it shows up. She audits sharply, then translates what she finds into design systems that hold up across digital, print, and everything in between.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Trevor */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
+                <Image
+                  src="/trevor.png"
+                  alt="Trevor Sidewand"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Trevor Sidewand
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Entrepreneur in Residence
+                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Trevor helps Jayne clients build the go-to-market and intelligence systems they need to move faster and make better decisions. He came to Jayne through the 2025 acquisition of RWO, the content marketing and go-to-market agency he founded and ran for four years.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-6xl mx-auto">
