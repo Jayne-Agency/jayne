@@ -182,6 +182,32 @@ export default function AboutUs() {
               </div>
             </div>
 
+            {/* Natalie */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
+                <Image
+                  src="/natalie.png"
+                  alt="Natalie Clark"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Natalie Clark
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Art Director
+                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Natalie leads how Jayne&apos;s clients&apos; brands look and behave, building the visual systems, tone, and personality that make a brand recognizable everywhere it shows up. She audits sharply, then translates what she finds into design systems that hold up across digital, print, and everything in between.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* Trevor */}
             <div className="reveal flex flex-col md:flex-row items-start gap-8">
               <div className="shrink-0">
