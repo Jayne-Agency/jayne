@@ -41,6 +41,147 @@ export default function AboutUs() {
         </div>
       </section>
 
+      {/* Team */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-4xl mx-auto">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-16">
+            Meet the team
+          </p>
+
+          <div className="space-y-16">
+            {/* Brooke */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
+                <Image
+                  src="/brooke.png"
+                  alt="Brooke Foley"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Brooke Foley
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Founder and CEO
+                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Brooke spent her career as an executive creative director at major agencies, building brands including Dell, AT&amp;T, and Kraft. By 2009, she&apos;d concluded that roughly 90% of what big agencies sold was filler and 10% actually moved the needle. She founded Jayne to deliver only the 10%.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Brad */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
+                <Image
+                  src="/brad.png"
+                  alt="Brad Pierce"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Brad Pierce
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Chief Strategy Officer
+                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Brad started at Jayne 15 years ago as an intern, now he leads our strategy practice. Over the years, he has more than his 10,000 hours getting his hands dirty solving problems with businesses of all sizes.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* John */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
+                <Image
+                  src="/john.png"
+                  alt="John Taylor"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  John Taylor
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Strategic Growth Advisor
+                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    John spent 25 years running procurement and contracts at Fortune 500 companies. He&apos;s negotiated multimillion-dollar deals across IT, data, and services, built supplier risk frameworks, and rewritten the contract templates and playbooks that govern how big healthcare and med-tech companies actually buy things.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Varonnica */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
+                <Image
+                  src="/varonnica.png"
+                  alt="Varonnica Kirn"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Varonnica Kirn
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Senior Brand Strategist
+                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Varonnica has spent over a decade figuring out what companies actually stand for and how to say it in a way that gets people to buy.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Trevor */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
+                <Image
+                  src="/trevor.png"
+                  alt="Trevor Sidewand"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Trevor Sidewand
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Entrepreneur in Residence
+                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Trevor came to Jayne through the 2025 acquisition of RWO, the content marketing and go-to-market agency he founded and ran for four years. Before RWO, he worked as a biomedical engineer, covered the tech industry as a journalist, and wrote for The Second City. At Jayne, he&apos;s rebuilding the internal systems and intelligence layer that runs the firm, and works with select clients on the same.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-6xl mx-auto">
