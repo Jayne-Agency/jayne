@@ -156,6 +156,32 @@ export default function AboutUs() {
               </div>
             </div>
 
+            {/* Carly */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
+                <Image
+                  src="/carly.png"
+                  alt="Carly Nanberg"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Carly Nanberg
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Brand Strategist
+                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Carly runs communications and PR at Jayne, bringing equal parts wit and strategy to the work. She&apos;s built campaigns and messaging for major nonprofits, global enterprise suppliers, and emerging technology companies, and she&apos;s the person Jayne calls when a strategic idea needs to become something the market actually sees, whether that&apos;s a launch, a media moment, or an internal rollout. User-centered research grounds the work, so what gets said is what audiences are ready to hear.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* Trevor */}
             <div className="reveal flex flex-col md:flex-row items-start gap-8">
               <div className="shrink-0">
