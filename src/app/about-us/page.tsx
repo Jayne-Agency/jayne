@@ -95,7 +95,7 @@ export default function AboutUs() {
                 </p>
                 <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                   <p>
-                    Brad started at Jayne 15 years ago as an intern, now he leads our strategy practice. Over the years, he has more than his 10,000 hours getting his hands dirty solving problems with businesses of all sizes.
+                    Brad started at Jayne 15 years ago and now leads our strategy practice. Over the years, he has more than his 10,000 hours getting his hands dirty solving problems with businesses of all sizes.
                   </p>
                 </div>
               </div>
