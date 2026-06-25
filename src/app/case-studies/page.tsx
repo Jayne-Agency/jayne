@@ -6,7 +6,7 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 const caseStudies = [
   {
     id: "filecoin",
-    client: "Filecoin",
+    client: "Filecoin Foundation",
     hook: "The proof was irrefutable, the story needed some humanizing.",
     result: "60%",
     resultLabel: "growth in data utilization",
