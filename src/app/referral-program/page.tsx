@@ -3,12 +3,20 @@
 export default function ReferralProgram() {
   const terms = [
     {
+      title: "Eligibility.",
+      body: "The program is open to individuals 18 years of age or older. Employees, contractors, and immediate family members of CU or Jayne Agency are not eligible to participate. The program is void where prohibited.",
+    },
+    {
       title: "Program period.",
       body: "Referrals must be submitted between July 1 and July 31, 2026 to qualify. Introductions received outside this window are not eligible.",
     },
     {
       title: "What counts as a qualified referral.",
       body: "A qualified referral is a direct email introduction to bradley.pierce@jayneagency.com connecting CU with a decision-maker at a business that (a) is not already in conversation with or a current client of CU or Jayne Agency, (b) has not previously been referred by another participant, and (c) responds or agrees to an introductory conversation. An intro that is unsolicited, declined, unresponsive, or to a business already in our pipeline does not count toward any reward.",
+    },
+    {
+      title: "Consent and anti-spam.",
+      body: "You must have a genuine, pre-existing relationship with any person you introduce and reasonable grounds to believe they welcome the introduction. You may not send unsolicited bulk email, use purchased or scraped contact lists, or otherwise contact people in violation of applicable anti-spam laws (including the CAN-SPAM Act). Referrals made in violation of this section will be disqualified.",
     },
     {
       title: "The 1-hour session (per sign-up).",
@@ -38,6 +46,10 @@ export default function ReferralProgram() {
       title: "Right to modify or end the program.",
       body: "CU may change, pause, or end this program at any time, and may disqualify any participant or referral it determines, in its sole discretion, to be fraudulent, abusive, or in violation of these terms.",
     },
+    {
+      title: "Governing law.",
+      body: "This program and these terms are governed by the laws of the State of Illinois, without regard to its conflict-of-laws rules, and any disputes will be resolved in the state or federal courts located in Illinois.",
+    },
   ];
 
   return (
@@ -51,6 +63,13 @@ export default function ReferralProgram() {
           <h1 className="text-4xl md:text-5xl leading-[1.1] text-[#1a1a1a]">
             Clarity University&reg; July Referral Program
           </h1>
+          <p className="mt-6 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+            Clarity University&reg; (&ldquo;CU&rdquo;) is operated by Jayne Agency. By
+            participating in this referral program, you agree to the terms below.
+          </p>
+          <p className="mt-4 text-sm text-[#8a8178] font-[family-name:var(--font-open-sans)]">
+            Last updated July 1, 2026
+          </p>
         </div>
       </section>
 
