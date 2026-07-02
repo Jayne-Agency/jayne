@@ -90,11 +90,6 @@ export function Footer() {
                   How to Add CU Certification
                 </a>
               </li>
-              <li>
-                <Link href="/referral-program" className="text-[#1a1a1a] hover:text-[#f57214] transition-colors">
-                  Referral Program
-                </Link>
-              </li>
             </ul>
           </div>
 
