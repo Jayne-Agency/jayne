@@ -64,6 +64,20 @@ export function Navigation() {
             </Link>
 
             <Link
+              href="/portfolio"
+              className={`text-sm font-medium relative group transition-colors duration-300 ${
+                isActive("/portfolio")
+                  ? "text-black"
+                  : "text-[#1a1a1a] hover:text-[#f57214]"
+              }`}
+            >
+              Portfolio
+              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
+                isActive("/portfolio") ? "w-full" : "w-0 group-hover:w-full"
+              }`} />
+            </Link>
+
+            <Link
               href="/work-with-us"
               className={`text-sm font-medium relative group transition-colors duration-300 ${
                 isWorkWithUsActive
@@ -174,6 +188,18 @@ export function Navigation() {
             }`}
           >
             Case Studies
+          </Link>
+
+          <Link
+            href="/portfolio"
+            onClick={() => setIsOpen(false)}
+            className={`text-3xl font-medium transition-colors duration-300 py-3 ${
+              isActive("/portfolio")
+                ? "text-[#f57214]"
+                : "text-[#1a1a1a] hover:text-[#f57214]"
+            }`}
+          >
+            Portfolio
           </Link>
 
           <Link
