@@ -8,6 +8,13 @@ import type { PortfolioClient } from "../portfolio-data";
 export function ClientGallery({ client }: { client: PortfolioClient }) {
   useScrollReveal();
 
+  const context = [
+    { label: "Problem", text: client.problem },
+    { label: "Approach", text: client.approach },
+    { label: "Nimble Process", text: client.process },
+    { label: "Innovative Solutions", text: client.solutions },
+  ];
+
   return (
     <main className="font-[family-name:var(--font-playfair)]">
       {/* Hero */}
@@ -20,14 +27,14 @@ export function ClientGallery({ client }: { client: PortfolioClient }) {
             <span className="transition-transform duration-300 hover:-translate-x-1">←</span>
             All Portfolio
           </Link>
-          <h1 className="text-5xl md:text-7xl leading-[1.05] text-[#1a1a1a] mb-6 opacity-0 animate-fade-in">
+          <p className="text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-6 opacity-0 animate-fade-in">
             {client.client}
-          </h1>
-          <p className="text-xl text-[#8a8178] max-w-2xl font-[family-name:var(--font-open-sans)] opacity-0 animate-fade-in animation-delay-100">
-            {client.description}
           </p>
+          <h1 className="text-4xl md:text-6xl leading-[1.1] text-[#1a1a1a] opacity-0 animate-fade-in animation-delay-100">
+            {client.headline}
+          </h1>
           {client.caseStudy && (
-            <div className="mt-6 opacity-0 animate-fade-in animation-delay-200">
+            <div className="mt-8 opacity-0 animate-fade-in animation-delay-200">
               <Link
                 href={client.caseStudy}
                 className="group inline-flex items-center gap-2 text-[#1a1a1a] hover:text-[#f57214] transition-colors font-[family-name:var(--font-open-sans)] font-semibold"
@@ -42,31 +49,42 @@ export function ClientGallery({ client }: { client: PortfolioClient }) {
         </div>
       </section>
 
-      {/* Pieces */}
+      {/* Context */}
+      <section className="pb-16 lg:pb-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
+            {context.map((item) => (
+              <div key={item.label} className="border-t border-[#e5e0d8] pt-6">
+                <p className="text-sm md:text-base text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-3">
+                  {item.label}
+                </p>
+                <p className="text-lg text-[#1a1a1a] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  {item.text}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* The Work */}
       <section className="pb-24 lg:pb-32 px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="reveal-stagger space-y-20 lg:space-y-28">
+          <div className="reveal-stagger space-y-10 lg:space-y-14">
             {client.pieces.map((piece) => (
-              <article key={piece.image}>
-                <div className="rounded-lg overflow-hidden border border-[#e5e0d8] bg-white">
-                  <Image
-                    src={piece.image}
-                    alt={piece.alt}
-                    width={piece.width}
-                    height={piece.height}
-                    className="w-full h-auto"
-                    sizes="(max-width: 896px) 100vw, 896px"
-                  />
-                </div>
-                <div className="mt-6">
-                  <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-3">
-                    {piece.title}
-                  </h2>
-                  <p className="text-lg text-[#8a8178] max-w-2xl font-[family-name:var(--font-open-sans)]">
-                    {piece.blurb}
-                  </p>
-                </div>
-              </article>
+              <div
+                key={piece.image}
+                className="rounded-lg overflow-hidden border border-[#e5e0d8] bg-white"
+              >
+                <Image
+                  src={piece.image}
+                  alt={piece.alt}
+                  width={piece.width}
+                  height={piece.height}
+                  className="w-full h-auto"
+                  sizes="(max-width: 896px) 100vw, 896px"
+                />
+              </div>
             ))}
           </div>
         </div>
