@@ -17,10 +17,10 @@ export async function generateMetadata({
   if (!client) return {};
   return {
     title: `${client.client} Portfolio`,
-    description: client.description,
+    description: client.headline,
     openGraph: {
       title: `${client.client} Portfolio | Jayne Agency`,
-      description: client.description,
+      description: client.headline,
     },
   };
 }
