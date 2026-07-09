@@ -22,7 +22,7 @@ export default function WBENCCaseStudy() {
             WBENC (Women&apos;s Business Enterprise National Council)
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            Everyone wants to be a pitch coach. Nobody wants to be an analytics party &ldquo;downer&rdquo; defining the sum total value (ROI) for contestants and people who attend the pitch based on brand metrics.
+            Everyone wants to be a pitch coach. Nobody wants to define the sum total value (ROI) for contestants and people who attend the pitch.
           </h1>
           <p className="text-3xl md:text-4xl text-[#f57214] leading-snug opacity-0 animate-fade-in animation-delay-200">
             Except us.
