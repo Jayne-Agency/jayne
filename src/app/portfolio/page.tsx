@@ -37,20 +37,18 @@ export default function Portfolio() {
                       alt={cover.alt}
                       width={cover.width}
                       height={cover.height}
-                      className="w-full h-auto aspect-[8/5] object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
+                      className={`w-full h-auto aspect-[8/5] transition-transform duration-500 group-hover:scale-[1.02] ${
+                        client.coverFit === "contain"
+                          ? "object-contain object-center p-8"
+                          : "object-cover object-top"
+                      }`}
                       sizes="(max-width: 768px) 100vw, 512px"
                     />
                   </div>
                   <div className="mt-5 flex items-start justify-between gap-4">
-                    <div>
-                      <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug group-hover:text-[#f57214] transition-colors">
-                        {client.client}
-                      </h2>
-                      <p className="text-sm text-[#8a8178] mt-1 font-[family-name:var(--font-open-sans)]">
-                        {client.pieces.length}{" "}
-                        {client.pieces.length === 1 ? "piece" : "pieces"}
-                      </p>
-                    </div>
+                    <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug group-hover:text-[#f57214] transition-colors">
+                      {client.client}
+                    </h2>
                     <span className="text-[#8a8178] group-hover:text-[#f57214] transition-colors shrink-0 mt-2 font-[family-name:var(--font-open-sans)]">
                       <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
                         →

@@ -19,6 +19,8 @@ export type PortfolioClient = {
   process: string;
   solutions: string;
   caseStudy?: string;
+  // "contain" centers a logo-style cover on the white card instead of cropping it.
+  coverFit?: "contain";
   pieces: PortfolioPiece[];
 };
 
@@ -142,6 +144,7 @@ export const portfolioClients: PortfolioClient[] = [
     approach: "Break down the brand, create an ownable identity with a killer tagline, make the obvious ownable",
     process: "Naming, identity, and secured channel strategy through legal and trademarked within 6 weeks",
     solutions: "Just like the solution it represents, the more the brand gets known, the more the brand knows",
+    coverFit: "contain",
     pieces: [
       { image: "/portfolio/supply-hive-00.png", alt: "Supply Hive creative work, piece 1", width: 3336, height: 1990 },
       { image: "/portfolio/supply-hive-01.png", alt: "Supply Hive creative work, piece 2", width: 2370, height: 1884 },
