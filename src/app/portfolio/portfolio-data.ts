@@ -146,7 +146,7 @@ export const portfolioClients: PortfolioClient[] = [
     solutions: "Just like the solution it represents, the more the brand gets known, the more the brand knows",
     coverFit: "contain",
     pieces: [
-      { image: "/portfolio/supply-hive-00.png", alt: "Supply Hive creative work, piece 1", width: 3336, height: 1990 },
+      { image: "/portfolio/supply-hive-00.png", alt: "Supply Hive creative work, piece 1", width: 2664, height: 1552 },
       { image: "/portfolio/supply-hive-01.png", alt: "Supply Hive creative work, piece 2", width: 2370, height: 1884 },
       { image: "/portfolio/supply-hive-03.png", alt: "Supply Hive creative work, piece 3", width: 3058, height: 1892 },
       { image: "/portfolio/supply-hive-02.png", alt: "Supply Hive creative work, piece 4", width: 2974, height: 1992 },
