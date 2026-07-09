@@ -11,7 +11,7 @@ export default function ClarityUniversity() {
   return (
     <main className="font-[family-name:var(--font-playfair)]">
       {/* Hero */}
-      <section className="pt-32 pb-16 lg:pb-24 px-6">
+      <section className="pt-32 px-6">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl leading-[1.05] text-[#1a1a1a] opacity-0 animate-fade-in mb-8">
             Clarity University®
