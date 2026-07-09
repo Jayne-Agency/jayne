@@ -10,6 +10,8 @@ export function Navigation() {
   const pathname = usePathname();
 
   const isActive = (path: string) => pathname === path;
+  const isOurWorkActive =
+    pathname.startsWith("/portfolio") || pathname.startsWith("/case-studies");
   const isWorkWithUsActive = pathname.startsWith("/work-with-us");
   const isClarityUniversityActive = pathname.startsWith("/clarity-university");
 
@@ -49,19 +51,59 @@ export function Navigation() {
               }`} />
             </Link>
 
-            <Link
-              href="/case-studies"
-              className={`text-sm font-medium relative group transition-colors duration-300 ${
-                isActive("/case-studies")
-                  ? "text-black"
-                  : "text-[#1a1a1a] hover:text-[#f57214]"
-              }`}
-            >
-              Case Studies
-              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
-                isActive("/case-studies") ? "w-full" : "w-0 group-hover:w-full"
-              }`} />
-            </Link>
+            <div className="relative group">
+              <button
+                type="button"
+                className={`text-sm font-medium relative inline-flex items-center gap-1 transition-colors duration-300 cursor-default ${
+                  isOurWorkActive
+                    ? "text-black"
+                    : "text-[#1a1a1a] group-hover:text-[#f57214]"
+                }`}
+              >
+                Our Work
+                <svg
+                  className="w-3 h-3 transition-transform duration-300 group-hover:rotate-180"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M2.5 4.5L6 8L9.5 4.5"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+                <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
+                  isOurWorkActive ? "w-full" : "w-0 group-hover:w-full"
+                }`} />
+              </button>
+              <div className="absolute top-full left-1/2 -translate-x-1/2 pt-4 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-focus-within:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 transition-all duration-300">
+                <div className="bg-[#faf6f0] border border-[#e5e0d8] rounded-lg shadow-lg py-2 min-w-[176px]">
+                  <Link
+                    href="/portfolio"
+                    className={`block px-5 py-2.5 text-sm font-medium transition-colors duration-300 ${
+                      pathname.startsWith("/portfolio")
+                        ? "text-[#f57214]"
+                        : "text-[#1a1a1a] hover:text-[#f57214]"
+                    }`}
+                  >
+                    Portfolio
+                  </Link>
+                  <Link
+                    href="/case-studies"
+                    className={`block px-5 py-2.5 text-sm font-medium transition-colors duration-300 ${
+                      pathname.startsWith("/case-studies")
+                        ? "text-[#f57214]"
+                        : "text-[#1a1a1a] hover:text-[#f57214]"
+                    }`}
+                  >
+                    Case Studies
+                  </Link>
+                </div>
+              </div>
+            </div>
 
             <Link
               href="/work-with-us"
@@ -164,17 +206,33 @@ export function Navigation() {
             About Us
           </Link>
 
-          <Link
-            href="/case-studies"
-            onClick={() => setIsOpen(false)}
-            className={`text-3xl font-medium transition-colors duration-300 py-3 ${
-              isActive("/case-studies")
-                ? "text-[#f57214]"
-                : "text-[#1a1a1a] hover:text-[#f57214]"
-            }`}
-          >
-            Case Studies
-          </Link>
+          <div className="py-3">
+            <p className="text-sm font-semibold uppercase tracking-widest text-[#8a8178] mb-1">
+              Our Work
+            </p>
+            <Link
+              href="/portfolio"
+              onClick={() => setIsOpen(false)}
+              className={`block text-3xl font-medium transition-colors duration-300 py-2 pl-4 ${
+                pathname.startsWith("/portfolio")
+                  ? "text-[#f57214]"
+                  : "text-[#1a1a1a] hover:text-[#f57214]"
+              }`}
+            >
+              Portfolio
+            </Link>
+            <Link
+              href="/case-studies"
+              onClick={() => setIsOpen(false)}
+              className={`block text-3xl font-medium transition-colors duration-300 py-2 pl-4 ${
+                pathname.startsWith("/case-studies")
+                  ? "text-[#f57214]"
+                  : "text-[#1a1a1a] hover:text-[#f57214]"
+              }`}
+            >
+              Case Studies
+            </Link>
+          </div>
 
           <Link
             href="/work-with-us"
