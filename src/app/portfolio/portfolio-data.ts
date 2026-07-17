@@ -74,6 +74,11 @@ export const portfolioClients: PortfolioClient[] = [
       { image: "/portfolio/echo-00.png", alt: "Vote Echo as your Uncomplicator campaign takeover on the Inbound Logistics website", width: 512, height: 315 },
       { image: "/portfolio/echo-02.png", alt: "The Uncomplicator bobblehead", width: 512, height: 315 },
       { image: "/portfolio/echo-03.png", alt: "Echo logo beside the Vote Echo 2021 number one Top 3PL winner badge", width: 512, height: 176 },
+      { image: "/portfolio/echo-07.png", alt: "Goodbye, complicated. Hello, Echo. brand spread", width: 484, height: 353 },
+      { image: "/portfolio/echo-08.png", alt: "Echo brand piece on simplifying transportation coast to coast", width: 492, height: 360 },
+      { image: "/portfolio/echo-09.png", alt: "Echo Freight Brokerage multimodal offering spread", width: 492, height: 362 },
+      { image: "/portfolio/echo-05.png", alt: "Echo Intermodal Rail sell sheet", width: 386, height: 497 },
+      { image: "/portfolio/echo-06.png", alt: "Echo Full Truckload sell sheet", width: 378, height: 490 },
     ],
   },
   {
