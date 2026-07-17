@@ -65,7 +65,7 @@ export const portfolioClients: PortfolioClient[] = [
   {
     slug: "echo",
     client: "Echo Global Logistics",
-    headline: "2nd place 2018. 1st place 2019–2024.",
+    headline: "An award-winning campaign that made culture the competitive advantage",
     problem: "Overtake market leader C.H. Robinson in the Inbound Logistics industry shoot out — a leadership position the publisher said was unattainable without insurmountable funding",
     approach: "Previously conducted research revealed Echo's most valuable asset was its people — make that primary differentiator tangible and distinctly ownable",
     process: "Worked hand-in-hand daily with Echo's internal marketing team to unite two merging cultures over the promise of being the “uncomplicators”",
