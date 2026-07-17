@@ -70,22 +70,25 @@ export function ClientGallery({ client }: { client: PortfolioClient }) {
       {/* The Work */}
       <section className="pb-24 lg:pb-32 px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="reveal-stagger space-y-10 lg:space-y-14">
-            {client.pieces.map((piece) => (
-              <div
-                key={piece.image}
-                className="rounded-lg overflow-hidden border border-[#e5e0d8] bg-white"
-              >
-                <Image
-                  src={piece.image}
-                  alt={piece.alt}
-                  width={piece.width}
-                  height={piece.height}
-                  className="w-full h-auto"
-                  sizes="(max-width: 896px) 100vw, 896px"
-                />
-              </div>
-            ))}
+          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 items-start gap-6 lg:gap-8">
+            {client.pieces.map((piece) => {
+              const half = piece.span === "half";
+              return (
+                <div
+                  key={piece.image}
+                  className={`rounded-lg overflow-hidden border border-[#e5e0d8] bg-white ${half ? "" : "md:col-span-2"}`}
+                >
+                  <Image
+                    src={piece.image}
+                    alt={piece.alt}
+                    width={piece.width}
+                    height={piece.height}
+                    className="w-full h-auto"
+                    sizes={half ? "(max-width: 896px) 100vw, 440px" : "(max-width: 896px) 100vw, 896px"}
+                  />
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
