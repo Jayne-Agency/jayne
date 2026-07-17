@@ -59,6 +59,26 @@ export const portfolioClients: PortfolioClient[] = [
       { image: "/portfolio/hornitos-03.png", alt: "Hornitos® Tequila creative work, piece 6", width: 1036, height: 690 },
     ],
   },
+  // Echo Global Logistics — awaiting slide images (slides 11–15 of the Target
+  // case-studies deck) as /portfolio/echo-00.png … echo-04.png. Uncomment and
+  // set real image dimensions once the files are in /public/portfolio.
+  // {
+  //   slug: "echo",
+  //   client: "Echo Global Logistics",
+  //   headline: "2nd place 2018. 1st place 2019–2024.",
+  //   problem: "Overtake market leader C.H. Robinson in the Inbound Logistics industry shoot out — a leadership position the publisher said was unattainable without insurmountable funding",
+  //   approach: "Previously conducted research revealed Echo's most valuable asset was its people — make that primary differentiator tangible and distinctly ownable",
+  //   process: "Worked hand-in-hand daily with Echo's internal marketing team to unite two merging cultures over the promise of being the “uncomplicators”",
+  //   solutions: "The Uncomplicator and the Logistics League: one icon extended across print, digital, social media, the website and three-dimensional bobbleheads — a “culture cult” in the logistics industry",
+  //   caseStudy: "/case-studies/echo",
+  //   pieces: [
+  //     { image: "/portfolio/echo-00.png", alt: "Echo Global Logistics creative work, piece 1", width: 1920, height: 1080 },
+  //     { image: "/portfolio/echo-01.png", alt: "Echo Global Logistics creative work, piece 2", width: 1920, height: 1080 },
+  //     { image: "/portfolio/echo-02.png", alt: "Echo Global Logistics creative work, piece 3", width: 1920, height: 1080 },
+  //     { image: "/portfolio/echo-03.png", alt: "Echo Global Logistics creative work, piece 4", width: 1920, height: 1080 },
+  //     { image: "/portfolio/echo-04.png", alt: "Echo Global Logistics creative work, piece 5", width: 1920, height: 1080 },
+  //   ],
+  // },
   {
     slug: "big-lots",
     client: "Big Lots!",
