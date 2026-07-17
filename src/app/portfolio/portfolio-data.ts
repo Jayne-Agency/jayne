@@ -8,6 +8,9 @@ export type PortfolioPiece = {
   alt: string;
   width: number;
   height: number;
+  // "half" renders the piece two-up in the gallery grid instead of full width.
+  // Use for lower-resolution assets that look soft when stretched full column.
+  span?: "half";
 };
 
 export type PortfolioClient = {
@@ -57,6 +60,28 @@ export const portfolioClients: PortfolioClient[] = [
       { image: "/portfolio/hornitos-05.png", alt: "Hornitos® Tequila creative work, piece 4", width: 1942, height: 1192 },
       { image: "/portfolio/hornitos-02.png", alt: "Hornitos® Tequila creative work, piece 5", width: 1036, height: 692 },
       { image: "/portfolio/hornitos-03.png", alt: "Hornitos® Tequila creative work, piece 6", width: 1036, height: 690 },
+    ],
+  },
+  {
+    slug: "echo",
+    client: "Echo Global Logistics",
+    headline: "An award-winning campaign that made culture the competitive advantage",
+    problem: "Overtake market leader C.H. Robinson in the Inbound Logistics industry shoot out — a leadership position the publisher said was unattainable without insurmountable funding",
+    approach: "Previously conducted research revealed Echo's most valuable asset was its people — make that primary differentiator tangible and distinctly ownable",
+    process: "Worked hand-in-hand daily with Echo's internal marketing team to unite two merging cultures over the promise of being the “uncomplicators”",
+    solutions: "The Uncomplicator and the Logistics League: one icon extended across print, digital, social media, the website and three-dimensional bobbleheads — a “culture cult” in the logistics industry",
+    caseStudy: "/case-studies/echo",
+    pieces: [
+      { image: "/portfolio/echo-01.png", alt: "Introducing The Uncomplicator and the Logistics League campaign graphic", width: 512, height: 315 },
+      { image: "/portfolio/echo-04.png", alt: "The Uncomplicator and the Logistics League comic book cover", width: 512, height: 315 },
+      { image: "/portfolio/echo-00.png", alt: "Vote Echo as your Uncomplicator campaign takeover on the Inbound Logistics website", width: 512, height: 315 },
+      { image: "/portfolio/echo-02.png", alt: "The Uncomplicator bobblehead", width: 512, height: 315 },
+      { image: "/portfolio/echo-07.png", alt: "Goodbye, complicated. Hello, Echo. brand spread", width: 484, height: 353, span: "half" },
+      { image: "/portfolio/echo-08.png", alt: "Echo brand piece on simplifying transportation coast to coast", width: 492, height: 360, span: "half" },
+      { image: "/portfolio/echo-09.png", alt: "Echo Freight Brokerage multimodal offering spread", width: 492, height: 362, span: "half" },
+      { image: "/portfolio/echo-03.png", alt: "Echo logo beside the Vote Echo 2021 number one Top 3PL winner badge", width: 512, height: 176, span: "half" },
+      { image: "/portfolio/echo-05.png", alt: "Echo Intermodal Rail sell sheet", width: 386, height: 497, span: "half" },
+      { image: "/portfolio/echo-06.png", alt: "Echo Full Truckload sell sheet", width: 378, height: 490, span: "half" },
     ],
   },
   {
