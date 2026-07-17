@@ -29,6 +29,22 @@ const caseStudies = [
     teaser: "From overlooked import to must-have mixology essential.",
   },
   {
+    id: "echo",
+    client: "Echo Global Logistics",
+    hook: "How do you shift culture inside and out and prove the ROI?",
+    result: "#1",
+    resultLabel: "Top 3PL, 5 years running",
+    teaser: "From merging cultures to one iconic identity.",
+  },
+  {
+    id: "international",
+    client: "International",
+    hook: "When it's a win-win… & another win.",
+    result: "90%",
+    resultLabel: "of cohort: hesitant to confident in 1 hour",
+    teaser: "From supply chain pressure to confident supplier pitches.",
+  },
+  {
     id: "nevermined",
     client: "Nevermined",
     hook: "Unpaid agents. Unheard founder. One story that fixed both.",
