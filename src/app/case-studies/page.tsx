@@ -69,6 +69,14 @@ const caseStudies = [
     teaser: "Uniting local chapters into a single national product.",
   },
   {
+    id: "pallettrader",
+    client: "PalletTrader",
+    hook: "Supporting a founder to disrupt (not just poke) an entire industry.",
+    result: "1",
+    resultLabel: "award-winning identity from 300 sketches",
+    teaser: "From a founder's favorite name to a category-defining brand.",
+  },
+  {
     id: "pregis",
     client: "Pregis",
     hook: "How do you create alignment across 10+ product brands without losing what makes each one valuable?",
